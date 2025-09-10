@@ -59,7 +59,7 @@ const OurVehicles = () => {
             className="relative group rounded-3xl overflow-visible transform-gpu transition-transform duration-500 bg-white/80 shadow-lg hover:scale-105"
           >
             {/* Colored Glow */}
-            <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 opacity-0 group-hover:opacity-80 blur-3xl pointer-events-none transition-all duration-500 z-0" />
+            <div className="absolute -inset-2 rounded-3xl bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 opacity-0 group-hover:opacity-50 blur-3xl pointer-events-none transition-all duration-500 z-0" />
 
             {/* Inner Content */}
             <div className="relative z-10 overflow-hidden rounded-3xl">
@@ -134,27 +134,86 @@ const Home = () => {
 
 
       {/* Achievements */}
-      <motion.section className="max-w-7xl mx-auto py-20 px-6" initial="hidden" whileInView="visible" viewport={{ once: true }}>
-        <motion.div className="text-center mb-14" variants={fadeUp}>
-          <h3 className="text-4xl font-bold text-blue-600 mb-4">Our Achievements</h3>
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Milestones that reflect our passion for creating amazing travel experiences.
-          </p>
-        </motion.div>
-
-        <div className="flex flex-wrap justify-center gap-12">
-          {[
-            { number: "25K+", label: "Happy Travelers" },
-            { number: "100+", label: "Destinations Covered" },
-            { number: "500+", label: "Tours Completed" },
-          ].map((item, i) => (
-            <motion.div key={item.number} className="text-center" custom={i} variants={fadeUp}>
-              <h4 className="text-5xl font-bold text-blue-500 mb-2">{item.number}</h4>
-              <p className="text-gray-600">{item.label}</p>
-            </motion.div>
-          ))}
+      <section className="bg-gray-200 text-white py-20">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Left: Car Image */}
+        <div className="flex justify-center lg:justify-start">
+          <img
+            src="https://i.ibb.co/YpSm8R9/orange-car-top.png"
+            alt="Car Top View"
+            className="w-64 sm:w-72 md:w-80 lg:w-[420px]"
+          />
         </div>
-      </motion.section>
+
+        {/* Right: Content */}
+        <div className="space-y-8">
+          {/* Heading */}
+          <div>
+            <p className="text-yellow-500 uppercase tracking-wide text-sm mb-3">
+              About GetnGo
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6 text-black">
+              At GetnGo, we combine a modern fleet with customer-first service
+              to redefine car rental.
+            </h2>
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-medium px-6 py-3 rounded-full transition">
+              More About Us →
+            </button>
+          </div>
+
+          {/* Info Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Card 1: Customers */}
+            <div className="bg-[#1a1a1a] p-6 rounded-lg flex flex-col justify-between">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex -space-x-2">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="User"
+                    className="w-10 h-10 rounded-full border-2 border-[#1a1a1a]"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                    alt="User"
+                    className="w-10 h-10 rounded-full border-2 border-[#1a1a1a]"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/men/55.jpg"
+                    alt="User"
+                    className="w-10 h-10 rounded-full border-2 border-[#1a1a1a]"
+                  />
+                </div>
+                <p className="text-yellow-500 font-semibold text-lg">
+                  10,000+
+                </p>
+              </div>
+              <p className="text-gray-400 text-sm">
+                Delivering reliable rentals trusted by travelers worldwide.
+              </p>
+            </div>
+
+            {/* Card 2: Feature */}
+            <div className="relative rounded-lg overflow-hidden group">
+              <img
+                src="https://images.unsplash.com/photo-1517940310602-285c4c0fad25?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Car Interior"
+                className="w-full h-full object-cover"
+              />
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6">
+                <p className="text-white font-semibold text-lg">
+                  Drive in Comfort, <br /> Arrive in Style
+                </p>
+              </div>
+              {/* Floating Button */}
+              <button className="absolute top-4 right-4 bg-yellow-500 text-black p-3 rounded-full shadow-md hover:bg-yellow-600 transition">
+                →
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
       {/* Testimonials */}
       <motion.section className="bg-gray-100 py-20 px-6" initial="hidden" whileInView="visible" viewport={{ once: true }}>
@@ -183,6 +242,38 @@ const Home = () => {
           ))}
         </div>
       </motion.section>
+      <section className="bg-gray-200 py-16">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="bg-gray-300 rounded-lg px-6 py-12 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
+          
+          {/* Left: Car Image */}
+          <div className="flex justify-center">
+            <img
+              src="https://i.ibb.co/mcGx6rW/yellow-car-front.png"
+              alt="Car"
+              className="w-72 sm:w-80 md:w-[420px] lg:w-[480px] object-contain"
+            />
+          </div>
+
+          {/* Right: Content */}
+          <div className="text-center lg:text-left">
+            <p className="text-yellow-500 uppercase tracking-wide text-sm mb-3">
+              Get Started
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 leading-snug">
+              Find the Perfect <br /> Car for Your Trip
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tell us your travel dates, and we’ll confirm <br className="hidden sm:block" /> 
+              availability right away.
+            </p>
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-medium px-6 py-3 rounded-full transition">
+              Ask Availability
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
     </>
   );
 };

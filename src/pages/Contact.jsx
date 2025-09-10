@@ -15,71 +15,128 @@ const Contact = () => {
         </div>
 
         {/* Contact Info + Form */}
-        <div className="grid md:grid-cols-2 gap-10">
-          {/* Contact Info */}
-          <div className="bg-white p-8 rounded-2xl shadow-md">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              Get In Touch
-            </h3>
-            <p className="text-gray-600 mb-6">
-              Reach out to us for any travel inquiries, booking support, or
-              special requests.
+        <section className="bg-white text-black py-20">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12">
+        
+        {/* Left Content */}
+        <div>
+          <p className="text-yellow-500 uppercase text-sm mb-3">Clients Say</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug">
+            Drive Your Dream, <br /> We’ll Handle the Details
+          </h2>
+          <p className="text-gray-400 mb-8">
+            Have questions or need a custom plan? Our team is here to guide you
+            through every step—whether it’s a quick getaway, a luxury event, or
+            a long-term elite arrangement.
+          </p>
+
+          {/* Support Info */}
+          <div className="space-y-6">
+            <div className="flex items-center gap-4">
+              <span className="bg-yellow-500 text-black p-3 rounded-lg">
+                📞
+              </span>
+              <div>
+                <p className="text-gray-400 text-sm">Emergency Support Line</p>
+                <p className="font-bold text-lg">+1-234-567-890</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <span className="bg-yellow-500 text-black p-3 rounded-lg">
+                ✉️
+              </span>
+              <div>
+                <p className="text-gray-400 text-sm">General Inquiries</p>
+                <p className="font-bold text-lg">support@getngo.com</p>
+              </div>
+            </div>
+
+            <p className="text-gray-500 text-sm">
+              Chat with our support team in real-time, Monday to Saturday (8 AM –
+              8 PM).
             </p>
-            <ul className="space-y-4 text-gray-700">
-              <li>
-                <strong>Address:</strong> Puri, Odisha, India
-              </li>
-              <li>
-                <strong>Phone:</strong> +91 98765 43210
-              </li>
-              <li>
-                <strong>Email:</strong> info@puri-travels.com
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Form */}
-          <div className="bg-white p-8 rounded-2xl shadow-md">
-            <form className="space-y-6">
-              <div>
-                <label className="block text-gray-700 mb-2">Name</label>
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"
-                  required
-                />
-              </div>
-
-              <div>
-                <label className="block text-gray-700 mb-2">Email</label>
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"
-                  required
-                />
-              </div>
-
-              <div>
-                <label className="block text-gray-700 mb-2">Message</label>
-                <textarea
-                  placeholder="Your Message"
-                  rows="4"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"
-                  required
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
-              >
-                Send Message
-              </button>
-            </form>
           </div>
         </div>
+
+        {/* Right Form */}
+        <div className="bg-[#1a1a1a] p-8 rounded-lg">
+          <form className="space-y-6">
+            {/* Full Name & Email */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label className="block mb-2 text-sm text-yellow-500">Full Name</label>
+                <input
+                  type="text"
+                  placeholder="John Doe"
+                  className="w-full bg-transparent border-b border-gray-600 focus:border-yellow-500 outline-none py-2"
+                />
+              </div>
+              <div>
+                <label className="block mb-2 text-sm text-yellow-500">
+                  Email <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  placeholder="john@companyname.com"
+                  className="w-full bg-transparent border-b border-gray-600 focus:border-yellow-500 outline-none py-2"
+                />
+              </div>
+            </div>
+
+            {/* Phone & Location */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label className="block mb-2 text-sm text-yellow-500">Phone</label>
+                <input
+                  type="text"
+                  placeholder="e.g. +62 123 456"
+                  className="w-full bg-transparent border-b border-gray-600 focus:border-yellow-500 outline-none py-2"
+                />
+              </div>
+              <div>
+                <label className="block mb-2 text-sm text-yellow-500">Location</label>
+                <input
+                  type="text"
+                  placeholder="e.g. Bandar Lampung"
+                  className="w-full bg-transparent border-b border-gray-600 focus:border-yellow-500 outline-none py-2"
+                />
+              </div>
+            </div>
+
+            {/* Message */}
+            <div>
+              <label className="block mb-2 text-sm text-yellow-500">Message</label>
+              <textarea
+                rows="4"
+                placeholder="Write your message or Questions here"
+                className="w-full bg-transparent border-b border-gray-600 focus:border-yellow-500 outline-none py-2"
+              ></textarea>
+            </div>
+
+            {/* Checkbox */}
+            <div className="flex items-center gap-3">
+              <input
+                type="checkbox"
+                id="terms"
+                className="w-4 h-4 text-yellow-500 bg-gray-800 border-gray-600 focus:ring-yellow-500"
+              />
+              <label htmlFor="terms" className="text-sm text-gray-400">
+                I have read and accepted terms and privacy
+              </label>
+            </div>
+
+            {/* Button */}
+            <button
+              type="submit"
+              className="bg-yellow-600 hover:bg-yellow-500 text-black font-medium px-6 py-3 rounded-md transition"
+            >
+              Discover Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
 
         {/* Map Section */}
         <div className="mt-16">
