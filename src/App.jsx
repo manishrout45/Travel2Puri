@@ -4,9 +4,9 @@ import Footer from "./components/Footer";
 
 // Pages
 import Home from "./pages/Home";
-import Destinations from "./pages/Destinations";
-import Packages from "./pages/Booking";
-import About from "./pages/Destinations";
+import Destinations from "./pages/Packages";
+import Packages from "./pages/Packages";
+import About from "./pages/About";
 import Booking from "./pages/Booking";
 import Gallery from "./pages/Gallery";
 import FAQ from "./pages/FAQ";

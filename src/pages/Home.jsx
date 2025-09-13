@@ -135,11 +135,11 @@ const Home = () => {
 
       {/* Achievements */}
       <section className="bg-gray-200 text-white py-20">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
         {/* Left: Car Image */}
-        <div className="flex justify-center lg:justify-start">
+        <div className="flex justify-center ">
           <img
-            src="https://i.ibb.co/YpSm8R9/orange-car-top.png"
+            src="src/assets/images/black-isolated-car.png"
             alt="Car Top View"
             className="w-64 sm:w-72 md:w-80 lg:w-[420px]"
           />
@@ -249,7 +249,7 @@ const Home = () => {
           {/* Left: Car Image */}
           <div className="flex justify-center">
             <img
-              src="https://i.ibb.co/mcGx6rW/yellow-car-front.png"
+              src="src/assets/images/serviceCar.png"
               alt="Car"
               className="w-72 sm:w-80 md:w-[420px] lg:w-[480px] object-contain"
             />

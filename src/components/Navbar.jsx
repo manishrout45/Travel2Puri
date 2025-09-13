@@ -39,12 +39,7 @@ const Navbar = () => {
           <Link to="/about" className="hover:text-yellow-300 transition-colors">
             About
           </Link>
-          <Link
-            to="/destinations"
-            className="hover:text-yellow-300 transition-colors"
-          >
-            Destinations
-          </Link>
+      
           <Link
             to="/packages"
             className="hover:text-yellow-300 transition-colors"
@@ -104,13 +99,7 @@ const Navbar = () => {
           >
             About
           </Link>
-          <Link
-            to="/destinations"
-            className="block hover:text-yellow-300 transition-colors"
-            onClick={() => setOpen(false)}
-          >
-            Destinations
-          </Link>
+          
           <Link
             to="/packages"
             className="block hover:text-yellow-300 transition-colors"
