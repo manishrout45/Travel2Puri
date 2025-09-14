@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { FaCar, FaMoneyBillWave, FaCalendarAlt, FaUsers } from "react-icons/fa";
 import { useState, useEffect, useRef } from "react";
+import Testimonial from "../components/Testimonial";
 
+// ✅ Animation
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 1) => ({
@@ -11,37 +13,33 @@ const fadeUp = {
   }),
 };
 
-const testimonials = [
-  {
-    text: "GetnGo made my road trip super easy and affordable. Highly recommended!",
-    name: "Rahul Verma",
-    role: "Software Engineer",
-    img: "https://randomuser.me/api/portraits/men/32.jpg",
-  },
-  {
-    text: "Best car rental service I’ve used in years. Smooth booking process!",
-    name: "Priya Sharma",
-    role: "Marketing Manager",
-    img: "https://randomuser.me/api/portraits/women/45.jpg",
-  },
-  {
-    text: "Amazing service, great cars, and very professional staff.",
-    name: "Arjun Mehta",
-    role: "Entrepreneur",
-    img: "https://randomuser.me/api/portraits/men/64.jpg",
-  },
-  {
-    text: "I had a wonderful experience renting with GetnGo. Smooth ride!",
-    name: "Sneha Kapoor",
-    role: "Doctor",
-    img: "https://randomuser.me/api/portraits/women/12.jpg",
-  },
-];
+// ✅ Service Item
+const ServiceItem = ({ icon, title }) => (
+  <div>
+    <div className="flex items-center justify-center gap-3">
+      <span className="text-3xl">{icon}</span>
+      <h3 className="font-semibold text-lg sm:text-xl">{title}</h3>
+    </div>
+    <p className="text-gray-500 mt-2 text-sm sm:text-base">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do diam eiusmod.
+    </p>
+  </div>
+);
+
+// ✅ Feature Item
+const Feature = ({ icon, title, text }) => (
+  <div className="flex items-start space-x-4">
+    <div className="bg-yellow-500 text-black p-4 rounded-md">{icon}</div>
+    <div>
+      <h3 className="text-xl font-semibold">{title}</h3>
+      <p className="text-gray-400 text-sm">{text}</p>
+    </div>
+  </div>
+);
 
 const About = () => {
   return (
     <motion.section initial="hidden" whileInView="visible" viewport={{ once: true }}>
-      
       {/* About Section */}
       <motion.div
         className="relative text-center mb-16 overflow-hidden min-h-[70vh] flex items-center justify-center"
@@ -168,229 +166,9 @@ const About = () => {
         </div>
       </section>
 
-      {/* ✅ Testimonial Section */}
-      <TestimonialSection />
+      {/* ✅ Testimonials */}
+      <Testimonial />
     </motion.section>
-  );
-};
-
-// 🔹 Service Item
-const ServiceItem = ({ icon, title }) => (
-  <div>
-    <div className="flex items-center justify-center gap-3">
-      <span className="text-3xl">{icon}</span>
-      <h3 className="font-semibold text-lg sm:text-xl">{title}</h3>
-    </div>
-    <p className="text-gray-500 mt-2 text-sm sm:text-base">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do diam eiusmod.
-    </p>
-  </div>
-);
-
-// 🔹 Feature Item
-const Feature = ({ icon, title, text }) => (
-  <div className="flex items-start space-x-4">
-    <div className="bg-yellow-500 text-black p-4 rounded-md">{icon}</div>
-    <div>
-      <h3 className="text-xl font-semibold">{title}</h3>
-      <p className="text-gray-400 text-sm">{text}</p>
-    </div>
-  </div>
-);
-
-// ✅ Replace your TestimonialSection with this (drop-in)
-const TestimonialSection = () => {
-  const viewportRef = useRef(null); // visible area
-  const trackRef = useRef(null); // the moving flex track
-  const timerRef = useRef(null);
-  const skipRef = useRef(false); // used to skip transition when snapping
-  const itemWidthRef = useRef(0);
-
-  const [visibleCount, setVisibleCount] = useState(1);
-  const [index, setIndex] = useState(0);
-
-  const n = testimonials.length;
-  const extended = [...testimonials, ...testimonials]; // duplicate for seamless loop
-
-  // responsive visible count
-  const getVisibleCount = () => {
-    if (window.innerWidth >= 1024) return 3;
-    if (window.innerWidth >= 768) return 2;
-    return 1;
-  };
-
-  // setup sizes (item width & track width) — called on mount and resize
-  const updateSizes = () => {
-    const v = getVisibleCount();
-    setVisibleCount(v);
-
-    if (!viewportRef.current || !trackRef.current) return;
-
-    // compute gap between items (Tailwind gap-x becomes CSS gap)
-    const trackStyle = window.getComputedStyle(trackRef.current);
-    const gapPx = parseFloat(trackStyle.columnGap || trackStyle.gap) || 0;
-
-    const vw = viewportRef.current.offsetWidth;
-    // width for each card such that visibleCount cards + gaps exactly fill viewport
-    const itemWidth = (vw - gapPx * (v - 1)) / v;
-    const itemOuter = itemWidth + gapPx;
-
-    itemWidthRef.current = itemOuter; // step amount (card width + gap)
-
-    // set each child's width in px
-    Array.from(trackRef.current.children).forEach((child) => {
-      child.style.width = `${itemWidth}px`;
-    });
-
-    // set track total width (include gap between items)
-    const trackWidth = itemOuter * extended.length - gapPx; // subtract final gap
-    trackRef.current.style.width = `${trackWidth}px`;
-
-    // reposition to current index (no animation during resize)
-    trackRef.current.style.transition = "none";
-    trackRef.current.style.transform = `translateX(-${index * itemOuter}px)`;
-    // force reflow then re-enable CSS transition
-    // eslint-disable-next-line no-unused-expressions
-    trackRef.current.offsetHeight;
-    trackRef.current.style.transition = "";
-  };
-
-  // on mount + resize
-  useEffect(() => {
-    updateSizes();
-    const onResize = () => updateSizes();
-    window.addEventListener("resize", onResize);
-    return () => window.removeEventListener("resize", onResize);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // run once
-
-  // transition handler: if we've slid into the duplicated half, snap back seamlessly
-  useEffect(() => {
-    const track = trackRef.current;
-    if (!track) return;
-
-    const onTransitionEnd = () => {
-      // when index reaches original length (we are at start of second copy)
-      if (index >= n) {
-        // set skip flag so next setIndex doesn't animate
-        skipRef.current = true;
-        // snap index back to equivalent position in the first copy
-        setIndex((prev) => prev - n);
-      }
-    };
-
-    track.addEventListener("transitionend", onTransitionEnd);
-    return () => track.removeEventListener("transitionend", onTransitionEnd);
-  }, [index, n]);
-
-  // whenever index or visibleCount changes, move the track
-  useEffect(() => {
-    const track = trackRef.current;
-    if (!track) return;
-
-    // ensure sizes exist (in case first render)
-    if (!itemWidthRef.current) {
-      updateSizes();
-    }
-
-    const step = itemWidthRef.current || 0;
-
-    if (skipRef.current) {
-      // snap without animation
-      track.style.transition = "none";
-      track.style.transform = `translateX(-${index * step}px)`;
-
-      // force reflow and re-enable transition for subsequent moves
-      // eslint-disable-next-line no-unused-expressions
-      track.offsetHeight;
-      setTimeout(() => {
-        track.style.transition = "transform 0.65s ease";
-        skipRef.current = false;
-      }, 20);
-    } else {
-      // normal animated movement
-      track.style.transition = "transform 0.65s ease";
-      track.style.transform = `translateX(-${index * step}px)`;
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [index, visibleCount]);
-
-  // autoplay: increment index => slides one-by-one
-  useEffect(() => {
-    timerRef.current = setInterval(() => {
-      setIndex((prev) => prev + 1);
-    }, 3000); // change speed here
-    return () => clearInterval(timerRef.current);
-  }, []);
-
-  // pause on hover
-  const handleMouseEnter = () => clearInterval(timerRef.current);
-  const handleMouseLeave = () => {
-    clearInterval(timerRef.current);
-    timerRef.current = setInterval(() => setIndex((prev) => prev + 1), 3000);
-  };
-
-  return (
-    <section
-      className="relative bg-black text-white py-20 px-6 overflow-hidden"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      {/* Background */}
-      <div className="absolute inset-0">
-        <img
-          src="https://cdn.pixabay.com/photo/2016/11/29/06/18/auto-1868726_1280.jpg"
-          alt="Car Background"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-80"></div>
-      </div>
-
-      {/* Content */}
-      <div className="relative max-w-6xl mx-auto text-center z-10">
-        <p className="uppercase text-yellow-500 font-semibold tracking-widest">
-          Testimonials
-        </p>
-        <h2 className="text-3xl md:text-4xl font-bold mt-2">
-          Trusted by Thousands of Drivers
-        </h2>
-        <p className="text-gray-400 mt-4">
-          Here’s what people love about renting with GetnGo.
-        </p>
-
-        {/* VIEWPORT */}
-        <div ref={viewportRef} className="mt-12 overflow-hidden">
-          {/* TRACK */}
-          <div
-            ref={trackRef}
-            className="flex gap-8"
-            style={{
-              transform: `translateX(-${index * (itemWidthRef.current || 0)}px)`,
-            }}
-          >
-            {extended.map((t, idx) => (
-              <div
-                key={idx}
-                className="bg-gray-900 rounded-lg p-6 flex flex-col items-center text-center flex-shrink-0"
-                /* width is set dynamically in updateSizes() */
-              >
-                <span className="text-yellow-500 text-5xl mb-4">“</span>
-                <p className="text-lg italic">{t.text}</p>
-                <div className="flex flex-col items-center mt-6">
-                  <img
-                    src={t.img}
-                    alt={t.name}
-                    className="w-16 h-16 rounded-full border-4 border-yellow-500 object-cover"
-                  />
-                  <h3 className="mt-3 font-semibold">{t.name}</h3>
-                  <p className="text-sm text-gray-400">{t.role}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
   );
 };
 

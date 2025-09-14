@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import HeroSection from "../components/HeroSection";
+import OdishaMap from "../components/Odishamap";
+import Testimonial from "../components/Testimonial";
 
 // Fade-up animation variant
 const fadeUp = {
@@ -98,37 +100,7 @@ const Home = () => {
       <HeroSection />
       <OurVehicles />
 
-      {/* Popular Destinations */}
-      <motion.section
-  className="bg-gray-100 py-20 px-6 z-10"
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true }}
->
-  <motion.div className="max-w-7xl mx-auto text-center mb-14" variants={fadeUp}>
-    <h3 className="text-4xl font-bold text-blue-600 mb-4">Popular Destinations</h3>
-    <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-      Explore our top-rated travel destinations loved by thousands of travelers.
-    </p>
-  </motion.div>
-
-  <div className="grid gap-8 md:grid-cols-3 max-w-7xl mx-auto">
-    {[
-      { title: "Bali, Indonesia", desc: "Experience the tropical beaches, culture, and luxury resorts." },
-      { title: "Paris, France", desc: "The city of love with iconic landmarks and rich history." },
-      { title: "Maldives", desc: "Crystal-clear waters and exotic island escapes." },
-    ].map((place) => (
-      <motion.div
-        key={place.title}
-        className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition"
-        variants={fadeUp}
-      >
-        <h4 className="text-xl font-semibold text-blue-500 mb-2">{place.title}</h4>
-        <p className="text-gray-600">{place.desc}</p>
-      </motion.div>
-    ))}
-  </div>
-</motion.section>
+      <OdishaMap />
 
 
 
@@ -215,33 +187,9 @@ const Home = () => {
       </div>
     </section>
 
-      {/* Testimonials */}
-      <motion.section className="bg-gray-100 py-20 px-6" initial="hidden" whileInView="visible" viewport={{ once: true }}>
-        <motion.div className="max-w-7xl mx-auto text-center mb-14" variants={fadeUp}>
-          <h3 className="text-4xl font-bold text-blue-600 mb-4">Traveler Reviews</h3>
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Hear from our happy clients who explored the world with us.
-          </p>
-        </motion.div>
+      <Testimonial />
 
-        <div className="grid gap-8 md:grid-cols-2 max-w-7xl mx-auto">
-          {[
-            {
-              quote: "The Maldives trip was a dream come true! Everything was perfectly organized.",
-              name: "— Sarah L.",
-            },
-            {
-              quote: "I loved exploring Bali with their amazing local guides. Highly recommended!",
-              name: "— Mark R.",
-            },
-          ].map((testimony, i) => (
-            <motion.div key={i} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition" custom={i} variants={fadeUp}>
-              <p className="text-gray-700 italic mb-4">"{testimony.quote}"</p>
-              <h4 className="font-semibold text-blue-500">{testimony.name}</h4>
-            </motion.div>
-          ))}
-        </div>
-      </motion.section>
+
       <section className="bg-gray-200 py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="bg-gray-300 rounded-lg px-6 py-12 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">

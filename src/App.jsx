@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
 // Pages
 import Home from "./pages/Home";
 import Destinations from "./pages/Packages";
@@ -11,6 +12,7 @@ import Booking from "./pages/Booking";
 import Gallery from "./pages/Gallery";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
+import DestinationDetail from "./pages/DestinationDetail";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/destination/:name" element={<DestinationDetail />} />
       </Routes>
       <Footer />
     </BrowserRouter>
