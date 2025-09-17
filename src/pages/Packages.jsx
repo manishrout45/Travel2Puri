@@ -42,46 +42,63 @@ const destinations = [
 
 function Packages() {
   return (
-    <motion.section
-      className="max-w-7xl mx-auto px-6 py-16"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-    >
-      {/* Section Header */}
-      <motion.div className="text-center mb-20" variants={fadeUp}>
-        <h2 className="text-4xl font-bold text-blue-600 mb-4">
-          Top Destinations in Puri
-        </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-          Explore the spiritual, cultural, and natural beauty of Puri, Odisha.
-        </p>
-      </motion.div>
+    <>
+      {/* ✅ Hero Section */}
+      <section
+        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
+        style={{
+          backgroundImage:
+            "url('https://upload.wikimedia.org/wikipedia/commons/4/4e/Puri_Beach_Odisha.jpg')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white text-center">
+          Packages
+        </h1>
+      </section>
 
-      {/* Cards Grid */}
-      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-        {destinations.map((place, i) => (
-          <motion.div
-            key={place.name}
-            className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
-            custom={i}
-            variants={fadeUp}
-          >
-            <img
-              src={place.img}
-              alt={place.name}
-              className="w-full h-56 object-cover"
-            />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-blue-500 mb-2">
-                {place.name}
-              </h3>
-              <p className="text-gray-600">{place.desc}</p>
-            </div>
-          </motion.div>
-        ))}
-      </div>
-    </motion.section>
+      {/* ✅ Packages Section */}
+      <motion.section
+        className="max-w-7xl mx-auto px-6 py-16"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        {/* Section Header */}
+        <motion.div className="text-center mb-20" variants={fadeUp}>
+          <h2 className="text-4xl font-bold text-blue-600 mb-4">
+            Top Destinations in Puri
+          </h2>
+          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+            Explore the spiritual, cultural, and natural beauty of Puri, Odisha.
+          </p>
+        </motion.div>
+
+        {/* Cards Grid */}
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+          {destinations.map((place, i) => (
+            <motion.div
+              key={place.name}
+              className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
+              custom={i}
+              variants={fadeUp}
+            >
+              <img
+                src={place.img}
+                alt={place.name}
+                className="w-full h-56 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-blue-500 mb-2">
+                  {place.name}
+                </h3>
+                <p className="text-gray-600">{place.desc}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </motion.section>
+    </>
   );
 }
 

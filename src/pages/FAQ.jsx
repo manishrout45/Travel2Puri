@@ -47,55 +47,71 @@ const FAQ = () => {
   };
 
   return (
-    <motion.section
-      className="max-w-4xl mx-auto py-20 px-6"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-    >
-      {/* Header */}
-      <motion.div className="text-center mb-12" variants={fadeUp}>
-        <h2 className="text-4xl font-bold text-blue-600 mb-4">Frequently Asked Questions</h2>
-        <p className="text-gray-600 text-lg">
-          Find answers to common queries about traveling to Puri, Odisha.
-        </p>
-      </motion.div>
+    <>
+      {/* ✅ Hero Section */}
+      <section
+        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
+        style={{ backgroundImage: "url('/src/assets/images/faq-bg.jpg')" }} // replace with your image path
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white text-center">
+          Frequently Asked Questions
+        </h1>
+      </section>
 
-      {/* FAQ Items */}
-      <div className="space-y-6">
-        {faqs.map((faq, i) => (
-          <motion.div
-            key={i}
-            custom={i}
-            variants={fadeUp}
-            className="bg-white shadow-md rounded-xl overflow-hidden"
-          >
-            <button
-              onClick={() => toggleFAQ(i)}
-              className="flex justify-between items-center w-full px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-blue-50 transition"
+      {/* ✅ FAQ Section */}
+      <motion.section
+        className="max-w-4xl mx-auto py-20 px-6"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        {/* Header */}
+        <motion.div className="text-center mb-12" variants={fadeUp}>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">
+            Got Questions? We’ve Got Answers
+          </h2>
+          <p className="text-gray-600 text-lg">
+            Find answers to common queries about traveling to Puri, Odisha.
+          </p>
+        </motion.div>
+
+        {/* FAQ Items */}
+        <div className="space-y-6">
+          {faqs.map((faq, i) => (
+            <motion.div
+              key={i}
+              custom={i}
+              variants={fadeUp}
+              className="bg-white shadow-md rounded-xl overflow-hidden"
             >
-              {faq.question}
-              <ChevronDown
-                className={`w-5 h-5 transform transition-transform ${
-                  openIndex === i ? "rotate-180" : ""
-                }`}
-              />
-            </button>
-
-            {openIndex === i && (
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: "auto", opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                className="px-6 pb-4 text-gray-600"
+              <button
+                onClick={() => toggleFAQ(i)}
+                className="flex justify-between items-center w-full px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-blue-50 transition"
               >
-                {faq.answer}
-              </motion.div>
-            )}
-          </motion.div>
-        ))}
-      </div>
-    </motion.section>
+                {faq.question}
+                <ChevronDown
+                  className={`w-5 h-5 transform transition-transform ${
+                    openIndex === i ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
+
+              {openIndex === i && (
+                <motion.div
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  className="px-6 pb-4 text-gray-600"
+                >
+                  {faq.answer}
+                </motion.div>
+              )}
+            </motion.div>
+          ))}
+        </div>
+      </motion.section>
+    </>
   );
 };
 

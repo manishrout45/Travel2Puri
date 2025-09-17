@@ -46,40 +46,59 @@ const Gallery = () => {
   ];
 
   return (
-    <motion.section
-      className="max-w-7xl mx-auto py-20 px-6"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-    >
-      {/* Header */}
-      <motion.div className="text-center mb-14" variants={fadeUp}>
-        <h2 className="text-4xl font-bold text-blue-600 mb-4">Travel Gallery</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-          Experience the vibrant culture, heritage, and natural beauty of Puri
-          through our gallery.
-        </p>
-      </motion.div>
+    <>
+      {/* ✅ Hero Section */}
+      <section
+        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
+        style={{
+          backgroundImage:
+            "url('https://upload.wikimedia.org/wikipedia/commons/4/4e/Puri_Beach_Odisha.jpg')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white text-center">
+          Gallery
+        </h1>
+      </section>
 
-      {/* Gallery Grid */}
-      <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {images.map((img, i) => (
-          <motion.div
-            key={i}
-            className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition"
-            custom={i}
-            variants={fadeUp}
-            whileHover={{ scale: 1.05 }}
-          >
-            <img
-              src={img.src}
-              alt={img.alt}
-              className="w-full h-56 object-cover"
-            />
-          </motion.div>
-        ))}
-      </div>
-    </motion.section>
+      {/* ✅ Gallery Section */}
+      <motion.section
+        className="max-w-7xl mx-auto py-20 px-6"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        {/* Header */}
+        <motion.div className="text-center mb-14" variants={fadeUp}>
+          <h2 className="text-4xl font-bold text-blue-600 mb-4">
+            Travel Gallery
+          </h2>
+          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+            Experience the vibrant culture, heritage, and natural beauty of Puri
+            through our gallery.
+          </p>
+        </motion.div>
+
+        {/* Gallery Grid */}
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {images.map((img, i) => (
+            <motion.div
+              key={i}
+              className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition"
+              custom={i}
+              variants={fadeUp}
+              whileHover={{ scale: 1.05 }}
+            >
+              <img
+                src={img.src}
+                alt={img.alt}
+                className="w-full h-56 object-cover"
+              />
+            </motion.div>
+          ))}
+        </div>
+      </motion.section>
+    </>
   );
 };
 
