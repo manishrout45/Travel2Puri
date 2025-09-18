@@ -55,8 +55,8 @@ const districts = [
     name: "Cuttack",
     map: "/images/districts/cuttack.png",
     destinations: [
-      { name: "Barabati Fort", image: "/images/destinations/barabati.jpg", description: "Historical fort in Cuttack city." },
-      { name: "Dhabaleswar Temple", image: "/images/destinations/dhabaleswar.jpg", description: "Temple on an island in Mahanadi river." },
+      { id: "barabati-fort", name: "Barabati Fort", image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Entrance_of_Barabati_fort.jpg", description: "Historical fort in Cuttack city." },
+      { id: "dhabaleswar-temple", name: "Dhabaleswar Temple", image: "/images/destinations/dhabaleswar.jpg", description: "Temple on an island in Mahanadi river." },
     ],
   },
   {
@@ -299,19 +299,16 @@ const OdishaMap = () => {
             <ul className="space-y-4">
               {selectedDistrict.destinations.map((place, i) => (
                 <li
-                  key={i}
-                  onClick={() =>
-                    navigate(`/destination/${encodeURIComponent(place.name)}`, {
-                      state: place,
-                    })
-                  }
-                  className="cursor-pointer p-4 border rounded-lg shadow-sm hover:shadow-md transition bg-white"
-                >
-                  <h4 className="font-medium text-lg text-blue-600">
-                    {place.name}
-                  </h4>
-                  <p className="text-sm text-gray-600">{place.description}</p>
-                </li>
+  key={i}
+  onClick={() => navigate(`/destination/${place.id}`)} // ✅ use id, not name
+  className="cursor-pointer p-4 border rounded-lg shadow-sm hover:shadow-md transition bg-white"
+>
+  <h4 className="font-medium text-lg text-blue-600">
+    {place.name}
+  </h4>
+  <p className="text-sm text-gray-600">{place.description}</p>
+</li>
+
               ))}
             </ul>
           </div>
