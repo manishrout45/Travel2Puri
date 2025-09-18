@@ -28,12 +28,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        isScrolled
-          ? "nav-water-blur text-black shadow-md"
-          : "bg-transparent text-white"
-      }`}
-    >
+  className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
+    open
+      ? "bg-white text-black shadow-md" // ✅ solid when mobile menu is open
+      : isScrolled
+      ? "nav-water-blur text-black shadow-md" // ✅ blur only on scroll
+      : "bg-transparent text-white" // ✅ default
+  }`}
+>
+
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center py-4">
         {/* Logo */}
         <NavLink to="/" className="text-2xl font-bold tracking-wide">
@@ -65,22 +68,24 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <button
-          onClick={() => setOpen(!open)}
-          className="md:hidden focus:outline-none z-50"
-        >
-          {open ? (
-            <X
-              size={28}
-              className={`${isScrolled ? "text-black" : "text-white"}`} // ✅ visible always
-            />
-          ) : (
-            <Menu
-              size={28}
-              className={`${isScrolled ? "text-black" : "text-white"}`} // ✅ visible always
-            />
-          )}
-        </button>
+<button
+  onClick={() => setOpen(!open)}
+  className="md:hidden focus:outline-none z-50 drop-shadow-lg"
+>
+  {open ? (
+    <X
+  size={28}
+  className={`${isScrolled ? "text-black" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
+ />
+
+  ) : (
+    <Menu
+      size={28}
+      className={`${isScrolled ? "text-black" : "text-white"} drop-shadow-md`}
+    />
+  )}
+</button>
+
       </div>
 
       {/* Mobile Menu - Slide from Right */}
@@ -88,6 +93,7 @@ const Navbar = () => {
   className={`fixed top-0 right-0 h-full w-64 transform transition-transform duration-500 ease-in-out md:hidden 
     nav-water-blur bg-white/30 backdrop-blur-lg ${
       open ? "translate-x-0" : "translate-x-full"
+      
     }`}
 >
 
