@@ -12,7 +12,7 @@ const images = [
 const HeroSection = () => {
   const scrollRef = useRef(null);
 
-  // Create multiple copies of images for seamless infinite scroll
+  // Repeat images for seamless infinite scroll
   const repeatedImages = [...images, ...images, ...images];
 
   useEffect(() => {
@@ -21,41 +21,38 @@ const HeroSection = () => {
 
     let scrollPosition = 0;
     const scrollSpeed = 1; // pixels per frame
-    const imageWidth = 256 + 16; // width + gap
+    const imageWidth = 256 + 16; // image width + gap
     const totalWidth = images.length * imageWidth;
 
     const scroll = () => {
       scrollPosition += scrollSpeed;
-      
-      // Reset position when we've scrolled through one complete set
       if (scrollPosition >= totalWidth) {
         scrollPosition = 0;
       }
-      
       scrollContainer.style.transform = `translateX(-${scrollPosition}px)`;
       requestAnimationFrame(scroll);
     };
 
     const animationId = requestAnimationFrame(scroll);
-
     return () => cancelAnimationFrame(animationId);
   }, []);
 
   return (
-<section
-  className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden"
-  style={{ backgroundColor: '#FEF7EE' }}
->
-  {/* Background Video */}
-  <video
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="absolute top-0 left-0 w-full h-full object-cover "
-  >
-    <source src="/videos/puribeach2.mp4" type="video/mp4" />
-  </video>
+    <section
+      className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden"
+      style={{ backgroundColor: "#FEF7EE" }}
+    >
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover"
+      >
+        <source src="/videos/puribeach2.mp4" type="video/mp4" />
+      </video>
+
       {/* Badge */}
       <div className="mb-4 flex items-center gap-2 bg-white px-4 py-1 rounded-full shadow-md text-sm font-medium z-10">
         <span>⭐</span>
@@ -68,16 +65,15 @@ const HeroSection = () => {
       </h1>
 
       {/* Subheading */}
-     <p
-  className="text-center text-white max-w-xl mb-6 z-10"
-  style={{
-    textShadow: "0 2px 8px rgba(0,0,0,0.85)"
-  }}
->
-  Get your dream trip planned with expert-guided destinations, booking, transport & more — all in one
-</p>
-
-
+      <p
+        className="text-center text-white max-w-xl mb-6 z-10"
+        style={{
+          textShadow: "0 2px 8px rgba(0,0,0,0.85)",
+        }}
+      >
+        Get your dream trip planned with expert-guided destinations, booking,
+        transport & more — all in one
+      </p>
 
       {/* Button */}
       <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition z-10">
@@ -91,16 +87,15 @@ const HeroSection = () => {
         <span>Ramp</span>
         <span>Runway</span>
       </div>
+
       {/* Infinite Scrolling Images */}
       <div className="mt-12 w-full overflow-hidden z-10">
-        <div 
+        <div
           ref={scrollRef}
           className="flex gap-4 will-change-transform"
           style={{
-            width: `${repeatedImages.length * (256 + 16)}px`
+            width: `${repeatedImages.length * (256 + 16)}px`,
           }}
-          onMouseEnter={(e) => e.currentTarget.style.animationPlayState = 'paused'}
-          onMouseLeave={(e) => e.currentTarget.style.animationPlayState = 'running'}
         >
           {repeatedImages.map((src, index) => {
             const originalIndex = index % images.length;
@@ -108,7 +103,9 @@ const HeroSection = () => {
               <div
                 key={`${originalIndex}-${Math.floor(index / images.length)}`}
                 className={`flex-shrink-0 rounded-xl overflow-hidden ${
-                  originalIndex === 1 || originalIndex === 4 ? "h-80 w-40" : "h-80 w-60"
+                  originalIndex === 1 || originalIndex === 4
+                    ? "h-80 w-40"
+                    : "h-80 w-60"
                 }`}
               >
                 <img
@@ -124,8 +121,28 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="mt-6 text-white text-sm opacity-60">
+      <div className="mt-6 text-white text-sm opacity-60 z-10">
         <span>← Continuous scroll →</span>
+      </div>
+
+      {/* ✅ Random Multi-Wave Shape at Bottom */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
+        <svg
+          className="relative block w-full h-32"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="#FFFFFF"
+            d="
+              M0,224 
+              C180,200 360,280 540,240 
+              C720,200 900,280 1080,240 
+              C1260,200 1440,280 1620,240 
+              L1620,320 L0,320 Z
+            "
+          ></path>
+        </svg>
       </div>
     </section>
   );

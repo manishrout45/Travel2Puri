@@ -252,69 +252,80 @@ const OdishaMap = () => {
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-12">
-      {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-600 mb-8">
-        Top Destinations in Odisha
-      </h2>
+  {/* Heading */}
+  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-blue-600 mb-8">
+    Top Destinations in Odisha
+  </h2>
 
-      {/* Odisha Map */}
-      <div className="flex justify-center mb-6">
+  {/* Odisha Map */}
+  <div className="flex justify-center mb-6">
+    <img
+      src="/images/Odisha_districts_map.svg"
+      alt="Odisha Map"
+      className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain"
+    />
+  </div>
+
+  {/* District Names */}
+  <div className="flex flex-wrap justify-center gap-3 mb-10">
+    {districts.map((district, i) => (
+      <button
+        key={i}
+        onClick={() => setSelectedDistrict(district)}
+        className="px-3 sm:px-4 py-2 bg-blue-100 hover:bg-blue-500 hover:text-white rounded-lg text-xs sm:text-sm md:text-base font-medium transition"
+      >
+        {district.name}
+      </button>
+    ))}
+  </div>
+
+  {/* District Details */}
+  {selectedDistrict && (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {/* Left: District Map */}
+      <div className="flex justify-center mb-6 md:mb-0">
         <img
-          src="/images/Odisha_districts_map.svg" // 🖼️ Odisha map
-          alt="Odisha Map"
-          className="w-full max-w-lg object-contain"
+          src={selectedDistrict.map}
+          alt={`${selectedDistrict.name} Map`}
+          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-md"
         />
       </div>
 
-      {/* District Names */}
-      <div className="flex flex-wrap justify-center gap-3 mb-10">
-        {districts.map((district, i) => (
-          <button
-            key={i}
-            onClick={() => setSelectedDistrict(district)}
-            className="px-4 py-2 bg-blue-100 hover:bg-blue-500 hover:text-white rounded-lg text-sm font-medium transition"
-          >
-            {district.name}
-          </button>
-        ))}
-      </div>
+      {/* Right: Destinations */}
+      <div>
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-6 text-center md:text-left">
+          Top Destinations in {selectedDistrict.name}
+        </h3>
 
-      {/* District Details */}
-      {selectedDistrict && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Left: District Map */}
-          <div className="flex justify-center">
-            <img
-              src={selectedDistrict.map}
-              alt={`${selectedDistrict.name} Map`}
-              className="w-full max-w-md rounded-lg shadow-md"
-            />
-          </div>
+        {/* Grid of oval images */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+          {selectedDistrict.destinations.map((place, i) => (
+            <div
+              key={i}
+              onClick={() => navigate(`/destination/${place.id}`)}
+              className="flex flex-col items-center cursor-pointer group"
+            >
+              {/* Oval Image */}
+              <div className="w-24 h-36 sm:w-28 sm:h-44 md:w-32 md:h-48 lg:w-36 lg:h-56 overflow-hidden rounded-full shadow-md group-hover:scale-105 transform transition duration-300">
+                <img
+                  src={place.image}
+                  alt={place.name}
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
 
-          {/* Right: Destinations */}
-          <div>
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              Top Destinations in {selectedDistrict.name}
-            </h3>
-            <ul className="space-y-4">
-              {selectedDistrict.destinations.map((place, i) => (
-                <li
-  key={i}
-  onClick={() => navigate(`/destination/${place.id}`)} // ✅ use id, not name
-  className="cursor-pointer p-4 border rounded-lg shadow-sm hover:shadow-md transition bg-white"
->
-  <h4 className="font-medium text-lg text-blue-600">
-    {place.name}
-  </h4>
-  <p className="text-sm text-gray-600">{place.description}</p>
-</li>
-
-              ))}
-            </ul>
-          </div>
+              {/* Name */}
+              <p className="mt-2 sm:mt-3 text-gray-700 font-medium text-sm sm:text-base text-center">
+                {place.name}
+              </p>
+            </div>
+          ))}
         </div>
-      )}
-    </section>
+      </div>
+    </div>
+  )}
+</section>
+
   );
 };
 

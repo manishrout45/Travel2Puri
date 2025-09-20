@@ -36,7 +36,7 @@ const vehicles = [
 const OurVehicles = () => {
   return (
     <motion.section
-      className="relative max-w-7xl mx-auto py-24 px-6 bg-gradient-to-br from-blue-50 via-white to-blue-100"
+      className="relative max-w-7xl mx-auto py-24 px-6 bg-white"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
