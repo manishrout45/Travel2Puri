@@ -70,7 +70,7 @@ const Gallery = () => {
       >
         {/* Header */}
         <motion.div className="text-center mb-14" variants={fadeUp}>
-          <h2 className="text-4xl font-bold text-blue-600 mb-4">
+          <h2 className="text-4xl font-bold text-[#1b1713] mb-4">
             Travel Gallery
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">

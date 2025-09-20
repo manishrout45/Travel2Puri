@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-[#262628] text-gray-300 overflow-hidden">
+    <footer className="relative bg-[#1b1713] text-gray-300 overflow-hidden">
       {/* faint steering wheel watermark on the far left */}
       <div
         aria-hidden

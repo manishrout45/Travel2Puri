@@ -68,7 +68,7 @@ const FAQ = () => {
       >
         {/* Header */}
         <motion.div className="text-center mb-12" variants={fadeUp}>
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1b1713] mb-4">
             Got Questions? We’ve Got Answers
           </h2>
           <p className="text-gray-600 text-lg">

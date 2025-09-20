@@ -138,7 +138,7 @@ const Testimonial = () => {
 
   return (
     <section
-      className="relative bg-black text-white py-20 px-6 overflow-hidden"
+      className="relative bg-[#87725f] text-white py-20 px-6 overflow-hidden"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -177,17 +177,17 @@ const Testimonial = () => {
             {extended.map((t, idx) => (
               <div
                 key={idx}
-                className="bg-gray-900 rounded-lg p-6 flex flex-col items-center text-center flex-shrink-0"
+                className="bg-[#f8f7d1] rounded-lg p-6 flex flex-col items-center text-center flex-shrink-0"
               >
                 <span className="text-yellow-500 text-5xl mb-4">“</span>
-                <p className="text-lg italic">{t.text}</p>
+                <p className="text-lg italic text-black">{t.text}</p>
                 <div className="flex flex-col items-center mt-6">
                   <img
                     src={t.img}
                     alt={t.name}
                     className="w-16 h-16 rounded-full border-4 border-yellow-500 object-cover"
                   />
-                  <h3 className="mt-3 font-semibold">{t.name}</h3>
+                  <h3 className="mt-3 font-semibold text-black">{t.name}</h3>
                   <p className="text-sm text-gray-400">{t.role}</p>
                 </div>
               </div>

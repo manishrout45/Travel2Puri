@@ -30,9 +30,9 @@ const Navbar = () => {
     <nav
   className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
     open
-      ? "bg-white text-black shadow-md" // ✅ solid when mobile menu is open
+      ? "bg-white text-[#1b1713] shadow-md" // ✅ solid when mobile menu is open
       : isScrolled
-      ? "nav-water-blur text-black shadow-md" // ✅ blur only on scroll
+      ? "nav-water-blur text-[#1b1713] shadow-md" // ✅ blur only on scroll
       : "bg-transparent text-white" // ✅ default
   }`}
 >
@@ -75,13 +75,13 @@ const Navbar = () => {
   {open ? (
     <X
   size={28}
-  className={`${isScrolled ? "text-black" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
+  className={`${isScrolled ? "text-[#1b1713]" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
  />
 
   ) : (
     <Menu
       size={28}
-      className={`${isScrolled ? "text-black" : "text-white"} drop-shadow-md`}
+      className={`${isScrolled ? "text-[#1b1713]" : "text-white"} drop-shadow-md`}
     />
   )}
 </button>
@@ -104,7 +104,7 @@ const Navbar = () => {
               to={link.path}
               className={({ isActive }) =>
                 `block relative pb-1 transition-colors hover:text-yellow-300 ${
-                  isActive ? "text-yellow-300 font-semibold" : ""
+                  isActive ? "text-yellow-400 font-semibold" : ""
                 }`
               }
               onClick={() => {

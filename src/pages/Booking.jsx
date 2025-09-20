@@ -33,7 +33,7 @@ const Booking = () => {
   return (
     <>
       {/* How to Book Section */}
-      <section className="bg-black text-white py-16 px-6">
+      <section className="bg-[#1b1713] text-white py-16 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Section */}
           <div>
@@ -61,9 +61,9 @@ const Booking = () => {
           {/* Right Section */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Step 1 */}
-            <div className="bg-neutral-900 p-6 rounded-md">
+            <div className="bg-[#f8f7d1] p-6 rounded-md">
               <span className="block text-gray-400 text-lg font-bold">01</span>
-              <h3 className="text-xl font-semibold mt-2">Choose Your Car</h3>
+              <h3 className="text-xl font-semibold mt-2 text-black">Choose Your Car</h3>
               <p className="text-gray-400 mt-3 text-sm">
                 Browse our curated selection of luxury & exotic cars and pick
                 your perfect match.
@@ -74,9 +74,9 @@ const Booking = () => {
             </div>
 
             {/* Step 2 */}
-            <div className="bg-neutral-900 p-6 rounded-md">
+            <div className="bg-[#f8f7d1] p-6 rounded-md">
               <span className="block text-gray-400 text-lg font-bold">02</span>
-              <h3 className="text-xl font-semibold mt-2">
+              <h3 className="text-xl font-semibold mt-2 text-black">
                 Select Dates & Location
               </h3>
               <p className="text-gray-400 mt-3 text-sm">
@@ -89,9 +89,9 @@ const Booking = () => {
             </div>
 
             {/* Step 3 */}
-            <div className="bg-neutral-900 p-6 rounded-md">
+            <div className="bg-[#f8f7d1] p-6 rounded-md">
               <span className="block text-gray-400 text-lg font-bold">03</span>
-              <h3 className="text-xl font-semibold mt-2">
+              <h3 className="text-xl font-semibold mt-2 text-black">
                 Confirm & Pay Securely
               </h3>
               <p className="text-gray-400 mt-3 text-sm">
@@ -104,9 +104,9 @@ const Booking = () => {
             </div>
 
             {/* Step 4 */}
-            <div className="bg-neutral-900 p-6 rounded-md">
+            <div className="bg-[#f8f7d1] p-6 rounded-md">
               <span className="block text-gray-400 text-lg font-bold">04</span>
-              <h3 className="text-xl font-semibold mt-2">Enjoy the Drive</h3>
+              <h3 className="text-xl font-semibold mt-2 text-black">Enjoy the Drive</h3>
               <p className="text-gray-400 mt-3 text-sm">
                 Pick up your car (or have it delivered) and experience the
                 thrill of luxury driving.
@@ -124,7 +124,7 @@ const Booking = () => {
         viewport={{ once: true }}
       >
         <motion.div className="text-center mb-10" variants={fadeUp}>
-          <h2 className="text-4xl font-bold text-blue-600 mb-4">
+          <h2 className="text-4xl font-bold text-[#1b1713] mb-4">
             Book Your Trip
           </h2>
           <p className="text-gray-600 text-lg">

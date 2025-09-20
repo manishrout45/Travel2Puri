@@ -257,17 +257,37 @@ const OdishaMap = () => {
     Top Destinations in Odisha
   </h2>
 
-  {/* Odisha Map */}
-  <div className="flex justify-center mb-6">
-    <img
-      src="/images/Odisha_districts_map.svg"
-      alt="Odisha Map"
-      className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain"
-    />
-  </div>
+  <section className="w-full max-w-7xl mx-auto px-4 py-12 relative overflow-visible">
+      <div className="grid md:grid-cols-2 gap-8 items-center">
+        {/* Left content box */}
+        <div className="bg-[#7A1E12] text-white p-8 rounded-xl shadow-2xl relative z-10 md:pr-48">
+          <h2 className="text-3xl md:text-5xl font-extrabold mb-4">
+            Why Visit Odisha?
+          </h2>
+          <p className="text-lg leading-relaxed">
+            A trip to Odisha is a journey into timeless traditions, sacred
+            spirituality, serene landscapes, and warm hospitality. Whether you
+            seek pilgrimage, adventure, art, or peace by the sea, Odisha
+            welcomes you with open arms.
+          </p>
+        </div>
+
+        {/* empty right column so grid spacing stays */}
+        <div className="hidden md:block" />
+      </div>
+
+      {/* Map — absolutely positioned so it can overlap the left box */}
+      <div className="hidden md:block absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-20 md:-translate-x-28 lg:-translate-x-36 z-20 pointer-events-none">
+        <img
+          src="/images/Odisha Map Chart.png"
+          alt="Odisha Map"
+          className="w-[420px] md:w-[540px] lg:w-[720px] max-w-none drop-shadow-2xl"
+        />
+      </div>
+    </section>
 
   {/* District Names */}
-  <div className="flex flex-wrap justify-center gap-3 mb-10">
+  <div className="flex flex-wrap justify-center gap-3 mb-10 mt-14">
     {districts.map((district, i) => (
       <button
         key={i}

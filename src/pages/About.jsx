@@ -58,7 +58,7 @@ const About = () => {
 
         {/* Text Content */}
         <div className="relative z-10 p-8 max-w-3xl mx-auto">
-          <h2 className="text-4xl font-bold text-blue-400 my-6">About Us</h2>
+          <h2 className="text-4xl font-bold text-yellow-400 my-6">About Us</h2>
           <p className="text-gray-100 text-lg leading-relaxed">
             Puri, located on the eastern coast of Odisha, is one of India’s most
             cherished spiritual and cultural destinations. Known as the home of
@@ -77,7 +77,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Heading */}
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-#1b1713">
               Services
             </h2>
             <p className="text-gray-500 mt-4 text-sm sm:text-base">
@@ -116,7 +116,7 @@ const About = () => {
       </section>
 
       {/* Why Rent with Us Section */}
-      <section className="bg-black text-white py-16 px-6 mb-10">
+      <section className="bg-[#1b1713] text-white py-16 px-6 mb-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Section */}
           <div className="text-center lg:text-left">

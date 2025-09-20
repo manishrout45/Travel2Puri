@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto">
           {/* Heading */}
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-blue-600 mb-4">Contact Us</h2>
+            <h2 className="text-4xl font-bold text-[#1b1713] mb-4">Contact Us</h2>
             <p className="text-gray-600">
               Have questions or want to plan your next trip? We’d love to hear from you.
             </p>
@@ -68,7 +68,7 @@ const Contact = () => {
               </div>
 
               {/* Right Form */}
-              <div className="bg-[#1a1a1a] p-8 rounded-lg">
+              <div className="bg-[#1b1713] p-8 rounded-lg">
                 <form className="space-y-6">
                   {/* Full Name & Email */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -56,12 +56,12 @@ const HeroSection = () => {
       {/* Badge */}
       <div className="mb-4 flex items-center gap-2 bg-white px-4 py-1 rounded-full shadow-md text-sm font-medium z-10">
         <span>⭐</span>
-        <span>Explore world</span>
+        <span>Explore ODISHA</span>
       </div>
 
       {/* Heading */}
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10">
-        Make Your <span className="text-orange-500">Summer Vacation</span> <br /> Unforgettable!
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#1b1713]">
+        Make Your <span className="text-yellow-400">Journey</span> <br /> Unforgettable!
       </h1>
 
       {/* Subheading */}
@@ -76,17 +76,17 @@ const HeroSection = () => {
       </p>
 
       {/* Button */}
-      <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition z-10">
+      <button className="bg-[#1b1713] text-white px-6 py-3 rounded-full hover:text-yellow-400 transition z-10">
         Start Planning →
       </button>
 
-      {/* Partners / Logos */}
+      {/* Partners / Logos 
       <div className="flex gap-6 mt-12 opacity-20 z-10">
         <span>Vercel</span>
         <span>Remote</span>
         <span>Ramp</span>
         <span>Runway</span>
-      </div>
+      </div> */}
 
       {/* Infinite Scrolling Images */}
       <div className="mt-12 w-full overflow-hidden z-10">

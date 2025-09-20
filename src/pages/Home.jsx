@@ -43,7 +43,7 @@ const OurVehicles = () => {
     >
       {/* Heading */}
       <motion.div className="text-center mb-16" variants={fadeUp}>
-        <h3 className="text-5xl font-extrabold text-blue-700 mb-6 drop-shadow-md">
+        <h3 className="text-5xl font-extrabold text-[#1b1713] mb-6 drop-shadow-md">
           Our Vehicles for Every Occasion
         </h3>
         <p className="text-gray-600 max-w-2xl mx-auto text-lg ">
@@ -75,7 +75,7 @@ const OurVehicles = () => {
               </div>
 
               <div className="relative bg-white/90 backdrop-blur-xl px-6 py-8 text-center">
-                <h4 className="text-2xl font-extrabold text-blue-700 mb-3 tracking-tight">{vehicle.title}</h4>
+                <h4 className="text-2xl font-extrabold text-[#1b1713] mb-3 tracking-tight">{vehicle.title}</h4>
                 <p className="text-gray-700 mb-6 leading-relaxed">{vehicle.desc}</p>
 
                 <button className="inline-block px-6 py-2 rounded-full bg-blue-600 text-white font-semibold shadow-md transition-all duration-300 hover:bg-blue-700 hover:shadow-lg cursor-pointer">
@@ -122,9 +122,9 @@ const Home = () => {
           {/* Heading */}
           <div>
             <p className="text-yellow-500 uppercase tracking-wide text-sm mb-3">
-              About GetnGo
+              About Trip To Puri
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6 text-black">
+            <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6 text-[#1b1713]">
               At GetnGo, we combine a modern fleet with customer-first service
               to redefine car rental.
             </h2>
@@ -172,7 +172,7 @@ const Home = () => {
                 className="w-full h-full object-cover"
               />
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6">
+              <div className="absolute inset-0 bg-[#1b1713] bg-opacity-40 flex items-end p-6">
                 <p className="text-white font-semibold text-lg">
                   Drive in Comfort, <br /> Arrive in Style
                 </p>
