@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import TopDestinations from "../components/TopDestinations";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -115,6 +116,8 @@ const Booking = () => {
           </div>
         </div>
       </section>
+
+      <TopDestinations />
 
       {/* Booking Form Section */}
       <motion.section

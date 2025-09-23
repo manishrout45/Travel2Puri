@@ -32,63 +32,73 @@ const vehicles = [
   },
 ];
 
-// Our Vehicles Component
 const OurVehicles = () => {
   return (
     <motion.section
-      className="relative max-w-7xl mx-auto py-24 px-6 bg-white"
+      className="relative max-w-7xl mx-auto py-24 px-6 "
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
     >
       {/* Heading */}
-      <motion.div className="text-center mb-16" variants={fadeUp}>
-        <h3 className="text-5xl font-extrabold text-[#1b1713] mb-6 drop-shadow-md">
+      <motion.div className="text-center mb-16" variants={{ hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0 } }}>
+        <h3 className="text-5xl font-extrabold text-[#1b1713] mb-6 drop-shadow-lg">
           Our Vehicles for Every Occasion
         </h3>
-        <p className="text-gray-600 max-w-2xl mx-auto text-lg ">
+        <p className="text-gray-300 max-w-2xl mx-auto text-lg">
           From weddings to tours, rallies to family getaways — choose your ride and travel in comfort & style.
         </p>
       </motion.div>
 
       {/* Vehicle Cards */}
-      <div className="grid gap-12 md:grid-cols-3">
-        {vehicles.map((vehicle, i) => (
-          <motion.div
-            key={vehicle.title}
-            custom={i}
-            variants={fadeUp}
-            className="relative group rounded-3xl overflow-visible transform-gpu transition-transform duration-500 bg-white/80 shadow-lg hover:scale-105"
-          >
-            {/* Colored Glow */}
-            <div className="absolute -inset-2 rounded-3xl bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 opacity-0 group-hover:opacity-50 blur-3xl pointer-events-none transition-all duration-500 z-0" />
+<div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 justify-center">
+  {vehicles.map((vehicle, i) => (
+    <motion.div
+      key={vehicle.title}
+      custom={i}
+      variants={{ hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0 } }}
+      className="relative group perspective-1000 cursor-pointer w-full h-[450px] mx-auto"
+    >
+      {/* 3D Card Wrapper */}
+      <div className="relative transform transition-transform duration-500 group-hover:rotate-y-6 group-hover:scale-105 h-full">
+        
+        {/* Neon Glow */}
+        <div className="absolute -inset-3 rounded-3xl bg-[#9d7e5e] opacity-20 group-hover:opacity-60 blur-3xl transition-all duration-700" />
 
-            {/* Inner Content */}
-            <div className="relative z-10 overflow-hidden rounded-3xl">
-              <div className="relative h-56 w-full overflow-hidden">
-                <img
-                  src={vehicle.img}
-                  alt={vehicle.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent pointer-events-none" />
-              </div>
+        {/* Solid Brown Card */}
+        <div className="relative bg-[#1b1713] border border-brown-800 rounded-3xl shadow-xl overflow-hidden h-full flex flex-col">
+          
+          {/* Image */}
+          <div className="relative h-56 w-full overflow-hidden">
+            <img
+              src={vehicle.img}
+              alt={vehicle.title}
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent pointer-events-none" />
+          </div>
 
-              <div className="relative bg-white/90 backdrop-blur-xl px-6 py-8 text-center">
-                <h4 className="text-2xl font-extrabold text-[#1b1713] mb-3 tracking-tight">{vehicle.title}</h4>
-                <p className="text-gray-700 mb-6 leading-relaxed">{vehicle.desc}</p>
-
-                <button className="inline-block px-6 py-2 rounded-full bg-blue-600 text-white font-semibold shadow-md transition-all duration-300 hover:bg-blue-700 hover:shadow-lg cursor-pointer">
-                  Book Now
-                </button>
-              </div>
+          {/* Info */}
+          <div className="px-4 py-4 text-center flex-1 flex flex-col justify-between">
+            <div>
+              <h4 className="text-xl font-extrabold text-white mb-2 drop-shadow-lg">{vehicle.title}</h4>
+              <p className="text-gray-200 mb-4 leading-relaxed text-sm">{vehicle.desc}</p>
             </div>
+            <button className="inline-flex items-center gap-2 justify-center px-5 py-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              Book Now
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
+        </div>
 
-            {/* Border Highlight */}
-            <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-white/30 transition-all duration-300 z-20 pointer-events-none" />
-          </motion.div>
-        ))}
+        {/* Border Highlight */}
+        <div className="absolute inset-0 rounded-3xl border-2 border-white/20 group-hover:border-white/50 transition-all duration-500 pointer-events-none animate-pulse" />
       </div>
+    </motion.div>
+  ))}
+</div>
     </motion.section>
   );
 };
@@ -125,10 +135,10 @@ const Home = () => {
               About Trip To Puri
             </p>
             <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6 text-[#1b1713]">
-              At GetnGo, we combine a modern fleet with customer-first service
+              At Trip2Puri, we combine a modern fleet with customer-first service
               to redefine car rental.
             </h2>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-medium px-6 py-3 rounded-full transition">
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-[#1b1713] font-medium px-6 py-3 rounded-full transition">
               More About Us →
             </button>
           </div>
@@ -136,7 +146,7 @@ const Home = () => {
           {/* Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Card 1: Customers */}
-            <div className="bg-[#1a1a1a] p-6 rounded-lg flex flex-col justify-between">
+            <div className="bg-[#1b1713] p-6 rounded-lg flex flex-col justify-between">
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex -space-x-2">
                   <img
@@ -208,14 +218,14 @@ const Home = () => {
             <p className="text-yellow-500 uppercase tracking-wide text-sm mb-3">
               Get Started
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 leading-snug">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1b1713] mb-4 leading-snug">
               Find the Perfect <br /> Car for Your Trip
             </h2>
             <p className="text-gray-600 mb-6">
               Tell us your travel dates, and we’ll confirm <br className="hidden sm:block" /> 
               availability right away.
             </p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-medium px-6 py-3 rounded-full transition">
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-[#1b1713] font-medium px-6 py-3 rounded-full transition">
               Ask Availability
             </button>
           </div>

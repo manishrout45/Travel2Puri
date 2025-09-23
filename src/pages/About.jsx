@@ -59,18 +59,17 @@ const About = () => {
         {/* Text Content */}
         <div className="relative z-10 p-8 max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold text-yellow-400 my-6">About Us</h2>
-          <p className="text-gray-100 text-lg leading-relaxed">
-            Puri, located on the eastern coast of Odisha, is one of India’s most
-            cherished spiritual and cultural destinations. Known as the home of
-            Lord Jagannath, Puri is part of the sacred Char Dham pilgrimage.
-            Beyond its religious significance, the city offers golden beaches,
-            vibrant local traditions, UNESCO heritage monuments, and the
-            breathtaking Chilika Lake. It is a unique blend of spirituality,
-            culture, and natural beauty, making it a must-visit for travelers
-            worldwide.
-          </p>
+  
         </div>
       </motion.div>
+
+     <section className="w-full px-4 sm:px-6 lg:px-8 py-8">
+  <div className="max-w-6xl mx-auto">
+    <p className="text-[#1b1713] text-base sm:text-lg leading-relaxed text-center">
+      Puri, nestled on the eastern coast of Odisha, is one of India’s most cherished spiritual and cultural destinations. Famous as the sacred home of Lord Jagannath and part of the revered Char Dham pilgrimage, Puri attracts millions of devotees and travelers every year. With <span className="font-semibold">Trip2Puri</span>, your journey becomes as memorable as the destination itself. Whether you’re planning a family trip, a group pilgrimage, or a weekend getaway, we provide comfortable cars, spacious travellers, and luxury buses to suit every need. Beyond its divine charm, Puri also offers golden beaches, UNESCO heritage monuments, vibrant traditions, and the scenic Chilika Lake. With our reliable booking services, you can explore this unique blend of spirituality, culture, and natural beauty with ease, comfort, and safety.
+    </p>
+  </div>
+</section>
 
       {/* Services Section */}
       <section className="bg-gray-50 py-16">
@@ -121,10 +120,10 @@ const About = () => {
           {/* Left Section */}
           <div className="text-center lg:text-left">
             <p className="text-yellow-500 uppercase font-semibold tracking-widest">
-              Choose Comfort, Choose GetnGo
+              Choose Comfort, Choose Trip2Puri
             </p>
             <h2 className="text-3xl md:text-5xl font-bold mt-4 leading-tight">
-              Why Rent with GetnGo?
+              Why Rent with Trip2Puri?
             </h2>
             <p className="text-gray-400 mt-6 max-w-md mx-auto lg:mx-0">
               We combine service, reliability, and value to make your trip worry-free.
@@ -133,7 +132,7 @@ const About = () => {
             {/* Car Image */}
             <div className="mt-10">
               <img
-                src="src/assets/images/luxuryCar.png"
+                src="https://img.freepik.com/premium-psd/white-city-car-transparent-background-3d-rendering-illustration_494250-61863.jpg"
                 alt="Luxury Car"
                 className="w-full max-w-lg mx-auto lg:mx-0"
               />

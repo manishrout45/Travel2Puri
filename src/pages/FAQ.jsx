@@ -51,12 +51,12 @@ const FAQ = () => {
       {/* ✅ Hero Section */}
       <section
         className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
-        style={{ backgroundImage: "url('/src/assets/images/faq-bg.jpg')" }} // replace with your image path
+        style={{ backgroundImage: "url('/images/FAQ/FAQ.jpg')" }} // replace with your image path
       >
-        <div className="absolute inset-0 bg-black/50"></div>
+        {/*<div className="absolute inset-0 bg-black/50"></div>
         <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white text-center">
           Frequently Asked Questions
-        </h1>
+        </h1> */}
       </section>
 
       {/* ✅ FAQ Section */}

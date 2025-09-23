@@ -253,97 +253,126 @@ const OdishaMap = () => {
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-12">
   {/* Heading */}
-  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-blue-600 mb-8">
+  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[#1b1713] lg:mb-16">
     Top Destinations in Odisha
   </h2>
 
-  <section className="w-full max-w-7xl mx-auto px-4 py-12 relative overflow-visible">
-      <div className="grid md:grid-cols-2 gap-8 items-center">
-        {/* Left content box */}
-        <div className="bg-[#7A1E12] text-white p-8 rounded-xl shadow-2xl relative z-10 md:pr-48">
-          <h2 className="text-3xl md:text-5xl font-extrabold mb-4">
-            Why Visit Odisha?
-          </h2>
-          <p className="text-lg leading-relaxed">
-            A trip to Odisha is a journey into timeless traditions, sacred
-            spirituality, serene landscapes, and warm hospitality. Whether you
-            seek pilgrimage, adventure, art, or peace by the sea, Odisha
-            welcomes you with open arms.
-          </p>
-        </div>
+  {/* Why Visit Odisha Section */}
+<section className="w-full max-w-7xl mx-auto px-4 pt-12 pb-12 relative overflow-visible">
+  <div className="relative flex flex-col md:flex-row md:items-center">
+    {/* Left content box */}
+    <div className="bg-[#1b1713] text-white p-6 md:pr-20 sm:p-8 lg:ml-10 rounded-xl shadow-2xl relative z-10
+                    w-full md:w-[72%] lg:w-[68%] ">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
+        Why Visit Odisha?
+      </h2>
+      <p className="text-base sm:text-lg  md:text-md leading-relaxed max-w-2xl">
+        A trip to Odisha is a journey into timeless traditions, sacred
+        spirituality, serene landscapes, and warm hospitality. Whether you
+        seek pilgrimage, adventure, art, or peace by the sea, Odisha
+        welcomes you with open arms.
+      </p>
+    </div>
 
-        {/* empty right column so grid spacing stays */}
-        <div className="hidden md:block" />
-      </div>
+    {/* Map */}
+    {/* Desktop/Tablet → right side (absolute) */}
+    <div className="hidden md:block absolute top-1/2 right-6 md:-right-14 lg:right-10 transform -translate-y-1/2 z-20 pointer-events-none">
+      <img
+        src="/images/Odisha Map Chart.png"
+        alt="Odisha Map"
+        className="w-[280px] md:w-[400px] lg:w-[420px] xl:w-[500px] max-w-none drop-shadow-2xl"
+      />
+    </div>
 
-      {/* Map — absolutely positioned so it can overlap the left box */}
-      <div className="hidden md:block absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-20 md:-translate-x-28 lg:-translate-x-36 z-20 pointer-events-none">
-        <img
-          src="/images/Odisha Map Chart.png"
-          alt="Odisha Map"
-          className="w-[420px] md:w-[540px] lg:w-[720px] max-w-none drop-shadow-2xl"
-        />
-      </div>
-    </section>
+    {/* Mobile → below box */}
+    <div className="-mt-10 flex justify-center md:hidden z-10">
+      <img
+        src="/images/Odisha Map Chart.png"
+        alt="Odisha Map"
+        className="w-[300px] sm:w-[280px] drop-shadow-2xl"
+      />
+    </div>
+  </div>
+</section>
+
 
   {/* District Names */}
-  <div className="flex flex-wrap justify-center gap-3 mb-10 mt-14">
-    {districts.map((district, i) => (
-      <button
-        key={i}
-        onClick={() => setSelectedDistrict(district)}
-        className="px-3 sm:px-4 py-2 bg-blue-100 hover:bg-blue-500 hover:text-white rounded-lg text-xs sm:text-sm md:text-base font-medium transition"
-      >
-        {district.name}
-      </button>
-    ))}
-  </div>
+<div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-8 sm:mb-10 -mt-6 sm:-mt-8 lg:mt-20 md:mt-8 px-2">
+  {districts.map((district, i) => (
+    <button
+      key={i}
+      onClick={() =>
+        setSelectedDistrict(
+          selectedDistrict?.name === district.name ? null : district
+        )
+      }
+      className={`px-2 sm:px-3 md:px-4 py-1.5 sm:py-2 rounded-lg 
+        text-xs sm:text-sm md:text-base lg:text-lg font-medium transition
+        ${
+          selectedDistrict?.name === district.name
+            ? "bg-[#1b1713] text-white shadow-md"
+            : "bg-[#edcfb0] hover:bg-[#1b1713] hover:text-white"
+        }`}
+    >
+      {district.name}
+    </button>
+  ))}
+</div>
 
-  {/* District Details */}
-  {selectedDistrict && (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {/* Left: District Map */}
-      <div className="flex justify-center mb-6 md:mb-0">
-        <img
-          src={selectedDistrict.map}
-          alt={`${selectedDistrict.name} Map`}
-          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-md"
-        />
-      </div>
 
-      {/* Right: Destinations */}
-      <div>
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-6 text-center md:text-left">
-          Top Destinations in {selectedDistrict.name}
-        </h3>
-
-        {/* Grid of oval images */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
-          {selectedDistrict.destinations.map((place, i) => (
-            <div
-              key={i}
-              onClick={() => navigate(`/destination/${place.id}`)}
-              className="flex flex-col items-center cursor-pointer group"
-            >
-              {/* Oval Image */}
-              <div className="w-24 h-36 sm:w-28 sm:h-44 md:w-32 md:h-48 lg:w-36 lg:h-56 overflow-hidden rounded-full shadow-md group-hover:scale-105 transform transition duration-300">
-                <img
-                  src={place.image}
-                  alt={place.name}
-                  className="w-full h-full object-cover rounded-full"
-                />
-              </div>
-
-              {/* Name */}
-              <p className="mt-2 sm:mt-3 text-gray-700 font-medium text-sm sm:text-base text-center">
-                {place.name}
-              </p>
-            </div>
-          ))}
+  {/* District Details with animation */}
+  <div
+    className={`grid grid-cols-1 md:grid-cols-2 gap-6 overflow-hidden transition-all duration-500 ease-in-out ${
+      selectedDistrict
+        ? "max-h-[2000px] opacity-100 mt-6"
+        : "max-h-0 opacity-0 mt-0"
+    }`}
+  >
+    {selectedDistrict && (
+      <>
+        {/* Left: District Map */}
+        <div className="flex justify-center mb-6 md:mb-0">
+          <img
+            src={selectedDistrict.map}
+            alt={`${selectedDistrict.name} Map`}
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-md"
+          />
         </div>
-      </div>
-    </div>
-  )}
+
+        {/* Right: Destinations */}
+        <div>
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-6 text-center md:text-left">
+            Top Destinations in {selectedDistrict.name}
+          </h3>
+
+          {/* Grid of oval images */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+            {selectedDistrict.destinations.map((place, i) => (
+              <div
+                key={i}
+                onClick={() => navigate(`/destination/${place.id}`)}
+                className="flex flex-col items-center cursor-pointer group"
+              >
+                {/* Oval Image */}
+                <div className="w-24 h-36 sm:w-28 sm:h-44 md:w-32 md:h-48 lg:w-36 lg:h-56 overflow-hidden rounded-full shadow-md group-hover:scale-105 transform transition duration-300">
+                  <img
+                    src={place.image}
+                    alt={place.name}
+                    className="w-full h-full object-cover rounded-full"
+                  />
+                </div>
+
+                {/* Name */}
+                <p className="mt-2 sm:mt-3 text-gray-700 font-medium text-sm sm:text-base text-center">
+                  {place.name}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </>
+    )}
+  </div>
 </section>
 
   );

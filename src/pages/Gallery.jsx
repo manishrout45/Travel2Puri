@@ -52,7 +52,7 @@ const Gallery = () => {
         className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://upload.wikimedia.org/wikipedia/commons/4/4e/Puri_Beach_Odisha.jpg')",
+            "url('/images/gallery/gallery.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
