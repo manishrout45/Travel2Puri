@@ -35,17 +35,17 @@ const vehicles = [
 const OurVehicles = () => {
   return (
     <motion.section
-      className="relative max-w-7xl mx-auto py-24 px-6 "
+      className="relative max-w-7xl mx-auto py-24 px-6  "
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
     >
       {/* Heading */}
       <motion.div className="text-center mb-16" variants={{ hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0 } }}>
-        <h3 className="text-5xl font-extrabold text-[#1b1713] mb-6 drop-shadow-lg">
+        <h3 className="text-5xl font-extrabold text-[#761421] mb-6 drop-shadow-lg">
           Our Vehicles for Every Occasion
         </h3>
-        <p className="text-gray-300 max-w-2xl mx-auto text-lg">
+        <p className="text-black max-w-2xl mx-auto text-lg">
           From weddings to tours, rallies to family getaways — choose your ride and travel in comfort & style.
         </p>
       </motion.div>
@@ -66,7 +66,7 @@ const OurVehicles = () => {
         <div className="absolute -inset-3 rounded-3xl bg-[#9d7e5e] opacity-20 group-hover:opacity-60 blur-3xl transition-all duration-700" />
 
         {/* Solid Brown Card */}
-        <div className="relative bg-[#1b1713] border border-brown-800 rounded-3xl shadow-xl overflow-hidden h-full flex flex-col">
+        <div className="relative bg-[#761421] border border-brown-800 rounded-3xl shadow-xl overflow-hidden h-full flex flex-col">
           
           {/* Image */}
           <div className="relative h-56 w-full overflow-hidden">
@@ -116,7 +116,7 @@ const Home = () => {
 
 
       {/* Achievements */}
-      <section className="bg-gray-200 text-white py-20">
+      <section className="bg-white text-white py-20">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
         {/* Left: Car Image */}
         <div className="flex justify-center ">
@@ -131,14 +131,14 @@ const Home = () => {
         <div className="space-y-8">
           {/* Heading */}
           <div>
-            <p className="text-yellow-500 uppercase tracking-wide text-sm mb-3">
+            <p className="text-black uppercase tracking-wide text-sm mb-3">
               About Trip To Puri
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6 text-[#1b1713]">
+            <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6 text-[#761421]">
               At Trip2Puri, we combine a modern fleet with customer-first service
               to redefine car rental.
             </h2>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-[#1b1713] font-medium px-6 py-3 rounded-full transition">
+            <button className="bg-yellow-500 hover:bg-yellow-400 text-[#761421] font-medium px-6 py-3 rounded-full transition">
               More About Us →
             </button>
           </div>
@@ -146,7 +146,7 @@ const Home = () => {
           {/* Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Card 1: Customers */}
-            <div className="bg-[#1b1713] p-6 rounded-lg flex flex-col justify-between">
+            <div className="bg-[#761421] p-6 rounded-lg flex flex-col justify-between">
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex -space-x-2">
                   <img
@@ -182,7 +182,7 @@ const Home = () => {
                 className="w-full h-full object-cover"
               />
               {/* Overlay */}
-              <div className="absolute inset-0 bg-[#1b1713] bg-opacity-40 flex items-end p-6">
+              <div className="absolute inset-0 bg-[#761421] bg-opacity-40 flex items-end p-6">
                 <p className="text-white font-semibold text-lg">
                   Drive in Comfort, <br /> Arrive in Style
                 </p>
@@ -218,14 +218,14 @@ const Home = () => {
             <p className="text-yellow-500 uppercase tracking-wide text-sm mb-3">
               Get Started
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1b1713] mb-4 leading-snug">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#761421] mb-4 leading-snug">
               Find the Perfect <br /> Car for Your Trip
             </h2>
             <p className="text-gray-600 mb-6">
               Tell us your travel dates, and we’ll confirm <br className="hidden sm:block" /> 
               availability right away.
             </p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-[#1b1713] font-medium px-6 py-3 rounded-full transition">
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-[#761421] font-medium px-6 py-3 rounded-full transition">
               Ask Availability
             </button>
           </div>

@@ -99,7 +99,7 @@ const TopDestinations = () => {
   };
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 py-12">
+    <section className="w-full max-w-7xl mx-auto px-4 py-12 bg-gray-100">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">

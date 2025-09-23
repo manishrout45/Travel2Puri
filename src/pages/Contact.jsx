@@ -20,13 +20,6 @@ const Contact = () => {
       {/* ✅ Contact Section */}
       <div className="bg-gray-50 py-16 px-6">
         <div className="max-w-7xl mx-auto">
-          {/* Heading */}
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#1b1713] mb-4">Contact Us</h2>
-            <p className="text-gray-600">
-              Have questions or want to plan your next trip? We’d love to hear from you.
-            </p>
-          </div>
 
           {/* Contact Info + Form */}
           <section className="bg-white text-black py-20">

@@ -251,9 +251,9 @@ const OdishaMap = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 py-12">
+    <section className="w-full max-w-7xl mx-auto px-4 py-12 bg-gray-200">
   {/* Heading */}
-  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[#1b1713] lg:mb-16">
+  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[#761421] lg:mb-16">
     Top Destinations in Odisha
   </h2>
 
@@ -261,7 +261,7 @@ const OdishaMap = () => {
 <section className="w-full max-w-7xl mx-auto px-4 pt-12 pb-12 relative overflow-visible">
   <div className="relative flex flex-col md:flex-row md:items-center">
     {/* Left content box */}
-    <div className="bg-[#1b1713] text-white p-6 md:pr-20 sm:p-8 lg:ml-10 rounded-xl shadow-2xl relative z-10
+    <div className="bg-[#761421] text-white p-6 md:pr-20 sm:p-8 lg:ml-10 rounded-xl shadow-2xl relative z-10
                     w-full md:w-[72%] lg:w-[68%] ">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
         Why Visit Odisha?
@@ -310,8 +310,8 @@ const OdishaMap = () => {
         text-xs sm:text-sm md:text-base lg:text-lg font-medium transition
         ${
           selectedDistrict?.name === district.name
-            ? "bg-[#1b1713] text-white shadow-md"
-            : "bg-[#edcfb0] hover:bg-[#1b1713] hover:text-white"
+            ? "bg-[#761421] text-white shadow-md"
+            : "bg-[#edcfb0] hover:bg-[#761421] hover:text-white"
         }`}
     >
       {district.name}

@@ -19,7 +19,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Packages", path: "/packages" },
+    
     { name: "Booking", path: "/booking" },
     { name: "Gallery", path: "/gallery" },
     { name: "FAQ", path: "/faq" },
@@ -27,21 +27,27 @@ const Navbar = () => {
   ];
 
   return (
-    <nav
+<nav
   className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
     open
-      ? "bg-white text-[#1b1713] shadow-md" // ✅ solid when mobile menu is open
+      ? "bg-white text-[#761421] shadow-md" // ✅ solid when mobile menu is open
       : isScrolled
-      ? "nav-water-blur text-[#1b1713] shadow-md" // ✅ blur only on scroll
-      : "bg-transparent text-white" // ✅ default
+      ? "bg-white text-[#761421] shadow-md" // ✅ solid white on scroll
+      : "bg-transparent text-[#761421]" // ✅ default
   }`}
 >
 
-      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center py-4">
+
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center ">
         {/* Logo */}
-        <NavLink to="/" className="text-2xl font-bold tracking-wide">
-          Travel2Puri
-        </NavLink>
+        <NavLink to="/" className="flex items-center space-x-2">
+  <img 
+    src="/images/logo01.png"   // ✅ replace with your logo path
+    alt="Travel2Puri Logo"
+    className="h-16 w-auto"  // ✅ adjust size
+  />
+</NavLink>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
@@ -75,13 +81,13 @@ const Navbar = () => {
   {open ? (
     <X
   size={28}
-  className={`${isScrolled ? "text-[#1b1713]" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
+  className={`${isScrolled ? "text-[#761421]" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
  />
 
   ) : (
     <Menu
       size={28}
-      className={`${isScrolled ? "text-[#1b1713]" : "text-white"} drop-shadow-md`}
+      className={`${isScrolled ? "text-[#761421]" : "text-white"} drop-shadow-md`}
     />
   )}
 </button>

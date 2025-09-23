@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const testimonials = [
   {
-    text: "GetnGo made my road trip super easy and affordable. Highly recommended!",
+    text: "Trip2Puri made my road trip super easy and affordable. Highly recommended!",
     name: "Rahul Verma",
     role: "Software Engineer",
     img: "https://randomuser.me/api/portraits/men/32.jpg",
@@ -138,7 +138,7 @@ const Testimonial = () => {
 
   return (
     <section
-      className="relative bg-[#87725f] text-white py-20 px-6 overflow-hidden"
+      className="relative bg-[#761421] text-white py-20 px-6 overflow-hidden"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -161,7 +161,7 @@ const Testimonial = () => {
           Trusted by Thousands of Drivers
         </h2>
         <p className="text-gray-400 mt-4">
-          Here’s what people love about renting with GetnGo.
+          Here’s what people love about renting with Trip2Puri.
         </p>
 
         {/* VIEWPORT */}

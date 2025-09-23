@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaCar, FaMoneyBillWave, FaCalendarAlt, FaUsers } from "react-icons/fa";
 import { useState, useEffect, useRef } from "react";
-import Testimonial from "../components/Testimonial";
+
 
 // ✅ Animation
 const fadeUp = {
@@ -132,7 +132,7 @@ const About = () => {
             {/* Car Image */}
             <div className="mt-10">
               <img
-                src="https://img.freepik.com/premium-psd/white-city-car-transparent-background-3d-rendering-illustration_494250-61863.jpg"
+                src="/images/about/aboutCar.png"
                 alt="Luxury Car"
                 className="w-full max-w-lg mx-auto lg:mx-0"
               />
@@ -165,8 +165,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* ✅ Testimonials */}
-      <Testimonial />
+      
     </motion.section>
   );
 };

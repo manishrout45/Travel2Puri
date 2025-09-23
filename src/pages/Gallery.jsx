@@ -12,36 +12,36 @@ const fadeUp = {
 const Gallery = () => {
   const images = [
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Jagannath_Temple_Puri.jpg",
+      src: "https://t4.ftcdn.net/jpg/01/95/77/37/360_F_195773705_i0ScHi0KBMC7NactfvSkHK9FMME4FgVn.jpg",
       alt: "Jagannath Temple",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Puri_Beach_Odisha.jpg",
+      src: "https://media.gettyimages.com/id/668246628/photo/decorated-dromedary-used-to-carry-tourists-on-the-beach.jpg?s=612x612&w=0&k=20&c=PPSEN1XEkgCpl4YWfEFuqhJSdt-GGdMF7l4aTk_vDGk=",
       alt: "Puri Beach",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Konark_Sun_Temple%2C_Odisha.jpg",
+      src: "https://w0.peakpx.com/wallpaper/501/251/HD-wallpaper-the-sun-temple-konark-orissa-india-architecture-surya-sun-ancient-hinduism-lord-india-sun-god-skies-temple.jpg",
       alt: "Konark Sun Temple",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Chilika_Lake.jpg",
+      src: "https://media.istockphoto.com/id/1218923068/photo/chilika-lake-one-of-the-most-favourite-tourist-spot-of-india.jpg?s=612x612&w=0&k=20&c=6NuHOLts_i-V_ihN1FaXvBzTTdLOKMbYg1oHO-Dueg8=",
       alt: "Chilika Lake",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Raghurajpur_pattachitra.jpg",
+      src: "https://lakshmisharath.com/wp-content/uploads/2017/05/raghurajpur-patachitra-pg-1024x678.jpg",
       alt: "Raghurajpur Village Art",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sand_art_international_festival_Puri.jpg",
+      src: "https://d3pc1xvrcw35tl.cloudfront.net/images/1200x900/sudarsan-pattnaik-sandart-jagannath-rath-yatra6_201907262621.jpg",
       alt: "Sand Art Festival, Puri",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Golden_Beach_Puri.jpg",
+      src: "https://media.istockphoto.com/id/1169379804/photo/dynamic-golden-sea-beach-at-puri-odisha-india.jpg?s=612x612&w=0&k=20&c=AflqOTLsGueNKkDLHmdFr7NhpTrfVnboEwG-30r4gFs=",
       alt: "Golden Beach, Puri",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/4/46/Puri_Street_Food_Chaat.jpg",
-      alt: "Local Street Food",
+      src: "https://i.pinimg.com/736x/e2/a1/55/e2a15589349583a23161a89a2b689f08.jpg",
+      alt: "Food",
     },
   ];
 
@@ -70,7 +70,7 @@ const Gallery = () => {
       >
         {/* Header */}
         <motion.div className="text-center mb-14" variants={fadeUp}>
-          <h2 className="text-4xl font-bold text-[#1b1713] mb-4">
+          <h2 className="text-4xl font-bold text-[#761421] mb-4">
             Travel Gallery
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">

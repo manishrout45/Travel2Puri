@@ -33,8 +33,20 @@ const Booking = () => {
 
   return (
     <>
+     <section
+        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
+        style={{
+          backgroundImage:
+            "url('/images/booking/booking.jpg')", // change with your image
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white text-center">
+          Booking
+        </h1>
+      </section>
       {/* How to Book Section */}
-      <section className="bg-[#1b1713] text-white py-16 px-6">
+      <section className="bg-[#761421] text-white py-16 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Section */}
           <div>
@@ -127,7 +139,7 @@ const Booking = () => {
         viewport={{ once: true }}
       >
         <motion.div className="text-center mb-10" variants={fadeUp}>
-          <h2 className="text-4xl font-bold text-[#1b1713] mb-4">
+          <h2 className="text-4xl font-bold text-[#761421] mb-4">
             Book Your Trip
           </h2>
           <p className="text-gray-600 text-lg">
