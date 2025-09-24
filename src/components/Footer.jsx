@@ -65,7 +65,7 @@ const Footer = () => {
 </div>
 
 
-            <div className="mt-6 lg:mt-0">
+            <div className="mt-6 lg:mt-0 z-10">
               <div className="mb-6">
                 <p className="text-xs uppercase tracking-widest text-gray-400">
                   Call Us

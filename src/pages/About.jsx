@@ -58,7 +58,7 @@ const About = () => {
 
         {/* Text Content */}
         <div className="relative z-10 p-8 max-w-3xl mx-auto">
-          <h2 className="text-4xl font-bold text-yellow-400 my-6">About Us</h2>
+          <h2 className="text-4xl font-bold text-white my-6">About Us</h2>
   
         </div>
       </motion.div>
@@ -72,11 +72,11 @@ const About = () => {
 </section>
 
       {/* Services Section */}
-      <section className="bg-gray-50 py-16">
+      <section className="bg-[#F3E6E6] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1b1713]">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#761421]">
             Services
           </h2>
           <p className="text-gray-500 mt-4 text-sm sm:text-base">
@@ -138,7 +138,7 @@ const About = () => {
     </section>
 
       {/* Why Rent with Us Section */}
-      <section className="bg-[#1b1713] text-white pt-10 px-6 mb-10">
+      <section className="bg-[#761421] text-white pt-10 px-6 mb-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Section */}
           <div className="text-center lg:text-left">
