@@ -23,7 +23,7 @@ const VehicleSection = () => {
     <section className="w-full max-w-7xl mx-auto px-4 py-12">
       {/* Heading */}
       <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-yellow-500">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#761421]">
           Our Vehicles for Rent
         </h2>
         <p className="text-gray-800 mt-2 max-w-2xl mx-auto">

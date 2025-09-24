@@ -77,11 +77,11 @@ const Home = () => {
                     className="w-10 h-10 rounded-full border-2 border-[#1a1a1a]"
                   />
                 </div>
-                <p className="text-yellow-500 font-semibold text-lg">
+                <p className="text-white font-semibold text-lg">
                   10,000+
                 </p>
               </div>
-              <p className="text-gray-400 text-sm">
+              <p className="text-yellow-400 text-sm">
                 Delivering reliable rentals trusted by travelers worldwide.
               </p>
             </div>
@@ -112,9 +112,9 @@ const Home = () => {
       <Testimonial />
 
 
-      <section className="bg-gray-200 py-16">
+      <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-gray-300 rounded-lg px-6 py-12 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
+        <div className="bg-[#F3E6E6] rounded-lg px-6 py-12 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
           
           {/* Left: Car Image */}
           <div className="flex justify-center">

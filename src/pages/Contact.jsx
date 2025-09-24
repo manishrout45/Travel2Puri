@@ -42,7 +42,7 @@ const Contact = () => {
                     <span className="bg-yellow-500 text-black p-3 rounded-lg">📞</span>
                     <div>
                       <p className="text-gray-400 text-sm">Emergency Support Line</p>
-                      <p className="font-bold text-lg">+1-234-567-890</p>
+                      <p className="font-bold text-lg">+91 809 346 9315</p>
                     </div>
                   </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
                     <span className="bg-yellow-500 text-black p-3 rounded-lg">✉️</span>
                     <div>
                       <p className="text-gray-400 text-sm">General Inquiries</p>
-                      <p className="font-bold text-lg">support@getngo.com</p>
+                      <p className="font-bold text-lg">dibyapaikray@gmail.com</p>
                     </div>
                   </div>
 

@@ -251,7 +251,8 @@ const OdishaMap = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 py-12 bg-gray-200">
+    <section className="w-full  py-12 bg-[#F3E6E6]">
+      <div className="max-w-7xl mx-auto px-4">
   {/* Heading */}
   <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[#761421] lg:mb-16">
     Top Destinations in Odisha
@@ -310,8 +311,8 @@ const OdishaMap = () => {
         text-xs sm:text-sm md:text-base lg:text-lg font-medium transition
         ${
           selectedDistrict?.name === district.name
-            ? "bg-[#761421] text-white shadow-md"
-            : "bg-[#edcfb0] hover:bg-[#761421] hover:text-white"
+            ? "bg-[#761421] text-white  shadow-md"
+            : "bg-[#761421] hover:bg-[#1b1713] text-white hover:text-[#761421]"
         }`}
     >
       {district.name}
@@ -372,7 +373,7 @@ const OdishaMap = () => {
         </div>
       </>
     )}
-  </div>
+  </div></div>
 </section>
 
   );

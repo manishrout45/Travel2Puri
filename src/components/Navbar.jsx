@@ -56,8 +56,8 @@ const Navbar = () => {
               key={link.name}
               to={link.path}
               className={({ isActive }) =>
-                `relative pb-1 transition-colors hover:text-yellow-300 ${
-                  isActive ? "text-yellow-400 font-semibold" : ""
+                `relative pb-1 transition-colors hover:text-[#761421] ${
+                  isActive ? "text-[#761421] font-semibold" : ""
                 }`
               }
             >
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <>
                   {link.name}
                   {isActive && (
-                    <span className="absolute left-0 bottom-0 w-full h-[2px] bg-yellow-400 rounded-full"></span>
+                    <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#761421] rounded-full"></span>
                   )}
                 </>
               )}
@@ -81,13 +81,13 @@ const Navbar = () => {
   {open ? (
     <X
   size={28}
-  className={`${isScrolled ? "text-[#000000]" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
+  className={`${isScrolled ? "text-[#000000]" : "text-black"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
  />
 
   ) : (
     <Menu
       size={28}
-      className={`${isScrolled ? "text-[#000000]" : "text-white"} drop-shadow-md`}
+      className={`${isScrolled ? "text-[#000000]" : "text-black"} drop-shadow-md`}
     />
   )}
 </button>
@@ -97,7 +97,7 @@ const Navbar = () => {
       {/* Mobile Menu - Slide from Right */}
      <div
   className={`fixed top-0 right-0 h-full w-64 transform transition-transform duration-500 ease-in-out md:hidden 
-    nav-water-blur bg-white/30 backdrop-blur-lg ${
+     bg-white  ${
       open ? "translate-x-0" : "translate-x-full"
       
     }`}
@@ -109,8 +109,8 @@ const Navbar = () => {
               key={link.name}
               to={link.path}
               className={({ isActive }) =>
-                `block relative pb-1 transition-colors hover:text-yellow-300 ${
-                  isActive ? "text-yellow-400 font-semibold" : ""
+                `block relative pb-1 transition-colors hover:text-[#761421] ${
+                  isActive ? "text-[#761421] font-semibold" : ""
                 }`
               }
               onClick={() => {
@@ -122,7 +122,7 @@ const Navbar = () => {
                 <>
                   {link.name}
                   {isActive && (
-                    <span className="absolute left-0 bottom-0 w-full h-[2px] bg-yellow-300 rounded-full"></span>
+                    <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#761421] rounded-full"></span>
                   )}
                 </>
               )}

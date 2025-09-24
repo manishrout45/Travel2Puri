@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
 
 const images = [
-  "https://www.orissapost.com/wp-content/uploads/2024/07/Puri-Jagannath-Temple-.jpg",
-  "https://www.dhauli.net/images/about-konark.jpg",
-  "https://www.citybit.in/wp-content/uploads/2023/11/Mata-Matha-Puri-1-937x1024.jpg",
-  "https://www.shutterstock.com/image-photo/puri-india-september-04-2024-600nw-2529540197.jpg",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3HA92mJeqpEMzDlm0_71eRXorTx-v9Bq4sg&s",
-  "https://image.wedmegood.com/resized/720X/uploads/member/25034194/1723547887_Screenshot_2024_08_13_164425.png",
+"https://www.incredibleindia.gov.in/en/odisha/puri", // Jagannath Temple & surroundings
+  "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/puri.html", // Puri city / temple imagery
+  "https://www.ndtv.com/webstories/feature/top-10-places-to-visit-in-puri-35525", // Gallery of top Puri sites
+  "https://www.odishavacations.com/places-to-visit-puri.html", // Scenic temple & heritage photos
+  "https://www.holidify.com/places/puri/sightseeing-and-things-to-do.html", // Holidify guide to Puri attractions
+  "https://www.trawell.in/odisha/puri/places-to-visit-things-to-do" // Trawell.in Puri travel guide
 ];
 
 const HeroSection = () => {
@@ -42,18 +42,23 @@ const HeroSection = () => {
       className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden mt-10"
       style={{ backgroundColor: "#FEF7EE" }}
     >
-{/* Background Image */}
-<img
-  src="/images/HeroImage.jpg"
-  alt="Puri Beach"
-  className="absolute top-0 left-0 w-full h-full object-cover"
-/>
+{/* Background Image with Gradient Overlay */}
+<div className="absolute top-0 left-0 w-full h-full">
+  <img
+    src="/images/HeroImage.jpg"
+    alt="Puri Beach"
+    className="w-full h-full object-cover"
+  />
+  {/* Black Transparent Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+</div>
+
 
 
 
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#1b1713]">
-        Make Your <span className="text-yellow-400">Journey</span> <br /> Unforgettable!
+        Make Your <span className="text-[#761421]">Journey</span> <br /> Unforgettable!
       </h1>
 
       {/* Subheading */}
@@ -80,37 +85,33 @@ const HeroSection = () => {
         <span>Runway</span>
       </div> */}
 
-      {/* Infinite Scrolling Images */}
-      <div className="mt-12 w-full overflow-hidden z-10">
+ {/* Infinite Scrolling Images */}
+<div className="mt-12 w-full overflow-hidden z-10">
+  <div
+    ref={scrollRef}
+    className="flex gap-4 will-change-transform"
+    style={{
+      width: `${repeatedImages.length * (240 + 16)}px`, // match fixed width + gap
+    }}
+  >
+    {repeatedImages.map((src, index) => {
+      return (
         <div
-          ref={scrollRef}
-          className="flex gap-4 will-change-transform"
-          style={{
-            width: `${repeatedImages.length * (256 + 16)}px`,
-          }}
+          key={index}
+          className="flex-shrink-0 rounded-xl overflow-hidden h-80 w-60" 
         >
-          {repeatedImages.map((src, index) => {
-            const originalIndex = index % images.length;
-            return (
-              <div
-                key={`${originalIndex}-${Math.floor(index / images.length)}`}
-                className={`flex-shrink-0 rounded-xl overflow-hidden ${
-                  originalIndex === 1 || originalIndex === 4
-                    ? "h-80 w-40"
-                    : "h-80 w-60"
-                }`}
-              >
-                <img
-                  src={src}
-                  alt={`hero ${originalIndex}`}
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-              </div>
-            );
-          })}
+          <img
+            src={src}
+            alt={`hero ${index}`}
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
         </div>
-      </div>
+      );
+    })}
+  </div>
+</div>
+
 
       {/* Scroll indicator */}
       <div className="mt-6 text-white text-sm opacity-60 z-10">
