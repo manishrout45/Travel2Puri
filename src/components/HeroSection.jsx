@@ -77,7 +77,7 @@ const HeroSection = () => {
 
       {/* Button */}
       <button className="bg-[#1b1713] text-white px-6 py-3 rounded-full hover:text-yellow-400 transition z-10">
-        Start Planning →
+        <a href='/booking'>Start Planning →</a>
       </button>
 
       {/* Partners / Logos 

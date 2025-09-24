@@ -33,7 +33,7 @@ const Navbar = () => {
       ? "bg-white text-[#761421] shadow-md" // ✅ solid when mobile menu is open
       : isScrolled
       ? "bg-white text-[#761421] shadow-md" // ✅ solid white on scroll
-      : "bg-transparent text-[#761421]" // ✅ default
+      : "bg-transparent text-[#ffffff]" // ✅ default
   }`}
 >
 

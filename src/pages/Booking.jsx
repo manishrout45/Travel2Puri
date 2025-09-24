@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import TopDestinations from "../components/TopDestinations";
+import VehicleSection from "../components/VehicleSection";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -45,6 +46,9 @@ const Booking = () => {
           Booking
         </h1>
       </section>
+
+        <VehicleSection />
+
       {/* How to Book Section */}
       <section className="bg-[#761421] text-white py-16 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -64,7 +68,7 @@ const Booking = () => {
             {/* Car Image */}
             <div className="mt-10">
               <img
-                src="src/assets/images/luxuryCar.png"
+                src="/images/black-isolated-car.png"
                 alt="Luxury Car"
                 className="w-full max-w-lg"
               />

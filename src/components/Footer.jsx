@@ -54,11 +54,16 @@ const Footer = () => {
           {/* LEFT: Logo + contact */}
           <div className="lg:col-span-4 flex flex-col justify-between min-h-[220px]">
             <div className="mt-2 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-start gap-3">
-              <span className="inline-flex items-center justify-center bg-yellow-500 text-black rounded-full w-9 h-9 text-sm font-bold">
-                🚗
-              </span>
-              <h3 className="text-white text-lg font-semibold">GetnGo</h3>
-            </div>
+  <span className="inline-flex items-center justify-center bg-yellow-500 text-black rounded-full w-20 h-20 text-sm font-bold overflow-hidden">
+    <img
+      src="/images/logo01.png" // ✅ replace with your logo path
+      alt="Trip2Puri Logo"
+      className="w-20 h-20 object-contain"
+    />
+  </span>
+  
+</div>
+
 
             <div className="mt-6 lg:mt-0">
               <div className="mb-6">
@@ -100,13 +105,13 @@ const Footer = () => {
               {/* Company */}
               <div>
                 <h4 className="text-xs uppercase tracking-widest text-gray-400 mb-4">
-                  Company
+                  Menu
                 </h4>
                 <ul className="space-y-3">
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">About Us</a></li>
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Pricing Plans</a></li>
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Testimonials</a></li>
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Careers</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="/about">About Us</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="/booking">Booking</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="/gallery">Gallery</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="/contact">Contact</a></li>
                 </ul>
               </div>
 
@@ -116,10 +121,10 @@ const Footer = () => {
                   Quick Links
                 </h4>
                 <ul className="space-y-3">
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Booking</a></li>
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Drivers</a></li>
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Support</a></li>
-                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Blog & News</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="/faq">FAQ</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Careers</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">T&C</a></li>
+                  <li><a className="text-gray-300 hover:text-yellow-500" href="#">Privacy Policy</a></li>
                 </ul>
               </div>
 
