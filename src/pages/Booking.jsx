@@ -32,6 +32,24 @@ const Booking = () => {
     console.log(formData);
   };
 
+// ✅ Service Item with overlayed text
+const ServiceItem = ({ imgSrc, title, description }) => (
+  <div className="relative rounded-xl overflow-hidden group">
+    {/* Service Image */}
+    <img
+      src={imgSrc}
+      alt={title}
+      className="w-full h-64 sm:h-72 md:h-80 lg:h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+    />
+
+    {/* Overlay */}
+    <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <h3 className="text-white text-xl sm:text-2xl font-bold mb-2">{title}</h3>
+      <p className="text-white text-sm sm:text-base">{description}</p>
+    </div>
+  </div>
+);
+
   return (
     <>
      <section
@@ -46,6 +64,71 @@ const Booking = () => {
           Booking
         </h1>
       </section>
+
+     {/* Services Section */}
+<section className="bg-[#F3E6E6] py-16">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {/* Heading */}
+    <div className="text-center max-w-3xl mx-auto">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#761421]">
+        Services
+      </h2>
+      <p className="text-gray-500 mt-4 text-sm sm:text-base">
+        We provide reliable and comfortable vehicle rental services for every occasion.
+      </p>
+    </div>
+
+    {/* Content */}
+    <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12 items-start md:items-center">
+      {/* Left Services */}
+      <div className="flex flex-col gap-10 text-center order-2 md:order-1">
+        <ServiceItem
+          imgSrc="https://packagewale.com/wp-content/uploads/2022/11/c26e0515284a987a1dc63d2b59d79be6.png"
+          title="Tour Packages"
+          description="Comfortable vehicles for city tours, sightseeing, and long holiday packages."
+        />
+        <ServiceItem
+          imgSrc="/images/wedding.png"
+          title="Wedding Rentals"
+          description="Elegant cars, buses, and travellers for wedding ceremonies and guest transport."
+        />
+        <ServiceItem
+          imgSrc="/images/family.png"
+          title="Family Travel"
+          description="Spacious and reliable vehicles for family vacations, trips, and outstation travel."
+        />
+      </div>
+
+      {/* Car Image */}
+      <div className="flex justify-center order-1 md:order-2">
+        <img
+          src="/images/serviceCar.png"
+          alt="Car Top View"
+          className="w-48 sm:w-64 md:w-72 lg:w-96"
+        />
+      </div>
+
+      {/* Right Services */}
+      <div className="flex flex-col gap-10 text-center order-3">
+        <ServiceItem
+          imgSrc="/images/picnic.png"
+          title="Picnic Trips"
+          description="Book vehicles for day picnics, weekend getaways, and group outings."
+        />
+        <ServiceItem
+          imgSrc="/images/rally.png"
+          title="Rally Transport"
+          description="Reliable vehicle rentals for rallies, campaigns, and large group gatherings."
+        />
+        <ServiceItem
+          imgSrc="/images/custom.png"
+          title="Custom Rentals"
+          description="Flexible rental options for events, corporate functions, or any travel need."
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
         <VehicleSection />
 

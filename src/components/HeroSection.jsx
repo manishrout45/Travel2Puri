@@ -61,8 +61,8 @@ const HeroSection = () => {
       </div>
 
       {/* Heading */}
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#1b1713]">
-        Make Your <span className="text-[#761421]">Journey</span> <br /> Unforgettable!
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#ffffff]">
+        Make Your <span className="text-[#761421] text-4xl md:text-5xl font-bold ">Journey</span> <br /> Unforgettable!
       </h1>
 
       {/* Subheading */}

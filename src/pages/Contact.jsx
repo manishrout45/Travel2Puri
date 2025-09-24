@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto">
 
           {/* Contact Info + Form */}
-          <section className="bg-white text-black py-20">
+          <section className="bg-[#F3E6E6] text-black py-20">
             <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Left Content */}
               <div>
@@ -61,12 +61,12 @@ const Contact = () => {
               </div>
 
               {/* Right Form */}
-              <div className="bg-[#1b1713] p-8 rounded-lg">
+              <div className="bg-[#761421] p-8 rounded-lg">
                 <form className="space-y-6">
                   {/* Full Name & Email */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block mb-2 text-sm text-yellow-500">Full Name</label>
+                      <label className="block mb-2 text-sm text-white">Full Name</label>
                       <input
                         type="text"
                         placeholder="John Doe"
@@ -74,7 +74,7 @@ const Contact = () => {
                       />
                     </div>
                     <div>
-                      <label className="block mb-2 text-sm text-yellow-500">
+                      <label className="block mb-2 text-sm text-white">
                         Email <span className="text-red-500">*</span>
                       </label>
                       <input
@@ -88,7 +88,7 @@ const Contact = () => {
                   {/* Phone & Location */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block mb-2 text-sm text-yellow-500">Phone</label>
+                      <label className="block mb-2 text-sm text-white">Phone</label>
                       <input
                         type="text"
                         placeholder="e.g. +62 123 456"
@@ -96,7 +96,7 @@ const Contact = () => {
                       />
                     </div>
                     <div>
-                      <label className="block mb-2 text-sm text-yellow-500">Location</label>
+                      <label className="block mb-2 text-sm text-white">Location</label>
                       <input
                         type="text"
                         placeholder="e.g. Bandar Lampung"
@@ -107,7 +107,7 @@ const Contact = () => {
 
                   {/* Message */}
                   <div>
-                    <label className="block mb-2 text-sm text-yellow-500">Message</label>
+                    <label className="block mb-2 text-sm text-white">Message</label>
                     <textarea
                       rows="4"
                       placeholder="Write your message or Questions here"
