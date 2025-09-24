@@ -39,25 +39,17 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden"
+      className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden mt-10"
       style={{ backgroundColor: "#FEF7EE" }}
     >
-      {/* Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover"
-      >
-        <source src="/videos/puribeach2.mp4" type="video/mp4" />
-      </video>
+{/* Background Image */}
+<img
+  src="/images/HeroImage.jpg"
+  alt="Puri Beach"
+  className="absolute top-0 left-0 w-full h-full object-cover"
+/>
 
-      {/* Badge */}
-      <div className="mb-4 flex items-center gap-2 bg-white px-4 py-1 rounded-full shadow-md text-sm font-medium z-10">
-        <span>⭐</span>
-        <span>Explore ODISHA</span>
-      </div>
+
 
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#1b1713]">

@@ -30,10 +30,10 @@ const Navbar = () => {
 <nav
   className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
     open
-      ? "bg-white text-[#761421] shadow-md" // ✅ solid when mobile menu is open
+      ? "bg-white text-[#000000] shadow-md" // ✅ solid when mobile menu is open
       : isScrolled
-      ? "bg-white text-[#761421] shadow-md" // ✅ solid white on scroll
-      : "bg-transparent text-[#ffffff]" // ✅ default
+      ? "bg-white text-[#000000] shadow-md" // ✅ solid white on scroll
+      : "bg-white text-[#000000]" // ✅ default
   }`}
 >
 
@@ -81,13 +81,13 @@ const Navbar = () => {
   {open ? (
     <X
   size={28}
-  className={`${isScrolled ? "text-[#761421]" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
+  className={`${isScrolled ? "text-[#000000]" : "text-white"} drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]`}
  />
 
   ) : (
     <Menu
       size={28}
-      className={`${isScrolled ? "text-[#761421]" : "text-white"} drop-shadow-md`}
+      className={`${isScrolled ? "text-[#000000]" : "text-white"} drop-shadow-md`}
     />
   )}
 </button>

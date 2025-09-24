@@ -71,7 +71,7 @@ const Footer = () => {
                   Call Us
                 </p>
                 <p className="text-white font-semibold text-lg mt-2">
-                  +62 123 456 7890
+                  +91 809 346 9315
                 </p>
               </div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
                   Mail Us
                 </p>
                 <p className="text-white font-semibold text-lg mt-2">
-                  support@getngo.com
+                  dibyapaikray@gmail.com
                 </p>
               </div>
             </div>
