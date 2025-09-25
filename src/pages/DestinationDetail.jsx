@@ -25,7 +25,7 @@ const DestinationDetail = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="max-w-4xl mx-auto px-6 py-12 mt-10">
       <button
         onClick={() => navigate(-1)}
         className="mb-6 px-4 py-2 bg-blue-500 text-white rounded-lg"

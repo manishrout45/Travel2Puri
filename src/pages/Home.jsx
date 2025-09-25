@@ -137,7 +137,7 @@ const Home = () => {
               Tell us your travel dates, and we’ll confirm <br className="hidden sm:block" /> 
               availability right away.
             </p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-[#761421] font-medium px-6 py-3 rounded-full transition">
+            <button className="bg-[#761421] hover:bg-[#560f18] text-[#FDC79F] font-medium px-6 py-3 rounded-full transition">
               <a href='/booking'>Ask Availability</a>
             </button>
           </div>

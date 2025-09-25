@@ -14,7 +14,19 @@ const districts = [
         name: "Tikarpada",
         image: "/images/destinations/tikarpada.jpg",
         description: "Known for crocodile sanctuary and scenic beauty."
-      }
+      },
+      { 
+        id:"derjang-reservoir",
+        name: "Derjang Reservoir", 
+        image: "https://www.orissapost.com/wp-content/uploads/2021/08/Derjang-dam-site-no-longer-a-safe-tourists-destination-1024x489.jpeg", 
+        description: "Picturesque water reservoir popular for picnics." 
+      },
+      { 
+        id:"budhi-thakurani-temple",
+        name: "Budhi Thakurani Temple", 
+        image: "", 
+        description: "Ancient shrine dedicated to Goddess Budhi Thakurani." 
+      },
     ]
   },
   {
@@ -32,7 +44,19 @@ const districts = [
         name: "Ranipur Jharial",
         image: "/images/destinations/ranipur.jpg",
         description: "Archaeological site with temples and ruins."
-      }
+      },
+      { 
+        id:"patnagarh-fort",
+        name: "Patnagarh Fort", 
+        image: "/images/destinations/ranipur.jpg", 
+        description: "Historical fort town with remnants of old fortifications." 
+      },
+      { 
+        id:"jogeswar-temple",
+        name: "Jogeswar Temple", 
+        image: "/images/destinations/ranipur.jpg", 
+        description: "Temple dedicated to Lord Shiva in a serene setting." 
+      },
     ]
   },
   {
@@ -45,12 +69,24 @@ const districts = [
         image: "/images/destinations/chandipur.jpg",
         description: "Unique beach where the sea recedes up to 5 km."
       },
-      {
-        id: "kuldiha-sanctuary",
-        name: "Kuldiha Sanctuary",
-        image: "/images/destinations/kuldiha.jpg",
-        description: "Wildlife sanctuary in the Nilgiri hills."
-      }
+      { 
+        id:"panchalingeswar-temple",
+        name: "Panchalingeswar Temple", 
+        image: "/images/destinations/kuldiha.jpg", 
+        description: "Temple on a hilltop surrounded by forest streams." 
+      },
+      { 
+        id:"khirachora-gopinath-temple",
+        name: "Khirachora Gopinath Temple, Remuna", 
+        image: "/images/destinations/kuldiha.jpg", 
+        description: "Famous Vaishnavite shrine associated with Lord Chaitanya." 
+      },
+      { 
+        id:"dublagadi-beach",
+        name: "Dublagadi Beach", 
+        image: "/images/destinations/kuldiha.jpg", 
+        description: "Quiet and less crowded beach with natural beauty." 
+      },
     ]
   },
   {
@@ -68,7 +104,19 @@ const districts = [
         name: "Debrigarh Wildlife Sanctuary",
         image: "/images/destinations/debrigarh.jpg",
         description: "Famous for Hirakud reservoir and wildlife."
-      }
+      },
+      { 
+        id:"gandhamardan-hills",
+        name: "Gandhamardan Hills", 
+        image: "/images/destinations/debrigarh.jpg", 
+        description: "Scenic hills with mythological and medicinal importance." 
+      },
+      { 
+        id:"papanga-hill",
+        name: "Papanga Hill", 
+        image: "/images/destinations/debrigarh.jpg", 
+        description: "Hill known for its trekking trails and panoramic views." 
+      },
     ]
   },
   {
