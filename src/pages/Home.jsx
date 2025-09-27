@@ -28,7 +28,7 @@ const Home = () => {
 
 
       {/* Achievements */}
-      <section className="bg-white text-white py-20">
+      <section className="bg-[#F3E6E6] text-white py-20">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
         {/* Left: Car Image */}
         <div className="flex justify-center ">

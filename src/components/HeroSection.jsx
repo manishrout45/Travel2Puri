@@ -47,27 +47,31 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden mt-10"
+      className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden mt-16"
       style={{ backgroundColor: "#FEF7EE" }}
     >
       {/* Background Image with Gradient Overlay */}
       <div className="absolute top-0 left-0 w-full h-full">
-        <img
-          src="/images/HeroImage.jpg"
-          alt="Puri Beach"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+        <video
+  src="/videos/puribeach2.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="w-full h-full object-cover"
+></video>
+
+        
       </div>
 
       {/* Heading */}
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#ffffff]">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#ffffff]" style={{ textShadow: "0 2px 6px rgba(0,0,0,0.45)" }}>
         Make Your <span className="text-[#761421] text-4xl md:text-5xl font-bold ">Journey</span> <br /> Unforgettable!
       </h1>
 
       {/* Subheading */}
       <p
-        className="text-center text-white max-w-xl mb-6 z-10"
+        className="text-center text-black max-w-xl mb-6 z-10"
         style={{ textShadow: "0 2px 8px rgba(0,0,0,0.85)" }}
       >
         Get your dream trip planned with expert-guided destinations, booking,
@@ -75,7 +79,7 @@ const HeroSection = () => {
       </p>
 
       {/* Button */}
-      <button className="bg-[#FDC79F] text-[#761421] px-6 py-3 rounded-full hover:bg-[#761421] hover:text-yellow-400 transition z-10">
+      <button className="bg-[#761421] text-white px-6 py-3 rounded-full hover:bg-[#761421] hover:text-yellow-400 transition z-10">
         <a href='/booking'>Start Planning →</a>
       </button>
 
@@ -113,7 +117,7 @@ const HeroSection = () => {
 
       {/* Scroll Indicator */}
       <div className="mt-6 text-white text-sm opacity-60 z-10">
-        <span>← Continuous scroll →</span>
+        <span>← Look for your next Destination →</span>
       </div>
 
       {/* Multi-Wave Shape at Bottom */}
