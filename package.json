@@ -8,6 +8,7 @@
     "tw": "tailwindcss -i ./src/index.css -o ./tailwind/output.css --watch"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "@react-google-maps/api": "^2.20.7",
     "@vitejs/plugin-react": "^4.4.1",
     "aos": "^2.3.4",
