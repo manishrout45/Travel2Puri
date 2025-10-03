@@ -13,6 +13,7 @@ import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import DestinationDetail from "./pages/DestinationDetail";
 import Districts from "./pages/Districts";
+import Policies from "./pages/Policies";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
-
+        <Route path="/policies" element={<Policies />} />
         {/* ✅ Fixed path */}
         <Route path="/districts" element={<Districts />} />
 
