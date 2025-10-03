@@ -44,8 +44,8 @@ const Navbar = () => {
           onClick={scrollToTop}
         >
           <img
-            src="/images/logo01.png"
-            alt="Travel2Puri Logo"
+            src="/images/TripToPuriLogo.png"
+            alt="TripToPuri Logo"
             className="h-16 w-auto"
           />
         </NavLink>
