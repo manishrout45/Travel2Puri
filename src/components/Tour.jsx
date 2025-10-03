@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Tour = () => {
   const tours = {
     puri: {
-      title: "Puri",
+      title: "Puri Tour",
       subtitle: "Where Spirituality Meets the Sea",
       desc: "Embark on a memorable journey to Puri, one of the most sacred and scenic destinations in Odisha. Known for its vibrant culture, ancient temples, golden beaches, and divine atmosphere.",
       highlight: "A perfect blend of spirituality, culture, and coastal beauty",
@@ -31,7 +31,7 @@ const Tour = () => {
       ],
     },
     bhubaneswar: {
-      title: "Bhubaneswar",
+      title: "Bhubaneswar Tour",
       subtitle: "The Temple City of India",
       desc: "Discover Bhubaneswar, the capital of Odisha, renowned for its architectural marvels, temples, and urban charm.",
       highlight: "A vibrant mix of history and modernity",
@@ -59,7 +59,7 @@ const Tour = () => {
       ],
     },
     chilika: {
-      title: "Chilika Lake",
+      title: "Chilika Tour",
       subtitle: "Asia's Largest Brackish Water Lagoon",
       desc: "Explore the breathtaking beauty of Chilika, famous for birdwatching, dolphins, and serene boat rides.",
       highlight: "A paradise for nature lovers and birdwatchers",
