@@ -36,7 +36,7 @@ const Navbar = () => {
           : "bg-white text-[#000000]"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-20">
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center ">
         {/* Logo */}
         <NavLink
           to="/"

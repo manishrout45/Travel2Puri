@@ -8,7 +8,7 @@ const destinations = [
     price: "₱4,999",
     rating: "4.8 (2k)",
     region: "Palawan, Region",
-    image: "/images/el-nido.jpg",
+    image: "https://content3.jdmagicbox.com/comp/puri/u7/9999p6752.6752.180628121850.l9u7/catalogue/sudam-sand-art-museum-baliguali-puri-art-galleries-0ki5wruyy1.jpg",
   },
   {
     name: "Baguio City",
