@@ -66,7 +66,7 @@ const HeroSection = () => {
 
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 z-10 text-[#ffffff]" style={{ textShadow: "0 2px 6px rgba(0,0,0,0.45)" }}>
-        Make Your <span className="text-[#761421] text-4xl md:text-5xl font-bold ">Journey</span> <br /> Unforgettable!
+        Visit the most  <span className="text-[#761421] text-4xl md:text-5xl font-bold ">beautiful</span> <br /> places in Odisha!
       </h1>
 
       {/* Subheading */}
@@ -74,8 +74,7 @@ const HeroSection = () => {
         className="text-center text-black max-w-xl mb-6 z-10"
         style={{ textShadow: "0 2px 8px rgba(0,0,0,0.85)" }}
       >
-        Get your dream trip planned with expert-guided destinations, booking,
-        transport & more — all in one
+        All your journey needs — from vehicle booking to hotel stays — available in one place for a hassle-free experience.
       </p>
 
       {/* Button */}
