@@ -18,7 +18,7 @@ const vehicles = [
   {
     name: "Tour",
     description:
-      "Plan memorable tours and trips with comfortable vehicles, guides, and complete travel assistance.",
+      "Vehicles for All Your Travel Needs – Bus, Car, Bike, Scooty, Traveller, Rally & Family Trips.",
     image:
       "https://kashiyatra.in/wp-content/uploads/2023/11/tempo-traveller-on-rent-in-varanasi.jpg",
   },
@@ -56,7 +56,7 @@ const VehicleSection = () => {
               <p className="text-gray-400 flex-grow">{vehicle.description}</p>
               {/* Button always aligned at bottom */}
               <button className="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg font-medium hover:bg-yellow-400 transition self-start">
-                <a href="/booking">Book Now</a>
+                <a href="/booking">More Details</a>
               </button>
             </div>
           </div>

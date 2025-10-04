@@ -63,6 +63,7 @@ const About = () => {
 <section className="w-full bg-white py-12">
   <div className="max-w-7xl mx-auto px-4">
     <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+      
       {/* Owner Image */}
       <div className="flex-shrink-0 relative w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 mx-auto lg:mx-0">
         <img
@@ -85,10 +86,31 @@ const About = () => {
         <p className="mt-4 text-gray-600 italic text-sm sm:text-base">
           “Your journey is our priority, and every ride is a story we cherish together.”
         </p>
+
+        {/* Social Media Links */}
+        <div className="mt-6 flex justify-center lg:justify-start gap-5">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+            className="text-gray-600 hover:text-[#761421] transition text-xl">
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+            className="text-gray-600 hover:text-[#761421] transition text-xl">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            className="text-gray-600 hover:text-[#761421] transition text-xl">
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+            className="text-gray-600 hover:text-[#761421] transition text-xl">
+            <i className="fab fa-twitter"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
       {/* Why Rent with Us Section */}
