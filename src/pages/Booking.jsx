@@ -198,7 +198,7 @@ Guests: ${formData.guests}`;
         </div>
       </section>
 
-      <TopDestinations />
+     {/* <TopDestinations />  */}
 
       {/* Booking Form Section */}
       <motion.section

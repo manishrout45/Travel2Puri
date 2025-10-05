@@ -48,26 +48,28 @@ const FAQ = () => {
 
   return (
     <>
-      {/* ✅ Hero Section */}
+            {/* ✅ Hero Section */}
       <section
-        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
+        className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] bg-center bg-cover flex items-center justify-center"
         style={{ backgroundImage: "url('/images/FAQ/FAQ.jpg')" }} // replace with your image path
       >
-        {/*<div className="absolute inset-0 bg-black/50"></div>
-        <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white text-center">
+        {/* Optional overlay */}
+        {/* <div className="absolute inset-0 bg-black/50"></div>
+        <h1 className="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center">
           Frequently Asked Questions
         </h1> */}
       </section>
 
+
       {/* ✅ FAQ Section */}
       <motion.section
-        className="max-w-4xl mx-auto py-20 px-6"
+        className="max-w-4xl mx-auto py-10 px-6"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
       >
         {/* Header */}
-        <motion.div className="text-center mb-12" variants={fadeUp}>
+        <motion.div className="text-center mb-10" variants={fadeUp}>
           <h2 className="text-3xl md:text-4xl font-bold text-[#761421] mb-4">
             Got Questions? We’ve Got Answers
           </h2>
@@ -87,7 +89,7 @@ const FAQ = () => {
             >
               <button
                 onClick={() => toggleFAQ(i)}
-                className="flex justify-between items-center w-full px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-blue-50 transition"
+                className="flex justify-between items-center w-full px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-[#F3E6E6] transition"
               >
                 {faq.question}
                 <ChevronDown

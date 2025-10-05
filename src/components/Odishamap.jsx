@@ -402,7 +402,7 @@ const OdishaMap = () => {
             <img
               src={selectedDistrict.map}
               alt={`${selectedDistrict.name} Map`}
-              className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-md"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg"
             />
           </div>
 
