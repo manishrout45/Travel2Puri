@@ -18,7 +18,7 @@ const districts = [
       { 
         id:"derjang-reservoir",
         name: "Derjang Reservoir", 
-        image: "/images/destinations/Angul/derjang-reservoir.jpg", 
+        image: "/images/destinations/Angul/derjang-reservoir.jpeg", 
         description: "Picturesque water reservoir popular for picnics." 
       },
       { 
@@ -36,13 +36,13 @@ const districts = [
       {
         id: "harishankar-temple",
         name: "Harishankar Temple",
-        image: "/images/destinations/Balangir/harishankar-temple.jpg",
+        image: "/images/destinations/Balangir/harishankar-temple.jpeg",
         description: "Pilgrimage site at the foot of Gandhamardan hills."
       },
       {
         id: "ranipur-jharial",
         name: "Ranipur Jharial",
-        image: "/images/destinations/Balangir/ranipur-jharial.jpg",
+        image: "/images/destinations/Balangir/ranipur-jharial.jpeg",
         description: "Archaeological site with temples and ruins."
       },
       { 
@@ -78,7 +78,7 @@ const districts = [
       { 
         id:"khirachora-gopinath-temple",
         name: "Khirachora Gopinath Temple, Remuna", 
-        image: "/images/destinations/Balasore/khirachora-gopinath-temple.jpg", 
+        image: "/images/destinations/Balasore/khirachora-gopinath-temple.png", 
         description: "Famous Vaishnavite shrine associated with Lord Chaitanya." 
       },
       { 
@@ -114,7 +114,7 @@ const districts = [
       { 
         id:"papanga-hill",
         name: "Papanga Hill", 
-        image: "/images/destinations/Bargarh/papanga-hill.jpg", 
+        image: "/images/destinations/Bargarh/papanga-hill.jpeg", 
         description: "Hill known for its trekking trails and panoramic views." 
       },
     ]
@@ -174,7 +174,7 @@ const districts = [
       { 
         id:"satkosia-gorge",
         name: "Satkosia Gorge", 
-        image: "/images/destinations/Boudh/satkosia-gorge.jpg", 
+        image: "/images/destinations/Boudh/satkosia-gorge.jpeg", 
         description: "Scenic gorge of Mahanadi with dense forests." 
       },
     ]
@@ -186,13 +186,13 @@ const districts = [
       {
         id: "barabati-fort",
         name: "Barabati Fort",
-        image: "/images/destinations/Cuttack/barabati-fort.jpg",
+        image: "/images/destinations/Cuttack/barabati-fort.jpeg",
         description: "Barabati Fort is a 987 CE fort built by Marakata Keshari of Somavanshi dynasty in Cuttack, Odisha. The ruins of the fort remain with its moat, gate, and the earthen mound of the nine-storied palace."
       },
       {
         id: "dhabaleswar-temple",
         name: "Dhabaleswar Temple",
-        image: "/images/destinations/Cuttack/dhabaleswar-temple.jpg",
+        image: "/images/destinations/Cuttack/dhabaleswar-temple.jpeg",
         description: "Temple on an island in Mahanadi river."
       },
       { 
@@ -204,7 +204,7 @@ const districts = [
       { 
         id:"ansupa-lake",
         name: "Ansupa Lake", 
-        image: "/images/destinations/Cuttack/ansupa-lake.jpg", 
+        image: "/images/destinations/Cuttack/ansupa-lake.jpeg", 
         description: "Freshwater lake famous for migratory birds." 
       },
     ]
@@ -216,19 +216,19 @@ const districts = [
       {
         id: "pradhanpat-waterfall",
         name: "Pradhanpat Waterfall",
-        image: "/images/destinations/Deogarh/pradhanpat-waterfall.jpg",
+        image: "/images/destinations/Deogarh/pradhanpat-waterfall.jpeg",
         description: "Scenic waterfall near Deogarh town."
       },
       {
         id: "kurudkut-waterfall",
         name: "Kurudkut Waterfall",
-        image: "/images/destinations/Deogarh/kurudkut-waterfall.jpg",
+        image: "/images/destinations/Deogarh/kurudkut-waterfall.jpeg",
         description: "Picturesque waterfall in the district."
       },
       { 
         id:"kailash-palace",
         name: "Kailash Palace", 
-        image: "/images/destinations/Deogarh/kailash-palace.jpg", 
+        image: "/images/destinations/Deogarh/kailash-palace.jpeg", 
         description: "Royal palace of Deogarh rulers." 
       },
       { 
@@ -246,25 +246,25 @@ const districts = [
       {
         id: "kapilash-temple",
         name: "Kapilash Temple",
-        image: "/images/destinations/Dhenkanal/kapilash-temple.jpg",
+        image: "/images/destinations/Dhenkanal/kapilash-temple.jpeg",
         description: "Famous Shiva temple on a hilltop."
       },
       { 
         id:"saptasajya-hills",
         name: "Saptasajya Hills", 
-        image: "/images/destinations/Dhenkanal/saptasajya-hills.jpg", 
+        image: "/images/destinations/Dhenkanal/saptasajya-hills.jpeg", 
         description: "Picturesque hills with mythological links to Pandavas." 
       },
       { 
         id:"joranda-monastery",
         name: "Joranda Monastery (Mahima Dharma)", 
-        image: "/images/destinations/Dhenkanal/joranda-monastery.jpg", 
+        image: "/images/destinations/Dhenkanal/joranda-monastery.jpeg", 
         description: "Spiritual center of Mahima cult." 
       },
       { 
         id:"kualo-ancient-temple",
         name: "Kualo Ancient Temple Complex", 
-        image: "/images/destinations/Dhenkanal/kualo-ancient-temple.jpg", 
+        image: "/images/destinations/Dhenkanal/kualo-ancient-temple.jpeg", 
         description: "Cluster of old temples with rich carvings." 
       },
     ]
@@ -288,7 +288,7 @@ const districts = [
       { 
         id:"paralakhemundi-palace",
         name: "Paralakhemundi Palace", 
-        image: "/images/destinations/Gajapati/paralakhemundi-palace.jpg", 
+        image: "/images/destinations/Gajapati/paralakhemundi-palace.jpeg", 
         description: "Historic royal palace with Indo-European architecture." 
       },
       { 
@@ -312,13 +312,13 @@ const districts = [
       {
         id: "tara-tarini-temple",
         name: "Tara Tarini Temple",
-        image: "/images/destinations/Ganjam/tara-tarini-temple.jpg",
+        image: "/images/destinations/Ganjam/tara-tarini-temple.webp",
         description: "Renowned Shakti Peetha on Kumari hills."
       },
       { 
         id:"chilika-lake",
         name: "Chilika Lake", 
-        image: "/images/destinations/Ganjam/chilika-lake.jpg", 
+        image: "/images/destinations/Ganjam/chilika-lake.png", 
         description: "Asia’s largest brackish water lagoon." 
       },
       { 
@@ -367,25 +367,25 @@ const districts = [
       { 
         id:"biraja-temple",
         name: "Biraja Temple", 
-        image: "/images/destinations/Jajpur/biraja-temple", 
+        image: "/images/destinations/Jajpur/biraja-temple.jpg", 
         description: "Historic temple of Goddess Biraja."
       },
       { 
         id:"ratnagiri-monastery",
         name: "Ratnagiri Monastery", 
-        image: "/images/destinations/Jajpur/ratnagiri-monastery.jpg", 
+        image: "/images/destinations/Jajpur/ratnagiri-monastery.jpeg", 
         description: "Ancient Buddhist site near Jajpur." 
       },
       { 
         id:"udayagiri-buddhist-monastery",
         name: "Udayagiri Buddhist Monastery", 
-        image: "/images/destinations/Jajpur/udayagiri-buddhist-monastery.jpg", 
+        image: "/images/destinations/Jajpur/udayagiri-buddhist-monastery.jpeg", 
         description: "Ancient Buddhist site with stupas and caves." 
       },
       { 
         id:"lalitgiri-buddhist-complex",
         name: "Lalitgiri Buddhist Complex", 
-        image: "/images/destinations/Jajpur/lalitgiri-buddhist-complex.jpg", 
+        image: "/images/destinations/Jajpur/lalitgiri-buddhist-complex.jpeg", 
         description: "Oldest Buddhist site with stupas and relics." 
       },
       
@@ -428,25 +428,25 @@ const districts = [
       { 
         id:"karlapat-sanctuary",
         name: "Karlapat Sanctuary", 
-        image: "/images/destinations/Kalahandi/karlapat-sanctuary.jpg", 
+        image: "/images/destinations/Kalahandi/karlapat-sanctuary.jpeg", 
         description: "Wildlife sanctuary in Kalahandi." 
       },
       { 
         id:"phurlijharan-waterfall",
         name: "Phurlijharan Waterfall", 
-        image: "/images/destinations/Kalahandi/phurlijharan-waterfall.jpg", 
+        image: "/images/destinations/Kalahandi/phurlijharan-waterfall.jpeg", 
         description: "Scenic waterfall near Bhawanipatna." 
       },
       { 
         id:"rabandhara-waterfall",
         name: "Rabandhara Waterfall", 
-        image: "/images/destinations/Kalahandi/rabandhara-waterfall.jpg", 
+        image: "/images/destinations/Kalahandi/rabandhara-waterfall.jpeg", 
         description: "Scenic falls surrounded by forest." 
       },
       { 
         id:"bhawanipatna-jagannath-temple",
         name: "Bhawanipatna Jagannath Temple", 
-        image: "/images/destinations/Kalahandi/bhawanipatna-jagannath-temple.jpg", 
+        image: "/images/destinations/Kalahandi/bhawanipatna-jagannath-temple.jpeg", 
         description: "Famous Jagannath shrine of the town." 
       },
     ],
@@ -488,25 +488,25 @@ const districts = [
       { 
         id:"bhitarkanika-national-park",
         name: "Bhitarkanika National Park", 
-        image: "/images/destinations/Kendrapara/bhitarkanika-national-park.jpg", 
+        image: "/images/destinations/Kendrapara/bhitarkanika-national-park.webp", 
         description: "Famous mangrove ecosystem with crocodiles." 
       },
       { 
         id:"baladevjew-temple",
         name: "Baladevjew Temple", 
-        image: "/images/destinations/Kendrapara/baladevjew-temple.jpg", 
+        image: "/images/destinations/Kendrapara/baladevjew-temple.webp", 
         description: "Popular temple of Kendrapara." 
       },
       { 
         id:"hukitola-island",
         name: "Hukitola Island", 
-        image: "/images/destinations/Kendrapara/hukitola-island.jpg", 
+        image: "/images/destinations/Kendrapara/hukitola-island.webp", 
         description: "Island with colonial-era structures." 
       },
       { 
         id:"aul-palace",
         name: "Aul Palace", 
-        image: "/images/destinations/Kendrapara/aul-palace.jpg", 
+        image: "/images/destinations/Kendrapara/aul-palace.webp", 
         description: "Historic palace of the Aul royal family." 
       },
     ],
@@ -518,7 +518,7 @@ const districts = [
       { 
         id:"khandadhar-waterfall",
         name: "Khandadhar Waterfall", 
-        image: "/images/destinations/Kendujhar (Keonjhar)/khandadhar-waterfall.jpg", 
+        image: "/images/destinations/Kendujhar (Keonjhar)/khandadhar-waterfall.webp", 
         description: "One of the highest waterfalls in Odisha." 
       },
       { 
@@ -530,7 +530,7 @@ const districts = [
       { 
         id:"badaghagara-waterfall",
         name: "Badaghagara Waterfall", 
-        image: "/images/destinations/Kendujhar (Keonjhar)/badaghagara-waterfall.jpg", 
+        image: "/images/destinations/Kendujhar (Keonjhar)/badaghagara-waterfall.webp", 
         description: "Picturesque perennial waterfall." 
       },
       { 
@@ -548,25 +548,25 @@ const districts = [
       { 
         id:"lingaraj-temple",
         name: "Lingaraj Temple", 
-        image: "/images/destinations/Khordha/lingaraj-temple.jpg", 
+        image: "/images/destinations/Khordha/lingaraj-temple.webp", 
         description: "Ancient temple in Bhubaneswar." 
       },
       { 
         id:"dhauli",
         name: "Dhauli", 
-        image: "/images/destinations/Khordha/dhauli.jpg", 
+        image: "/images/destinations/Khordha/dhauli.webp", 
         description: "Peace Pagoda near Bhubaneswar." 
       },
       { 
         id:"nandankanan-zoological-park",
         name: "Nandankanan Zoological Park", 
-        image: "/images/destinations/Khordha/nandankanan-zoological-park.jpg", 
+        image: "/images/destinations/Khordha/nandankanan-zoological-park.webp", 
         description: "Famous zoo with white tigers." 
       },
       { 
         id:"khandagiri-&-udayagiri-caves",
         name: "Khandagiri & Udayagiri Caves", 
-        image: "/images/destinations/Khordha/khandagiri-&-udayagiri-caves.jpg", 
+        image: "/images/destinations/Khordha/khandagiri-&-udayagiri-caves.webp", 
         description: "Ancient Jain rock-cut caves." 
       },
     ],
@@ -578,25 +578,25 @@ const districts = [
       { 
         id:"gupteswar-temple",
         name: "Gupteswar Temple", 
-        image: "/images/destinations/Koraput/gupteswar-temple.jpg", 
+        image: "/images/destinations/Koraput/gupteswar-temple.jpeg", 
         description: "Cave shrine of Lord Shiva." 
       },
       { 
         id:"duduma-waterfall",
         name: "Duduma Waterfall", 
-        image: "/images/destinations/Koraput/duduma-waterfall.jpg", 
+        image: "/images/destinations/Koraput/duduma-waterfall.webp", 
         description: "Majestic waterfall on Machkund river." 
       },
       { 
         id:"deomali-hills",
         name: "Deomali Hills", 
-        image: "/images/destinations/Koraput/deomali-hills.jpg", 
+        image: "/images/destinations/Koraput/deomali-hills.webp", 
         description: "Odisha’s tallest peak with scenic views." 
       },
       { 
         id:"tribal-museum",
         name: "Tribal Museum, Koraput", 
-        image: "/images/destinations/Koraput/tribal-museum.jpg", 
+        image: "/images/destinations/Koraput/tribal-museum.webp", 
         description: "Museum showcasing tribal heritage." 
       },
     ],
@@ -608,25 +608,25 @@ const districts = [
       { 
         id:"balimela-reservoir",
         name: "Balimela Reservoir", 
-        image: "/images/destinations/Malkangiri/balimela-reservoir.jpg", 
+        image: "/images/destinations/Malkangiri/balimela-reservoir.jpeg", 
         description: "Scenic water reservoir." 
       },
       { 
         id:"ammakunda",
         name: "Ammakunda", 
-        image: "/images/destinations/Malkangiri/ammakunda.jpg", 
+        image: "/images/destinations/Malkangiri/ammakunda.webp", 
         description: "Sacred pond and waterfall." 
       },
       { 
         id:"satiguda-dam",
         name: "Satiguda Dam", 
-        image: "/images/destinations/Malkangiri/satiguda-dam.jpg", 
+        image: "/images/destinations/Malkangiri/satiguda-dam.jpeg", 
         description: "Small reservoir popular for picnics." 
       },
       { 
         id:"manyamkonda-temple",
         name: "Manyamkonda Temple", 
-        image: "/images/destinations/Malkangiri/manyamkonda-temple.jpg", 
+        image: "/images/destinations/Malkangiri/manyamkonda-temple.jpeg", 
         description: "Hilltop temple dedicated to Lord Hanuman." 
       },
     ],
@@ -638,25 +638,25 @@ const districts = [
       { 
         id:"simlipal-national-park",
         name: "Simlipal National Park", 
-        image: "/images/destinations/Mayurbhanj/simlipal-national-park.jpg", 
+        image: "/images/destinations/Mayurbhanj/simlipal-national-park.jpeg", 
         description: "Tiger reserve and biosphere reserve." 
       },
       { 
         id:"barehipani-waterfall",
         name: "Barehipani Waterfall (2nd Highest in India)", 
-        image: "/images/destinations/Mayurbhanj/barehipani-waterfall.jpg", 
+        image: "/images/destinations/Mayurbhanj/barehipani-waterfall.jpeg", 
         description: "Majestic two-tiered waterfall." 
       },
       { 
         id:"joranda-&-devkund-waterfalls",
         name: "Joranda & Devkund Waterfalls", 
-        image: "/images/destinations/Mayurbhanj/joranda-&-devkund-waterfalls.jpg", 
+        image: "/images/destinations/Mayurbhanj/joranda-&-devkund-waterfalls.jpeg", 
         description: "Scenic waterfalls in Simlipal." 
       },
       { 
         id:"haripurgarh-palace",
         name: "Haripurgarh Palace", 
-        image: "/images/destinations/Mayurbhanj/haripurgarh-palace.jpg", 
+        image: "/images/destinations/Mayurbhanj/haripurgarh-palace.jpeg", 
         description: "Historic palace of Mayurbhanj rulers." 
       },
     ],
@@ -668,25 +668,25 @@ const districts = [
       { 
         id:"papadahandi-temples",
         name: "Papadahandi Temples", 
-        image: "/images/destinations/Nabarangpur/papadahandi-temples.jpg", 
+        image: "/images/destinations/Nabarangpur/papadahandi-temples.jpeg", 
         description: "Group of ancient temples." 
       },
       { 
         id:"maa-pendrani-temple",
         name: "Maa Pendrani Temple", 
-        image: "/images/destinations/Nabarangpur/maa-pendrani-temple.jpg", 
+        image: "/images/destinations/Nabarangpur/maa-pendrani-temple.jpeg", 
         description: "Local deity’s shrine with cultural importance." 
       },
       { 
         id:"sahid-minar",
         name: "Sahid Minar (Papadahandi)", 
-        image: "/images/destinations/Nabarangpur/sahid-minar.jpg", 
+        image: "/images/destinations/Nabarangpur/sahid-minar.jpeg", 
         description: "Monument honoring local freedom fighters." 
       },
       { 
         id:"deer-park",
         name: "Deer Park", 
-        image: "/images/destinations/Nabarangpur/deer-park.jpg", 
+        image: "/images/destinations/Nabarangpur/deer-park.jpeg", 
         description: "Mini zoo with spotted deer." 
       },
     ],
@@ -698,25 +698,25 @@ const districts = [
       { 
         id:"satkosia-gorge",
         name: "Satkosia Gorge", 
-        image: "/images/destinations/Nayagarh/satkosia-gorge.jpg", 
+        image: "/images/destinations/Nayagarh/satkosia-gorge.jpeg", 
         description: "Part of Satkosia Tiger Reserve." 
       },
       { 
         id:"kuanria-dam",
         name: "Kuanria Dam", 
-        image: "/images/destinations/Nayagarh/kuanria-dam.jpg", 
+        image: "/images/destinations/Nayagarh/kuanria-dam.jpeg", 
         description: "Scenic water reservoir and birding site." 
       },
       { 
         id:"nilamadhav-temple",
         name: "Nilamadhav Temple, Kantilo", 
-        image: "/images/destinations/Nayagarh/nilamadhav-temple.jpg", 
+        image: "/images/destinations/Nayagarh/nilamadhav-temple.jpeg", 
         description: "Famous temple on Mahanadi bank." 
       },
       { 
         id:"ranapur-jagannath-temple",
         name: "Ranapur Jagannath Temple", 
-        image: "/images/destinations/Nayagarh/ranapur-jagannath-temple.jpg", 
+        image: "/images/destinations/Nayagarh/ranapur-jagannath-temple.jpeg", 
         description: "Ancient Jagannath shrine." 
       },
     ],
@@ -728,25 +728,25 @@ const districts = [
       { 
         id:"patora-dam",
         name: "Patora Dam", 
-        image: "/images/destinations/Nuapada/patora-dam.jpg", 
+        image: "/images/destinations/Nuapada/patora-dam.jpeg", 
         description: "Popular picnic spot with reservoir views." 
       },
       { 
         id:"sunabeda-sanctuary",
         name: "Sunabeda Sanctuary", 
-        image: "/images/destinations/Nuapada/sunabeda-sanctuary.jpg", 
+        image: "/images/destinations/Nuapada/sunabeda-sanctuary.jpeg", 
         description: "Wildlife sanctuary and plateau." 
       },
       { 
         id:"yogeswar-temple",
         name: "Yogeswar Temple", 
-        image: "/images/destinations/Nuapada/yogeswar-temple.jpg", 
+        image: "/images/destinations/Nuapada/yogeswar-temple.jpeg", 
         description: "Shiva temple with cultural significance." 
       },
       { 
         id:"budhikomna-temple",
         name: "Budhikomna Temple", 
-        image: "/images/destinations/Nuapada/budhikomna-temple.jpg",
+        image: "/images/destinations/Nuapada/budhikomna-temple.jpeg",
         description: "Wildlife sanctuary and plateau." 
       },
     ],
@@ -758,25 +758,25 @@ const districts = [
       { 
         id:"jagannath-temple",
         name: "Jagannath Temple", 
-        image: "/images/destinations/Puri/jagannath-temple.jpg", 
+        image: "/images/destinations/Puri/jagannath-temple.jpeg", 
         description: "Famous Hindu temple." 
       },
       { 
         id:"puri-beach",
         name: "Puri Beach", 
-        image: "/images/destinations/Puri/puri-beach.jpg", 
+        image: "/images/destinations/Puri/puri-beach.jpeg", 
         description: "Popular beach on Bay of Bengal." 
       },
       { 
         id:"konark-sun-temple",
         name: "Konark Sun Temple", 
-        image: "/images/destinations/Puri/konark-sun-temple.jpg", 
+        image: "/images/destinations/Puri/konark-sun-temple.jpeg", 
         description: "UNESCO World Heritage temple." 
       },
       { 
         id:"chilika-lake",
         name: "Chilika Lake (Satapada)", 
-        image: "/images/destinations/Puri/chilika-lake.jpg",
+        image: "/images/destinations/Puri/chilika-lake.jpeg",
         description: "Lagoon with dolphins and migratory birds." 
       },
     ],
@@ -788,25 +788,25 @@ const districts = [
       { 
         id:"majhighariani-temple",
         name: "Majhighariani Temple", 
-        image: "/images/destinations/Rayagada/majhighariani-temple.jpg", 
+        image: "/images/destinations/Rayagada/majhighariani-temple.webp", 
         description: "Famous temple of Goddess Majhighariani." 
       },
       { 
         id:"chatikona-waterfall",
         name: "Chatikona Waterfall", 
-        image: "/images/destinations/Rayagada/chatikona-waterfall.jpg", 
+        image: "/images/destinations/Rayagada/chatikona-waterfall.webp", 
         description: "Picturesque waterfall in Rayagada." 
       },
       { 
         id:"minajhola-temple",
         name: "Minajhola Temple (Confluence of 3 Rivers)", 
-        image: "/images/destinations/Rayagada/minajhola-temple.jpg", 
+        image: "/images/destinations/Rayagada/minajhola-temple.webp", 
         description: "Picturesque temple site." 
       },
       { 
         id:"hanging-bridge-at-chekaguda",
         name: "Hanging Bridge at Chekaguda", 
-        image: "/images/destinations/Rayagada/hanging-bridge-at-chekaguda.jpg", 
+        image: "/images/destinations/Rayagada/hanging-bridge-at-chekaguda.jpeg", 
         description: "Suspension bridge offering scenic views." 
       },
     ],
@@ -818,13 +818,13 @@ const districts = [
       { 
         id:"hirakud-dam",
         name: "Hirakud Dam", 
-        image: "/images/destinations/Sambalpur/hirakud-dam.jpg", 
+        image: "/images/destinations/Sambalpur/hirakud-dam.jpeg", 
         description: "Longest earthen dam in the world." 
       },
       { 
         id:"samaleswari-temple",
         name: "Samaleswari Temple", 
-        image: "/images/destinations/Sambalpur/samaleswari-temple.jpg", 
+        image: "/images/destinations/Sambalpur/samaleswari-temple.webp", 
         description: "Famous Shakti shrine in Sambalpur." 
       },
       { 
@@ -836,7 +836,7 @@ const districts = [
       { 
         id:"huma-leaning-temple",
         name: "Huma Leaning Temple", 
-        image: "/images/destinations/Sambalpur/huma-leaning-temple.jpg", 
+        image: "/images/destinations/Sambalpur/huma-leaning-temple.avif", 
         description: "Unique tilted temple of Lord Shiva." 
       },
     ],
@@ -854,13 +854,13 @@ const districts = [
       { 
         id:"papakshya-ghat",
         name: "Papakshya Ghat", 
-        image: "/images/destinations/Sonepur (Subarnapur)/papakshya-ghat.jpg", 
+        image: "/images/destinations/Sonepur (Subarnapur)/papakshya-ghat.webp", 
         description: "Sacred bathing site on Mahanadi." 
       },
       { 
         id:"patali-srikhetra",
         name: "Patali Srikhetra", 
-        image: "/images/destinations/Sonepur (Subarnapur)/patali-srikhetra.jpg", 
+        image: "/images/destinations/Sonepur (Subarnapur)/patali-srikhetra.webp", 
         description: "Jagannath temple of Western Odisha." 
       },
       { 
@@ -878,7 +878,7 @@ const districts = [
       { 
         id:"vedavyas",
         name: "Vedavyas", 
-        image: "/images/destinations/Sundargarh/vedavyas.jpg", 
+        image: "/images/destinations/Sundargarh/vedavyas.jpeg", 
         description: "Meeting point of rivers with mythological value." 
       },
       { 
@@ -890,13 +890,13 @@ const districts = [
       { 
         id:"darjeeng-picnic-spot",
         name: "Darjeeng Picnic Spot", 
-        image: "/images/destinations/Sundargarh/darjeeng-picnic-spot.jpg", 
+        image: "/images/destinations/Sundargarh/darjeeng-picnic-spot.webp", 
         description: "Popular picnic site on Brahmani River." 
       },
       { 
         id:"ghogar-waterfall",
         name: "Ghogar Waterfall", 
-        image: "/images/destinations/Sundargarh/ghogar-waterfall.jpg", 
+        image: "/images/destinations/Sundargarh/ghogar-waterfall.jpeg", 
         description: "Lesser-known but beautiful natural falls." 
       },
     ],
