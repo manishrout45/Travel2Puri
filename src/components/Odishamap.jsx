@@ -365,26 +365,27 @@ const OdishaMap = () => {
 <section className="w-full py-12 bg-white">
   <div className="max-w-7xl mx-auto px-4">
     {/* District Names */}
-    <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-8 sm:mb-10 px-2">
-      {districts.map((district, i) => {
-        const isActive = selectedDistrict?.name === district.name;
-        return (
-          <button
-            key={i}
-            onClick={() =>
-              setSelectedDistrict(isActive ? null : district)
-            }
-            className={`px-3 sm:px-4 md:px-5 py-2 sm:py-2.5 rounded-lg text-sm sm:text-base md:text-lg font-medium transition-colors duration-300
-              ${isActive
-                ? "bg-yellow-400 text-[#761421] shadow-lg" // Active button style
-                : "bg-[#761421] text-[#F3E6E6] hover:bg-[#F3E6E6] hover:text-[#761421]" // Normal button
-              }`}
-          >
-            {district.name}
-          </button>
-        );
-      })}
-    </div>
+<div className="flex flex-wrap justify-center gap-1.5 sm:gap-2 md:gap-3 mb-6 sm:mb-8 px-2">
+  {districts.map((district, i) => {
+    const isActive = selectedDistrict?.name === district.name;
+    return (
+      <button
+        key={i}
+        onClick={() =>
+          setSelectedDistrict(isActive ? null : district)
+        }
+        className={`px-2 sm:px-2.5 md:px-3 py-1 sm:py-1.5 rounded-lg text-xs sm:text-sm font-medium transition-colors duration-300
+          ${isActive
+            ? "bg-yellow-400 text-[#761421] shadow-md" // Active button style
+            : "bg-[#761421] text-[#F3E6E6] hover:bg-[#F3E6E6] hover:text-[#761421]" // Normal button
+          }`}
+      >
+        {district.name}
+      </button>
+    );
+  })}
+</div>
+
 
     {/* District Details */}
     <div
