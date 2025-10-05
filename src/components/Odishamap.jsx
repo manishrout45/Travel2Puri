@@ -418,13 +418,14 @@ const OdishaMap = () => {
                   onClick={() => navigate(`/destination/${place.id}`)}
                   className="flex flex-col items-center cursor-pointer group"
                 >
-                  <div className="w-24 h-36 sm:w-28 sm:h-44 md:w-32 md:h-48 lg:w-36 lg:h-56 overflow-hidden rounded-full shadow-md group-hover:scale-105 transform transition duration-300">
-                    <img
-                      src={place.image}
-                      alt={place.name}
-                      className="w-full h-full object-cover rounded-full"
-                    />
-                  </div>
+                  <div className="w-20 h-28 sm:w-24 sm:h-36 md:w-28 md:h-40 lg:w-32 lg:h-44 overflow-hidden rounded-full shadow-md group-hover:scale-105 transform transition duration-300">
+                  <img
+                    src={place.image}
+                    alt={place.name}
+                    className="w-full h-full object-cover rounded-full"
+                  />
+                </div>
+
 
                   <p className="mt-2 sm:mt-3 text-gray-700 font-medium text-sm sm:text-base text-center">
                     {place.name}
