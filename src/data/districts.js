@@ -24,7 +24,7 @@ const districts = [
       { 
         id:"budhi-thakurani-temple",
         name: "Budhi Thakurani Temple", 
-        image: "/images/destinations/budhi-thakurani-temple.webp", 
+        image: "/images/destinations/budhi-thakurani-temple.jpg", 
         description: "Ancient shrine dedicated to Goddess Budhi Thakurani." 
       },
     ]
@@ -54,7 +54,7 @@ const districts = [
       { 
         id:"jogeswar-temple",
         name: "Jogeswar Temple", 
-        image: "/images/destinations/jogeswar-temple.jpg", 
+        image: "/images/destinations/jogeswar-temple.webp", 
         description: "Temple dedicated to Lord Shiva in a serene setting." 
       },
     ]
@@ -336,13 +336,13 @@ const districts = [
       { 
         id:"paradeep-port",
         name: "Paradeep Port", 
-        image: "/images/destinations/paradeep-port.jpg", 
+        image: "/images/destinations/paradeep-port.webp", 
         description: "Major sea port and beach area." 
       },
       { 
         id:"sarala-temple",
         name: "Sarala Temple", 
-        image: "/images/destinations/sarala-temple.jpg", 
+        image: "/images/destinations/sarala-temple.webp", 
         description: "Famous Shakti shrine near Jagatsinghpur." 
       },
       { 
@@ -354,7 +354,7 @@ const districts = [
       { 
         id:"Sandhakuda",
         name: "Sandhakuda", 
-        image: "/images/destinations/Sandhakuda.jpg", 
+        image: "/images/destinations/Sandhakuda.webp", 
         description: "Picturesque beach and picnic spot." 
       },
     ]
@@ -398,25 +398,25 @@ const districts = [
       { 
         id:"koilighughar-waterfall",
         name: "Koilighughar Waterfall", 
-        image: "/images/destinations/koilighughar-waterfall.jpg", 
+        image: "/images/destinations/koilighughar-waterfall.webp", 
         description: "Beautiful waterfall with a submerged Shiva linga." 
       },
       { 
         id:"ramchandi-temple",
         name: "Ramchandi Temple", 
-        image: "/images/destinations/ramchandi-temple.jpg", 
+        image: "/images/destinations/ramchandi-temple.webp", 
         description: "Popular local temple in Jharsuguda." 
       },
       { 
         id:"bikramkhol-cave",
         name: "Bikramkhol Cave", 
-        image: "/images/destinations/bikramkhol-cave.jpg", 
+        image: "/images/destinations/bikramkhol-cave.webp", 
         description: "Rock shelter with ancient inscriptions." 
       },
       { 
         id:"jhadeswar-temple",
         name: "Jhadeswar Temple", 
-        image: "/images/destinations/jhadeswar-temple.jpg", 
+        image: "/images/destinations/jhadeswar-temple.webp", 
         description: "Shiva temple with traditional architecture." 
       },
     ],
@@ -458,7 +458,7 @@ const districts = [
       { 
         id:"daringbadi",
         name: "Daringbadi", 
-        image: "/images/destinations/daringbadi.jpg", 
+        image: "/images/destinations/daringbadi.webp", 
         description: "Known as Kashmir of Odisha." 
       },
       { 
@@ -470,13 +470,13 @@ const districts = [
       { 
         id:"putudi-waterfall",
         name: "Putudi Waterfall", 
-        image: "/images/destinations/putudi-waterfall.jpg", 
+        image: "/images/destinations/putudi-waterfall.webp", 
         description: "Picturesque natural waterfall near Phulbani." 
       },
       { 
         id:"balaskumpa-devi-temple",
         name: "Balaskumpa Devi Temple", 
-        image: "/images/destinations/balaskumpa-devi-temple.jpg", 
+        image: "/images/destinations/balaskumpa-devi-temple.webp", 
         description: "Revered temple of Goddess Barala Devi." 
       },
     ],
