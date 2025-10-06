@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="mt-2 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-start gap-3">
           <span className="inline-flex items-center justify-center bg-yellow-500 text-black rounded-full w-20 h-20 text-sm font-bold overflow-hidden">
             <img
-              src="/images/logo01.png"
+              src="/images/TripToPuriLogo.png"
               alt="Trip2Puri Logo"
               className="w-20 h-20 object-contain"
             />
