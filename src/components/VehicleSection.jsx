@@ -30,48 +30,51 @@ const vehicles = [
 
 const VehicleSection = () => {
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 py-12 bg-[#F3E6E6]">
-      {/* Heading */}
-      <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#761421]">
-          Our Services
-        </h2>
-        <p className="text-gray-800 mt-2 max-w-2xl mx-auto">
-          We provide vehicles for marriages, picnics, tours, travel, rallies, and more.
-        </p>
-      </div>
+    <section className="w-full bg-[#F3E6E6] py-12">
+  <div className="max-w-7xl mx-auto px-4">
+    {/* Heading */}
+    <div className="text-center mb-10">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#761421]">
+        Our Services
+      </h2>
+      <p className="text-gray-800 mt-2 max-w-2xl mx-auto">
+        We provide vehicles for marriages, picnics, tours, travel, rallies, and more.
+      </p>
+    </div>
 
-      {/* Vehicle Cards */}
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {vehicles.map((vehicle, index) => (
-          <div
-            key={index}
-            className="bg-[#1b1713] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transform transition duration-300 flex flex-col"
-          >
-            <img
-              src={vehicle.image}
-              alt={vehicle.name}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4 flex flex-col flex-grow">
-              <h3 className="text-xl font-semibold text-white mb-2">
-                {vehicle.name}
-              </h3>
-              <p className="text-gray-400 flex-grow">{vehicle.description}</p>
-              {/* Button with unique link opens in new tab */}
-              <a
-                href={vehicle.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg font-medium hover:bg-yellow-400 transition self-start"
-              >
-                More Details
-              </a>
-            </div>
+    {/* Vehicle Cards */}
+    <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {vehicles.map((vehicle, index) => (
+        <div
+          key={index}
+          className="bg-[#1b1713] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transform transition duration-300 flex flex-col"
+        >
+          <img
+            src={vehicle.image}
+            alt={vehicle.name}
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4 flex flex-col flex-grow">
+            <h3 className="text-xl font-semibold text-white mb-2">
+              {vehicle.name}
+            </h3>
+            <p className="text-gray-400 flex-grow">{vehicle.description}</p>
+            {/* Button with unique link opens in new tab */}
+            <a
+              href={vehicle.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg font-medium hover:bg-yellow-400 transition self-start"
+            >
+              More Details
+            </a>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
   );
 };
 

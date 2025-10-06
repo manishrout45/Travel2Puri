@@ -21,6 +21,13 @@ const Home = () => {
   return (
     <>
       <HeroSection />
+{/* Privacy Policy Button */}
+<a
+  href="/privacy-policy"
+  className="fixed -right-10 top-[50%] transform -translate-y-1/2 rotate-[-90deg] bg-[#761421] px-4 py-2 rounded-tl-lg rounded-tr-lg shadow-lg z-50 animate-blink-text"
+>
+  Privacy Policy
+</a>
 
       {/* ✅ About Us (Short for Home Page) */}
 <section className="relative bg-white py-12 sm:py-16 overflow-hidden">
@@ -43,7 +50,7 @@ const Home = () => {
       </h2>
       <p className="text-gray-600 leading-relaxed mb-6">
         We are a passionate team dedicated to delivering innovative solutions 
-        that inspire change and create meaningful impact. With <span className="font-semibold">Trip2Puri</span>, your journey becomes as memorable as the destination itself. 
+        that inspire change and create meaningful impact. With <span className="font-semibold">TripToPuri</span>, your journey becomes as memorable as the destination itself. 
         Whether you’re planning a family trip, a group pilgrimage, or a weekend getaway, we provide comfortable cars, spacious travellers, and luxury buses to suit every need. 
         Beyond its divine charm, Puri also offers golden beaches, UNESCO heritage monuments, vibrant traditions, and the scenic Chilika Lake. 
         With our reliable booking services, you can explore this unique blend of spirituality, culture, and natural beauty with ease, comfort, and safety. 
@@ -96,7 +103,7 @@ const Home = () => {
               About Trip To Puri
             </p>
             <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6 text-[#761421]">
-              At Trip2Puri, we combine a modern fleet with customer-first service
+              At TripToPuri, we combine a modern fleet with customer-first service
               to redefine car rental.
             </h2>
             <button className="bg-yellow-500 hover:bg-yellow-400 text-[#761421] font-medium px-6 py-3 rounded-full transition">

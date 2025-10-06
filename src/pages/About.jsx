@@ -54,7 +54,11 @@ const About = () => {
      <section className="w-full px-4 sm:px-6 lg:px-8 py-8 bg-[#761421]">
   <div className="max-w-6xl mx-auto">
     <p className="text-white text-base sm:text-lg leading-relaxed text-center">
-      Puri, nestled on the eastern coast of Odisha, is one of India’s most cherished spiritual and cultural destinations. Famous as the sacred home of Lord Jagannath and part of the revered Char Dham pilgrimage, Puri attracts millions of devotees and travelers every year. With <span className="font-semibold">Trip2Puri</span>, your journey becomes as memorable as the destination itself. Whether you’re planning a family trip, a group pilgrimage, or a weekend getaway, we provide comfortable cars, spacious travellers, and luxury buses to suit every need. Beyond its divine charm, Puri also offers golden beaches, UNESCO heritage monuments, vibrant traditions, and the scenic Chilika Lake. With our reliable booking services, you can explore this unique blend of spirituality, culture, and natural beauty with ease, comfort, and safety.
+      Welcome to Trip-To Puri, your trusted travel partner for exploring the beauty, culture, and spirituality of Puri and Odisha.
+Founded by Dibyadarshan Paikray, we make travel simple, safe, and memorable. We provide all types of vehicles—cars, buses, travellers, bikes, and scooties—along with hotel bookings to ensure a comfortable and hassle-free stay.
+From temple tours and beach visits to family vacations and wedding transportation, we cover major destinations like Puri, Bhubaneswar, Konark, and Chilika.
+With Trip-To Puri, your comfort, safety, and unforgettable memories are our top priority.
+
     </p>
   </div>
 </section>

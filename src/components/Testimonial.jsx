@@ -161,7 +161,7 @@ const Testimonial = () => {
           Trusted by Thousands of Drivers
         </h2>
         <p className="text-gray-400 mt-4">
-          Here’s what people love about renting with Trip2Puri.
+          Here’s what people love about renting with TripToPuri.
         </p>
 
         {/* VIEWPORT */}

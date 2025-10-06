@@ -9,44 +9,51 @@ const Footer = () => {
   <img
     src="/images/chakra.png" // replace with your decorative image
     alt="Footer Decoration"
-    className="absolute -top-10 -left-20 w-160 opacity-10 pointer-events-none select-none"
+    className="absolute -top-10 -left-48 w-160 opacity-10 pointer-events-none select-none"
   />
 
   <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 relative z-10">
     {/* Top row */}
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start text-center lg:text-left">
       {/* LEFT: Logo + contact */}
-      <div className="lg:col-span-4 flex flex-col justify-between min-h-[220px]">
-        <div className="mt-2 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-start gap-3">
-          <span className="inline-flex items-center justify-center bg-yellow-500 text-black rounded-full w-20 h-20 text-sm font-bold overflow-hidden">
-            <img
-              src="/images/TripToPuriLogo.png"
-              alt="Trip2Puri Logo"
-              className="w-20 h-20 object-contain"
-            />
-          </span>
-        </div>
+<div className="lg:col-span-4 flex flex-col justify-between min-h-[220px]">
+  <div className="mt-2 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-start gap-3">
+    <span className="inline-flex items-center justify-center bg-yellow-500 text-black rounded-full w-20 h-20 text-sm font-bold overflow-hidden">
+      <img
+        src="/images/TripToPuriLogo.png"
+        alt="Trip2Puri Logo"
+        className="w-20 h-20 object-contain"
+      />
+    </span>
+  </div>
 
-        <div className="mt-6 lg:mt-0 z-10">
-          <div className="mb-6">
-            <p className="text-xs uppercase tracking-widest text-gray-400">
-              Call Us
-            </p>
-            <p className="text-white font-semibold text-lg mt-2">
-              +91 809 346 9315
-            </p>
-          </div>
+  {/* Short About */}
+  <div className="mt-4 text-center lg:text-left max-w-xs">
+    <p className="text-gray-200 text-sm pb-10">
+      TripToPuri offers safe and comfortable travel in Puri and Odisha with cars, bikes, and buses for all your journeys.
+    </p>
+  </div>
 
-          <div>
-            <p className="text-xs uppercase tracking-widest text-gray-400">
-              Mail Us
-            </p>
-            <p className="text-white font-semibold text-lg mt-2">
-              dibyapaikray@gmail.com
-            </p>
-          </div>
-        </div>
-      </div>
+  <div className="mt-6 lg:mt-0 z-10">
+    <div className="mb-6">
+      <p className="text-xs uppercase tracking-widest text-gray-400">
+        Call Us
+      </p>
+      <p className="text-white font-semibold text-lg mt-2">
+        +91 809 346 9315
+      </p>
+    </div>
+
+    <div>
+      <p className="text-xs uppercase tracking-widest text-gray-400">
+        Mail Us
+      </p>
+      <p className="text-white font-semibold text-lg mt-2">
+        dibyapaikray@gmail.com
+      </p>
+    </div>
+  </div>
+</div>
 
       {/* RIGHT: heading + CTA + links */}
       <div className="lg:col-span-8 flex flex-col justify-between">

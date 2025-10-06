@@ -37,3 +37,13 @@ html {
   -ms-overflow-style: none;  /* IE & Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+
+ @keyframes blinkText {
+    0%, 100% { color: white; }
+    50% { color: #fffb09; } /* Red */
+  }
+
+  .animate-blink-text {
+    animation: blinkText 1s infinite;
+  }
