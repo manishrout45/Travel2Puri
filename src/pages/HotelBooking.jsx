@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHotel, FaWifi, FaCar, FaConciergeBell } from "react-icons/fa";
+import { FaHotel, FaWifi, FaCar, FaConciergeBell, FaPhoneAlt } from "react-icons/fa";
 
 const hotels = [
   {
@@ -57,12 +57,16 @@ const HotelBooking = () => {
                 <h3 className="text-xl font-semibold">{hotel.name}</h3>
                 <p className="text-gray-500">{hotel.location}</p>
                 {/* Price hidden - show "Call for Price" instead */}
-                <p className="text-[#761421] font-semibold mt-2">
-                  2XXX/-
+                <p className="text-[#008a17] font-semibold mt-2">
+                  Get Better Deal with Us
                 </p>
-                <button className="mt-4 w-full bg-[#761421] text-white py-2 rounded-lg hover:bg-[#5a0f19] transition">
-                  Book Now
-                </button>
+                    <button
+                    onClick={() => window.location.href = "tel:+918093469315"} // replace with your number
+                    className="mt-4 w-full bg-[#761421] text-white py-2 rounded-lg hover:bg-[#5a0f19] transition flex items-center justify-center gap-2"
+                  >
+                    <FaPhoneAlt className="text-white" />
+                    Call Us
+                  </button>
               </div>
             </div>
           ))}

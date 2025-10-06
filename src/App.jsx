@@ -16,6 +16,7 @@ import Districts from "./pages/Districts";
 import Policies from "./pages/Policies";
 import HotelBooking from "./pages/HotelBooking"
 import TourService from "./pages/TourService";
+import MarriageCarRent from "./pages/MarriageCarRent";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
         <Route path="/policies" element={<Policies />} />
         <Route path="/tourservice" element={<TourService/>} />
         <Route path="/hotelbooking" element={<HotelBooking/>} />
+        <Route path="/marriagecarrent" element={<MarriageCarRent/>} />
+
         {/* ✅ Fixed path */}
         <Route path="/districts" element={<Districts />} />
 

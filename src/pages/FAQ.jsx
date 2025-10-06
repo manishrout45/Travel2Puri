@@ -50,7 +50,7 @@ const FAQ = () => {
     <>
             {/* ✅ Hero Section */}
       <section
-        className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] bg-center bg-cover flex items-center justify-center"
+        className="relative w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] bg-center bg-cover flex items-center justify-center mt-20"
         style={{ backgroundImage: "url('/images/FAQ/FAQ.jpg')" }} // replace with your image path
       >
         {/* Optional overlay */}

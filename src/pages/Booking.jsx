@@ -66,7 +66,7 @@ Guests: ${formData.guests}`;
     <>
       {/* Hero Section */}
       <section
-        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
+        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center mt-20"
         style={{
           backgroundImage: "url('/images/booking/booking.jpg')",
         }}

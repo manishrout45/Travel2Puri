@@ -12,7 +12,7 @@ const Footer = () => {
     className="absolute -top-10 -left-20 w-160 opacity-10 pointer-events-none select-none"
   />
 
-  <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 relative z-10">
+  <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 relative z-10">
     {/* Top row */}
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start text-center lg:text-left">
       {/* LEFT: Logo + contact */}

@@ -47,7 +47,7 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden mt-16"
+      className="relative w-full py-16 px-6 flex flex-col items-center overflow-hidden mt-20"
       style={{ backgroundColor: "#FEF7EE" }}
     >
       {/* Background Image with Gradient Overlay */}

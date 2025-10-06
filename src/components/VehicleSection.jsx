@@ -16,7 +16,7 @@ const vehicles = [
       "Hire premium decorated cars for weddings, special occasions, and luxury travel needs.",
     image:
       "https://i.pinimg.com/736x/f9/b3/a2/f9b3a2df4a120abec2c7544accc77e77.jpg",
-    link: "/marriage-car", // ✅ unique link
+    link: "/marriagecarrent", // ✅ unique link
   },
   {
     name: "Tour",

@@ -30,7 +30,7 @@ const About = () => {
     <motion.section initial="hidden" whileInView="visible" viewport={{ once: true }}>
       {/* About Section */}
       <motion.div
-        className="relative text-center  overflow-hidden min-h-[70vh] flex items-center justify-center"
+        className="relative text-center  overflow-hidden min-h-[70vh] flex items-center justify-center mt-16"
         variants={fadeUp}
       >
         {/* Background Image */}
