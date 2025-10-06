@@ -756,9 +756,9 @@ const districts = [
     map: "/images/districts/puri.png",
     destinations: [
       { 
-        id:"jagannath-temple",
-        name: "Jagannath Temple", 
-        image: "/images/destinations/Puri/jagannath-temple.jpeg", 
+        id:"jagannath-temple-puri",
+        name: "Jagannath Temple, Puri", 
+        image: "/images/destinations/Puri/jagannath-temple-puri.jpeg", 
         description: "Famous Hindu temple." 
       },
       { 

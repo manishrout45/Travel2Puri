@@ -258,7 +258,7 @@ const districts = [
     name: "Puri",
     map: "/images/districts/puri.png",
     destinations: [
-      { id:"jagannath-temple", name: "Jagannath Temple", image: "/images/destinations/Puri/jagannath-temple.jpeg", description: "Famous Hindu temple." },
+      { id:"jagannath-temple-puri", name: "Jagannath Temple, Puri", image: "/images/destinations/Puri/jagannath-temple-puri.jpeg", description: "Famous Hindu temple." },
       { id:"puri-beach", name: "Puri Beach", image: "/images/destinations/Puri/puri-beach.jpeg", description: "Popular beach on Bay of Bengal." },
       { id:"konark-sun-temple", name: "Konark Sun Temple", image: "/images/destinations/Puri/konark-sun-temple.jpeg", description: "UNESCO World Heritage temple." },
       { id:"chilika-lake", name: "Chilika Lake (Satapada)", image: "/images/destinations/Puri/chilika-lake.jpeg", description: "Lagoon with dolphins and migratory birds." },
