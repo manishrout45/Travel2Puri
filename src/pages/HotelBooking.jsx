@@ -58,7 +58,7 @@ const HotelBooking = () => {
                 <p className="text-gray-500">{hotel.location}</p>
                 {/* Price hidden - show "Call for Price" instead */}
                 <p className="text-[#761421] font-semibold mt-2">
-                  Call us for price
+                  2XXX/-
                 </p>
                 <button className="mt-4 w-full bg-[#761421] text-white py-2 rounded-lg hover:bg-[#5a0f19] transition">
                   Book Now
