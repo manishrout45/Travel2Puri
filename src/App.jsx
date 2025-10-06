@@ -14,6 +14,8 @@ import Contact from "./pages/Contact";
 import DestinationDetail from "./pages/DestinationDetail";
 import Districts from "./pages/Districts";
 import Policies from "./pages/Policies";
+import HotelBooking from "./pages/HotelBooking"
+import TourService from "./pages/TourService";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/policies" element={<Policies />} />
+        <Route path="/tourservice" element={<TourService/>} />
+        <Route path="/hotelbooking" element={<HotelBooking/>} />
         {/* ✅ Fixed path */}
         <Route path="/districts" element={<Districts />} />
 

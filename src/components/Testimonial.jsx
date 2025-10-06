@@ -145,7 +145,7 @@ const Testimonial = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="https://cdn.pixabay.com/photo/2016/11/29/06/18/auto-1868726_1280.jpg"
+          src="https://i.pinimg.com/736x/a3/4d/06/a34d0637d2f86620d4d4d3de42b6b830.jpg"
           alt="Car Background"
           className="w-full h-full object-cover"
         />

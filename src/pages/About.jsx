@@ -67,7 +67,7 @@ const About = () => {
       {/* Owner Image */}
       <div className="flex-shrink-0 relative w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 mx-auto lg:mx-0">
         <img
-          src="/images/owner.jpg" // Replace with your owner's image
+          src="https://www.pngfind.com/pngs/m/468-4686427_profile-demo-hd-png-download.png" // Replace with your owner's image
           alt="Owner"
           className="w-full h-full object-cover rounded-2xl shadow-2xl border-4 border-[#761421]"
         />

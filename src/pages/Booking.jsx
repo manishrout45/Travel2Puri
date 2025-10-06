@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import TopDestinations from "../components/TopDestinations";
 import VehicleSection from "../components/VehicleSection";
+import OdishaMap from "../components/Odishamap";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -30,7 +31,7 @@ const Booking = () => {
     e.preventDefault();
 
     // Replace with your WhatsApp number (country code included, no "+" or spaces)
-    const phoneNumber = "919337303150"; 
+    const phoneNumber = "918093469315"; 
 
     // Format message for WhatsApp
     const message = `*New Booking Request*%0A
@@ -76,7 +77,7 @@ Guests: ${formData.guests}`;
         </h1>
       </section>
 
-      {/* Services Section */}
+      {/* Services Section 
       <section className="bg-[#F3E6E6] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
@@ -89,7 +90,7 @@ Guests: ${formData.guests}`;
           </div>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12 items-start md:items-center">
-            {/* Left Services */}
+            {/* Left Services 
             <div className="flex flex-col gap-10 text-center order-2 md:order-1">
               <ServiceItem
                 imgSrc="https://packagewale.com/wp-content/uploads/2022/11/c26e0515284a987a1dc63d2b59d79be6.png"
@@ -108,7 +109,7 @@ Guests: ${formData.guests}`;
               />
             </div>
 
-            {/* Car Image */}
+            {/* Car Image 
             <div className="flex justify-center order-1 md:order-2">
               <img
                 src="/images/serviceCar.png"
@@ -117,7 +118,7 @@ Guests: ${formData.guests}`;
               />
             </div>
 
-            {/* Right Services */}
+            {/* Right Services 
             <div className="flex flex-col gap-10 text-center order-3">
               <ServiceItem
                 imgSrc="/images/picnic.png"
@@ -137,32 +138,42 @@ Guests: ${formData.guests}`;
             </div>
           </div>
         </div>
-      </section>
-
+      </section> */}
+      <OdishaMap />
       <VehicleSection />
 
       {/* How to Book Section */}
       <section className="bg-[#761421] text-white py-16 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <p className="text-yellow-400 uppercase font-semibold tracking-widest">
-              How to Book
-            </p>
-            <h2 className="text-3xl md:text-5xl font-bold mt-4 leading-tight">
-              Book Your Luxury <br /> Ride in Minutes
-            </h2>
-            <p className="text-gray-400 mt-6 max-w-md">
-              Simple, fast, and seamless — from browsing our exotic collection to
-              hitting the road with your dream car.
-            </p>
-            <div className="mt-10">
-              <img
-                src="/images/black-isolated-car.png"
-                alt="Luxury Car"
-                className="w-full max-w-lg"
-              />
-            </div>
-          </div>
+          <div className="relative">
+  <p className="text-yellow-400 uppercase font-semibold tracking-widest">
+    How to Book
+  </p>
+  <h2 className="text-3xl md:text-5xl font-bold mt-4 leading-tight">
+    Book Your Luxury <br /> Ride in Minutes
+  </h2>
+  <p className="text-gray-400 mt-6 max-w-md">
+    Simple, fast, and seamless — from browsing our exotic collection to
+    hitting the road with your dream car.
+  </p>
+
+  <div className="mt-10 relative">
+    {/* 🔹 Decorative Chakra behind car */}
+    <img
+      src="/images/chakra.png"
+      alt="Decorative Chakra"
+      className="absolute -top-20 -left-28 w-[560px] opacity-10 pointer-events-none select-none"
+    />
+
+    {/* 🔹 Car image (always above) */}
+    <img
+      src="/images/black-isolated-car.png"
+      alt="Luxury Car"
+      className="w-full max-w-lg relative z-10"
+    />
+  </div>
+</div>
+
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Steps */}
@@ -188,8 +199,8 @@ Guests: ${formData.guests}`;
                 desc: "Pick up your car (or have it delivered) and experience the thrill of luxury driving.",
               },
             ].map((item, index) => (
-              <div key={index} className="bg-[#f8f7d1] p-6 rounded-md">
-                <span className="block text-gray-400 text-lg font-bold">{item.step}</span>
+              <div key={index} className="bg-[#F3E6E6] p-6 rounded-md">
+                <span className="block text-[#761421] text-lg font-bold">{item.step}</span>
                 <h3 className="text-xl font-semibold mt-2 text-black">{item.title}</h3>
                 <p className="text-gray-400 mt-3 text-sm">{item.desc}</p>
               </div>

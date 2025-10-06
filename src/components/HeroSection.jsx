@@ -4,8 +4,8 @@ const images = [
   "https://media.istockphoto.com/id/451584323/photo/india-orissa.jpg?s=612x612&w=0&k=20&c=FS_Pwi1My7nJ0EYAQrs9aAJiTqq268JuiH2K6BAl5I0=", // Jagannath Temple
   "https://media.licdn.com/dms/image/v2/D5622AQGct4QU2qb2Xw/feedshare-shrink_800/feedshare-shrink_800/0/1714900426828?e=2147483647&v=beta&t=bRKxnr5_xUU-Xl7LJ49oV7FkBbKa5LKMA_gqHNdrlig", // Konark Sun Temple
   "https://images.pexels.com/photos/29547310/pexels-photo-29547310/free-photo-of-serene-beach-view-at-puri-odisha.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", // Puri Beach
-  "https://media.istockphoto.com/id/1128484968/photo/beautiful-sunrise-at-chilika-lake-india.jpg?b=1&s=612x612&w=0&k=20&c=8lVzCn-TarjYZ1ibGwQIE4uzRqsKBz1_wAJc_L_Vunk=", // Chilika Lake
-  "https://upload.wikimedia.org/wikipedia/commons/c/c6/Narendra_Tank%2C_Puri%2C_Odisha.JPG", // Narendra Tank
+  "https://media.istockphoto.com/id/160532396/photo/chilika-lake-in-crimson-light.jpg?s=612x612&w=0&k=20&c=csFAHv005wm75-EyayHTohMSQRpSqIEvOsnWQJXdLX0=", // Chilika Lake
+  "https://indianewsdiary.com/wp-content/uploads/2022/05/FR1vHZLXMAQdZtt.jpeg", // Narendra Tank
   "https://thumbs.dreamstime.com/b/stone-guardian-lion-ancient-gundicha-temple-puri-40163897.jpg" // Gundicha Temple
 ];
 

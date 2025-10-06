@@ -21,11 +21,57 @@ const Home = () => {
   return (
     <>
       <HeroSection />
+
+      {/* ✅ About Us (Short for Home Page) */}
+<section className="relative bg-white py-12 sm:py-16 overflow-hidden">
+  <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    
+    {/* Left Image */}
+    <div className="relative">
+      <img
+        src="https://www.indifi.com/blog/wp-content/uploads/2020/03/Offers-to-Customers-For-Travel-Agencies-.jpg" 
+        alt="About Us"
+        className="rounded-xl shadow-md object-cover w-full h-[250px] sm:h-[320px] md:h-[380px]"
+      />
+      <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#761421] rounded-full opacity-20"></div>
+    </div>
+
+    {/* Right Content */}
+    <div className="relative">
+      <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+        About <span className="text-[#761421]">Us</span>
+      </h2>
+      <p className="text-gray-600 leading-relaxed mb-6">
+        We are a passionate team dedicated to delivering innovative solutions 
+        that inspire change and create meaningful impact. With <span className="font-semibold">Trip2Puri</span>, your journey becomes as memorable as the destination itself. 
+        Whether you’re planning a family trip, a group pilgrimage, or a weekend getaway, we provide comfortable cars, spacious travellers, and luxury buses to suit every need. 
+        Beyond its divine charm, Puri also offers golden beaches, UNESCO heritage monuments, vibrant traditions, and the scenic Chilika Lake. 
+        With our reliable booking services, you can explore this unique blend of spirituality, culture, and natural beauty with ease, comfort, and safety. 
+      </p>
+      <a
+        href="/about"
+        className="inline-block px-5 py-2 bg-[#761421] text-white font-medium rounded-md shadow hover:bg-[#761421] transition"
+      >
+        Learn More
+      </a>
+
+      {/* Decorative Image at bottom-right */}
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/854/854894.png" 
+        alt="Decoration"
+        className="absolute -bottom-10 -right-10 w-40 opacity-10 pointer-events-none select-none"
+      />
+    </div>
+  </div>
+</section>
+
+
+
       <VehicleSection />
 
       <Tour />
 
-      <OdishaMap />
+      {/* <OdishaMap /> */}
 
 
 
