@@ -23,11 +23,14 @@ const Home = () => {
       <HeroSection />
 {/* Privacy Policy Button */}
 <a
-  href="/privacy-policy"
+  href="/policies"
+  target="_blank"
+  rel="noopener noreferrer"
   className="fixed -right-10 top-[50%] transform -translate-y-1/2 rotate-[-90deg] bg-[#761421] px-4 py-2 rounded-tl-lg rounded-tr-lg shadow-lg z-50 animate-blink-text"
 >
   Privacy Policy
 </a>
+
 
       {/* ✅ About Us (Short for Home Page) */}
 <section className="relative bg-white py-12 sm:py-16 overflow-hidden">

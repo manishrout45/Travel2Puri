@@ -5,12 +5,17 @@ import { FaInstagram, FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="relative bg-[#1b1713] text-gray-300 overflow-hidden">
-  {/* 🔹 Decorative background image */}
-  <img
-    src="/images/chakra.png" // replace with your decorative image
-    alt="Footer Decoration"
-    className="absolute -top-10 -left-48 w-160 opacity-10 pointer-events-none select-none"
-  />
+{/* 🔹 Decorative background image */}
+<img
+  src="/images/chakra.png"
+  alt="Footer Decoration"
+  className="
+    absolute -top-20 left-1/2 -translate-x-1/2
+    w-160 opacity-10 pointer-events-none select-none
+    lg:-top-10 lg:-left-48 lg:translate-x-0
+  "
+/>
+
 
   <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 relative z-10">
     {/* Top row */}
@@ -28,11 +33,12 @@ const Footer = () => {
   </div>
 
   {/* Short About */}
-  <div className="mt-4 text-center lg:text-left max-w-xs">
-    <p className="text-gray-200 text-sm pb-10">
-      TripToPuri offers safe and comfortable travel in Puri and Odisha with cars, bikes, and buses for all your journeys.
-    </p>
-  </div>
+<div className="mt-4 text-center max-w-xs lg:text-left mx-auto lg:mx-0">
+  <p className="text-gray-200 text-sm pb-10">
+    TripToPuri offers safe and comfortable travel in Puri and Odisha with cars, bikes, and buses for all your journeys.
+  </p>
+</div>
+
 
   <div className="mt-6 lg:mt-0 z-10">
     <div className="mb-6">

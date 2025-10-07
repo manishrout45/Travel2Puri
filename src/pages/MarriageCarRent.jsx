@@ -26,7 +26,7 @@ const MarriageCarRent = () => {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* ✅ Hero Section */}
-      <section className="relative bg-gradient-to-r from-[#761421] to-[#a83246] text-white py-20 px-6 text-center">
+      <section className="relative bg-gradient-to-r from-[#761421] to-[#a83246] text-white py-20 px-6 text-center mt-20">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Luxury Marriage Car Rentals

@@ -26,7 +26,7 @@ const HotelBooking = () => {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* ✅ Hero Section (without search bar) */}
-      <section className="relative bg-gradient-to-r from-[#761421] to-[#a83246] text-white py-20 px-6 text-center overflow-hidden">
+      <section className="relative bg-gradient-to-r from-[#761421] to-[#a83246] text-white py-20 px-6 text-center overflow-hidden mt-20">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Find & Book Luxury Hotels in Minutes

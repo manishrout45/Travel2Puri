@@ -64,7 +64,7 @@ const TourService = () => {
   return (
     <div className="bg-gray-50 min-h-screen font-sans">
         <section
-        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center"
+        className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center mt-20"
         style={{
           backgroundImage:
             "url('https://apps.odishatourism.gov.in/Application/uploadDocuments/TravelTrailDoc/Banner20190717_172344.jpg')",

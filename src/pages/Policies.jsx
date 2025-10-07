@@ -6,7 +6,7 @@ const Policies = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 py-20 text-center text-white">
+      <div className="relative bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 py-20 text-center text-white mt-20">
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-4xl md:text-6xl font-extrabold drop-shadow-lg">
