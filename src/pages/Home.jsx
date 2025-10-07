@@ -248,6 +248,21 @@ const Home = () => {
       <Testimonial />
 
 
+<section className="w-full relative">
+  {/* Text above the image */}
+  <h1 className="text-center text-5xl md:text-9xl font-bold text-[#f3f1f1] -mb-6">
+    TRAVEL
+  </h1>
+
+  {/* Image */}
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/9/90/Bird_view_of_Jagannath_Temple%2C_Puri.jpg"
+    alt="Beautiful view"
+    className="w-full  object-cover"
+  />
+</section>
+
+
       <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="bg-[#F3E6E6] rounded-lg px-6 py-12 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
@@ -280,22 +295,6 @@ const Home = () => {
         </div>
       </div>
     </section>
-
-    <section className="w-full relative">
-  {/* Text above the image */}
-  <h1 className="text-center text-5xl md:text-9xl font-bold text-[#f3f1f1] -mb-6">
-    TRAVEL
-  </h1>
-
-  {/* Image */}
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/9/90/Bird_view_of_Jagannath_Temple%2C_Puri.jpg"
-    alt="Beautiful view"
-    className="w-full  object-cover"
-  />
-</section>
-
-
 
     </>
   );
