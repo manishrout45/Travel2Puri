@@ -6,7 +6,7 @@ const Policies = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 py-20 text-center text-white mt-20">
+      <div className="relative bg-gradient-to-r from-[#761421] via-[#d24053] to-yellow-500 py-20 text-center text-white mt-20">
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-4xl md:text-6xl font-extrabold drop-shadow-lg">
@@ -24,7 +24,7 @@ const Policies = () => {
           {/* Terms & Conditions */}
           <section className="mb-16">
             <div className="flex items-center gap-3 mb-8">
-              <ShieldCheckIcon className="w-10 h-10 text-blue-600" />
+              <ShieldCheckIcon className="w-10 h-10 text-[#761421]" />
               <h2 className="text-3xl font-extrabold text-gray-800">
                 Terms & Conditions
               </h2>
@@ -32,7 +32,7 @@ const Policies = () => {
 
             <div className="grid gap-8 text-gray-700 leading-relaxed">
               <div className="p-6 rounded-2xl shadow-md bg-gradient-to-r from-yellow-50 to-white hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold text-blue-700 mb-2">
+                <h3 className="text-lg font-semibold text-[#761421] mb-2">
                   1. Booking & Payments
                 </h3>
                 <p>
@@ -43,7 +43,7 @@ const Policies = () => {
               </div>
 
               <div className="p-6 rounded-2xl shadow-md bg-gradient-to-r from-yellow-50 to-white hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold text-blue-700 mb-2">
+                <h3 className="text-lg font-semibold text-[#761421] mb-2">
                   2. Cancellations
                 </h3>
                 <p>
@@ -54,7 +54,7 @@ const Policies = () => {
               </div>
 
               <div className="p-6 rounded-2xl shadow-md bg-gradient-to-r from-yellow-50 to-white hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold text-blue-700 mb-2">
+                <h3 className="text-lg font-semibold text-[#761421] mb-2">
                   3. Liability
                 </h3>
                 <p>
@@ -65,7 +65,7 @@ const Policies = () => {
               </div>
 
               <div className="p-6 rounded-2xl shadow-md bg-gradient-to-r from-yellow-50 to-white hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold text-blue-700 mb-2">
+                <h3 className="text-lg font-semibold text-[#761421] mb-2">
                   4. Changes to Terms
                 </h3>
                 <p>
@@ -78,7 +78,7 @@ const Policies = () => {
 
           {/* Divider */}
           <div className="flex justify-center my-12">
-            <span className="w-24 h-1 bg-gradient-to-r from-blue-600 to-yellow-500 rounded-full"></span>
+            <span className="w-24 h-1 bg-gradient-to-r from-[#761421] to-yellow-500 rounded-full"></span>
           </div>
 
           {/* Privacy Policy */}

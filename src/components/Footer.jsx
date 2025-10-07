@@ -17,7 +17,7 @@ const Footer = () => {
 />
 
 
-  <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 relative z-10">
+  <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8 relative z-10">
     {/* Top row */}
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start text-center lg:text-left">
       {/* LEFT: Logo + contact */}

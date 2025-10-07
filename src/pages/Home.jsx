@@ -79,10 +79,87 @@ const Home = () => {
 
       <VehicleSection />
 
+      {/* Travel Types Section */}
+<section className="relative bg-[#bc956f] py-12 md:py-16 ">
+  {/* 🔹 Wave Shape on Top */}
+  <div className="absolute -top-6 left-0 w-full overflow-hidden leading-none">
+    <svg
+      className="relative block w-full h-10 md:h-20 text-[#F3E6E6]"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+      preserveAspectRatio="none"
+    >
+      <path
+        fill="currentColor"
+        d="M0,64L48,74.7C96,85,192,107,288,128C384,149,480,171,576,154.7C672,139,768,85,864,96C960,107,1056,181,1152,186.7C1248,192,1344,128,1392,96L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+  </div>
+
+  {/* Content */}
+  <div className="max-w-7xl mx-auto px-4 relative z-10">
+    {/* Grid */}
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center text-white">
+      
+      {/* Solo Travel */}
+      <div>
+        <div className="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/128/16177/16177264.png" alt="Solo Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
+        </div>
+        <h3 className="font-medium text-sm sm:text-base md:text-lg">Solo Travel</h3>
+      </div>
+
+      {/* Tour Travel */}
+      <div>
+        <div className="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/128/9610/9610500.png" alt="Tour Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
+        </div>
+        <h3 className="font-medium text-sm sm:text-base md:text-lg">Tour Travel</h3>
+      </div>
+
+      {/* Ecotourism Travel */}
+      <div>
+        <div className="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/128/18132/18132588.png" alt="Ecotourism Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
+        </div>
+        <h3 className="font-medium text-sm sm:text-base md:text-lg">Ecotourism Travel</h3>
+      </div>
+
+      {/* Adventure Travel */}
+      <div>
+        <div className="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/128/2350/2350806.png" alt="Adventure Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
+        </div>
+        <h3 className="font-medium text-sm sm:text-base md:text-lg">Adventure Travel</h3>
+      </div>
+    </div>
+
+    {/* Description */}
+    <p className="text-gray-200 text-center max-w-2xl mx-auto mt-6 text-xs sm:text-sm md:text-base">
+      Solo travel gives freedom and self-discovery, tours offer guided comfort, ecotourism connects with nature responsibly, and adventure travel brings thrilling lifelong memories.
+    </p>
+  </div>
+</section>
+
+
       <Tour />
 
       {/* <OdishaMap /> */}
 
+      {/* Full Width Video Section */}
+      <section className="w-full">
+        <video
+  className="w-full h-[24vh] md:h-[40vh] lg:h-[70vh] object-cover"
+  autoPlay
+  loop
+  muted
+  playsInline
+>
+
+          <source src="/videos/puriVideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
 
 
 
@@ -203,6 +280,23 @@ const Home = () => {
         </div>
       </div>
     </section>
+
+    <section className="w-full relative">
+  {/* Text above the image */}
+  <h1 className="text-center text-5xl md:text-9xl font-bold text-[#f3f1f1] -mb-6">
+    TRAVEL
+  </h1>
+
+  {/* Image */}
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/9/90/Bird_view_of_Jagannath_Temple%2C_Puri.jpg"
+    alt="Beautiful view"
+    className="w-full  object-cover"
+  />
+</section>
+
+
+
     </>
   );
 };

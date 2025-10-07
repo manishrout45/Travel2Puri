@@ -24,7 +24,7 @@ const Tour = () => {
         },
         {
           title: "Ramchandi Sangam",
-          img: "https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=400&q=80",
+          img: "https://trip2odisha.in/wp-content/uploads/2024/05/DSC02939-scaled.jpg",
         },
         {
           title: "Chandrabhaga",
@@ -61,7 +61,7 @@ const Tour = () => {
         },
         {
           title: "Pipili Handloom Market",
-          img: "https://twocircles.net/wp-content/uploads/2022/04/The-colourful-designed-handicrafts-of-Pipili.jpg",
+          img: "https://odishatourism.gov.in/content/dam/tourism/home/discover/attractions/art-and-crafts/pipili/pipstb/Pipili_STB2.jpg",
         },
         {
           title: "Dhauli",
@@ -130,7 +130,7 @@ const Tour = () => {
         },
         {
           title: "Moti",
-          img: "https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=400&q=80",
+          img: "https://cdn.shopify.com/s/files/1/1196/3508/files/Natural_large.jpg?4889387338797464052",
         },
         {
           title: "Red Crab",
@@ -196,7 +196,7 @@ const Tour = () => {
   };
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 mt-20">
       {/* SECTION 1 - TOUR DETAILS */}
       <section className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left Content */}
