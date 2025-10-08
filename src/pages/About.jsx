@@ -115,19 +115,6 @@ With Trip-To Puri, your comfort, safety, and unforgettable memories are our top 
   </div>
 </section>
 
-<section className="w-full relative">
-  {/* Text above the image */}
-  <h1 className="text-center text-5xl md:text-9xl font-bold text-[#f3f1f1] -mb-6">
-    TRAVEL
-  </h1>
-
-  {/* Image */}
-  <img
-    src="https://tripxl.com/blog/wp-content/uploads/2025/01/Puri-Beach.jpg"
-    alt="Beautiful view"
-    className="w-full  object-cover"
-  />
-</section>
 
       {/* Why Rent with Us Section */}
       <section className="bg-[#F3E6E6] text-[#761421] pt-10 px-6 ">

@@ -80,7 +80,7 @@ const Home = () => {
       <VehicleSection />
 
       {/* Travel Types Section */}
-<section className="relative bg-[#bc956f] py-12 md:py-16 ">
+<section className="relative py-12 md:py-16 overflow-hidden" style={{ background: "linear-gradient(135deg, #bc956f, #f3d6b4)" }}>
   {/* 🔹 Wave Shape on Top */}
   <div className="absolute -top-6 left-0 w-full overflow-hidden leading-none">
     <svg
@@ -96,47 +96,74 @@ const Home = () => {
     </svg>
   </div>
 
+  {/* 🔹 Random Scatter Pattern */}
+  <div className="absolute inset-0">
+    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+      {Array.from({ length: 120 }).map((_, i) => (
+        <circle
+          key={i}
+          cx={Math.random() * 1440}
+          cy={Math.random() * 600}
+          r={Math.random() * 4 + 1}
+          fill="rgba(255,255,255,0.15)"
+        />
+      ))}
+    </svg>
+  </div>
+
   {/* Content */}
   <div className="max-w-7xl mx-auto px-4 relative z-10">
     {/* Grid */}
     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center text-white">
       
       {/* Solo Travel */}
-      <div>
+      <div className="group relative overflow-hidden rounded-xl">
         <div className="flex justify-center mb-3">
           <img src="https://cdn-icons-png.flaticon.com/128/16177/16177264.png" alt="Solo Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
         </div>
         <h3 className="font-medium text-sm sm:text-base md:text-lg">Solo Travel</h3>
+        <p className="absolute bottom-0 left-0 right-0 bg-black/50 text-xs md:text-sm text-white p-2 opacity-0 group-hover:opacity-100 transition-all duration-500">
+          Freedom and self-discovery on solo trips.
+        </p>
       </div>
 
       {/* Tour Travel */}
-      <div>
+      <div className="group relative overflow-hidden rounded-xl">
         <div className="flex justify-center mb-3">
           <img src="https://cdn-icons-png.flaticon.com/128/9610/9610500.png" alt="Tour Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
         </div>
         <h3 className="font-medium text-sm sm:text-base md:text-lg">Tour Travel</h3>
+        <p className="absolute bottom-0 left-0 right-0 bg-black/50 text-xs md:text-sm text-white p-2 opacity-0 group-hover:opacity-100 transition-all duration-500">
+          Guided comfort and memorable experiences.
+        </p>
       </div>
 
       {/* Ecotourism Travel */}
-      <div>
+      <div className="group relative overflow-hidden rounded-xl">
         <div className="flex justify-center mb-3">
           <img src="https://cdn-icons-png.flaticon.com/128/18132/18132588.png" alt="Ecotourism Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
         </div>
         <h3 className="font-medium text-sm sm:text-base md:text-lg">Ecotourism Travel</h3>
+        <p className="absolute bottom-0 left-0 right-0 bg-black/50 text-xs md:text-sm text-white p-2 opacity-0 group-hover:opacity-100 transition-all duration-500">
+          Connect with nature responsibly.
+        </p>
       </div>
 
       {/* Adventure Travel */}
-      <div>
+      <div className="group relative overflow-hidden rounded-xl">
         <div className="flex justify-center mb-3">
           <img src="https://cdn-icons-png.flaticon.com/128/2350/2350806.png" alt="Adventure Travel" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
         </div>
         <h3 className="font-medium text-sm sm:text-base md:text-lg">Adventure Travel</h3>
+        <p className="absolute bottom-0 left-0 right-0 bg-black/50 text-xs md:text-sm text-white p-2 opacity-0 group-hover:opacity-100 transition-all duration-500">
+          Thrilling experiences for lifetime memories.
+        </p>
       </div>
     </div>
 
     {/* Description */}
     <p className="text-gray-200 text-center max-w-2xl mx-auto mt-6 text-xs sm:text-sm md:text-base">
-      Solo travel gives freedom and self-discovery, tours offer guided comfort, ecotourism connects with nature responsibly, and adventure travel brings thrilling lifelong memories.
+      Solo travel gives freedom, tours offer guided comfort, ecotourism connects with nature, and adventure travel brings lifelong thrills.
     </p>
   </div>
 </section>
@@ -248,9 +275,9 @@ const Home = () => {
       <Testimonial />
 
 
-<section className="w-full relative">
+<section className="w-full relative mt-10">
   {/* Text above the image */}
-  <h1 className="text-center text-5xl md:text-9xl font-bold text-[#f3f1f1] -mb-6">
+  <h1 className="text-center text-5xl md:text-9xl font-bold text-[#f3f1f1]  -mb-2 md:-mb-4">
     TRAVEL
   </h1>
 
