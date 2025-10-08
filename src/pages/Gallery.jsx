@@ -52,7 +52,7 @@ const Gallery = () => {
         className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center mt-20"
         style={{
           backgroundImage:
-            "url('/images/gallery/gallery.jpg')",
+            "url('https://apps.odishatourism.gov.in/Application/uploadDocuments/UserContribution/Thumb20230508_103106.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>

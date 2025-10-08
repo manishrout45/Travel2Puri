@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import TopDestinations from "../components/TopDestinations";
-import VehicleSection from "../components/VehicleSection";
+
 import OdishaMap from "../components/Odishamap";
 
 const fadeUp = {
@@ -62,19 +62,41 @@ Guests: ${formData.guests}`;
     </div>
   );
 
+  const services = [
+  {
+    name: "Hotel Booking",
+    description: "Book top hotels in Puri, Bhubaneswar, and nearby with great amenities.",
+    image: "https://i.pinimg.com/1200x/7f/eb/63/7feb63a3026ec37bfc7d1d8ffe3dc873.jpg",
+    link: "/hotelbooking",
+  },
+  {
+    name: "Marriage Car Rent",
+    description: "Hire premium decorated cars for weddings, special occasions, and luxury travel needs.",
+    image: "https://i.pinimg.com/1200x/43/be/13/43be13b4bfe8cb6f01e1378a7cfad33b.jpg",
+    link: "/marriagecarrent",
+  },
+  {
+    name: "Tour Travel",
+    description: "Vehicles for all your travel needs – Bus, Car, Bike, Scooty, Traveller, Rally & Family Trips.",
+    image: "https://kashiyatra.in/wp-content/uploads/2023/11/tempo-traveller-on-rent-in-varanasi.jpg",
+    link: "/tourservice",
+  },
+];
+
   return (
     <>
       {/* Hero Section */}
       <section
         className="relative w-full h-[60vh] bg-center bg-cover flex items-center justify-center mt-20"
         style={{
-          backgroundImage: "url('/images/booking/booking.jpg')",
+          backgroundImage: "url('https://images5.alphacoders.com/111/thumb-1920-1117541.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white text-center">
           Booking
         </h1>
+        
       </section>
 
       {/* Services Section 
@@ -140,7 +162,52 @@ Guests: ${formData.guests}`;
         </div>
       </section> */}
       <OdishaMap />
-      <VehicleSection />
+      
+          {/*Service Section */}
+          <section className="w-full max-w-7xl mx-auto px-4 py-16 text-center bg-[#F3E6E6]">
+      <h2 className="text-4xl font-bold text-center mb-2 text-gray-900">
+        Our Services
+      </h2>
+      <p className="text-gray-800 mb-6 max-w-2xl mx-auto">
+        We provide vehicles for marriages, picnics, tours, travel, rallies, and more.
+      </p>
+
+      <div className="grid md:grid-cols-3 gap-8">
+        {services.map((service, index) => (
+          <div
+            key={index}
+            className="relative group overflow-hidden rounded-2xl shadow-lg"
+          >
+            {/* Background Image */}
+            <img
+              src={service.image}
+              alt={service.name}
+              className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            {/* Overlay with slide-up effect */}
+            <div className="absolute inset-0 flex flex-col justify-end">
+              {/* Bottom bar always visible */}
+              <div className="bg-black/60 text-center py-3">
+                <h3 className="text-xl font-bold text-white">{service.name}</h3>
+              </div>
+
+              {/* Hidden panel that slides up on hover */}
+              <div className="bg-black/70 text-center px-4 py-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                <p className="text-gray-200 mb-4">{service.description}</p>
+                <a
+                  href={service.link}
+                  className="bg-yellow-500 text-black px-4 py-2 rounded-lg font-medium hover:bg-yellow-400 transition"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>  
+
 
       {/* How to Book Section */}
       <section className="bg-[#761421] text-white py-16 px-6">

@@ -15,29 +15,35 @@ const Tour = () => {
       ],
       places: [
         {
-          title: "Sand Art Museum",
-          img: "https://content3.jdmagicbox.com/comp/puri/u7/9999p6752.6752.180628121850.l9u7/catalogue/sudam-sand-art-museum-baliguali-puri-art-galleries-0ki5wruyy1.jpg",
-        },
-        {
-          title: "Panchamukhi Hanuman",
-          img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk7ov9IifMGacsqZiNaMH8RI6uX9ZVEc5ugOS1JUa_W_Zg8ApRhnVVXPcUesuRve3N4OW4_W1mDyY-DtJUfJ15qXmt4SiB-gWuigZTYw_cB7Pwh8YhvdzBbIG4l5_2Bp3kIDIP3qRl1no/w1200-h630-p-k-no-nu/2017-07-18.jpg",
-        },
-        {
-          title: "Ramchandi Sangam",
-          img: "https://trip2odisha.in/wp-content/uploads/2024/05/DSC02939-scaled.jpg",
-        },
-        {
-          title: "Chandrabhaga",
-          img: "https://us.images.westend61.de/0001996431pw/aerial-view-of-sandy-chandrabhaga-beach-along-bay-of-bengal-konark-odisha-india-AAEF33203.jpg",
-        },
-        {
-          title: "Sun Temple Konark",
-          img: "https://upload.wikimedia.org/wikipedia/commons/4/47/Konarka_Temple.jpg",
-        },
-        {
-          title: "Nabagrah Temple",
-          img: "https://www.shreekhetra.com/image3/konark/navagraha.jpg",
-        },
+      title: "Sand Art Museum",
+      img: "https://content3.jdmagicbox.com/comp/puri/u7/9999p6752.6752.180628121850.l9u7/catalogue/sudam-sand-art-museum-baliguali-puri-art-galleries-0ki5wruyy1.jpg",
+      description: "Famous museum showcasing stunning sand sculptures.",
+    },
+    {
+      title: "Panchamukhi Hanuman",
+      img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk7ov9IifMGacsqZiNaMH8RI6uX9ZVEc5ugOS1JUa_W_Zg8ApRhnVVXPcUesuRve3N4OW4_W1mDyY-DtJUfJ15qXmt4SiB-gWuigZTYw_cB7Pwh8YhvdzBbIG4l5_2Bp3kIDIP3qRl1no/w1200-h630-p-k-no-nu/2017-07-18.jpg",
+      description: "Ancient Hanuman temple with five faces.",
+    },
+    {
+      title: "Ramchandi Sangam",
+      img: "https://trip2odisha.in/wp-content/uploads/2024/05/DSC02939-scaled.jpg",
+      description: "Sacred river confluence and scenic spot.",
+    },
+    {
+      title: "Chandrabhaga",
+      img: "https://us.images.westend61.de/0001996431pw/aerial-view-of-sandy-chandrabhaga-beach-along-bay-of-bengal-konark-odisha-india-AAEF33203.jpg",
+      description: "Serene beach near the Sun Temple, perfect for sunsets.",
+    },
+    {
+      title: "Sun Temple Konark",
+      img: "https://upload.wikimedia.org/wikipedia/commons/4/47/Konarka_Temple.jpg",
+      description: "Iconic 13th-century Sun Temple, UNESCO World Heritage site.",
+    },
+    {
+      title: "Nabagrah Temple",
+      img: "https://www.shreekhetra.com/image3/konark/navagraha.jpg",
+      description: "Temple dedicated to the nine planets in Hinduism.",
+    },
       ],
     },
     bhubaneswar: {
@@ -52,49 +58,60 @@ const Tour = () => {
       ],
       places: [
         {
-          title: "Raghurajpur Heritage Village",
-          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Edfw72tOXyIoLm9lNpqQ5-boWGfKQ8da5g&s",
-        },
-        {
-          title: "Sakhigopal Temple",
-          img: "https://bhubaneswartourism.in/images/places-to-visit/headers/sakshi-gopal-temple-puri-tourism-entry-fee-timings-holidays-reviews-header.jpg",
-        },
-        {
-          title: "Pipili Handloom Market",
-          img: "https://odishatourism.gov.in/content/dam/tourism/home/discover/attractions/art-and-crafts/pipili/pipstb/Pipili_STB2.jpg",
-        },
-        {
-          title: "Dhauli",
-          img: "https://www.dhauli.net/images/shanti-stupa-dhauli.jpg",
-        },
-        {
-          title: "Lingaraj Temple",
-          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lingaraj_temple_Bhubaneswar.jpg/760px-Mapcarta.jpg",
-        },
-        {
-          title: "Mukteswar Temple",
-          img: "https://kevinstandagephotography.wordpress.com/wp-content/uploads/2020/03/ksp_9784.jpg?w=1024",
-        },
-        {
-          title: "Sidheswar Temple",
-          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sidheswar_Temple%2C_Bhubaneswar.jpg/640px-Sidheswar_Temple%2C_Bhubaneswar.jpg",
-        },
-        {
-          title: "Rajarani Temple",
-          img: "https://media1.thrillophilia.com/filestore/yiv7jim2ocipr092gkkmazqlznwo_1587447431_Rajarani_Temple.jpg",
-        },
-        {
-          title: "Khandagiri Hills",
-          img: "https://www.trawell.in/admin/images/upload/120956501Bhubaneswar_Udayagiri_Kandagiri_Caves_Main.jpg",
-        },
-        {
-          title: "Udayagiri Caves",
-          img: "https://s7ap1.scene7.com/is/image/incredibleindia/1-khandagiri-udaigiri-caves-attr-hero?qlt=82&ts=1742172787783",
-        },
-        {
-          title: "Nandankanan Zoo",
-          img: "https://bhubaneswartourism.in/images/places-to-visit/headers/nandankanan-zoological-park-bhubaneswar-tourism-entry-fee-timings-holidays-reviews-header.jpg",
-        },
+      title: "Raghurajpur Heritage Village",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Edfw72tOXyIoLm9lNpqQ5-boWGfKQ8da5g&s",
+      description: "Famous for Pattachitra art and crafts.",
+    },
+    {
+      title: "Sakhigopal Temple",
+      img: "https://bhubaneswartourism.in/images/places-to-visit/headers/sakshi-gopal-temple-puri-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+      description: "Popular temple dedicated to Lord Gopal.",
+    },
+    {
+      title: "Pipili Handloom Market",
+      img: "https://odishatourism.gov.in/content/dam/tourism/home/discover/attractions/art-and-crafts/pipili/pipstb/Pipili_STB2.jpg",
+      description: "Colorful market known for applique handicrafts.",
+    },
+    {
+      title: "Dhauli",
+      img: "https://www.dhauli.net/images/shanti-stupa-dhauli.jpg",
+      description: "Historic site with Shanti Stupa and Buddhist significance.",
+    },
+    {
+      title: "Lingaraj Temple",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lingaraj_temple_Bhubaneswar.jpg/760px-Mapcarta.jpg",
+      description: "Ancient temple dedicated to Lord Shiva.",
+    },
+    {
+      title: "Mukteswar Temple",
+      img: "https://kevinstandagephotography.wordpress.com/wp-content/uploads/2020/03/ksp_9784.jpg?w=1024",
+      description: "Known as the 'Gem of Odisha temples' with exquisite carvings.",
+    },
+    {
+      title: "Sidheswar Temple",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sidheswar_Temple%2C_Bhubaneswar.jpg/640px-Sidheswar_Temple%2C_Bhubaneswar.jpg",
+      description: "Historic temple with peaceful surroundings.",
+    },
+    {
+      title: "Rajarani Temple",
+      img: "https://media1.thrillophilia.com/filestore/yiv7jim2ocipr092gkkmazqlznwo_1587447431_Rajarani_Temple.jpg",
+      description: "Unique temple built of red and yellow sandstone.",
+    },
+    {
+      title: "Khandagiri Hills",
+      img: "https://www.trawell.in/admin/images/upload/120956501Bhubaneswar_Udayagiri_Kandagiri_Caves_Main.jpg",
+      description: "Famous for ancient Jain caves and rock-cut architecture.",
+    },
+    {
+      title: "Udayagiri Caves",
+      img: "https://s7ap1.scene7.com/is/image/incredibleindia/1-khandagiri-udaigiri-caves-attr-hero?qlt=82&ts=1742172787783",
+      description: "Historic caves with intricate sculptures.",
+    },
+    {
+      title: "Nandankanan Zoo",
+      img: "https://bhubaneswartourism.in/images/places-to-visit/headers/nandankanan-zoological-park-bhubaneswar-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+      description: "Large zoo and botanical garden with wildlife.",
+    },
       ],
     },
     chilika: {
@@ -109,33 +126,40 @@ const Tour = () => {
       ],
       places: [
         {
-          title: "Alarnatha Temple",
-          img: "https://temple.yatradham.org/public/Product/temple/temple_t19kAtVj_202408221431300.jpg",
-        },
-        {
-          title: "Chilika Lake",
-          img: "https://travelandtrekking.com/wp-content/uploads/2020/02/kalijai-temple-and-chilika-lake.jpeg",
-        },
-        {
-          title: "Dolphin Project",
-          img: "https://curlytales.com/wp-content/uploads/2022/04/Untitled-design-14-3-640x480.jpg",
-        },
-        {
-          title: "Sea Mound",
-          img: "https://indiano.travel/wp-content/uploads/2024/08/Chilika-Sea-Mouth-Beach.jpg",
-        },
-        {
-          title: "Ice Land",
-          img: "https://tourtoreview.com/wp-content/uploads/2024/04/Chilika-lake-tourism.webp",
-        },
-        {
-          title: "Moti",
-          img: "https://cdn.shopify.com/s/files/1/1196/3508/files/Natural_large.jpg?4889387338797464052",
-        },
-        {
-          title: "Red Crab",
-          img: "https://thumbs.dreamstime.com/b/red-crab-chilika-lake-india-red-crab-chilika-lake-308812391.jpg",
-        },
+      title: "Alarnatha Temple",
+      img: "https://temple.yatradham.org/public/Product/temple/temple_t19kAtVj_202408221431300.jpg",
+      description: "Ancient temple on Chilika Lake.",
+    },
+    {
+      title: "Chilika Lake",
+      img: "https://travelandtrekking.com/wp-content/uploads/2020/02/kalijai-temple-and-chilika-lake.jpeg",
+      description: "Famous lake for boating and birdwatching.",
+    },
+    {
+      title: "Dolphin Project",
+      img: "https://curlytales.com/wp-content/uploads/2022/04/Untitled-design-14-3-640x480.jpg",
+      description: "Spot dolphins in their natural habitat.",
+    },
+    {
+      title: "Sea Mound",
+      img: "https://indiano.travel/wp-content/uploads/2024/08/Chilika-Sea-Mouth-Beach.jpg",
+      description: "Scenic sea mouth along Chilika Lagoon.",
+    },
+    {
+      title: "Ice Land",
+      img: "https://tourtoreview.com/wp-content/uploads/2024/04/Chilika-lake-tourism.webp",
+      description: "Beautiful icy landscapes around Chilika.",
+    },
+    {
+      title: "Moti",
+      img: "https://cdn.shopify.com/s/files/1/1196/3508/files/Natural_large.jpg?4889387338797464052",
+      description: "Peaceful small islands in Chilika Lake.",
+    },
+    {
+      title: "Red Crab",
+      img: "https://thumbs.dreamstime.com/b/red-crab-chilika-lake-india-red-crab-chilika-lake-308812391.jpg",
+      description: "Famous red crabs of Chilika Lagoon.",
+    },
       ],
     },
     puriSide: {
@@ -150,33 +174,40 @@ const Tour = () => {
       ],
       places: [
         {
-          title: "Jagannath Temple",
-          img: "https://d1msew97rp2nin.cloudfront.net/prod/phool/blogimages/172017492135594.webp",
-        },
-        {
-          title: "Gundicha Temple",
-          img: "https://www.mypuritour.com/wp-content/uploads/2025/06/Gundicha-Temple.webp",
-        },
-        {
-          title: "Mausi Maa Temple",
-          img: "https://temple.yatradham.org/public/Product/temple/temple_nABLQZpd_202309061610150.jpg",
-        },
-        {
-          title: "Lokanatha Temple",
-          img: "https://bhubaneswartourism.in/images/places-to-visit/headers/loknath-temple-puri-tourism-entry-fee-timings-holidays-reviews-header.jpg",
-        },
-        {
-          title: "Mata Matha",
-          img: "https://www.mypuritour.com/wp-content/uploads/2023/02/mata-matha-puri.png",
-        },
-        {
-          title: "Bedi Hanuman Temple",
-          img: "https://media.webdunia.com/_media/hi/img/article/2021-05/31/full/1622473614-2139.jpg",
-        },
-        {
-          title: "Golden Beach",
-          img: "https://www.shutterstock.com/image-photo/puri-india-september-04-2024-600nw-2529540197.jpg",
-        },
+      title: "Jagannath Temple",
+      img: "https://d1msew97rp2nin.cloudfront.net/prod/phool/blogimages/172017492135594.webp",
+      description: "Famous temple dedicated to Lord Jagannath.",
+    },
+    {
+      title: "Gundicha Temple",
+      img: "https://www.mypuritour.com/wp-content/uploads/2025/06/Gundicha-Temple.webp",
+      description: "Important temple in Puri's annual Rath Yatra.",
+    },
+    {
+      title: "Mausi Maa Temple",
+      img: "https://temple.yatradham.org/public/Product/temple/temple_nABLQZpd_202309061610150.jpg",
+      description: "Temple dedicated to Jagannath's aunt.",
+    },
+    {
+      title: "Lokanatha Temple",
+      img: "https://bhubaneswartourism.in/images/places-to-visit/headers/loknath-temple-puri-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+      description: "Ancient Shiva temple near Puri.",
+    },
+    {
+      title: "Mata Matha",
+      img: "https://www.mypuritour.com/wp-content/uploads/2023/02/mata-matha-puri.png",
+      description: "Peaceful religious site in Puri.",
+    },
+    {
+      title: "Bedi Hanuman Temple",
+      img: "https://media.webdunia.com/_media/hi/img/article/2021-05/31/full/1622473614-2139.jpg",
+      description: "Temple dedicated to Hanuman with local importance.",
+    },
+    {
+      title: "Golden Beach",
+      img: "https://www.shutterstock.com/image-photo/puri-india-september-04-2024-600nw-2529540197.jpg",
+      description: "Popular beach with golden sand and sunset views.",
+    },
       ],
     },
   };
@@ -303,6 +334,7 @@ const Tour = () => {
       />
       <div className="p-4">
         <h3 className="font-semibold text-sm">{place.title}</h3>
+        <p className="text-gray-600 text-sm mt-2">{place.description}</p>
       </div>
     </div>
   ))}
