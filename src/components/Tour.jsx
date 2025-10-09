@@ -325,20 +325,76 @@ const Tour = () => {
   {tour.places.map((place, index) => (
     <div
       key={index}
-      className="w-[250px] bg-white rounded-lg shadow hover:shadow-lg transition flex-shrink-0"
+      className="w-[270px] bg-white rounded-2xl shadow-md hover:shadow-xl transition flex-shrink-0"
     >
+      {/* Image */}
       <img
         src={place.img}
         alt={place.title}
-        className="rounded-t-lg h-40 w-full object-cover"
+        className="rounded-t-2xl h-44 w-full object-cover"
       />
-      <div className="p-4">
-        <h3 className="font-semibold text-sm">{place.title}</h3>
-        <p className="text-gray-600 text-sm mt-2">{place.description}</p>
+
+      {/* Content */}
+      <div className="p-4 flex flex-col justify-between h-[180px]">
+        {/* Title & Subtitle */}
+        <div>
+          <h3 className="text-lg font-bold text-[#761421] mb-1">{place.title}</h3>
+          <div className="flex items-center text-gray-500 text-sm mb-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-4 h-4 mr-1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 10.5c0 7.5-7.5 12-7.5 12S4.5 18 4.5 10.5a7.5 7.5 0 1115 0z"
+              />
+            </svg>
+            <span>Odisha, India</span>
+          </div>
+
+          <p className="text-gray-600 text-sm line-clamp-3">
+            {place.description}
+          </p>
+        </div>
+
+        {/* View Details Link */}
+        <div className="mt-3">
+          <a
+            href="#"
+            className="text-blue-600 text-sm font-medium hover:underline flex items-center"
+          >
+            View Details
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-4 h-4 ml-1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   ))}
 </div>
+
 
 
         {/* Gradient effect (optional, for better look) */}
