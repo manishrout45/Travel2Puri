@@ -16,7 +16,15 @@ const Contact = () => {
           Contact
         </h1>
       </section>
-
+          {/* Privacy Policy Button */}
+        <a
+          href="/policies"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed -right-10 top-[50%] transform -translate-y-1/2 rotate-[-90deg] bg-[#761421] px-4 py-2 rounded-tl-lg rounded-tr-lg shadow-lg z-50 animate-blink-text"
+        >
+          Privacy Policy
+        </a>
       {/* ✅ Contact Section */}
       <div className="bg-gray-50 py-16 px-6">
         <div className="max-w-7xl mx-auto">

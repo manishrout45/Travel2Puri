@@ -3,6 +3,7 @@ import districts from "../data/districts";
 
 const Districts = () => {
   return (
+    
     <div className="max-w-5xl mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold text-[#761421] mb-8 text-center">Odisha Districts & Destinations</h1>
       {districts.map((district) => (

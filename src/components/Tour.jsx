@@ -370,10 +370,12 @@ const Tour = () => {
         {/* View Details Link */}
         <div className="mt-3">
           <a
-            href="#"
+            href="/booking"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-blue-600 text-sm font-medium hover:underline flex items-center"
           >
-            View Details
+            More Details
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

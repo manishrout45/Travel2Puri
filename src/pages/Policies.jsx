@@ -17,7 +17,15 @@ const Policies = () => {
           </p>
         </div>
       </div>
-
+      {/* Privacy Policy Button */}
+      <a
+        href="/policies"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed -right-10 top-[50%] transform -translate-y-1/2 rotate-[-90deg] bg-[#761421] px-4 py-2 rounded-tl-lg rounded-tr-lg shadow-lg z-50 animate-blink-text"
+      >
+        Privacy Policy
+      </a>
       {/* Content Section */}
       <div className="max-w-6xl mx-auto px-6 -mt-16 pb-20">
         <div className="bg-white/80 backdrop-blur-xl shadow-2xl rounded-3xl p-10 border border-white/50">

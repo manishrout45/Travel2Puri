@@ -51,6 +51,16 @@ const About = () => {
         </div>
       </motion.div>
 
+      {/* Privacy Policy Button */}
+      <a
+        href="/policies"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed -right-10 top-[50%] transform -translate-y-1/2 rotate-[-90deg] bg-[#761421] px-4 py-2 rounded-tl-lg rounded-tr-lg shadow-lg z-50 animate-blink-text"
+      >
+        Privacy Policy
+      </a>
+
      <section className="w-full px-4 sm:px-6 lg:px-8 py-8 bg-[#761421]">
   <div className="max-w-6xl mx-auto">
     <p className="text-white text-base sm:text-lg leading-relaxed text-center">
