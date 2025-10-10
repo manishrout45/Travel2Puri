@@ -85,6 +85,21 @@ const TourService = () => {
       >
         Privacy Policy
       </a>
+
+        {/* 💬 WhatsApp Floating Button */}
+<a
+  href="https://wa.me/918093469315" // 👉 Replace with your WhatsApp number
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition transform hover:scale-110 z-50"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+    className="w-8 h-8"
+  />
+</a>
+
       {/* Special Offers */}
       <section className="max-w-7xl mx-auto px-6 py-10">
         <div className="flex justify-between items-center mb-6">

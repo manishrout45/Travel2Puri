@@ -51,15 +51,6 @@ const About = () => {
         </div>
       </motion.div>
 
-      {/* Privacy Policy Button */}
-      <a
-        href="/policies"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed -right-10 top-[50%] transform -translate-y-1/2 rotate-[-90deg] bg-[#761421] px-4 py-2 rounded-tl-lg rounded-tr-lg shadow-lg z-50 animate-blink-text"
-      >
-        Privacy Policy
-      </a>
 
      <section className="w-full px-4 sm:px-6 lg:px-8 py-8 bg-[#761421]">
   <div className="max-w-6xl mx-auto">
@@ -73,36 +64,50 @@ With Trip-To Puri, your comfort, safety, and unforgettable memories are our top 
   </div>
 </section>
 
-      {/* ================= About Owner Section ================= */}
-<section className="w-full bg-white py-12">
-  <div className="max-w-7xl mx-auto px-4">
-    <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+ {/* 💬 WhatsApp Floating Button */}
+<a
+  href="https://wa.me/918093469315" // 👉 Replace with your WhatsApp number
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition transform hover:scale-110 z-50"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+    className="w-8 h-8"
+  />
+</a>
+
+
+     {/* ================= About Owner Section ================= */}
+<section className="w-full bg-white py-16">
+  <div className="max-w-7xl mx-auto px-6 lg:px-12">
+    <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
       
       {/* Owner Image */}
-      <div className="flex-shrink-0 relative w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 mx-auto lg:mx-0">
+      <div className="flex-shrink-0 relative w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80">
         <img
-          src="https://www.pngfind.com/pngs/m/468-4686427_profile-demo-hd-png-download.png" // Replace with your owner's image
-          alt="Owner"
+          src="/images/about/founder.jpeg"
+          alt="Founder"
           className="w-full h-full object-cover rounded-2xl shadow-2xl border-4 border-[#761421]"
         />
-        {/* Optional decorative overlay */}
-        <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-yellow-400 rounded-full mix-blend-multiply"></div>
+        <div className="absolute -bottom-5 -right-5 w-16 h-16 bg-yellow-400 rounded-full mix-blend-multiply"></div>
       </div>
 
       {/* Owner Info */}
-      <div className="text-center lg:text-left max-w-xl">
+      <div className="flex-1 text-center lg:text-left">
         <h3 className="text-3xl sm:text-4xl font-bold text-[#761421] mb-4">
           Meet Our Founder
         </h3>
         <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-          <span className="font-semibold">Mr. XYZ</span> founded Trip2Puri with a vision to make spiritual and cultural journeys seamless, safe, and comfortable. With years of experience in the travel and hospitality industry, he ensures every traveler experiences Puri in the most memorable way. His passion for excellence, attention to detail, and personal touch have earned the trust of thousands of happy customers.
+          <span className="font-semibold">Mr. Dibyadarshan Paikray</span> is the visionary behind <span className="font-semibold">Trip-To Puri</span>, dedicated to making travel in Odisha simple, safe, and memorable. With a passion for hospitality and deep knowledge of the region, he ensures that every journey—whether for temple tours, beach visits, family vacations, or wedding transportation—is comfortable, reliable, and unforgettable.
         </p>
         <p className="mt-4 text-gray-600 italic text-sm sm:text-base">
           “Your journey is our priority, and every ride is a story we cherish together.”
         </p>
 
         {/* Social Media Links */}
-        <div className="mt-6 flex justify-center lg:justify-start gap-5">
+        <div className="mt-6 flex justify-center lg:justify-start gap-6">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
             className="text-gray-600 hover:text-[#761421] transition text-xl">
             <i className="fab fa-facebook-f"></i>
@@ -124,6 +129,8 @@ With Trip-To Puri, your comfort, safety, and unforgettable memories are our top 
     </div>
   </div>
 </section>
+
+
 
 
       {/* Why Rent with Us Section */}
@@ -176,6 +183,7 @@ With Trip-To Puri, your comfort, safety, and unforgettable memories are our top 
           </div>
         </div>
       </section>
+
       
     </motion.section>
   );

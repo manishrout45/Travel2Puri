@@ -107,6 +107,21 @@ Guests: ${formData.guests}`;
         >
           Privacy Policy
         </a>
+
+        {/* 💬 WhatsApp Floating Button */}
+<a
+  href="https://wa.me/918093469315" // 👉 Replace with your WhatsApp number
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition transform hover:scale-110 z-50"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+    className="w-8 h-8"
+  />
+</a>
+
       {/* Services Section 
       <section className="bg-[#F3E6E6] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -242,7 +257,7 @@ Guests: ${formData.guests}`;
 
     {/* 🔹 Car image (always above) */}
     <img
-      src="/images/black-isolated-car.png"
+      src="/images/booking/start Your Journey.png"
       alt="Luxury Car"
       className="w-full max-w-lg relative z-10"
     />

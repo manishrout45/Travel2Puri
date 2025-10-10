@@ -227,183 +227,185 @@ const Tour = () => {
   };
 
   return (
-    <div className="bg-gray-50 mt-20">
-      {/* SECTION 1 - TOUR DETAILS */}
-      <section className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        {/* Left Content */}
-        <div>
-          <h1 className="text-5xl font-bold mb-12 -mt-20">Plan your Tour</h1>
-          <div className="flex flex-wrap gap-2 mb-4">
-            {Object.keys(tours).map((key) => (
-              <button
-                key={key}
-                onClick={() => setActiveTour(key)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition ${
-                  activeTour === key
-                    ? "bg-blue-600 text-white"
-                    : "bg-blue-100 text-blue-700 hover:bg-blue-200"
-                }`}
-              >
-                {tours[key].title}
-              </button>
-            ))}
-          </div>
-          <h2 className="text-2xl font-bold mb-3">{tour.title}</h2>
-          <h3 className="text-2xl font-medium mb-2">{tour.subtitle}</h3>
-          <p className="text-sm leading-relaxed mb-4">{tour.desc}</p>
-          <p className="text-sm leading-relaxed mb-4">{tour.highlight}</p>
-          <div className="flex items-center gap-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md transition">
-              <a href="/booking">Book Your Trip</a>
-            </button>
-            <a
-              href="#section2"
-              className="text-blue-600 font-medium hover:underline flex items-center"
-            >
-              See another location →
-            </a>
-          </div>
-        </div>
-
-        {/* Right Images */}
-        <div className="grid grid-cols-2 gap-4">
-          <img
-            src={tour.images[0]}
-            alt="Main"
-            className="col-span-2 rounded-lg object-cover h-64 w-full"
-          />
-          <img
-            src={tour.images[1]}
-            alt=""
-            className="rounded-lg object-cover h-32 w-full"
-          />
-          <img
-            src={tour.images[2]}
-            alt=""
-            className="rounded-lg object-cover h-32 w-full"
-          />
-        </div>
-      </section>
-
-      {/* Divider */}
-      <div className="border-t my-2"></div>
-
-      {/* SECTION 2 - PLACES */}
-      <section id="section2" className="max-w-7xl mx-auto px-4 py-8 relative">
-        <div className="flex items-center justify-between mb-6">
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-2 ">
-              {tour.title} Attractions
-            </h2>
-            <p className="text-sm text-gray-600 max-w-xl">
-              Explore the highlights and must-visit places of {tour.title}.
-            </p>
-          </div>
-        </div>
-
-        {/* Left Arrow */}
-        <button
-          onClick={() => scroll("left")}
-          className="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-gray-100 z-20"
-        >
-          <ChevronLeft size={24} className="text-gray-700" />
-        </button>
-
-        {/* Right Arrow */}
-        <button
-          onClick={() => scroll("right")}
-          className="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-gray-100 z-20"
-        >
-          <ChevronRight size={24} className="text-gray-700" />
-        </button>
-
-        {/* Cards */}
-        <div
-  ref={scrollRef}
-  className="flex gap-6 overflow-x-auto scrollbar-hide pb-4 scroll-smooth"
->
-  {tour.places.map((place, index) => (
-    <div
-      key={index}
-      className="w-[270px] bg-white rounded-2xl shadow-md hover:shadow-xl transition flex-shrink-0"
-    >
-      {/* Image */}
-      <img
-        src={place.img}
-        alt={place.title}
-        className="rounded-t-2xl h-44 w-full object-cover"
-      />
-
-      {/* Content */}
-      <div className="p-4 flex flex-col justify-between h-[180px]">
-        {/* Title & Subtitle */}
-        <div>
-          <h3 className="text-lg font-bold text-[#761421] mb-1">{place.title}</h3>
-          <div className="flex items-center text-gray-500 text-sm mb-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4 h-4 mr-1"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 10.5c0 7.5-7.5 12-7.5 12S4.5 18 4.5 10.5a7.5 7.5 0 1115 0z"
-              />
-            </svg>
-            <span>Odisha, India</span>
-          </div>
-
-          <p className="text-gray-600 text-sm line-clamp-3">
-            {place.description}
-          </p>
-        </div>
-
-        {/* View Details Link */}
-        <div className="mt-3">
-          <a
-            href="/booking"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 text-sm font-medium hover:underline flex items-center"
+    <div className="bg-white mt-20">
+  {/* SECTION 1 - TOUR DETAILS */}
+  <section className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    {/* Left Content */}
+    <div>
+      <h1 className="text-5xl font-bold mb-12 -mt-20 text-[#761421]">Plan your Tour</h1>
+      <div className="flex flex-wrap gap-2 mb-4">
+        {Object.keys(tours).map((key) => (
+          <button
+            key={key}
+            onClick={() => setActiveTour(key)}
+            className={`px-4 py-2 rounded-full text-sm font-medium transition ${
+              activeTour === key
+                ? "bg-[#761421] text-white"
+                : "bg-[#F3E6E6] text-[#761421] hover:bg-[#e2c9c9]"
+            }`}
           >
-            More Details
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4 h-4 ml-1"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              />
-            </svg>
-          </a>
-        </div>
+            {tours[key].title}
+          </button>
+        ))}
+      </div>
+
+      <h2 className="text-2xl font-bold mb-3 text-[#761421]">{tour.title}</h2>
+      <h3 className="text-2xl font-medium mb-2 text-gray-700">{tour.subtitle}</h3>
+      <p className="text-sm leading-relaxed mb-4 text-gray-700">{tour.desc}</p>
+      <p className="text-sm leading-relaxed mb-4 text-gray-700">{tour.highlight}</p>
+
+      <div className="flex items-center gap-4">
+        <button className="bg-[#761421] hover:bg-[#5a0f19] text-white px-5 py-2 rounded-md transition">
+          <a href="/booking">Book Your Trip</a>
+        </button>
+        <a
+          href="#section2"
+          className="text-[#761421] font-medium hover:underline flex items-center"
+        >
+          See another location →
+        </a>
       </div>
     </div>
-  ))}
+
+    {/* Right Images */}
+    <div className="grid grid-cols-2 gap-4">
+      <img
+        src={tour.images[0]}
+        alt="Main"
+        className="col-span-2 rounded-lg object-cover h-64 w-full"
+      />
+      <img
+        src={tour.images[1]}
+        alt=""
+        className="rounded-lg object-cover h-32 w-full"
+      />
+      <img
+        src={tour.images[2]}
+        alt=""
+        className="rounded-lg object-cover h-32 w-full"
+      />
+    </div>
+  </section>
+
+  {/* Divider */}
+  <div className="border-t my-2 border-[#761421]/20"></div>
+
+  {/* SECTION 2 - PLACES */}
+  <section id="section2" className="max-w-7xl mx-auto px-4 py-8 relative">
+    <div className="flex items-center justify-between mb-6">
+      <div>
+        <h2 className="text-3xl font-bold text-[#761421] mb-2">
+          {tour.title} Attractions
+        </h2>
+        <p className="text-sm text-gray-600 max-w-xl">
+          Explore the highlights and must-visit places of {tour.title}.
+        </p>
+      </div>
+    </div>
+
+    {/* Left Arrow */}
+    <button
+      onClick={() => scroll("left")}
+      className="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-[#F3E6E6] z-20"
+    >
+      <ChevronLeft size={24} className="text-[#761421]" />
+    </button>
+
+    {/* Right Arrow */}
+    <button
+      onClick={() => scroll("right")}
+      className="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-[#F3E6E6] z-20"
+    >
+      <ChevronRight size={24} className="text-[#761421]" />
+    </button>
+
+    {/* Cards */}
+    <div
+      ref={scrollRef}
+      className="flex gap-6 overflow-x-auto scrollbar-hide pb-4 scroll-smooth"
+    >
+      {tour.places.map((place, index) => (
+        <div
+          key={index}
+          className="w-[270px] bg-white rounded-2xl shadow-md hover:shadow-xl transition flex-shrink-0"
+        >
+          {/* Image */}
+          <img
+            src={place.img}
+            alt={place.title}
+            className="rounded-t-2xl h-44 w-full object-cover"
+          />
+
+          {/* Content */}
+          <div className="p-4 flex flex-col justify-between h-[180px]">
+            <div>
+              <h3 className="text-lg font-bold text-[#761421] mb-1">
+                {place.title}
+              </h3>
+              <div className="flex items-center text-gray-500 text-sm mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-4 h-4 mr-1"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 10.5c0 7.5-7.5 12-7.5 12S4.5 18 4.5 10.5a7.5 7.5 0 1115 0z"
+                  />
+                </svg>
+                <span>Odisha, India</span>
+              </div>
+
+              <p className="text-gray-600 text-sm line-clamp-3">
+                {place.description}
+              </p>
+            </div>
+
+            {/* View Details Link */}
+            <div className="mt-3">
+              <a
+                href="/booking"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#761421] text-sm font-medium hover:underline flex items-center"
+              >
+                More Destinations
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-4 h-4 ml-1"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {/* Gradient effect */}
+    <div className="pointer-events-none absolute top-0 left-0 h-full w-12 bg-gradient-to-r from-[#F3E6E6] to-transparent"></div>
+    <div className="pointer-events-none absolute top-0 right-0 h-full w-12 bg-gradient-to-l from-[#F3E6E6] to-transparent"></div>
+  </section>
 </div>
 
-
-
-        {/* Gradient effect (optional, for better look) */}
-        <div className="pointer-events-none absolute top-0 left-0 h-full w-12 bg-gradient-to-r from-gray-50 to-transparent"></div>
-        <div className="pointer-events-none absolute top-0 right-0 h-full w-12 bg-gradient-to-l from-gray-50 to-transparent"></div>
-      </section>
-    </div>
   );
 };
 
