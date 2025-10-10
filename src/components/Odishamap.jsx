@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const districts = [
   {
     name: "Angul",
-    map: "/images/Anugul.png",
+    map: "/images/Anugul (1).png",
     destinations: [
       { id:"satkosia-gorge-angul", name: "Satkosia Tiger Reserve", image: "/images/destinations/Angul/satkosia-gorge-angul.jpg", description: "Famous wildlife sanctuary on the Mahanadi River." },
       { id:"tikarpada", name: "Tikarpada Wildlife Sanctuary", image: "/images/destinations/Angul/tikarpada.jpg", description: "Known for crocodile sanctuary and scenic beauty." },
