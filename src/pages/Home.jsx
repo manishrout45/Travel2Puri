@@ -286,6 +286,21 @@ const Home = () => {
 
       <Testimonial />
 
+<section className="w-full relative mt-10">
+  {/* Video */}
+  <video
+    className="w-full object-cover"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="/videos/to your next destination.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+
 
 <section className="w-full relative mt-10">
   {/* Text above the image */}

@@ -184,10 +184,14 @@ Guests: ${formData.guests}`;
           </div>
         </div>
       </section> */}
+
+
+
       <OdishaMap />
       
           {/*Service Section */}
-          <section className="w-full max-w-7xl mx-auto px-4 py-16 text-center bg-[#F3E6E6]">
+          <section className="w-full  py-16 text-center bg-[#F3E6E6]">
+            <div className="max-w-7xl mx-auto px-4">
       <h2 className="text-4xl font-bold text-center mb-2 text-gray-900">
         Our Services
       </h2>
@@ -228,6 +232,7 @@ Guests: ${formData.guests}`;
             </div>
           </div>
         ))}
+      </div>
       </div>
     </section>  
 

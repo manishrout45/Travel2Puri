@@ -13,7 +13,9 @@ const districts = [
 Geologically Satkosia gorge is part of the Eastern Ghats. It separates the Chhota Nagpur Plateau from the Eastern Ghats.
 <br><b>
 Conservation and history</b><br>
-Satkosia Gorge was established in 1976 as a wildlife sanctuary.`
+Satkosia Gorge was established in 1976 as a wildlife sanctuary.`,
+        lat:20.540137,
+        lon:84.831564
       },
       {
         id: "tikarpada",
@@ -21,7 +23,10 @@ Satkosia Gorge was established in 1976 as a wildlife sanctuary.`
         image: "/images/destinations/Angul/tikarpada.jpg",
         description: `The Tikarpada Wildlife Sanctuary located in the village of Tikarpada, Angul district, Orissa is a famous sanctuary that houses a varied species of fauna and flora. Spread across an area of 795.52 km2, the wildlife sanctuary is encircled by the fantabulous Satkosia gorge, a 22 km long gorge formed by the flowing Mahanadi amidst bounteous hills. A “Rescue & Rehabilitation Centre” situated in the Mahanadi eco system aids in the sustainment of various endangered crocodiles.
 <br>
-The wildlife sanctuary houses numerous species of fauna such as tigers, pangolins, Indian pitta, red jungle fowl, Indian adjutant stroke etc. some of the other species found here are rhesus macaques, leopards, spotted deer, wild cats. Moreover, one can also spot various species of birds and enjoy bird watching here. Adventure lovers can bask some activities here like water rafting, angling, game sighting etc. A trek around the lush green Sal forests & the environs is the best way to explore the true beauty of this region. The Gharial Sanctuary located in Tikarpada is the breeding place for Gharials that are later released into the Mahanadi River (their natural ecosystem). The Sanctuary also comprises species of snakes, turtles, crocodiles etc.`
+The wildlife sanctuary houses numerous species of fauna such as tigers, pangolins, Indian pitta, red jungle fowl, Indian adjutant stroke etc. some of the other species found here are rhesus macaques, leopards, spotted deer, wild cats. Moreover, one can also spot various species of birds and enjoy bird watching here. Adventure lovers can bask some activities here like water rafting, angling, game sighting etc. A trek around the lush green Sal forests & the environs is the best way to explore the true beauty of this region. The Gharial Sanctuary located in Tikarpada is the breeding place for Gharials that are later released into the Mahanadi River (their natural ecosystem). The Sanctuary also comprises species of snakes, turtles, crocodiles etc.`,
+        lat:20.6132,
+        lon:84.7916
+
       },
       { 
         id:"derjang-reservoir",
@@ -29,7 +34,9 @@ The wildlife sanctuary houses numerous species of fauna such as tigers, pangolin
         image: "/images/destinations/Angul/derjang-reservoir.jpeg", 
         description: `The Derjang Reservoir project is situated at a distance of 7 km from Angul. It is mainly an irrigation purpose dam; the first medium irrigation project. Its construction occurred in 1960 and was completed during 1977-78. The dam has a length of 1,875 m and is a zoned fill dam with a maximum height of 27.31 m. The dam’s top width is 4.57 m. The Derjang Dam intercepts a catchment area of 399 sq. km. The Derjang Dam is the finest tourist destination in the Angul District.
         <br>
-        The dam has been constructed across the two rivers, i.e., Lingara and Mathili, about a km away from the Majhika village of Angul, by the Odisha Government. An ideal picnic spot and a retreat for relaxation, it is wonderful when the sun rises and sets. Managed in large numbers by tourists and picnic-goers in winter, the serene beauty of the green hills and forests attracts them as well. The Derjang Dam is one of the best tourist spots in Angul, India.`
+        The dam has been constructed across the two rivers, i.e., Lingara and Mathili, about a km away from the Majhika village of Angul, by the Odisha Government. An ideal picnic spot and a retreat for relaxation, it is wonderful when the sun rises and sets. Managed in large numbers by tourists and picnic-goers in winter, the serene beauty of the green hills and forests attracts them as well. The Derjang Dam is one of the best tourist spots in Angul, India.`,
+        lat:20.839587,
+        lon: 85.031503
       },
       { 
         id:"budhi-thakurani-temple",
@@ -39,7 +46,10 @@ The wildlife sanctuary houses numerous species of fauna such as tigers, pangolin
         <br>
         According to history, The temple’s origins trace back to ancient times, with local legends attributing its establishment to a Kandha tribal ruler named Sunas, who used the hill as his fort (gada). He enshrined the goddess atop the hill, and over time, she became the central deity of Angul.
         <br>
-        Buddhi Thakurani is the tribal goddess of the Angul district. Apart from Budhi Thakurani, the temple premises also worship Lord Ganesha, Shri Ram Laxman, Sita, Radha Krishna, Shani Dev, Lord Shiva and Nava Graha. There is also a Lord Jagannath temple named Saila Sriketra behind the Budhi Thakurani temple. Maa Budhi Thakurani is a tourist attraction in Angul, Odisha.` 
+        Buddhi Thakurani is the tribal goddess of the Angul district. Apart from Budhi Thakurani, the temple premises also worship Lord Ganesha, Shri Ram Laxman, Sita, Radha Krishna, Shani Dev, Lord Shiva and Nava Graha. There is also a Lord Jagannath temple named Saila Sriketra behind the Budhi Thakurani temple. Maa Budhi Thakurani is a tourist attraction in Angul, Odisha.`,
+        lat:20.8346,
+        lon:85.0938 
+      
       },
     ]
   },
@@ -53,9 +63,9 @@ The wildlife sanctuary houses numerous species of fauna such as tigers, pangolin
         image: "/images/destinations/Balangir/harishankar-temple.jpeg",
         description: `Harishankar temple is located at the feet of the mountain Gandhamardhan, and is 81 km distance from Balangir and  220 km from Sambalpur. The statue of Harishankar is a combination of Lord Shiva and Vishnu from the shape of Nursing, Which is worshipped here in the form of Harishankar. It is the presiding deity of the local people. A beautiful perennial spring is flowing down near the temple towards the north. Various festivals and rituals are celebrated here, including major Hindu festivals like Maha Shivaratri and Janmashtami. Harishankar temple & Gandhamardan Hills is one of the popular tourist places in Balangir District.
 <br>
-The Harishankar Waterfall  is a very cool and the natural scenery is delightful. There is a Buddha statue in front of the temple headed by a head serpent, reminding the Buddhist centre of culture and heritage. Besides a small zoo is there which attracts visitors once more. The Harishankar Temple is both a pilgrimage site and a tourist attraction, offering visitors an opportunity to explore the spiritual heritage of Odisha and enjoy the natural beauty of the surrounding landscape. The temple is a popular pilgrimage site for devotees of Vishnu and Shiva. It attracts visitors not only for its religious significance but also for its cultural and historical value.
-<br>
-        `
+The Harishankar Waterfall  is a very cool and the natural scenery is delightful. There is a Buddha statue in front of the temple headed by a head serpent, reminding the Buddhist centre of culture and heritage. Besides a small zoo is there which attracts visitors once more. The Harishankar Temple is both a pilgrimage site and a tourist attraction, offering visitors an opportunity to explore the spiritual heritage of Odisha and enjoy the natural beauty of the surrounding landscape. The temple is a popular pilgrimage site for devotees of Vishnu and Shiva. It attracts visitors not only for its religious significance but also for its cultural and historical value.`,
+        lat:20.8544,
+        lon:82.8608
       },
       {
         id: "ranipur-jharial",
@@ -68,7 +78,9 @@ The Harishankar Waterfall  is a very cool and the natural scenery is delightful.
         <b>Ranipur Jharial History</b><br>
 According to history, the temple was built by Someshwar Gupta, king of the Som dynasty. In this temple Shiva, Kartikeya, Ghazalakshmi and Buddha are worshipped. This area of ​​Someshwar Manjhir is a famous shrine. According to some historians, the temple was built by the famous Jainist Shivacharya (60-420 AD), named Gaganshiva. Buddhism is said to have influenced some Buddhist idols in the area. There are five villages in Ranipur, Jharial, Bahabal, Balikhamar and Kanshil. It is believed that there was a Buddhist culture here as some Buddhist idols were found at the site. Ranipur Jharial is an ancient heritage site in Odisha.
 <br>
-Another attraction of Ranipur Jhariel is the Indralat temple built in bricks. It is a unique temple built of sandstone, 40 feet long and 36 feet wide. It is 40 feet high. There are no statues inside the temple, statues of Baraha Narasimha and Hanuman are etched on the wall body. So it seems to be a Vishnu temple. It is the highest temple in Odisha, built in bricks. According to some sources, 32 ponds and 120 temples were built here on a 6-mile-long plain, now there are only a few of them left. Somatirtha Ranipur Jharial is a top tourist attraction in Balangir, Odisha.`
+Another attraction of Ranipur Jhariel is the Indralat temple built in bricks. It is a unique temple built of sandstone, 40 feet long and 36 feet wide. It is 40 feet high. There are no statues inside the temple, statues of Baraha Narasimha and Hanuman are etched on the wall body. So it seems to be a Vishnu temple. It is the highest temple in Odisha, built in bricks. According to some sources, 32 ponds and 120 temples were built here on a 6-mile-long plain, now there are only a few of them left. Somatirtha Ranipur Jharial is a top tourist attraction in Balangir, Odisha.`,
+        lat:20.2825,
+        lon:82.9641
       },
       { 
         id:"patnagarh-fort",
@@ -77,7 +89,9 @@ Another attraction of Ranipur Jhariel is the Indralat temple built in bricks. It
         description: `Patnagarh Fort, located in the Balangir district of Odisha, is a historical fortress that stands as a testament to the region's rich past. Known for its architectural grandeur and historical significance, the fort attracts history enthusiasts and tourists alike.
         <br>
         <b>History of Patnagarh Fort</b><br>
-Patnagarh Fort, with its origins tracing back to the medieval period, was a significant military stronghold and administrative center. The fort has witnessed numerous battles and has been under the control of various dynasties over the centuries, including the Chauhans and the British. Its strategic location made it a coveted possession for rulers aiming to control the region. The architecture of the fort reflects a blend of indigenous and foreign influences, showcasing the cultural amalgamation that Odisha has experienced over the years. Despite the ravages of time, the fort remains a proud reminder of Odisha's historical resilience and architectural ingenuity.` 
+Patnagarh Fort, with its origins tracing back to the medieval period, was a significant military stronghold and administrative center. The fort has witnessed numerous battles and has been under the control of various dynasties over the centuries, including the Chauhans and the British. Its strategic location made it a coveted possession for rulers aiming to control the region. The architecture of the fort reflects a blend of indigenous and foreign influences, showcasing the cultural amalgamation that Odisha has experienced over the years. Despite the ravages of time, the fort remains a proud reminder of Odisha's historical resilience and architectural ingenuity.`,
+        lat:20.71,
+        lon:83.14
       },
       { 
         id:"jogeswar-temple",
@@ -85,7 +99,9 @@ Patnagarh Fort, with its origins tracing back to the medieval period, was a sign
         image: "/images/destinations/Balangir/jogeswar-temple.webp", 
         description: `Jogisarda Temple is located about 25 km distance from Balangir town. Lord Shiva is the main deity of this temple, worshipped as Lord Jogeshwar. Other deities worshipped within the temple premises include Lord Ganesha, Kartikeya, Hanuman, and Maa Chandi. Mahashivratri and Sitalasasthi are the main festivals celebrated at the Jogeshwar Temple on this day with great pomp and devotion. Being a famous Mahadev temple in Balangir, it attracts devotees. Jogeshwar Mandir is a renowned temple in Balangir, Odisha.
         <br>
-        The temple of Goddess Lankeswari is on a hillock, about 7 km from Loisingha. It is one of the most peaceful and pleasant places for visitors and tourists. Jogisarda Jogeshwar Temple is also one of the most popular tourist destinations in the Balangir District. For more information about this temple, visit the official Odisha tourism website of Balangir.` 
+        The temple of Goddess Lankeswari is on a hillock, about 7 km from Loisingha. It is one of the most peaceful and pleasant places for visitors and tourists. Jogisarda Jogeshwar Temple is also one of the most popular tourist destinations in the Balangir District. For more information about this temple, visit the official Odisha tourism website of Balangir.`,
+        lat:20.7393,
+        lon:82.8594 
       },
     ]
   },
@@ -97,7 +113,9 @@ Patnagarh Fort, with its origins tracing back to the medieval period, was a sign
         id: "chandipur-beach",
         name: "Chandipur Beach",
         image: "/images/destinations/Balasore/chandipur-beach.jpg",
-        description: `Chandipur Beach is a hidden gem located 16 km distance from Balasore, offering a rare experience with its disappearing sea and peaceful surroundings. It is an ideal destination for travellers who love nature, are interested in unique coastal phenomena, and wish to explore an unspoiled environment. Whether you are a photographer, nature lover, or simply seeking a tranquil retreat, Chandipur offers a distinctive and memorable beach experience. The sea at Chandipur recedes 5 km away from the shore during the ebb and flow to tides. It is also called the Vanishing Sea. The cool breeze blowing over the saline sea careless the casuarinas, which sway rhythmically, making a restyling noise. It is also the best picnic spot, which attracts visitors for its beautiful seashore. Chandipur Beach is the most popular tourist place in Balasore. Eco-resorts, hotels and nature camps are available for tourists at affordable prices near Chandipur beach.`
+        description: `Chandipur Beach is a hidden gem located 16 km distance from Balasore, offering a rare experience with its disappearing sea and peaceful surroundings. It is an ideal destination for travellers who love nature, are interested in unique coastal phenomena, and wish to explore an unspoiled environment. Whether you are a photographer, nature lover, or simply seeking a tranquil retreat, Chandipur offers a distinctive and memorable beach experience. The sea at Chandipur recedes 5 km away from the shore during the ebb and flow to tides. It is also called the Vanishing Sea. The cool breeze blowing over the saline sea careless the casuarinas, which sway rhythmically, making a restyling noise. It is also the best picnic spot, which attracts visitors for its beautiful seashore. Chandipur Beach is the most popular tourist place in Balasore. Eco-resorts, hotels and nature camps are available for tourists at affordable prices near Chandipur beach.`,
+        lat:21.4519,
+        lon:87.0406
       },
       { 
         id:"panchalingeswar-temple",
@@ -105,7 +123,9 @@ Patnagarh Fort, with its origins tracing back to the medieval period, was a sign
         image: "/images/destinations/Balasore/panchalingeswar-temple.jpg", 
         description: `Panchalingeswar temple is located on Devgiri Hill near Nilagiris, 30 km distance from Balasore city and 10 km from Nilagiri Jagannath temple. Five Shiva linga are worshipped here. The perennial stream flows on the five Lingams constantly throughout the year. It is said from the Puranas that in the past, the place was the capital of Banasura, and five Lingas were established here for public use hence the place is called Panchalingeswar. To reach this temple, one has to climb about 300 steps. It is believed that devotees come to worship and touch these five Lingams in the spring, and Touching these five lingams inside the stream fulfils their wishes. The Panchalingeswar Hill Station is a tourist attraction places in Balasore, Odisha.
 <br>
-The Panchalingeswar hill is surrounded by many small and large hills, which attract tourists. During the holy month of Shravan, the Kaudias pour water on Shiva Lingam. Maha Shivaratri is the main festival of the temple, and many devotees from Odisha and Calcutta come here to observe this festival. The place is surrounded by natural scenery and is attractive to visitors. There are many waterfalls in the Panchalingeswar hills where tourists can bathe. There is a Panthasala at the foot of the Panchalingeswar hill for tourists to rest. Nilagiri Jagannath Temple is located around 9 km from Panchalingeswar Temple. Panchalingeswar Temple is one of the most popular famous temples in the Baleswar District.        `
+The Panchalingeswar hill is surrounded by many small and large hills, which attract tourists. During the holy month of Shravan, the Kaudias pour water on Shiva Lingam. Maha Shivaratri is the main festival of the temple, and many devotees from Odisha and Calcutta come here to observe this festival. The place is surrounded by natural scenery and is attractive to visitors. There are many waterfalls in the Panchalingeswar hills where tourists can bathe. There is a Panthasala at the foot of the Panchalingeswar hill for tourists to rest. Nilagiri Jagannath Temple is located around 9 km from Panchalingeswar Temple. Panchalingeswar Temple is one of the most popular famous temples in the Baleswar District.`,
+        lat:21.4112,
+        lon:86.7195
       },
       { 
         id:"khirachora-gopinath-temple",
@@ -118,7 +138,9 @@ This king also arranged to have dug the two bigthanks, ‘Brajapokhari’ and �
 Lord Gopinatha,flanked by Sri Govinda and Sri Madana Mohan,is made of black stone.Sri Gopinatha stands in bas-relief.Govinda and Madan Mohan,who wewr brougt from Vrindabana in about 1938 by a devotee named “Chaitanya Dasa Babaji”,are free standing.
 One can get delicious’Khira’here call’Amrita-Keli’.The Gopinatha Kshira is a preparation of condensed milk,sugar,and cream,with a sprinkling of raisins.It comes in pots of various sizes,which are personally tasted by Lord Gopinatha himself.Sri Gopinatha is Known as “khira Chora Gopinatha”because he stole and hid a pot of ‘Khira’ out of love for Madhavendra Puri.’Chora’means thief.
 <br>
-One can get delicious khira here called as Amruta Keli. The Gopinatha khira is a preparation of homemade condensed milk, sugar, and cream, with a sprinkling of raisins. It comes in pots, which are personally tasted by Lord Gopinatha.` 
+One can get delicious khira here called as Amruta Keli. The Gopinatha khira is a preparation of homemade condensed milk, sugar, and cream, with a sprinkling of raisins. It comes in pots, which are personally tasted by Lord Gopinatha.`,
+        lat:21.5379,
+        lon:86.8798
       },
       { 
         id:"dublagadi-beach",
@@ -128,7 +150,9 @@ One can get delicious khira here called as Amruta Keli. The Gopinatha khira is a
         <br>
         Due to thick green forest it is home to many unique varieties of birds making it a perfect spot for birders. Sometimes during the new moon, you can also experience a magical phenomenon commonly known as blue wave/blue tide. The spectacles occur when phytoplankton produces light due to a chemical reaction with phosphorus dissolved in sea water repeatedly participate in biogeochemical process resulting in this magical phenomenon of luminescent glowing waves. The views of the sunrise and sunset are truly mesmerising.
         <br>
-        Another major attraction is spotting of large number of red crabs/ghost crabs on the beach. Spend the night star-gazing along with rare experience of meteor showers which can't be seen in the urban areas. Now a days, this place has been attracting beach campers. During the winters, the place turns into a perfect picnic spot for nature and beach lovers. You can even visit the local fish market where you can find many varieties of fish at an unbelievable pocket friendly price.` 
+        Another major attraction is spotting of large number of red crabs/ghost crabs on the beach. Spend the night star-gazing along with rare experience of meteor showers which can't be seen in the urban areas. Now a days, this place has been attracting beach campers. During the winters, the place turns into a perfect picnic spot for nature and beach lovers. You can even visit the local fish market where you can find many varieties of fish at an unbelievable pocket friendly price.`,
+        lat:21.5035,
+        lon:87.1125 
       },
     ]
   },
@@ -142,7 +166,9 @@ One can get delicious khira here called as Amruta Keli. The Gopinatha khira is a
         image: "/images/destinations/Bargarh/nrusinghanath-temple.jpg",
         description: `Nrusinghanath is a famous visiting place of the district which belongs to the Borasambar Kingdom of the past now known as the Padampur Sub-division. It is 150 kms far from the district headquarters.The temple of Sri Sri Nrusinghanath is situated at the bottom of the Gandhamardan Mountain which is approximately 3234 feet high. Baijaldev, the 8th Chouhan King of Patna had built the temple. An inscription on one of the stone walls of the temple speaks of the history related to its construction. In the temple which is surrounded on all sides by incredible natural beauty, Lord Vishnu is worshipped as Marjara Keshari. The Govt. of Odisha has accorded it the status of a tourist spot to this place.
 <br>
-We learn from the description of Huen Tsang that it was a Buddhist spot in the past known as Parimalagiri. There is historical evidence that the Buddhist Shramana Nagarjuna lived here in the past.There flows a fountain near the temple which takes different names at different places in its course such as Kapil Dhar, Bhim Dhar, Chal Dhar, Sita Kund & Go Kund. The top most point of the mountain Gandhamardan is known as Bhim Madua.The sacred Baisakha Mela (Summer Festival) takes place here on the occasion of Nrusingha Chaturdarshi. Every year it attracts a huge gathering. Festivals take place here on the occasions of Solar & Lunar eclipses too. It is also a popularly favoured destination for picnic trips.`
+We learn from the description of Huen Tsang that it was a Buddhist spot in the past known as Parimalagiri. There is historical evidence that the Buddhist Shramana Nagarjuna lived here in the past.There flows a fountain near the temple which takes different names at different places in its course such as Kapil Dhar, Bhim Dhar, Chal Dhar, Sita Kund & Go Kund. The top most point of the mountain Gandhamardan is known as Bhim Madua.The sacred Baisakha Mela (Summer Festival) takes place here on the occasion of Nrusingha Chaturdarshi. Every year it attracts a huge gathering. Festivals take place here on the occasions of Solar & Lunar eclipses too. It is also a popularly favoured destination for picnic trips.`,
+        lat:20.895796,
+        lon:82.827939
       },
       {
         id: "debrigarh-sanctuary",
@@ -150,20 +176,26 @@ We learn from the description of Huen Tsang that it was a Buddhist spot in the p
         image: "/images/destinations/Bargarh/debrigarh-sanctuary.jpg",
         description: `The Debrigarh Wildlife Sanctuary is 35 km from Sambalpur. Nestled between the Hirakud Dam and Reservoir makes for a picturesque setting. The sanctuary finds a special mention because of noted freedom fighter Veer Surendra Sai. During his rebellion against the British, Veer Surendra Sai made his base at “Barapathara,” which was located within the sanctuary. Spread over 347 sq km, the beautiful sanctuary is known for its easy sightings of animals, particularly Indian bison, wild boars, sambar, and peacocks, to name a few. The dry deciduous forest attracts a host of winged visitors during the winter. 
         <br>
-        The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. The sanctuary offers a panoramic view of the Hirakud Dam, which surrounds the sanctuary. The strategically located cottages of the Nature Camp offer a breathtaking view of the surroundings and wildlife, making it a popular destination for nature lovers. The spirit to live free and without fear is what reigns in the animals that inhabit this wonderful landscape.`
+        The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. The sanctuary offers a panoramic view of the Hirakud Dam, which surrounds the sanctuary. The strategically located cottages of the Nature Camp offer a breathtaking view of the surroundings and wildlife, making it a popular destination for nature lovers. The spirit to live free and without fear is what reigns in the animals that inhabit this wonderful landscape.`,
+        lat:21.5571,
+        lon:83.6455
       },
       { 
         id:"gandhamardan-hills",
         name: "Gandhamardan Hills", 
         image: "/images/destinations/Bargarh/gandhamardan-hills.jpg", 
-        description: `Gandhamardhan Hills is a hill located between the Balangir and Bargarh districts of Odisha. These hills are known for medicinal plants, which are not found anywhere else. Gandhamardan Parvat is the best hill station in Odisha. There is a bauxite reserve that is planned for exploration by the state government through a private venture. This hill also has a lot of historic importance as it was once a seat of Buddhist culture. To date, many ruins are found on the plateau at the hilltop. According to Hindu theology, Lord Hanuman carried this hill on his shoulders from the Himalayas to save the life of Laxman. Gandhamardhan Hills is a tourist attraction in Balangir, Odisha. For more information about this place, visit the official Odisha tourism website of Balangir District.` 
+        description: `Gandhamardhan Hills is a hill located between the Balangir and Bargarh districts of Odisha. These hills are known for medicinal plants, which are not found anywhere else. Gandhamardan Parvat is the best hill station in Odisha. There is a bauxite reserve that is planned for exploration by the state government through a private venture. This hill also has a lot of historic importance as it was once a seat of Buddhist culture. To date, many ruins are found on the plateau at the hilltop. According to Hindu theology, Lord Hanuman carried this hill on his shoulders from the Himalayas to save the life of Laxman. Gandhamardhan Hills is a tourist attraction in Balangir, Odisha. For more information about this place, visit the official Odisha tourism website of Balangir District.`,
+        lat:20.8739,
+        lon:82.8428 
       },
       { 
         id:"papanga-hill",
         name: "Papanga Hill", 
         image: "/images/destinations/Bargarh/papanga-hill.jpeg", 
         description: `Budharaja Mountain is located near the village of Papanga and is about 33 km distance from Bargarh district headquarters. There is a Budharaja temple at the foot of Papanga Hill. The mountain is 600 feet above the ground. The temple is surrounded by dense forest and Papanga Mountain. There is a beautiful forest garden named Bankhol on Budharaja mountain. There are also many other beautiful sites, such as the temple of Lord Shriram, a Yoga Ashram, a Mango Grove, and a triangle-shaped pond. Papanga Pahad is a picnic spot in Bargarh District.
-The mountain is intimately associated with the rebellion Vir Surendra Sai fought against the British. The origin of the deity Budharaja in the peak is traced back to the 17th or 18th century by historians. The festival known as Banabihar is observed here on the day of Chaitya Purnima, which attracts people from different parts of the district as well as outside. There is a Ramchandra Yogashram on this mountain, which will fall after crossing 250 steps. Papanga Mountain and Budharaja Temple are the most popular tourist places in Bargarh, Odisha.` 
+The mountain is intimately associated with the rebellion Vir Surendra Sai fought against the British. The origin of the deity Budharaja in the peak is traced back to the 17th or 18th century by historians. The festival known as Banabihar is observed here on the day of Chaitya Purnima, which attracts people from different parts of the district as well as outside. There is a Ramchandra Yogashram on this mountain, which will fall after crossing 250 steps. Papanga Mountain and Budharaja Temple are the most popular tourist places in Bargarh, Odisha.`,
+        lat:21.1802,
+        lon:83.8075
       },
     ]
   },
@@ -175,14 +207,18 @@ The mountain is intimately associated with the rebellion Vir Surendra Sai fought
         id: "maa-bhadrakali",
         name: "Maa Bhadrakali Temple",
         image: "/images/destinations/Bhadrak/maa-bhadrakali.jpg",
-        description: `One of the famous temple of Goddess Bhadrakali is located in the outskirts of the revenue village Aharapada which is at a distance of 5 kms away from Bhadrak town in the south- west direction. One has to go via Santhia and Utarabahini in the south-west direction of Kacheri Chhaka of Bhadrak town to reach the shrine. The popular belief is that the name of the Town has been derived from the name of the deity. The statue of Goddess is of black granite and is seated in lotus posture on a lion. The temple remains open for visitors and devotees everyday from 6.30 am to 1pm and again from 3pm to 9.30 pm. As per the nomenclature of the goddess one tends to believe that it is the goddess Kali who is being worshiped in this Bhadrakali Pitha. However, since the deity is seated on a lion, one school of thought has opined that the goddess can be no other than the goddess Durga.`
+        description: `One of the famous temple of Goddess Bhadrakali is located in the outskirts of the revenue village Aharapada which is at a distance of 5 kms away from Bhadrak town in the south- west direction. One has to go via Santhia and Utarabahini in the south-west direction of Kacheri Chhaka of Bhadrak town to reach the shrine. The popular belief is that the name of the Town has been derived from the name of the deity. The statue of Goddess is of black granite and is seated in lotus posture on a lion. The temple remains open for visitors and devotees everyday from 6.30 am to 1pm and again from 3pm to 9.30 pm. As per the nomenclature of the goddess one tends to believe that it is the goddess Kali who is being worshiped in this Bhadrakali Pitha. However, since the deity is seated on a lion, one school of thought has opined that the goddess can be no other than the goddess Durga.`,
+        lat:21.0152,
+        lon:86.5367
       },
       {
         id: "aradi-akhandalamani",
         name: "Aradi (Akhandalamani Temple)",
         image: "/images/destinations/Bhadrak/aradi-akhandalamani.jpg",
         description: `Akhandalamani Temple is situated at Aradi village and is 40 km distance from Bhadrak and 136 km from Bhubaneswar. This temple worships Lord Shiva. According to history, Linga was discovered in ploughed land by a farmer while ploughing. The farmer found blood on the shiv linga due to the ploughshare’s rush. This Linga is known as an Akhandalamani who remits the people’s misery. Baba Akhandalamani Mandir is one of the famous temples in Bhadrak District. There is a belief that by worshipping Baba, all the desires are fulfilled.
-        <br>Mahashivratri is the main festival of this temple, celebrated every year in this famous Aradi temple, and attracts a large number of devotees to observe the festival. During the month of Shravan, Kaudias bring water from different parts of Odisha and pour water on Mahadev. Another festival in the Baba Akhandalamani temple is Sital Sasthi. On this day, the marriage of Lord Shiva and Parvati is celebrated with great pomp. Aradi Akhandalamani Shiva Temple is a tourist attraction in Bhadrak, Odisha.`
+        <br>Mahashivratri is the main festival of this temple, celebrated every year in this famous Aradi temple, and attracts a large number of devotees to observe the festival. During the month of Shravan, Kaudias bring water from different parts of Odisha and pour water on Mahadev. Another festival in the Baba Akhandalamani temple is Sital Sasthi. On this day, the marriage of Lord Shiva and Parvati is celebrated with great pomp. Aradi Akhandalamani Shiva Temple is a tourist attraction in Bhadrak, Odisha.`,
+        lat:20.8118,
+        lon:86.6552
       },
       { 
         id:"dhamra-port-&-temple",
@@ -191,14 +227,17 @@ The mountain is intimately associated with the rebellion Vir Surendra Sai fought
         description: `Dhamra Port is a deep-water port on the east coast of India, in the state of Odisha. It is one of the most modern ports in India, equipped with state-of-the-art facilities for handling bulk cargo, containers, and other types of cargo. The port plays a significant role in the economic development of the region by facilitating trade and commerce.
         <br>
         <b>History of Dhamra Port</b><br>
-        Dhamra Port was developed as a joint venture between Larsen & Toubro (L&T) and Tata Steel, with the aim of creating a world-class port facility in Odisha. The port was officially inaugurated in 2011 and has since become a key player in India's maritime trade. Its strategic location on the Bay of Bengal makes it an important gateway for trade with Southeast Asia and beyond. The development of Dhamra Port has been a milestone in India's port infrastructure, showcasing the country's capability to build and operate modern port facilities that can compete on a global scale.` 
+        Dhamra Port was developed as a joint venture between Larsen & Toubro (L&T) and Tata Steel, with the aim of creating a world-class port facility in Odisha. The port was officially inaugurated in 2011 and has since become a key player in India's maritime trade. Its strategic location on the Bay of Bengal makes it an important gateway for trade with Southeast Asia and beyond. The development of Dhamra Port has been a milestone in India's port infrastructure, showcasing the country's capability to build and operate modern port facilities that can compete on a global scale.`,
+        lat:20.8237,
+        lon:86.9640  
       },
       { 
         id:"chandbali",
         name: "Chandbali", 
         image: "/images/destinations/Bhadrak/chandbali.jpg", 
-        description: `The Chandabali Port is situated on the bank of the River Baitarani and is 50 km distance from Bhadrak town. There is a lighthouse placed at Chandbai port. The Chandabali port was a small fishing village and a natural river port. In 1866, trading opened from this port to Bengal in 1881. It was declared a government port by the British government. The place is very amusing and attractive to visitors. Lord Shiva Temple, Maa Patana Mangala Temple, Sri Aurobindo Dibyadham Ashram, Akhandalamani shiv temple, Goddess Kali Pokhorisahi Hanuman Temples is situated inside the Chandabali Town. Chandabali Port is a tourist attraction places in Bhadrak, Odisha.
-        ` 
+        description: `The Chandabali Port is situated on the bank of the River Baitarani and is 50 km distance from Bhadrak town. There is a lighthouse placed at Chandbai port. The Chandabali port was a small fishing village and a natural river port. In 1866, trading opened from this port to Bengal in 1881. It was declared a government port by the British government. The place is very amusing and attractive to visitors. Lord Shiva Temple, Maa Patana Mangala Temple, Sri Aurobindo Dibyadham Ashram, Akhandalamani shiv temple, Goddess Kali Pokhorisahi Hanuman Temples is situated inside the Chandabali Town. Chandabali Port is a tourist attraction places in Bhadrak, Odisha.`,
+        lat:20.7740,
+        lon:86.7437 
       },
     ]
   },
