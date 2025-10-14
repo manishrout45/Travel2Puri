@@ -249,14 +249,17 @@ The mountain is intimately associated with the rebellion Vir Surendra Sai fought
         id: "boudh-buddha-monastery",
         name: "Boudh Buddha Monastery",
         image: "/images/destinations/Boudh/boudh-buddha-monastery.jpg",
-        description: `Buddhism has played a significant role in the cultural and historical development of Odisha. The state of Odisha has Buddha statues and many ancient forts that tourists and Buddhists come from around the world to visit. Odisha has more than 100 Buddhist heritage sites, the most popular of which are Chandragiri Buddhist Monastery, Ratnagiri Monastery, Udayagiri Buddhist Complex, Kuruma Buddhist Heritage Site, Lalitgiri Buddhist Complex, Dhauli Shanti Stupa and Padmasambhava Mahavihara Monastery is the Buddhist Heritage Monastery Sites in Odisha.
-        `
+        description: `Buddhism has played a significant role in the cultural and historical development of Odisha. The state of Odisha has Buddha statues and many ancient forts that tourists and Buddhists come from around the world to visit. Odisha has more than 100 Buddhist heritage sites, the most popular of which are Chandragiri Buddhist Monastery, Ratnagiri Monastery, Udayagiri Buddhist Complex, Kuruma Buddhist Heritage Site, Lalitgiri Buddhist Complex, Dhauli Shanti Stupa and Padmasambhava Mahavihara Monastery is the Buddhist Heritage Monastery Sites in Odisha.`,
+        lat:20.83,
+        lon:84.32
       },
       {
         id: "boudh-jagannath-temple",
         name: "Jagannath Temple, Boudh",
         image: "/images/destinations/Boudh/boudh-jagannath-temple.jpg",
-        description: `The Jagannath Temple in Boudh is a historic Hindu temple in the Boudh district of Odisha, noted for its peaceful atmosphere and ancient spiritual significance. Located in the region of Karadi, the temple is among the ancient shrines found in the area, which is also known for its centuries-old Buddha statues, caves, and the worship of various deities due to the spread of Saivism and Vaishnavism.`
+        description: `The Jagannath Temple in Boudh is a historic Hindu temple in the Boudh district of Odisha, noted for its peaceful atmosphere and ancient spiritual significance. Located in the region of Karadi, the temple is among the ancient shrines found in the area, which is also known for its centuries-old Buddha statues, caves, and the worship of various deities due to the spread of Saivism and Vaishnavism.`,
+        lat:20.8380,
+        lon:84.3265
       },
       { 
         id:"rameswar-temple",
@@ -264,7 +267,9 @@ The mountain is intimately associated with the rebellion Vir Surendra Sai fought
         image: "/images/destinations/Boudh/rameswar-temple.jpg", 
         description: `Rameswar temple is located inside Boudh Town. The temple looks like a star. Lord Dhabaleswara Siba, Swapnesvara, Paschima Somonatha and Lord Bhubaneswar are presiding deities of this temple. The stone carvings used in all these temples are of the highest quality, which attracts tourists. This temple is like the Mukteswar temple in the capital Bhubaneswar. The triple temples are arranged on three corners of a rectangle, the first two facing east and the other to the west.
         <br>
-        Rameswar two temples are standing at the Southern and Northern ends of the baseline of the imaginary triangle, known respectively as Bhubaneswar and Swapneswar facing east. The temple at the apex of the triangle is Kapileswar, which faces west. The temple was built in the ninth century by Boudh king Rana Bhanjadev. Thousands of devotees come here every year to watch the picturesque of this temple. Rameswar Mandir is one of the famous tourist places in Boudh, Odisha. ` 
+        Rameswar two temples are standing at the Southern and Northern ends of the baseline of the imaginary triangle, known respectively as Bhubaneswar and Swapneswar facing east. The temple at the apex of the triangle is Kapileswar, which faces west. The temple was built in the ninth century by Boudh king Rana Bhanjadev. Thousands of devotees come here every year to watch the picturesque of this temple. Rameswar Mandir is one of the famous tourist places in Boudh, Odisha. `,
+        lat:20.8442,
+        lon:84.3162 
       },
       { 
         id:"satkosia-gorge",
@@ -272,7 +277,9 @@ The mountain is intimately associated with the rebellion Vir Surendra Sai fought
         image: "/images/destinations/Boudh/satkosia-gorge.jpeg", 
         description: `Odisha is famous for Padmatola Sanctuary and Satakosia Gorge for its lush green forests and rich wildlife. It is loacted about 80 km distance from Boudh town. The sanctuary derives its name from Sata and Kosh meaning 14 miles or 22 km long. The majestic Satkosia gorge is acclaimed as one of the most enchanting spots in the country. The confluence point of Chhotanagpur plateau forests, dry deciduous forests and moist peninsular sal forests. This place is a stronghold of tiger, leopard, elephant, spotted deer, chousingha and sloth bear. There are varieties of migratory birds, Gharial, Mugger, Crocodile, Turtles, and poisonous and non-poisonous snakes found here. Padmatola Wildlife Sanctuary is a tourist attraction places in Boudh
         <br>
-        The place is ideal for boating and other adventure sports. A research and conservation unit was established at Tikarpada close to the gorge in 1995 for the rearing of gharials. So far 38 species of mammals, 128 species of birds, 27 species of reptiles, 4 species of amphibians and 183 species of fish have been recorded in the sanctuary. Padmatola Wildlife Sanctuary is one of the tourist places in Boudh, Odisha.` 
+        The place is ideal for boating and other adventure sports. A research and conservation unit was established at Tikarpada close to the gorge in 1995 for the rearing of gharials. So far 38 species of mammals, 128 species of birds, 27 species of reptiles, 4 species of amphibians and 183 species of fish have been recorded in the sanctuary. Padmatola Wildlife Sanctuary is one of the tourist places in Boudh, Odisha.`,
+        lat:20.5445,
+        lon:84.8320 
       },
     ]
   },
@@ -297,7 +304,9 @@ In 1803, the British Empire added another chapter to the fort's narrative, captu
 <b>Architectural splendour</b>
 <br>
 Stretching across a vast expanse of 102 acres, the fortress of Barabati, though now mostly in ruins, retains echoes of its former grandeur. Dominating the landscape are remnants like the towering laterite gateway and the central earthen mound, poignant reminders of its illustrious past. Through archaeological excavations, glimpses of the fortress's former glory emerge, revealing traces of a once magnificent palace adorned with pillars and evidence of a formidable citadel wall. However, the ravages of time, compounded by acts of vandalism during the early British rule and natural encroachment, have left their mark on the fort's structure. Once hailed as the pinnacle of Odia architecture and craftsmanship, the ancient imperial citadel of Barabati now stands as a solemn testament to a bygone era. Swathed in dense foliage and enveloped by the embrace of nature, it bears witness to the passage of time and the vicissitudes of history. As the seat of political power and civil-military administration for centuries, this venerable fortress has borne witness to the rise and fall of kings and empires, weathering wars, betrayals, and invasions. Today, it serves as an emotional reminder of Odisha's enduring pride, a silent sentinel guarding the legacy of generations past.
-The Barabati Fort, with its moat choked by weeds and the lone Sahi Quila Mosque (Fateh Khan Mosque) standing tall, awaits restoration. Plans are underway to develop the surrounding area into a tourist destination. Hopefully, these efforts will breathe new life into this witness of Cuttack's ancient history.`
+The Barabati Fort, with its moat choked by weeds and the lone Sahi Quila Mosque (Fateh Khan Mosque) standing tall, awaits restoration. Plans are underway to develop the surrounding area into a tourist destination. Hopefully, these efforts will breathe new life into this witness of Cuttack's ancient history.`,
+lat:20.4845,
+lon:85.8652
     },
 
     {
@@ -309,7 +318,9 @@ The Barabati Fort, with its moat choked by weeds and the lone Sahi Quila Mosque 
         <br>
         <b>History of Lord Dhabaleswar Temple</b>
         <br>
-        Baba Dhabaleswar Mandir is one of the oldest temples in Odisha. The name “Dhabaleswar” comes from two Odia words: Dhabala (meaning white) and Eshwar (meaning God). According to legend, the temple is associated with a story where Lord Shiva, in the form of a deity, appeared as a white (Dhabala) bull to save a devotee. A thief turned the black bull into a white bull by appealing to the Lord. The Ganga ruler built a temple during the 11th century AD. Dhabaleswar Mandir is one of the most popular tourist attractions near Cuttack City. `
+        Baba Dhabaleswar Mandir is one of the oldest temples in Odisha. The name “Dhabaleswar” comes from two Odia words: Dhabala (meaning white) and Eshwar (meaning God). According to legend, the temple is associated with a story where Lord Shiva, in the form of a deity, appeared as a white (Dhabala) bull to save a devotee. A thief turned the black bull into a white bull by appealing to the Lord. The Ganga ruler built a temple during the 11th century AD. Dhabaleswar Mandir is one of the most popular tourist attractions near Cuttack City. `,
+        lat:20.1923,
+        lon:85.8403
     },
     {
       id: "chandi-temple",
@@ -321,7 +332,9 @@ The Goddess popularly called as Maa Katak Chandi, sits and rules on the heart of
 <br>
 According to legend, the present piece of land, where the holy temple is located, was lying fallow before. Late Sri Hansa Panda, who happens to be the Purohit of the then King of Kanika, used to graze cattles and sheep there.
 One day Sri Panda while grazing cattle feeling tired, took rest on a heap of dry mud present there. While taking rest, he experienced a strange divine feeling within himself. Surprisingly on the same night, The Goddess "Chandika" appeared in his dream and requested him to take her out of the land.
-The next morning he went to the King and told everything about the strange experience he had last night. With the help of the king and local public Late Hansa Panda dug the same piece of land. It is said and believed that arround forty bullock carts of Red Sindoor came out first while digging and then emerged The Deity of Maa Chandi. There was a Babul tree on that land and under that tree late Hansa Panda started worshiping MAA CHANDI, with the financial assistance of the King of Kanika.There after the temple was built on the same land. Here in Cuttack, the residents strongly believe Maa Cuttack Chandi as The Living Goddess. The temple of Maa Cuttack Chandi, the presiding deity of the city is visited by hundreds of devotees every day. The image of the deity is older than the temple. It is believed that she was the family deity of Gajapati Kingdom in the medieval age, due to Islamic invaders' attacks she was buried while the kings migrated to Puri.`
+The next morning he went to the King and told everything about the strange experience he had last night. With the help of the king and local public Late Hansa Panda dug the same piece of land. It is said and believed that arround forty bullock carts of Red Sindoor came out first while digging and then emerged The Deity of Maa Chandi. There was a Babul tree on that land and under that tree late Hansa Panda started worshiping MAA CHANDI, with the financial assistance of the King of Kanika.There after the temple was built on the same land. Here in Cuttack, the residents strongly believe Maa Cuttack Chandi as The Living Goddess. The temple of Maa Cuttack Chandi, the presiding deity of the city is visited by hundreds of devotees every day. The image of the deity is older than the temple. It is believed that she was the family deity of Gajapati Kingdom in the medieval age, due to Islamic invaders' attacks she was buried while the kings migrated to Puri.`,
+lat:20.4772,
+lon:85.8626
     },
     {
       id: "ansupa-lake",
@@ -329,7 +342,9 @@ The next morning he went to the King and told everything about the strange exper
       image: "/images/destinations/Cuttack/ansupa-lake.jpeg",
       description:
         `Ansupa Lake & Nature Camp is located on the north side of the River Mahanadi and is about 45 km distance from Cuttack. The lake is covered with bamboo trees and mango trees. This place is also a shelter for migratory birds in the wintry weather season. The main attraction of the Anshupa Lake is the paddle boating, which allows you to enjoy boating within the lake. It is a freshwater lake located side of the Saranda Hills. Anshupa Lake is one of the best tourist places near Cuttack Railway Station. It is a good place for a weekend picnic in the winter season.
-        <br>The Anshupa Lake is valuable for its scenic beauty, which attracts people for weekend picnics and boating. There is a Panthanivas just opposite the site of the lake on a hilltop. Pindies and water facilities are available for tourists to have a picnic. There are two beautiful parks and a bamboo cottage near the lake. The lake is well fully decorated with uncountable varieties of flowers of different colours and fragrances. A nature camp has been constructed by Odisha Tourism for accommodation, rest, and overnight stays of tourists near Ansupa Lake. There are two types of rooms available: Bamboo Cottage and Eco Cottage. Ansupa Lake is a tourist attraction in Cuttack, Odisha. Ansupa Lake tickets cost only 20 rupees per person.`
+        <br>The Anshupa Lake is valuable for its scenic beauty, which attracts people for weekend picnics and boating. There is a Panthanivas just opposite the site of the lake on a hilltop. Pindies and water facilities are available for tourists to have a picnic. There are two beautiful parks and a bamboo cottage near the lake. The lake is well fully decorated with uncountable varieties of flowers of different colours and fragrances. A nature camp has been constructed by Odisha Tourism for accommodation, rest, and overnight stays of tourists near Ansupa Lake. There are two types of rooms available: Bamboo Cottage and Eco Cottage. Ansupa Lake is a tourist attraction in Cuttack, Odisha. Ansupa Lake tickets cost only 20 rupees per person.`,
+        lat:20.4587,
+        lon:85.6036
     }
   ]
 },
@@ -343,21 +358,27 @@ The next morning he went to the King and told everything about the strange exper
         image: "/images/destinations/Deogarh/pradhanpat-waterfall.jpeg",
         description: `Pradhanpat Waterfall is a famous picnic spot with a natural panorama located just 1 km distance from Deogarh town. Having strong religious significance and cultural heritage with the presence of the Saktipitha of Maa Pradhani and the temple of Lord Chamkeswar. The clean, transparent, glittering cold water enthrals tourists and visitors to this spot. It gives a peaceful glimpse and serenity of water falling wind, and it’s an amazing feeling for visitors to a take bath. There is a forest guest house and a beautiful park inside the Pradhanpat. Close to the scenic waterfall are significant historical places like Basant Nivas and Lalit Basant, which point to the history of Deogarh.
         <br>
-        The waterfall is surrounded by beautiful hills and dense forest. There is a small temple of Maa Pradhan Pateswari Temple inside the waterfall. The height of this waterfall is around 100 feet. The natural beauty of the Pradhanpat waterfall is so beautiful that tourists have come to see the falls in the winter. There are nice areas around to have a small family picnic. Pradhanpat waterfall is 101 km from Jharsuguda, 82 km from Sambalpur, and 113 km from Angul town. The place is clean and calm and has many public toilets for visitors, police patrolling for tourists, and parking facilities. Pradhanpat waterfall is one of the best tourist places in Deogarh, Odisha. `
+        The waterfall is surrounded by beautiful hills and dense forest. There is a small temple of Maa Pradhan Pateswari Temple inside the waterfall. The height of this waterfall is around 100 feet. The natural beauty of the Pradhanpat waterfall is so beautiful that tourists have come to see the falls in the winter. There are nice areas around to have a small family picnic. Pradhanpat waterfall is 101 km from Jharsuguda, 82 km from Sambalpur, and 113 km from Angul town. The place is clean and calm and has many public toilets for visitors, police patrolling for tourists, and parking facilities. Pradhanpat waterfall is one of the best tourist places in Deogarh, Odisha. `,
+        lat: 21.55,
+        lon:84.74
       },
       {
         id: "kurudkut-waterfall",
         name: "Kurudkut Waterfall",
         image: "/images/destinations/Deogarh/kurudkut-waterfall.jpeg",
         description: `Kudukut Waterfall is located around 2.5 km distance from Deogarh Town. This waterfall is the second waterfall in the Deogarh district. Kudukut Waterfall generates hydroelectric energy, which is the first of its kind in Odisha. The beautiful natural atmosphere and the sound of the Kurudkut waterfall attract the visitors and picnic rush to the spot during winter. It is also famous for trekking. 
-        <br>The Kurudkote Waterfall is surrounded by hills and green forests that enhance the beauty of the place. Winter is a great time for picnics, and many tourists come to visit this place. Kurudkut Waterfall is one of the Best Tourist attraction places in Deogarh, Odisha.`
+        <br>The Kurudkote Waterfall is surrounded by hills and green forests that enhance the beauty of the place. Winter is a great time for picnics, and many tourists come to visit this place. Kurudkut Waterfall is one of the Best Tourist attraction places in Deogarh, Odisha.`,
+        lat:21.5561,
+        lon:84.7129
       },
       { 
         id:"kailash-palace",
         name: "Kailash Palace", 
         image: "/images/destinations/Deogarh/kailash-palace.jpeg", 
         description: `Kailash Palace is located 15 km distance from Deogarh town. The resort was built by Raja Dibya Sankar dev in the year of 1919. This Palace is surrounded by beautiful natural Hills and Forest. The kings of the Ex-Bamanda estate have left behind many heritage buildings as their honeymoon places inside hills and mountains. The state govt of Odisha declare this place as an ecotourism site in 2004. Kailash Palace is one of the tourist Places in Deogarh, Odisha.
-        <br>Nestled amidst picturesque mountains and lush forests along National Highway 49, Kailash Palace offers visitors a tranquil environment, making it an ideal spot for relaxation away from the hustle and bustle of city life. Visitors can spend hours or even days at Kailash Palace, immersing themselves in the serene surroundings and enjoying the natural beauty undisturbed by urban distractions.` 
+        <br>Nestled amidst picturesque mountains and lush forests along National Highway 49, Kailash Palace offers visitors a tranquil environment, making it an ideal spot for relaxation away from the hustle and bustle of city life. Visitors can spend hours or even days at Kailash Palace, immersing themselves in the serene surroundings and enjoying the natural beauty undisturbed by urban distractions.`,
+        lat:21.54,
+        lon:84.62 
       },
       { 
         id:"jagannath-temple",
@@ -365,7 +386,9 @@ The next morning he went to the King and told everything about the strange exper
         image: "/images/destinations/Deogarh/jagannath-temple.jpg", 
         description: `Jagannath temple is situated inside Deogarh Town. Lord Jagannath, Lord Balabhadra and Goddess Subhadra are the main presiding deities of this temple. Temple architectures attract visitor and tourist to come here, which was built by Raja Pratap Rudra Deb in the year 1705. The temples are divided into four parts, Garbhagriha, Natyashala, Jagnyala and Bhoga Mandapa. Ratha Yatra is the main festival of this temple. Jagannath Mandir is a famous temple in Deogarh District.
         <br>
-        The temple is one of the most famous Hindu shrines in the city. The Place is attracting thousands of visitors and Pilgrimages for its Panoramic Picturesque as this temple. Jagannath temple is a tourist attraction places in Deogarh, Odisha` 
+        The temple is one of the most famous Hindu shrines in the city. The Place is attracting thousands of visitors and Pilgrimages for its Panoramic Picturesque as this temple. Jagannath temple is a tourist attraction places in Deogarh, Odisha`,
+        lat: 21.5322,
+        lon: 84.7213
       },
     ]
   },
@@ -379,7 +402,9 @@ The next morning he went to the King and told everything about the strange exper
         image: "/images/destinations/Dhenkanal/kapilash-temple.jpeg",
         description: `Chandrashekhar Temple Mahadev Temple is located on the top of the hill called Kapilash Hill and is 25 km distance from Dhenkanal Town. The hill is about 1500 feet high from the ground. The hill is surrounded by dense forest and overlooks the Mahanadi River of Cuttack City. Lord Chandrasekhar is 600 feet tall and belongs to the 14th century AD. The temple was constructed by the king of Narshima Dev II of the Ganga dynasty and was completed in the year 1335-1336 AD. For the comfort of devotees, they can reach the temple by climbing 1352 steps, apart from the motorable road. Kapilash Chandrasekhar Temple is a famous temple in Dhenkanal District.
         <br>
-        There are two temples to the east of the Chandrasekhar temple at a higher altitude named Viswanath and Narayan. The spring water flowing out through the right foot on Narayan looks very beautiful and amazing. Shivratri is the main festival of Kapilash temple. A large number of pilgrims gather here on the occasion. Besides, Deer Park and Science Park are two other attractions of this place. Kapilash Hill is one of the best tourist places in Dhenkanal, Odisha.`
+        There are two temples to the east of the Chandrasekhar temple at a higher altitude named Viswanath and Narayan. The spring water flowing out through the right foot on Narayan looks very beautiful and amazing. Shivratri is the main festival of Kapilash temple. A large number of pilgrims gather here on the occasion. Besides, Deer Park and Science Park are two other attractions of this place. Kapilash Hill is one of the best tourist places in Dhenkanal, Odisha.`,
+        lat:20.6817,
+        lon:85.7631
       },
       { 
         id:"saptasajya-hills",
@@ -387,7 +412,9 @@ The next morning he went to the King and told everything about the strange exper
         image: "/images/destinations/Dhenkanal/saptasajya-hills.jpeg", 
         description: `Saptasajya Waterfall is located On the top of the hill. It is a place is known as the seat of the Saptashis(Seven sages), which seems to be heaven. The hill range is 11 km away to the southwest of Dhenkanal town. As per the ancient legendary lord, Rama has spent some days, and Pandavas of Mahabharat also spent some days at their Ajyanta Barnabas. Saptasajya Hill is a popular picnic spot in Dhenkanal. The natural beauty of the hills and the dense forest attracts many tourists during the winter. Saptasajya hill station can be seen many small and largest waterfall
         <br>
-        There is a Raghunath temple on Saptasajya Hill. Lord Rama, Laxman and Sita worshipped in this temple. The temple was built by Rani Ratnaprava Devi of Dhenkanal. Ramanavami is the main festival of this temple every year on the day a large number of devotees come here to see the festival. A beautiful spring flowing close by enhances the beauty of the place. Saptasajya waterfall and Raghunath temple are the best tourist places in Dhenkanal. For tourists there is  Saptasajya Nature Camp near Saptasajya Hill Station, which has all kinds of accommodation and food facilities.` 
+        There is a Raghunath temple on Saptasajya Hill. Lord Rama, Laxman and Sita worshipped in this temple. The temple was built by Rani Ratnaprava Devi of Dhenkanal. Ramanavami is the main festival of this temple every year on the day a large number of devotees come here to see the festival. A beautiful spring flowing close by enhances the beauty of the place. Saptasajya waterfall and Raghunath temple are the best tourist places in Dhenkanal. For tourists there is  Saptasajya Nature Camp near Saptasajya Hill Station, which has all kinds of accommodation and food facilities.`,
+        lat:20.5746131,
+        lon:85.5478763
       },
       { 
         id:"joranda-monastery",
@@ -401,7 +428,9 @@ The next morning he went to the King and told everything about the strange exper
         Joranda Mela</b>
         <br>
 Mahima Dharma, also known as Mahima Panth, is a Hindu sect practiced primarily in Odisha and nearby states. The religious movement was based on the worship of God, known as ALEKH, as attribute less as condemnation of all religious customs set by the rich and upper-class society generally.
-Joranda mela is celebrated by mainly Mahima Dharma people. This festival is held on full-moon day of Magha (Magha Purnima Day) which falls in January–February every year.` 
+Joranda mela is celebrated by mainly Mahima Dharma people. This festival is held on full-moon day of Magha (Magha Purnima Day) which falls in January–February every year.`,
+        lat:20.788296,
+        lon:85.723526
       },
       { 
         id:"kualo-ancient-temple",
@@ -409,7 +438,9 @@ Joranda mela is celebrated by mainly Mahima Dharma people. This festival is held
         image: "/images/destinations/Dhenkanal/kualo-ancient-temple.jpeg", 
         description: `Astashambhu Temple is located at Kualo and is 72 km from Dhenkanal. Lord Shiva is the presiding deity of these temples. Lord Kanakeswar, Baidyanath, Paschimeswar, Balunkeswar, and Lord Kapileswar are worshipped in Astashambhu Temple. The Kanakeswar is about 24 meters high and preserves some of the earliest sculptures representing ancient temple-building activities in Odisha. Kualo Astasambhu Temple is a famous Shiva temple in Dhenkanal.
         <br>
-        Kualo Astasambhu Temple is a beautiful tourist place near Talcher town. The name of this temple is “ASTASHAMBHU” because eight Shiva Lingas are worshipped here. The main Shiva Lingams in these 8 temples are Kanakeswar, Swapneswar, Aisneswar, Kapileswar, Baidhyanatheswar, Baneswar, Lokanatheswar, and Uttareswara Temple. Locals say the Ashtashambhu temple is a 1,000-year-old temple. Mahashivratri is the main festival of the temple, and a large number of devotees come to celebrate the festival with much fanfare. Kualo Astashambhu Temple is a tourist attraction located in Dhenkanal, Odisha.` 
+        Kualo Astasambhu Temple is a beautiful tourist place near Talcher town. The name of this temple is “ASTASHAMBHU” because eight Shiva Lingas are worshipped here. The main Shiva Lingams in these 8 temples are Kanakeswar, Swapneswar, Aisneswar, Kapileswar, Baidhyanatheswar, Baneswar, Lokanatheswar, and Uttareswara Temple. Locals say the Ashtashambhu temple is a 1,000-year-old temple. Mahashivratri is the main festival of the temple, and a large number of devotees come to celebrate the festival with much fanfare. Kualo Astashambhu Temple is a tourist attraction located in Dhenkanal, Odisha.` ,
+        lat:20.6957,
+        lon:85.4657
       },
     ]
   },
@@ -425,7 +456,9 @@ Joranda mela is celebrated by mainly Mahima Dharma people. This festival is held
         <br>
         From the mythological and archaeological point, Panchupandavas and Parasuram were sheltered here for some days. Mahendragiri hills are associated with the Ramayana as Mahendra Parvata. It is a Kula Parvata along with Malaya, Sahyadri, Shuktiman, Vindhya and Malyavaan. In the Puranas and Ramayan, It is said that Parasuram was meditating on Mahendragiri when Lord Rama broke the sacred bow of Shiva.
         <br>
-        This is the place where Lord Parsuram, an eternal being, performed Tapasya for eternity. Here are small and large temples built by the Pandavas. The main festival celebrated here is Shivratri. The natural beauty and the dense forest attract tourists to come here. At the foot of Mahendragiri Hill is a beautiful waterfall that attracts tourists. Mahendragiri Hills and Mahendragiri Mountain peak are popular tourist places in Gajapati District.`
+        This is the place where Lord Parsuram, an eternal being, performed Tapasya for eternity. Here are small and large temples built by the Pandavas. The main festival celebrated here is Shivratri. The natural beauty and the dense forest attract tourists to come here. At the foot of Mahendragiri Hill is a beautiful waterfall that attracts tourists. Mahendragiri Hills and Mahendragiri Mountain peak are popular tourist places in Gajapati District.`,
+        lat:18.9778,
+        lon:84.3700
       },
       {
         id: "gandahati-waterfall",
@@ -436,7 +469,9 @@ Joranda mela is celebrated by mainly Mahima Dharma people. This festival is held
         <b>Gandahati Waterfall Ecological Park</b><br>
 Gajapati district has many well-known waterfalls, one of which is Gandahathi Waterfall. This waterfall is a peaceful place and a perfect place to take a dip. The waterfall area is 1212.40 hectares, and the height is 20 meters. The flora includes sal, piasal, dharua, mahula, haldu, sidha, kendu, harida, amla, karanja, arjun, etc. Fauna, elephants, leopards, sambar, barking deer, spotted deer, wild boar, porcupines, peacocks, pheasants, parrots, eagles, golden orioles, and cuckoos are found here.
 <br>
-It is a picnic spot for pleasure-seeking visitors from far and near. Visitors to and from Gandahati continue to travel throughout the year as the waterfall is perennial. There is an ecological park near the waterfall. Gandahati Waterfall is one of the best waterfalls in Gajapati, Odisha. The area around Gandahathi Waterfall is rich in flora and fauna, making it a great spot for nature enthusiasts. Gandahati Waterfall is an excellent destination for those seeking a tranquil escape into nature, combined with the thrill of witnessing a picturesque waterfall in the heart of Odisha’s greenery.`
+It is a picnic spot for pleasure-seeking visitors from far and near. Visitors to and from Gandahati continue to travel throughout the year as the waterfall is perennial. There is an ecological park near the waterfall. Gandahati Waterfall is one of the best waterfalls in Gajapati, Odisha. The area around Gandahathi Waterfall is rich in flora and fauna, making it a great spot for nature enthusiasts. Gandahati Waterfall is an excellent destination for those seeking a tranquil escape into nature, combined with the thrill of witnessing a picturesque waterfall in the heart of Odisha’s greenery.`,
+        lat:18.889276,
+        lon:84.270147
       },
       { 
         id:"paralakhemundi-palace",
@@ -449,7 +484,9 @@ It is a picnic spot for pleasure-seeking visitors from far and near. Visitors to
         <b>Paralakhemundi Palace</b><br>
 A stunning wood let is also situated close to Brundaban Palace. While entering the Singhadwar (the main gate) two reclining lions statues are seen on both sides over two raised platforms. A huge eye-catching decorative iron gate stands anchored in between two round shaped tall minarets known as Gombuja. A Large mounted metal bell is situated at the main entrance to be struck manually by a heavy wooden mallet for indicating accurate hourly time to the Raj Palace. The gilt decorated walls and intricate wooden trellis-worked Durbar Hall is the main attraction of the King Palace.
 <br>
-It is an excellent piece of art to experience. Durbar Hall is located in the middle of the palace and consists of Raja Mahal and Rani Mahal (the two main wings of the Gajapati Palace). The construction is so symmetrical that if one stands on the center line of the place and makes a comparison of both the wings. It is found that one half appears to be exactly the mirror image of the other half.` 
+It is an excellent piece of art to experience. Durbar Hall is located in the middle of the palace and consists of Raja Mahal and Rani Mahal (the two main wings of the Gajapati Palace). The construction is so symmetrical that if one stands on the center line of the place and makes a comparison of both the wings. It is found that one half appears to be exactly the mirror image of the other half.`,
+        lat:18.8,
+        lon:84.2
       },
       { 
         id:"harabhangi-dam",
@@ -457,7 +494,9 @@ It is an excellent piece of art to experience. Durbar Hall is located in the mid
         image: "/images/destinations/Gajapati/harabhangi-dam.jpg", 
         description: `Harabhangi dam is located about 6 km North-West of Adava, and it is 28 km distance from Mohana and around 132 km distance from Paralakhemundi. The purpose of the Harabhangi Reservoir is to store water for irrigation. The Harabhangi has surrounded by mountains and green forests. A large number of tourists come here to visit and feast on the Reservoir in the winter. Harabhangi Picnic Spot is a beautiful place to visit nearby the Paralakhemundi.
 <br>
-The place is Attracts tourists to come here in winter for a beautiful natural environment. It is a good place for a weekend picnic in the winter season. There are also viewpoints, and Guesthouse facilities are available for tourists. The natural beauty of the Reservoir is Amazing to watch at sunrise and sunset. Harabhangi dam is one of the most popular tourist places in the Gajapati District.` 
+The place is Attracts tourists to come here in winter for a beautiful natural environment. It is a good place for a weekend picnic in the winter season. There are also viewpoints, and Guesthouse facilities are available for tourists. The natural beauty of the Reservoir is Amazing to watch at sunrise and sunset. Harabhangi dam is one of the most popular tourist places in the Gajapati District.` ,
+        lat:19.5140,
+        lon:84.1329
       },
     ]
   },
@@ -474,7 +513,9 @@ The place is Attracts tourists to come here in winter for a beautiful natural en
         The Beach is famous for its Olive Ridley Turtle Nest. The Sunset Site of Gopalpur Beach is incredible for tourists in the Winter Season. A perfect place for enjoying the sea with friends and family. Gopalpur has a lighthouse, which is another attraction near the beach. The beach is well-developed and clean, and it is well-connected to the city of Berhampur. A beautiful park for children has been built near the beach. There are also many street food shops on Sea Beach. Gopalpura Beach is one of the best sea beaches in Ganjam, Odisha.
         <br>There are bathing and changing facilities, toilets, drinking water, watchtowers, solar lighting systems, sitting arrangements, and drinking water facilities available near Gopalpur Beach. It is an ideal place to spend quality time with friends and family. The sunrise and sunset at this beach are pleasant for tourists. There are many small children’s toys and shell shops on the beach sand. It extends on the coast of the Bay of Bengal and is famous for its lovely and long sandy beach. Gopalpur Beach, with its combination of natural beauty, rich history, and peaceful ambience, is a hidden gem on Odisha’s coastline, offering both adventure and relaxation for visitors.
         <br>
-        The beach is also famous for the Gopalpur Beach Festival in December. The Ganjam District Hotel Association and the Government of Odisha have been jointly organizing the Beach Festival since 1996 in December. A beach is a popular place for couples and lovers to visit. The winter season is the best time for a visit and weekly picnics on the Sea Beach, during which thousands of tourists from the state and neighbouring states visit. Gopalpur Sea Beach is one of the most popular tourist places in Berhampur, Ganjam.`
+        The beach is also famous for the Gopalpur Beach Festival in December. The Ganjam District Hotel Association and the Government of Odisha have been jointly organizing the Beach Festival since 1996 in December. A beach is a popular place for couples and lovers to visit. The winter season is the best time for a visit and weekly picnics on the Sea Beach, during which thousands of tourists from the state and neighbouring states visit. Gopalpur Sea Beach is one of the most popular tourist places in Berhampur, Ganjam.`,
+        lat:19.2547,
+        lon:84.9059
       },
       {
         id: "tara-tarini-temple",
@@ -486,7 +527,9 @@ A puranic reference to this temple is connected to a learned Brahmin Vasu Prahar
 <br>
 This ancient temple was built in the 17th century, and you have to take 999 steps to reach the temple, which is atop Taratarini hill or Purnagiri hill. The holy river Rushikalyani, which is believed to be the elder sister of river Ganga, flows at the foothills of the temple. The temple is built using Rekha style of architecture, and Goddess Taratarini was the principle deity of the rulers of Kalinga kingdom.
 <br>
-Temple Deities The deities Tara and Tarini have human faces. These idols are made of stone and are adorned with gold and silver jewels and precious stones. Goddess Taratarini is the presiging deity of most of the households of Southern Odisha. Book Tour Package to The Taratarini Temple Brahmapur`
+Temple Deities The deities Tara and Tarini have human faces. These idols are made of stone and are adorned with gold and silver jewels and precious stones. Goddess Taratarini is the presiging deity of most of the households of Southern Odisha. Book Tour Package to The Taratarini Temple Brahmapur`,
+        lat:19.4889,
+        lon:84.8991
       },
       { 
         id:"chilika-lake",
@@ -496,7 +539,9 @@ Temple Deities The deities Tara and Tarini have human faces. These idols are mad
         <br>
         The 1st Ganjam Jatiya Sammilani was held here in 1903 under the presidentship of the king of Khalikot to unite the Odia speaking people of Odisha for an independent state. It is an attraction for the tourists for fishing, bird watching and boating. In winter variety of indigenous and migratory birds come to Rambha. There is a Panthanivas available Near Rambha for tourists. Rambha Chilika Lake is the best tourist place in Berhampur, Ganjam, Odisha.  Gopalpur Sea Beach to Rambha view point distance is around 41 km. 
         <br>
-        Rambha to Barkul Chilika distance is around 33 km. Another main attraction of Rambha Lake is the lighthouse, which is in the middle of Chilika Lake, where tourists go there by boat. Winter is a good time for a picnic in Ramba Chilika Lake. This winter many tourists come here from outside Odisha and the state. The OTDC has been built a Panthanivas near the Rambha Lake, offering all kinds of facilities to tourists. Rambha Chilika Lake View Point is a top tourist attractions spot in Ganjam District.` 
+        Rambha to Barkul Chilika distance is around 33 km. Another main attraction of Rambha Lake is the lighthouse, which is in the middle of Chilika Lake, where tourists go there by boat. Winter is a good time for a picnic in Ramba Chilika Lake. This winter many tourists come here from outside Odisha and the state. The OTDC has been built a Panthanivas near the Rambha Lake, offering all kinds of facilities to tourists. Rambha Chilika Lake View Point is a top tourist attractions spot in Ganjam District.`,
+         lat:19.8450,
+         lon:85.4788
       },
       { 
         id:"tampara-lake",
@@ -504,7 +549,9 @@ Temple Deities The deities Tara and Tarini have human faces. These idols are mad
         image: "/images/destinations/Ganjam/tampara-lake.jpg", 
         description: `Tampara Lake is one of the largest freshwater lakes located in Ganjam District, State of Odisha. It is around 3 km distance from Chatrapur and 24 km from Berhampur. The beautiful lake and the nearby Chilika Lake highlight the ecological diversity. While Tampara is a sweet Water lake, Chilika is a brackish water lagoon in Odisha. The Chatrapur Lake is valuable for its scenic beauty, which attracts people for weekend picnics and boating. Paddle boats, jet skis, and speed boats are available in Tampara Lake, and visitors come here to enjoy long boat rides. There is a beautiful park on the side of the lakes where tourists can take a morning walk and enjoy the sunset view of the lakes. Winter is the perfect time to visit here. Tampara Lake is a top tourist attraction near Brahmapur city.
         <br>
-        The Tampara lake entry ticket price Rs 20 parking price Rs 20, and Boating rate 1500/- for 15 people. Tampara Sweet Water Lake is one of the best tourist place in Berhampur, Ganjam, Odisha. The best time to enjoy the natural beauty of the lake is during sunrise and sunset, which are amazing to watch. There are hotels and a Tampa resort near the lakes for accommodation, food, and overnight stays. Tampara Lake covers an area of about 15 square km. It is a freshwater lake surrounded by lush greenery and is an important part of the region’s ecosystem. The lake is home to a variety of flora and fauna. It is a habitat for numerous bird species, making it a popular spot for birdwatching. The surrounding area also supports a diverse range of plant life.` 
+        The Tampara lake entry ticket price Rs 20 parking price Rs 20, and Boating rate 1500/- for 15 people. Tampara Sweet Water Lake is one of the best tourist place in Berhampur, Ganjam, Odisha. The best time to enjoy the natural beauty of the lake is during sunrise and sunset, which are amazing to watch. There are hotels and a Tampa resort near the lakes for accommodation, food, and overnight stays. Tampara Lake covers an area of about 15 square km. It is a freshwater lake surrounded by lush greenery and is an important part of the region’s ecosystem. The lake is home to a variety of flora and fauna. It is a habitat for numerous bird species, making it a popular spot for birdwatching. The surrounding area also supports a diverse range of plant life.` ,
+        lat:19.3906,
+        lon:84.9268
       },
     ]
   },
@@ -516,7 +563,9 @@ Temple Deities The deities Tara and Tarini have human faces. These idols are mad
         id:"paradeep-port",
         name: "Paradeep Port", 
         image: "/images/destinations/Jagatsinghpur/paradeep-port.webp", 
-        description: `It is a major sea port of India for trade activities. The enchanting beauty of the sea, a wonderful sea beach & marine drive, beautiful creeks, estuaries and evergreen forests of estuarian islands of the river Mahanadi, make the place a major tourist attraction. Observing the movement of small marine crafts and the giant ore carries add to the pleasure of the tourist. The tourists can avail better accommodation facilities are at Paradeep.There are good numbers of hotels like Hotel Empires, Hotel Golden Anchor , Hotel Paradeep Inn, Hotel Paradeep International, Hotel Aristocrat, Hotel Seapearl, Hotel Shree Residency, Hotel Santosh Plaza. Panthnivas Paradeep is also located paradeep to cater the needs of tourist. Paradeep is well connected with proper banking facilities Banks like S.B.I, Bank of India, Andhra Bank, Indian Bank and Punjab National Bank etc are available at Paradeep with ATM facilities. The nearest medical facilities can be availed at different hospitals like,Municipality hospital, ESI hospital and Bilu memorial hospital, Atharbanki.` 
+        description: `It is a major sea port of India for trade activities. The enchanting beauty of the sea, a wonderful sea beach & marine drive, beautiful creeks, estuaries and evergreen forests of estuarian islands of the river Mahanadi, make the place a major tourist attraction. Observing the movement of small marine crafts and the giant ore carries add to the pleasure of the tourist. The tourists can avail better accommodation facilities are at Paradeep.There are good numbers of hotels like Hotel Empires, Hotel Golden Anchor , Hotel Paradeep Inn, Hotel Paradeep International, Hotel Aristocrat, Hotel Seapearl, Hotel Shree Residency, Hotel Santosh Plaza. Panthnivas Paradeep is also located paradeep to cater the needs of tourist. Paradeep is well connected with proper banking facilities Banks like S.B.I, Bank of India, Andhra Bank, Indian Bank and Punjab National Bank etc are available at Paradeep with ATM facilities. The nearest medical facilities can be availed at different hospitals like,Municipality hospital, ESI hospital and Bilu memorial hospital, Atharbanki.`,
+        lat:20.2718,
+        lon:86.6748 
       },
       { 
         id:"sarala-temple",
@@ -524,7 +573,9 @@ Temple Deities The deities Tara and Tarini have human faces. These idols are mad
         image: "/images/destinations/Jagatsinghpur/sarala-temple.webp", 
         description: `Jhankad is famous for the goddess Maa Sarala temple and is located just 15 km distance from Jagatsinghpur Town and about 54 km from Cuttack. Goddess Sarala is the best one of wisdom and power. She is called Maha Saraswati and is one of the eight prominent Shakti Pithas of Odisha. Sidheswar Parida, named Sarala Das, wrote Sarala Mahabharat with the blessing of the goddess Sarala in the century AD. The environment of the place is very calm and quiet. Throughout the year, devotees from different parts of Odisha come here to worship the goddess Sarala. Maa Sarala Mandir is a famous temple in Jagatsingpur District of Odisha.
         <br>
-        Jhankada basini maa Sarala is the presiding deity of local and abroad. Pana Sankranti and Durgapuja are the main festivals of this temple. Dussehra is celebrated for three days, and lakhs of devotees from Odisha come to observe the festival. Gorakhnath temple is only 6 km away from Sarala Mandir. Jhankad Sarala temple is one of the most popular tourist places in Jagatsinghpur District.` 
+        Jhankada basini maa Sarala is the presiding deity of local and abroad. Pana Sankranti and Durgapuja are the main festivals of this temple. Dussehra is celebrated for three days, and lakhs of devotees from Odisha come to observe the festival. Gorakhnath temple is only 6 km away from Sarala Mandir. Jhankad Sarala temple is one of the most popular tourist places in Jagatsinghpur District.`,
+         lat:20.2798,
+         lon:86.2935
       },
       { 
         id:"gorakhnath-temple",
@@ -532,7 +583,9 @@ Temple Deities The deities Tara and Tarini have human faces. These idols are mad
         image: "/images/destinations/Jagatsinghpur/gorakhnath-temple.jpg", 
         description: `Gorekhanath Pitha is situated around 13 km distance from Jagatsinghpur town. It is a famous lord shiva temple in Odisha. Gorekhanath is an important place for Nath dharma Machendranath, Lupia, Hadipa, and Gorekhanath are the preachers of Nath dharma in Odisha. Mahendra Nath came from Sanatan Dharma Gorekhanath is one of them. He travelled all over Odisha preaching the Nath religion. Gorakhanath Pitha is a tourist attraction places near Maa Sarala Temple.
         <br>
-        Baba Gorekhanath has written many books, including the Siddhanta of Nath Dharma, which Sidhant Granth of Nath dharma. The samadhi of Nath guruji is called Gadi. It is found in Kapilash, Manitiri, Simulia, Tirtol, Jagatsinghpur, Ratnagiri, Bhubaneswar, Salipur, Kendrapara, Rajanagar, Patakura, and Padmapur area in Odisha. There is a Big Banyan tree near the Gadi of Gorekhanath Pitha. The devotees from different parts of Odisha came to this place to worship the Gadi to fulfil their desire. Goddess Sarala Temple is just 5-6 km away from Gorekhanath Pitha. Gorakhnath temple is one of the most popular tourist places in the Jagatsinghpur District.` 
+        Baba Gorekhanath has written many books, including the Siddhanta of Nath Dharma, which Sidhant Granth of Nath dharma. The samadhi of Nath guruji is called Gadi. It is found in Kapilash, Manitiri, Simulia, Tirtol, Jagatsinghpur, Ratnagiri, Bhubaneswar, Salipur, Kendrapara, Rajanagar, Patakura, and Padmapur area in Odisha. There is a Big Banyan tree near the Gadi of Gorekhanath Pitha. The devotees from different parts of Odisha came to this place to worship the Gadi to fulfil their desire. Goddess Sarala Temple is just 5-6 km away from Gorekhanath Pitha. Gorakhnath temple is one of the most popular tourist places in the Jagatsinghpur District.`,
+        lat: 20.3152,
+        lon: 86.2649
       },
       { 
         id:"Sandhakuda",
@@ -540,7 +593,9 @@ Temple Deities The deities Tara and Tarini have human faces. These idols are mad
         image: "/images/destinations/Jagatsinghpur/Sandhakuda.webp", 
         description: `The Sandhakuda island is an attractive tourist spot comprising vast green shades of casuarina vegetation, shimmering golden beaches, natural creeks, and an island. The place is the perfect place to soak oneself in the organic value of nature. The tourists can avail themselves of better accommodation facilities at Paradeep. The area around Sandhakuda typically features rural landscapes, with a mix of agricultural fields and coastal environments, and it is part of a region that often experiences tropical storms due to its closeness to the Bay of Bengal.
         <br>
-        It’s located very close to Paradip, one of the most important port cities in Odisha, known for industrial activities, especially related to shipping, port operations, and petrochemical industries. Being close to the coast, fishing is a primary occupation of the local people. The fertile deltaic soil also supports agriculture, with crops like rice, groundnuts, and vegetables being cultivated. Sandhakuda Island is a tourist attraction in Jagatsinghpur, Odisha.` 
+        It’s located very close to Paradip, one of the most important port cities in Odisha, known for industrial activities, especially related to shipping, port operations, and petrochemical industries. Being close to the coast, fishing is a primary occupation of the local people. The fertile deltaic soil also supports agriculture, with crops like rice, groundnuts, and vegetables being cultivated. Sandhakuda Island is a tourist attraction in Jagatsinghpur, Odisha.` ,
+        lat:20.2545,
+        lon:86.6504
       },
     ]
   },
@@ -560,7 +615,9 @@ Temple Deities The deities Tara and Tarini have human faces. These idols are mad
         <b>Maa Biraja Temple Shakti Peetha</b><br>
 According to the Skanda Purana, the temple mentioned in the Utkala Khanda, which narrates the significance of the Biraja Shakti Peetha. The goddess then appeared as Biraja, making the place a spiritual centre. The Biraja temple is one of the 51 Shakti Peethas, where the navel (Nabhi) of Goddess Sati is believed to have fallen, making the temple highly sacred in Shaktism. The most important festivals celebrated at the Maa Biraja Temple are Durga Puja, Navaratri, Rath Yatra, and Chaitra Mela.
 <br>
-The temple has 108 Shiva Lingas; Chatru Bhairav, Asta Chandika, Bagalamukhi Devi, Mahab, and Lord Rudra are deities inside the temple premises. According to the Puranas, there are about one crore Shiva Lingam in Jajpur. Jajpur district is also known as Viraja Kshetra or Biraja Peetha. According to the Skanda Purana, Utkala Khanda washes all Rajo guna of pilgrims. So-called Viraja or Biraja kshetra. Maa Biraja Mandir is one of the most famous temples in Jajpur, Odisha.`
+The temple has 108 Shiva Lingas; Chatru Bhairav, Asta Chandika, Bagalamukhi Devi, Mahab, and Lord Rudra are deities inside the temple premises. According to the Puranas, there are about one crore Shiva Lingam in Jajpur. Jajpur district is also known as Viraja Kshetra or Biraja Peetha. According to the Skanda Purana, Utkala Khanda washes all Rajo guna of pilgrims. So-called Viraja or Biraja kshetra. Maa Biraja Mandir is one of the most famous temples in Jajpur, Odisha.`,
+        lat:20.8338,
+        lon:86.3380
       },
       { 
         id:"ratnagiri-monastery",
@@ -570,7 +627,9 @@ The temple has 108 Shiva Lingas; Chatru Bhairav, Asta Chandika, Bagalamukhi Devi
         <br>
         Hiuen Tsang, the Chinese pilgrim who visited Odisha in 639 AD, wrote in his travel report on Indika that Ratnagiri is a flourishing state of Buddhism and a Buddhist cultural center. Besides the basic sealings bearing the legend Sri Ratnagiri Mahaviharya Samagra Arya Bhikhsu Sanghasya.” The place has been identified as Ratnagiri; however, it is a famous Buddhist archaeological heritage not only in Odisha but in India.
         <br>
-        Ratnagiri Monastery is also a part of Odisha tourism, the natural beauty of Odisha. At the Ratnagiri Museum, you can see many attractive stone works, including ancient Buddha statues. Ratnagiri is a hilly area surrounded by some villages and rural areas of Jajpur district. People are celebrating many functions and celebrations with lots of joy. Within Ratnagiri there is Mahakala Temple and Stupa. Ratnagiri Buddhist Monastery is a tourist attraction in Jajpur District.` 
+        Ratnagiri Monastery is also a part of Odisha tourism, the natural beauty of Odisha. At the Ratnagiri Museum, you can see many attractive stone works, including ancient Buddha statues. Ratnagiri is a hilly area surrounded by some villages and rural areas of Jajpur district. People are celebrating many functions and celebrations with lots of joy. Within Ratnagiri there is Mahakala Temple and Stupa. Ratnagiri Buddhist Monastery is a tourist attraction in Jajpur District.`,
+        lat:20.6423,
+        lon:86.3361 
       },
       { 
         id:"udayagiri-buddhist-monastery",
@@ -578,7 +637,9 @@ The temple has 108 Shiva Lingas; Chatru Bhairav, Asta Chandika, Bagalamukhi Devi
         image: "/images/destinations/Jajpur/udayagiri-buddhist-monastery.jpeg", 
         description: `The Udayagiri Buddhist Complex is located 60 km from Cuttack via Chandikhol and 32 km from Jajpur town. The Buddhist Complex is a beautiful place on top of a hill with many ancient Buddha statues and stone inscriptions. The archaeological remains of Udayagiri consist of a brick stupa and two brick monasteries. It is a beautiful stone-stepped well with inscriptions on it and rock sculptures at the top of the hill behind the Udayagiri. The Buddhist complex is later than Ratnagiri and Lalitgiri. The monasteries were probably flourishing well between the 7th and 12th centuries AD. 
         <br>
-        The place is a mini golden triangle comprising nearby Ratnagiri and Lalitagiri, which are famous for rock-cut sculptures. It is only 5 km away from Udayagiri. This palace is surrounded by hills and greenery. The place has a beautiful collection of Buddhist sculptures, and many new forts and developments have been made by the government. It is the largest Udayagiri Buddhist Complex in Odisha. Lalitgiri and Ratnagiri exist as the main sites of tourist attractions. The Marvel design and architecture of sculpture are stunning. A beautiful park is also increasing its beauty. Udayagiri Buddhist Monastery is a tourist attraction in Jajpur, Odisha.` 
+        The place is a mini golden triangle comprising nearby Ratnagiri and Lalitagiri, which are famous for rock-cut sculptures. It is only 5 km away from Udayagiri. This palace is surrounded by hills and greenery. The place has a beautiful collection of Buddhist sculptures, and many new forts and developments have been made by the government. It is the largest Udayagiri Buddhist Complex in Odisha. Lalitgiri and Ratnagiri exist as the main sites of tourist attractions. The Marvel design and architecture of sculpture are stunning. A beautiful park is also increasing its beauty. Udayagiri Buddhist Monastery is a tourist attraction in Jajpur, Odisha.`,
+        lat:20.64,
+        lon:86.27 
       },
       { 
         id:"lalitgiri-buddhist-complex",
@@ -588,7 +649,9 @@ The temple has 108 Shiva Lingas; Chatru Bhairav, Asta Chandika, Bagalamukhi Devi
 <br>
 Buddhism flourished in the triad and quickly, Lalitgiri became one of the most important learning centers. Disciples flocked from different parts of the world to study here. It is also noteworthy that a casket containing Buddha’s bone relics was found at Lalitgiri. The casket is now housed in the museum located by the ruins.
 <br>
-Some of the most significant findings at Lalitgiri are the hilltop Mahastupa, apsidal prayer hall, Kushana Brahmi inscriptions, copper and gold coins, pottery and seals.` 
+Some of the most significant findings at Lalitgiri are the hilltop Mahastupa, apsidal prayer hall, Kushana Brahmi inscriptions, copper and gold coins, pottery and seals.`,
+        lat:20.5903,
+        lon:86.2524
       },
       
     ],
@@ -603,7 +666,9 @@ Some of the most significant findings at Lalitgiri are the hilltop Mahastupa, ap
         image: "/images/destinations/Jharsuguda/koilighughar-waterfall.webp", 
         description: `The Koilighugar waterfall is located 55 km distance from Jharsuguda town in the Lakhanpur block near the village Kushmelbahal. Maheswarnath Shiva Temple is at the top of the waterfall, which makes the place more attractive. Shiva’s Linga is in the water and is difficult to see in the winter. Another Shiva linga has been created outside the waterfall for the convenience of the pilgrims. Shiva Lingam is reflected in the sun’s rays reflected in the summer. Koilighugar Waterfall is a tourist attraction places near Jharsuguda District.
         <br>
-        There is a Shiva temple located on Koilighugar Waterfall. Lord Shiva is worshipped in this temple. Every year a fair is held in Koiligugar on the occasion of Shivratri. Maha Shivaratri is the main festival of this place. The beautiful natural environment and the sound of the waterfall attract visitors during winter. Koilighughar waterfall is one of the best picnic spots in Jharsuguda, Odisha.` 
+        There is a Shiva temple located on Koilighugar Waterfall. Lord Shiva is worshipped in this temple. Every year a fair is held in Koiligugar on the occasion of Shivratri. Maha Shivaratri is the main festival of this place. The beautiful natural environment and the sound of the waterfall attract visitors during winter. Koilighughar waterfall is one of the best picnic spots in Jharsuguda, Odisha.`,
+        lat:21.806311,
+        lon:83.668752
       },
       { 
         id:"ramchandi-temple",
@@ -614,7 +679,9 @@ Some of the most significant findings at Lalitgiri are the hilltop Mahastupa, ap
         There is Laxmi Narayan Mandir located near Ram Chandi Temple. The temple and the beautiful natural scenery of the Ib River attract a large number of tourists to come here in the winter. Ram Chandi temple is one of the tourist places in Jharsuguda. It is one of the oldest temples in the Jharsuguda and highly respected by the local people. The Mahadev Temple and the Yajna Mandapa are located on this hill.
         <br>
         <b>History of Maa Ramachandi</b><br>
-History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Surendra Sai was coming from Khinda to Brajrajnagar on a horse to visit Goddess Ramchandi. According to legend, this temple has been standing here since the era of Ram. Sri Rama and Lakshmana were passing through this temple in search of their Devi Sita during Banavas. At that time Laxman rested here. Since then, this Chandi temple has gained fame in Jharsuguda District. Maa Chandi Mandir is a combination of natural beauty and a spiritual environment. Ramchandi Mandir is a popular tourist places near Jharsuguda city.` 
+History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Surendra Sai was coming from Khinda to Brajrajnagar on a horse to visit Goddess Ramchandi. According to legend, this temple has been standing here since the era of Ram. Sri Rama and Lakshmana were passing through this temple in search of their Devi Sita during Banavas. At that time Laxman rested here. Since then, this Chandi temple has gained fame in Jharsuguda District. Maa Chandi Mandir is a combination of natural beauty and a spiritual environment. Ramchandi Mandir is a popular tourist places near Jharsuguda city.`,
+        lat:21.81,
+        lon:83.94
       },
       { 
         id:"bikramkhol-cave",
@@ -630,7 +697,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Jharsuguda/jhadeswar-temple.webp", 
         description: `Jhadeswar Shiva temple is located about 1 km distance from the Jharsuguda Railway station. There is a self appearing Sivalingam here, the actual age of which is unknown. Jhadeswar temple is an ancient Shiva temple of Odisha. According to history, Shiva Lingam was worshipped in a hut made of leaves during the reign of Govind Singh Jaminder of Jharsuguda. In 1916 a Gujarati contractor named Mulju Jagmal erected a small temple here. The Jamindar of Jharsuguda arranged Savayats for daily worship and donated agricultural lands for the maintenance of the temple and puja. Lord Jhadeswar Mandir is a famous temples in Jharsuguda, Odisha.
         <br>
-        In addition to Lord Shiva, Maa Durga temple, Hanuman temple, pond and a beautiful park are located inside the Shree Jhadeswar temple. Mahashivratri is the main festival of the temple, which attracts a large number of devotees. Jhadeswar mandir is one of the tourist places in Jharsuguda. The Jhadeswar Temple showcases traditional Odia temple architecture with intricate carvings and a peaceful atmosphere. While the temple is relatively modest compared to grander temples in Odisha, its sanctity and scenic surroundings make it a popular destination for pilgrims and tourists. Apart from religious visitors, the temple attracts tourists who are interested in exploring the culture and heritage of Odisha. ` 
+        In addition to Lord Shiva, Maa Durga temple, Hanuman temple, pond and a beautiful park are located inside the Shree Jhadeswar temple. Mahashivratri is the main festival of the temple, which attracts a large number of devotees. Jhadeswar mandir is one of the tourist places in Jharsuguda. The Jhadeswar Temple showcases traditional Odia temple architecture with intricate carvings and a peaceful atmosphere. While the temple is relatively modest compared to grander temples in Odisha, its sanctity and scenic surroundings make it a popular destination for pilgrims and tourists. Apart from religious visitors, the temple attracts tourists who are interested in exploring the culture and heritage of Odisha. `,
+        lat:21.83,
+        lon:83.76
       },
     ],
   },
@@ -644,7 +713,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Kalahandi/karlapat-sanctuary.jpeg", 
         description: `The Karlapat Wildlife Sanctuary is located in the Kalahandi South Division and is 12 km distance from Bhawanipatna in the Kalahandi district. The place is surrounded by dense green forests. The sanctuary is rich in wildlife such as leopards, gaurs, sambars, nilgais, barking deer, mouse deer, soft-clawed otters, and a wide variety of birds and reptiles. 
         <br>
-        The beauty of the wildlife sanctuary with its hills, valleys, and waterfalls gives tourists a unique attraction. A beautiful waterfall within this sanctuary, Phurlijharan has been developed as a picnic spot for local visitors and attracts a large number of tourists from and around the Kalahandi district. Karlapat Wildlife Sanctuary is one of the most popular tourist places in the Kalahandi District.` 
+        The beauty of the wildlife sanctuary with its hills, valleys, and waterfalls gives tourists a unique attraction. A beautiful waterfall within this sanctuary, Phurlijharan has been developed as a picnic spot for local visitors and attracts a large number of tourists from and around the Kalahandi district. Karlapat Wildlife Sanctuary is one of the most popular tourist places in the Kalahandi District.` ,
+        lat:19.6719,
+        lon:83.0361
       },
       { 
         id:"phurlijharan-waterfall",
@@ -652,7 +723,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Kalahandi/phurlijharan-waterfall.jpeg", 
         description: `Phurlijharan Waterfall is located in the Karlapat Wildlife Sanctuary, about 16 km distance from Bhawanipatna in the Kalahandi district of Odisha. The water of the Waterfall comes from the top of the hill and falls from a height of about 45 feet. The water of this Waterfall joins the Sagda River. It is a good place for a weekend picnic in winter. Thousands of tourists come here to see the natural streams, dense forests, and high mountains. Children’s amusement area, eco-shop, watch tower, vehicle parking, and stairs to reach the Waterfall have also been constructed by the Odisha Tourism Department for the tourists near Phurli Jharan waterfall.
         <br>
-        The beautiful natural atmosphere and the sound of the waterfall attract visitors, and picnickers rush to the spot during winter. There is a beautiful child amusement area available near the waterfall. Rainbows are formed when the sun falls on a waterfall, which is very beautiful. Phurlijharan Waterfall is one of the best attractions for tourists in Kalahandi. The place is crowded as many tourists come here to enjoy its natural beauty.` 
+        The beautiful natural atmosphere and the sound of the waterfall attract visitors, and picnickers rush to the spot during winter. There is a beautiful child amusement area available near the waterfall. Rainbows are formed when the sun falls on a waterfall, which is very beautiful. Phurlijharan Waterfall is one of the best attractions for tourists in Kalahandi. The place is crowded as many tourists come here to enjoy its natural beauty.`,
+        lat:19.78,
+        lon:83.11
       },
       { 
         id:"rabandhara-waterfall",
@@ -660,13 +733,17 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Kalahandi/rabandhara-waterfall.jpeg", 
         description: `Rabandhara Waterfall is located around 13 Km distance from Bhawanipatna, Kalahandi. The waterfall flows through the dense forest, making it a popular tourist destination. It is best for bathing in crystal water. It is a good place for picnics in the winter season. There is a park for children and a Restroom available Near the Waterfall. The beautiful place is surrounded by hills and dense forest. 
         <br>
-        The Waterfalls water are continuously flowing, so tourists come here all year round. Bada Rabandhar Waterfall also is located near the Sana Rabandhar Waterfall. The Sana Rabandhar Waterfall is one of the tourist places in Kalahandi, Odisha. A large number of tourists come here in the winter for picnics. Rabandhara Waterfall is a tourist attraction places in Kalahandi, Odisha. To stay near this waterfall, the Odisha tourism department has built a nature camp where you can get all kinds of facilities.` 
+        The Waterfalls water are continuously flowing, so tourists come here all year round. Bada Rabandhar Waterfall also is located near the Sana Rabandhar Waterfall. The Sana Rabandhar Waterfall is one of the tourist places in Kalahandi, Odisha. A large number of tourists come here in the winter for picnics. Rabandhara Waterfall is a tourist attraction places in Kalahandi, Odisha. To stay near this waterfall, the Odisha tourism department has built a nature camp where you can get all kinds of facilities.`,
+        lat:19.86,
+        lon:83.25 
       },
       { 
         id:"bhawanipatna-jagannath-temple",
         name: "Bhawanipatna Jagannath Temple", 
         image: "/images/destinations/Kalahandi/bhawanipatna-jagannath-temple.jpeg", 
-        description: `A historic temple dedicated to Lord Jagannath, attracting devotees and tourists alike. It offers spiritual experiences and insights into local culture and traditions.` 
+        description: `A historic temple dedicated to Lord Jagannath, attracting devotees and tourists alike. It offers spiritual experiences and insights into local culture and traditions.`,
+        lat:19.9062,
+        lon:83.1671 
       },
     ],
   },
@@ -680,7 +757,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Kandhamal/daringbadi.webp", 
         description: `Daringbadi Hill Station is a scenic hill station located in the Kandhamal district of Odisha, India. Known as the “Kashmir of Odisha,” it offers pleasant weather, lush greenery, and a tranquil atmosphere, making it a popular destination for nature lovers. It is located around 110 km distance from Phulbani and 247 km from Bhubaneswar. The top of the hill looks like a valley. Daringbadi is a small hill station 3000 feet high above sea level. Dotted with pine forests and waterfalls, the hill stations of Phulbani are popular holiday destinations in Odisha. Daringbadi Nature Camp and Belghar Nature Camp offer accommodation options for travellers coming to this part of Odisha. Daringbadi is surrounded by beautiful valleys and plateaus and dotted with coffee and pepper gardens.
         <br>
-        Daringbadi Hill Station is a scenic hill station located in the Kandhamal district of Odisha, India. Known as the “Kashmir of Odisha,” it offers pleasant weather, lush greenery, and a tranquil atmosphere, making it a popular destination for nature lovers. It is located around 110 km distance from Phulbani and 247 km from Bhubaneswar. The top of the hill looks like a valley. Daringbadi is a small hill station 3000 feet high above sea level. Dotted with pine forests and waterfalls, the hill stations of Phulbani are popular holiday destinations in Odisha. Daringbadi Nature Camp and Belghar Nature Camp offer accommodation options for travellers coming to this part of Odisha. Daringbadi is surrounded by beautiful valleys and plateaus and dotted with coffee and pepper gardens.` 
+        Daringbadi Hill Station is a scenic hill station located in the Kandhamal district of Odisha, India. Known as the “Kashmir of Odisha,” it offers pleasant weather, lush greenery, and a tranquil atmosphere, making it a popular destination for nature lovers. It is located around 110 km distance from Phulbani and 247 km from Bhubaneswar. The top of the hill looks like a valley. Daringbadi is a small hill station 3000 feet high above sea level. Dotted with pine forests and waterfalls, the hill stations of Phulbani are popular holiday destinations in Odisha. Daringbadi Nature Camp and Belghar Nature Camp offer accommodation options for travellers coming to this part of Odisha. Daringbadi is surrounded by beautiful valleys and plateaus and dotted with coffee and pepper gardens.`,
+        lat:19.9037,
+        lon:84.1303 
       },
       { 
         id:"belghar-sanctuary",
@@ -688,7 +767,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Kandhamal/belghar-sanctuary.jpg", 
         description: ` Belghar Nature Camp is located in the Kandhamal and is 115 km distance from Daringbadi and 139 km from Phulbani town. The Nature camp is inside the Kotgarh Elephant Reserve and is famous for wildlife, especially elephants. It is approximately 2555 ft above sea level. The beautiful natural sight of Belghar attracts visitors once more. Belghar Nature Camp provides a serene escape into nature while promoting eco-friendly tourism and offering visitors a glimpse into the unique tribal culture of Odisha.
         <br>
-        The beautiful natural scenery of Belgar attracts tourists. All kinds of arrangements are made here for the accommodation, food, lodging, and security for tourists in Belghar Eco-Resorts. Belghar-Daringbadi is full of hills and waterfalls.  Daringbadi Nature Camp is one of the tourist places in Kandhamal. The Daringbadi Belghar Nature Camp is a peaceful spot for nature lovers, wildlife enthusiasts, and adventure seekers. Belghar Nature Camp is a serene, immersive eco-destination ideal for wildlife and nature lovers seeking off-the-beaten-track adventures. With cozy tents or cottages, delicious local food, and insightful guidance from forest rangers, it promises a memorable, peaceful retreat in Odisha’s Eastern Ghats.` 
+        The beautiful natural scenery of Belgar attracts tourists. All kinds of arrangements are made here for the accommodation, food, lodging, and security for tourists in Belghar Eco-Resorts. Belghar-Daringbadi is full of hills and waterfalls.  Daringbadi Nature Camp is one of the tourist places in Kandhamal. The Daringbadi Belghar Nature Camp is a peaceful spot for nature lovers, wildlife enthusiasts, and adventure seekers. Belghar Nature Camp is a serene, immersive eco-destination ideal for wildlife and nature lovers seeking off-the-beaten-track adventures. With cozy tents or cottages, delicious local food, and insightful guidance from forest rangers, it promises a memorable, peaceful retreat in Odisha’s Eastern Ghats.` ,
+        lat:20.22,
+        lon:84.26
       },
       { 
         id:"putudi-waterfall",
@@ -696,7 +777,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Kandhamal/putudi-waterfall.webp", 
         description: `Putudi waterfall is located at a distance of 18 km from Phulbani town and 120 km from Daringbadi. A waterfall is a place of natural beauty, where river Salunki falls from a height of 60ft. forming an enchanting ambience. The roaring sound of the waterfall with dense forest all around creates a thrilling sensation. It is a popular spot for nature lovers and tourists seeking a peaceful environment surrounded by lush greenery. 
         <br>
-        The region near Putudi Waterfall is covered with dense forests and rocky terrains, making it peaceful. In winter, a large number of tourists from all over Odisha come here for sightseeing and picnicking. The beautiful waterfall flows from the top of the hills and is the best place to bathe as its water is clear. Putudi waterfall is one of the best tourist places in the Kandhamal District.` 
+        The region near Putudi Waterfall is covered with dense forests and rocky terrains, making it peaceful. In winter, a large number of tourists from all over Odisha come here for sightseeing and picnicking. The beautiful waterfall flows from the top of the hills and is the best place to bathe as its water is clear. Putudi waterfall is one of the best tourist places in the Kandhamal District.` ,
+        lat:20.5455,
+        lon:84.1901
       },
       { 
         id:"balaskumpa-devi-temple",
@@ -704,7 +787,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         image: "/images/destinations/Kandhamal/balaskumpa-devi-temple.webp", 
         description: `Maa Barala Devi Temple is located at Balaskumpa and is 15 km distance from the Phulbani town and around 65 km from Kandhamal. Goddess Barala Devi is the presiding deity of this temple. Devotees come here to get a wish from Barala Devi. Local devotees visit this temple daily to worship this deity, but Dussehra is the famous festival of this temple, and believers come here to see the Durga Vesa of Barala Devi.
         <br>
-        Dedicated to Goddess Barala Devi, an incarnation of Shakti/Durga, worshipped as the tribal “creator of the universe,” nourisher and protector of her devotees. A popular wish‑fulfilling deity, especially for blessings like healthy and intelligent children. Celebrated with grandeur during Dashahara, with devotional rituals, animal sacrifice (historically buffalo; now discontinued since ~1999), tribal music & dance. Maa Barala Devi Temple is a spiritually rich and culturally significant Shakti spot in Kandhamal, seamlessly blending tribal traditions, ecological beauty, and festive fervour. Whether seeking divine blessings, peace in nature, or cultural immersion, it offers a unique and memorable experience. Another attraction near this temple is Pilasalunki Dam which is just 4 km away from the temple. Maa Barala Devi Mandir is one of the famous temples in Kandhamal District, Odisha.` 
+        Dedicated to Goddess Barala Devi, an incarnation of Shakti/Durga, worshipped as the tribal “creator of the universe,” nourisher and protector of her devotees. A popular wish‑fulfilling deity, especially for blessings like healthy and intelligent children. Celebrated with grandeur during Dashahara, with devotional rituals, animal sacrifice (historically buffalo; now discontinued since ~1999), tribal music & dance. Maa Barala Devi Temple is a spiritually rich and culturally significant Shakti spot in Kandhamal, seamlessly blending tribal traditions, ecological beauty, and festive fervour. Whether seeking divine blessings, peace in nature, or cultural immersion, it offers a unique and memorable experience. Another attraction near this temple is Pilasalunki Dam which is just 4 km away from the temple. Maa Barala Devi Mandir is one of the famous temples in Kandhamal District, Odisha.` ,
+        lat:20.4306,
+        lon:84.3149
       },
     ],
   },
@@ -721,7 +806,9 @@ History says that the maa Ram Chandi was the godmother of Surendra Sai. Veer Sur
         <b>History of Bhitarkanika National Park</b>
 It was notified as a sanctuary in 1975 and Bhitarkanika National Park in 1998. The place is surrounded by the river Brahmani and Baitarani. The sanctuary and national park 600 sq. km founded by the river on three sides of only the sea in the east attract the tourist for crocodile breeding farm at Dangamala and the mangrove forest with exciting flora and fauna Besides a variety of other reptiles like Lizarcic. Pythons and King cobras and also found wildlife of wild Pigs, Rhesus, Monkeys, Sambars, Spotted Dear and many other animals. Bhitarkanika national park is famous for crocodiles & Mangroves, and the second largest mangrove forest in India.
 <br>
-All kinds of arrangements are made here for the accommodation, food, lodging and security of the tourists in  Bhitarkanika Nature Camp and Eco cottage. It is a great place to visit and boating in Bhitarkanika. Crocodiles, birds, snakes, deer and much other wildlife can be seen on the riverbank while sailing. Various wildlife turtles, crocodiles and sand, creeks, wildlife animals, and the Mangrove forests enhance the beauty of Bhitarkanika Park. Bhitarkanika Park and Nature Camp is the Best tourist place in Kendrapara, Odisha.` 
+All kinds of arrangements are made here for the accommodation, food, lodging and security of the tourists in  Bhitarkanika Nature Camp and Eco cottage. It is a great place to visit and boating in Bhitarkanika. Crocodiles, birds, snakes, deer and much other wildlife can be seen on the riverbank while sailing. Various wildlife turtles, crocodiles and sand, creeks, wildlife animals, and the Mangrove forests enhance the beauty of Bhitarkanika Park. Bhitarkanika Park and Nature Camp is the Best tourist place in Kendrapara, Odisha.` ,
+        lat:20.750,
+        lon:87.000
       },
       { 
         id:"baladevjew-temple",
@@ -732,7 +819,9 @@ All kinds of arrangements are made here for the accommodation, food, lodging and
         <b>History of Tulasi Khetra, Baldevjew Temple</b><br>
 Baladevjew Temple Tulasi Khetra was built in 1700 by the King of Kujanga and Chhederabaranga, Gopinath Narendra, and Jagannath Mahapatra. The Manika Debi and Jagannath Temple were built by the first Mahanta Ramanuja Das. The total area of this temple is around 3 acres. The height of the main temple is 75 ft., the middle temple is 40 ft., the height of Jagamohana is 65 ft., and the height of BataMandir is 70 ft. Within the temple complex, there is a beautiful 45-foot-high Sri Mahalaxmi Temple. Baladevjew Temple is a famous tourist place in the Kendrapara District.
 <br>
-The flag on the main temple is known as “Brahma Chirala” or “Brahma Bana,” whereas the flag at the top of the 5 ft high Nilachakra is known as “Brahma Nilachakra.” This place is also known as Tulasi Khetra, Gupta Khetra, Gupta Brundabana, Sri Baladeba Khetra, and Manibigraha Khetra. The rituals and worship of the deities are different from other temples. This is a complete Baishnaba Kshetra, Sri Baladev Jew param Baishnab, without any Tantrik rituals. Sri Baladev Jew is not made of wood; HE is ”MANIBIGHRAHA.” So, no Nabakalebara rituals are held here. The main festival of the temple is Rathajatra, held as Srigundicha and Bahudajatra. The main Naibedya of Sri Baladev Jew is “RASABALI,” which is very famous in Kendrapara. Baladevjew Mandir is a famous temple in Kendrapara District.`
+The flag on the main temple is known as “Brahma Chirala” or “Brahma Bana,” whereas the flag at the top of the 5 ft high Nilachakra is known as “Brahma Nilachakra.” This place is also known as Tulasi Khetra, Gupta Khetra, Gupta Brundabana, Sri Baladeba Khetra, and Manibigraha Khetra. The rituals and worship of the deities are different from other temples. This is a complete Baishnaba Kshetra, Sri Baladev Jew param Baishnab, without any Tantrik rituals. Sri Baladev Jew is not made of wood; HE is ”MANIBIGHRAHA.” So, no Nabakalebara rituals are held here. The main festival of the temple is Rathajatra, held as Srigundicha and Bahudajatra. The main Naibedya of Sri Baladev Jew is “RASABALI,” which is very famous in Kendrapara. Baladevjew Mandir is a famous temple in Kendrapara District.`,
+        lat:20.4847,
+        lon:86.4391
       },
       { 
         id:"hukitola-island",
@@ -742,7 +831,9 @@ The flag on the main temple is known as “Brahma Chirala” or “Brahma Bana,�
         <br>
         The entire building has been constructed with stones that were brought from the Barabati Fort of Cuttack and Churang fort of Barang. In places, the width of the wall varies from two to three feet. The stones which in colour are varied like white, blue, black and green are joined by lime and rubble masonry. In front of the rooms, there is a long veranda with nine arches which give the building an impressive look. On both the ends of the veranda, there are two wells each 12 feet deep which were used for storing sweet rainwater through rainwater harvesting.
         <br><b>History of Hukitola</b><br>
-The roof was made of brick, wood and iron beams. This has a slight slope towards the veranda to facilitate rainwater to flow down to the wells below through iron pipes. This was the only source of sweet water for the sailors and mariners. The island was named Hokkey Tolha after Chief Irrigation Engineer Hokkey Walker. Subsequently, it came to be known as Hukitola. The building served the purpose of a transit unloading point for merchandise brought by ship for several years till the connectivity of roads and railways were developed. The Wildlife Division of the Forest and Environment Department, Govt of Odisha, approached the Indian National Trust For Art And Cultural Heritage (INTACH) to take up the repair, restoration and conservation of the building in 2015 under the ICZMP scheme. Hukitola Jambu island is the best tourist place in Kendrapara, Odisha` 
+The roof was made of brick, wood and iron beams. This has a slight slope towards the veranda to facilitate rainwater to flow down to the wells below through iron pipes. This was the only source of sweet water for the sailors and mariners. The island was named Hokkey Tolha after Chief Irrigation Engineer Hokkey Walker. Subsequently, it came to be known as Hukitola. The building served the purpose of a transit unloading point for merchandise brought by ship for several years till the connectivity of roads and railways were developed. The Wildlife Division of the Forest and Environment Department, Govt of Odisha, approached the Indian National Trust For Art And Cultural Heritage (INTACH) to take up the repair, restoration and conservation of the building in 2015 under the ICZMP scheme. Hukitola Jambu island is the best tourist place in Kendrapara, Odisha` ,
+        lat:20.404,
+        lon:86.791
       },
       { 
         id:"aul-palace",
@@ -750,7 +841,9 @@ The roof was made of brick, wood and iron beams. This has a slight slope towards
         image: "/images/destinations/Kendrapara/aul-palace.webp", 
         description: `Aul Palace is located on the banks of the Kharasrota River and near Aul township. It is about 37 km distance from the Kendrapara district headquarters. The Aul Palace was built in 1590 by Kalinga Raj Ram Chandra Dev. It is an ancient palace spread over 40 acres of land.
         <br>
-        Other structures like Rajbati, Ranimahal, Ghodashala, Bhandar, Udyan, Pramoda Udyan, Debalaya, Devi Mandir are included in the palace. The Rajkanika Palace is around 8.5 km distance from the Aul Rajabati. Aul king Palace is a tourist attraction places in Kendrapara District.` 
+        Other structures like Rajbati, Ranimahal, Ghodashala, Bhandar, Udyan, Pramoda Udyan, Debalaya, Devi Mandir are included in the palace. The Rajkanika Palace is around 8.5 km distance from the Aul Rajabati. Aul king Palace is a tourist attraction places in Kendrapara District.` ,
+        lat:20.6921,
+        lon:86.6484
       },
     ],
   },
@@ -766,7 +859,9 @@ The roof was made of brick, wood and iron beams. This has a slight slope towards
         <br>
         Near the Khandadhar Falls, the Odisha Tourism Department has set up the Khandadhar Nature Camp, it has 10 AC cottages, 6 Nature Camp Cottages and 4 Eco-Cottages with all the basic amenities for tourists. This nature camp booking can be done online or offline. It has both vegetarian and non-vegetarian food options for visitors. The visitor is to enjoy the beauty of Khandadhar by staying in this beautiful nature camp. There ae a watchtower and Khandadhar View Point where you can enjoy the beauty of the hills and green forests.
         <br>
-        All kinds of arrangements are made here for the accommodation, food, lodging, and security for the tourists in Khandadhar Nature Camp and Khandadhar Eco Cottage. Khandadhara Waterfall is visible clearly from the Nature Camp within the forest. The local tribals worship a deity known as Goddess Kanta near the fall. Rourkela Khandadhar Nature Camp is one of the most popular tourist attractions in Sundargarh, Odisha. ` 
+        All kinds of arrangements are made here for the accommodation, food, lodging, and security for the tourists in Khandadhar Nature Camp and Khandadhar Eco Cottage. Khandadhara Waterfall is visible clearly from the Nature Camp within the forest. The local tribals worship a deity known as Goddess Kanta near the fall. Rourkela Khandadhar Nature Camp is one of the most popular tourist attractions in Sundargarh, Odisha. ` ,
+        lat:21.7748,
+        lon:85.3223
       },
       { 
         id:"gonasika-temple",
@@ -774,7 +869,9 @@ The roof was made of brick, wood and iron beams. This has a slight slope towards
         image: "/images/destinations/Kendujhar (Keonjhar)/gonasika-temple.jpg", 
         description: `Brahmeswar Mahesh Temple is located at Gonasika village and is 45 km distance from Keonjhar. Gonasika’s temple is dedicated to Lord Shiva. The temple is surrounded by a valley and wooded hills. It is the centre of pilgrimage for the temple of Brahmaswara Mahadeva, which sits on the banks of the Baitarani River. Mahashivratri is the main festival of the Gonasika temple, and on this day thousands of devotees and visitors come to celebrate this Jagar Mela. Brahmeswar Mahesh Mandir is a famous temple in Keonjhar, Odisha.
         <br>
-        Near the Brahmeswar Mahesh Mandir, there is a place where the river flows, which is known as Gonasika Gupta Ganga. It is only to be seen jumping after a short distance over a stone protecting what looks like the nostril of a cow. At the foot of the mountain, Gonasika is a small tank, called Brahmakunda, and the lord Siva worshipped here is said to have been established by Brahma. The place is very scenic and attractive to picnic spots. Brahmeswar Mahesh temple is one of the most popular tourist attractions in Kendujhar District. Maa Gangotri Temple is adjacent to the Brahmeswar Mahesh Mandir.` 
+        Near the Brahmeswar Mahesh Mandir, there is a place where the river flows, which is known as Gonasika Gupta Ganga. It is only to be seen jumping after a short distance over a stone protecting what looks like the nostril of a cow. At the foot of the mountain, Gonasika is a small tank, called Brahmakunda, and the lord Siva worshipped here is said to have been established by Brahma. The place is very scenic and attractive to picnic spots. Brahmeswar Mahesh temple is one of the most popular tourist attractions in Kendujhar District. Maa Gangotri Temple is adjacent to the Brahmeswar Mahesh Mandir.` ,
+        lat:21.5053,
+        lon:85.5516
       },
       { 
         id:"badaghagara-waterfall",
@@ -782,7 +879,9 @@ The roof was made of brick, wood and iron beams. This has a slight slope towards
         image: "/images/destinations/Kendujhar (Keonjhar)/badaghagara-waterfall.webp", 
         description: `Badaghagara Waterfall is a stunning natural attraction located 9 km distance from Keonjhar town and 245 km from Bhubaneswar. It is one of the prominent waterfalls in the region and is known for its picturesque beauty and tranquil surroundings. Being a perennial origin of the waterfall, there is a dam that has been constructed on the downstream side. It is situated at a distance of 3 km downstream of Sanaghagara Waterfall. A large number of visitors come here for a picnic throughout the year. The best time to visit this place is early morning or sunset time. The waterfall enjoys a unique characteristic of 100 feet in height inside the dense forest area to the delight of tourists, picnics & weekend holidayers alike.
         <br>
-        Bada Ghagra reservoir was raised on the Machakandana River during the Kingdom era and is the major source of water supplies to the Keonjhar town. This place is rich in flora & fauna and is a rare place to study tribal life. Badaghagara waterfall is a top tourist attraction in Keonjhar District. There is a beautiful dam near the Badaghagara waterfall, which is covered with green forests and hills. Sanaghagara waterfall is only 4 km distance from Badaghagara waterfall. The Badaghagara waterfall is one of the most popular tourist places in Keonjhar, Odisha.` 
+        Bada Ghagra reservoir was raised on the Machakandana River during the Kingdom era and is the major source of water supplies to the Keonjhar town. This place is rich in flora & fauna and is a rare place to study tribal life. Badaghagara waterfall is a top tourist attraction in Keonjhar District. There is a beautiful dam near the Badaghagara waterfall, which is covered with green forests and hills. Sanaghagara waterfall is only 4 km distance from Badaghagara waterfall. The Badaghagara waterfall is one of the most popular tourist places in Keonjhar, Odisha.` ,
+        lat:20.6089,
+        lon:85.5557
       },
       { 
         id:"murga-mahadev-temple",
@@ -790,7 +889,9 @@ The roof was made of brick, wood and iron beams. This has a slight slope towards
         image: "/images/destinations/Kendujhar (Keonjhar)/murga-mahadev-temple.jpg", 
         description: `Murga Mahadev Temple & Waterfall are located at a distance of 65 km distance from Keonjhar town. Lord Shiva is worshipped in this temple near the Thakurani hill. Mahashivaratri is the main festival of this temple, and Every year a festival is observed here on the day of Makar Sankranti during January, On these days a large number of devotees come together to worship Lord Shiva. This temple is a very old temple where Brahmins and tribals worship Lord Shiva. Murga Mahadev Mandir is a famous temple in Keonjhar District.
         <br>
-        The Temple is surrounded by mines and forests so this place has a beautiful and peaceful environment. Especially since this Shiva temple is near the border of Odisha and Jharkhand states, more devotees from Jharkhand come to visit here. There is also a traditional stream and waterfall near the temple which is another major attraction of the place, devotees visiting the temple enjoy bathing in the stream. As it is a religious place, a large number of tourists from Odisha and other states come here to visit this place every day. Murga Mahadev Temple & Waterfall is one of the most popular tourist attractions places in Keonjhar, Odisha.` 
+        The Temple is surrounded by mines and forests so this place has a beautiful and peaceful environment. Especially since this Shiva temple is near the border of Odisha and Jharkhand states, more devotees from Jharkhand come to visit here. There is also a traditional stream and waterfall near the temple which is another major attraction of the place, devotees visiting the temple enjoy bathing in the stream. As it is a religious place, a large number of tourists from Odisha and other states come here to visit this place every day. Murga Mahadev Temple & Waterfall is one of the most popular tourist attractions places in Keonjhar, Odisha.` ,
+        lat:21.764,
+        lon:85.371
       },
     ],
   },
@@ -829,7 +930,9 @@ Completing the ensemble, the Bhoga Mandapa features a pyramidal roof crowned wit
 These halls gradually ascend in height from the Bhoga Mandapa to the Vimana, symbolizing spiritual elevation and progression.
 <br>
 <b>Graced by resilience</b><br>
-Despite enduring the ravages of natural calamities and invasions throughout its history, the Lingaraj Temple remains steadfast. Following a destructive earthquake in the 16th century that inflicted considerable structural damage, the temple underwent a thorough restoration process led by skilled artisans of antiquity, ensuring the perpetuation of its timeless magnificence for future generations.` 
+Despite enduring the ravages of natural calamities and invasions throughout its history, the Lingaraj Temple remains steadfast. Following a destructive earthquake in the 16th century that inflicted considerable structural damage, the temple underwent a thorough restoration process led by skilled artisans of antiquity, ensuring the perpetuation of its timeless magnificence for future generations.` ,
+        lat:20.2385,
+        lon:85.8338
       },
       { 
         id:"dhauli",
@@ -841,7 +944,9 @@ Dhauli is famous for the edicts related to Buddhism that were composed from the 
 <br>
 An enormous temple in Dhauli is the Dhavaleswar Temple, which is much frequented by the visitors. In addition to this, you have the Bahirangeswar Temple Siva Temple as well as the Ganesha Temple that together add to the religious aspect to this place.
 <br>
-Moreover, Dhauli also has another attraction named as the Shanti Stupa whose foundation was laid by the Japan Buddhist Sangha. Therefore, Dhauli is a worth visiting place by the diehard devotees of Lord Buddha.` 
+Moreover, Dhauli also has another attraction named as the Shanti Stupa whose foundation was laid by the Japan Buddhist Sangha. Therefore, Dhauli is a worth visiting place by the diehard devotees of Lord Buddha.` ,
+        lat:20.1882,
+        lon:85.8448
       },
       { 
         id:"nandankanan-zoological-park",
@@ -849,7 +954,9 @@ Moreover, Dhauli also has another attraction named as the Shanti Stupa whose fou
         image: "/images/destinations/Khordha/nandankanan-zoological-park.webp", 
         description: `Nandankanan Zoological Park is a premier large zoo of India. Unlike other zoos in the country, Nandankanan is built right inside the forest and set in a completely natural environment. The animals are housed in enclosures with greenery with a feel of real forest and live with no fear or apprehension of becoming the hunter's prey.
 <br>
-Nandankanan is 15 kms from Odisha's capital, Bhubaneswar. The Bhubaneswar railway station is at a distance of 18 kms and the Biju Patnaik International Airport is at a distance of 20 kms. Tourist cottages inside Nandankanan are available for accommodation, only during day time, on prior reservation from the office of Deputy Director, Nandankanan Zoological Park.` 
+Nandankanan is 15 kms from Odisha's capital, Bhubaneswar. The Bhubaneswar railway station is at a distance of 18 kms and the Biju Patnaik International Airport is at a distance of 20 kms. Tourist cottages inside Nandankanan are available for accommodation, only during day time, on prior reservation from the office of Deputy Director, Nandankanan Zoological Park.` ,
+        lat:20.399965,
+        lon:85.814703
       },
       { 
         id:"khandagiri-&-udayagiri-caves",
@@ -861,7 +968,9 @@ Nandankanan is 15 kms from Odisha's capital, Bhubaneswar. The Bhubaneswar railwa
 Udayagiri means “Sunrise Hill” and has the most fascinating caves. There are 18 caves here beginning from the base of the hill. The caves are all numbered and few of them are even named. “Rani Gumpha or Queen’s Cave”, a double storied cave situated at the base is the most impressing among all the caves here. It is decorated with king’s victorious scenes, religious carvings and royal court pictures. Another major cave is Ganesh Gumpha which is located just above Rani Gumpha. Bagha Gumpha illustrating shape of tiger’s open mouth is another curve situated here. Another important cave is Hathi Gumpha or the Elephant Cave with beautiful statues of elephants equipped on the gate. Here some of the rock engraving also speaks of the Chedi Dynasty.
 <br>
 <b>Khandagiri Caves:</b><br>
-Khandagiri means “Broken Hill” and has 15 caves in total. There are couple of Jain temples along with the caves. Here most the caves are named based on the scenes and pictures on the walls of the caves like Tatowa cave which is named after the carvings of two parrots on the door curvature. Ananta Gumpha is considered as the most interesting cave here and is named after the design of two serpents on the door arches. There are lot of carvings on the walls resembling women, children, athletes and many other animals. Navamuni Gumpha, originally a residential cell, was named after the nine Tirthankaras (munis) that are designed on the back and right walls of the caves.` 
+Khandagiri means “Broken Hill” and has 15 caves in total. There are couple of Jain temples along with the caves. Here most the caves are named based on the scenes and pictures on the walls of the caves like Tatowa cave which is named after the carvings of two parrots on the door curvature. Ananta Gumpha is considered as the most interesting cave here and is named after the design of two serpents on the door arches. There are lot of carvings on the walls resembling women, children, athletes and many other animals. Navamuni Gumpha, originally a residential cell, was named after the nine Tirthankaras (munis) that are designed on the back and right walls of the caves.` ,
+        lat:20.2625,
+        lon:85.7847
       },
     ],
   },
@@ -876,7 +985,9 @@ Khandagiri means “Broken Hill” and has 15 caves in total. There are couple o
         description: `The Gupteswar Shiva Temple is located in a cave on a limestone hill and is 80 km distance from Koraput city. Devotees in thousands from Odisha, Andhra Pradesh, Telangana, and Chhattisgarh throng to the cave temple. There is a Sangam Ghat viewpoint near this temple, and it gives tourists a beautiful view of the hills and waterfalls. Gupteswar Shiva Temple is one of the ancient temples of Odisha. Lord Shiva is worshipped inside a cave known as Gupteswar Cave. To reach this Shiva temple, climb 200 steps and go through the caves. According to local people, the Shiva Linga of this temple is growing in size. Gupteshwar Mahadev Mandir is a famous temple in the Koraput district.
         <br>
         <b>History of Koraput Gupteswar Mahadev Temple</b><br>
-As the name sounds, Gupteswar means the hidden god, and the main cave temple, whose two-meter height is Linga, is surrounded by several other small caves. The place is also popularly known as Gupta Kedar. According to history, a tribal hunter had discovered the Linga inside the cave. It is believed to have close links with the first-century AD poet Kalidas. The holy month of Sravana and the annual festival is the Shiva Ratri. On this day, thousands of devotees come here to worship Lord Shiva. This place is also known as Gupteswar Gupta Ganga Ghat. Researchers say that the Ramagiri hills, which encircle the cave shrine as described in the poet’s Meghaduta, literally work. Tribals are selling minor forest produce outside the temple.` 
+As the name sounds, Gupteswar means the hidden god, and the main cave temple, whose two-meter height is Linga, is surrounded by several other small caves. The place is also popularly known as Gupta Kedar. According to history, a tribal hunter had discovered the Linga inside the cave. It is believed to have close links with the first-century AD poet Kalidas. The holy month of Sravana and the annual festival is the Shiva Ratri. On this day, thousands of devotees come here to worship Lord Shiva. This place is also known as Gupteswar Gupta Ganga Ghat. Researchers say that the Ramagiri hills, which encircle the cave shrine as described in the poet’s Meghaduta, literally work. Tribals are selling minor forest produce outside the temple.` ,
+        lat:18.8226,
+        lon:82.1673
       },
       { 
         id:"duduma-waterfall",
@@ -887,7 +998,9 @@ As the name sounds, Gupteswar means the hidden god, and the main cave temple, wh
         Duduma Waterfall is located 70 km distance from Jeypore and 77 km from Koraput town. It is also known as Machkund, which is famous for Matsya Kshetra. Previously, it was a site for pilgrimage. The waterfall is about 3,000 feet above sea level and plunges from around 175 meters high (574 feet). It is one of the most stunning waterfalls in the state and among the largest in India. Locally, the majestic waterfall is known as Matsya Tirtha. Koraput Duduma Falls is one of the highest waterfalls in Odisha, and a hydroelectric project has been established here. The township in this area is being developed, and a selfie point along with Mission Shakti Cafe has been constructed by the Odisha Tourism Department to enhance the experience for tourists.
         <br>
         <b>Duduma Picnic Spot</b><br>
-The Duduma Waterfall is covered by dense forests and rugged terrain, making it a scenic tourist destination for nature lovers. The sound of the water is mindblowing. The place is also popular among trekking lovers, offering a hard trek through dense forests showing up to the waterfall. Duduma Waterfall is the most popular tourist attraction in Koraput, Odisha.` 
+The Duduma Waterfall is covered by dense forests and rugged terrain, making it a scenic tourist destination for nature lovers. The sound of the water is mindblowing. The place is also popular among trekking lovers, offering a hard trek through dense forests showing up to the waterfall. Duduma Waterfall is the most popular tourist attraction in Koraput, Odisha.` ,
+        lat:18.5185222,
+        lon:82.4535639
       },
       { 
         id:"deomali-hills",
@@ -895,7 +1008,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         image: "/images/destinations/Koraput/deomali-hills.webp", 
         description: `Deomali Mountain is the highest peak in Odisha, with an elevation of about 1,672 meters (5,486 ft) above sea level. Deomali is located in the Eastern Ghats, about 62 km distance from Koraput district. Deomali offers breathtaking views of the surrounding landscape, eco-tourism, and trekking, including lush green valleys, forests, and distant hills. The route enters an undulating lush green terrain as, after a drive of around 20 km, the winding road leads to Deomali. This region is popular among nature enthusiasts, trekkers, and adventure seekers. The cool climate and the serene environment make it a perfect getaway for those looking to escape the hustle and bustle of city life. Visiting Deomali offers a unique experience, especially for nature lovers and adventure enthusiasts. Deomali waterfall is close to Deomali Hill Station and is the highest peak in Odisha. It is an ideal holiday for trekkers and visitors exploring the Deomali range with their trip to  Deomali Nature Camp. Trekking to the waterfall is an exciting activity. 
         <br>
-        Deomali Waterfall is the pride of Koraput. With misty clouds around you and a cold breeze piercing your body, trekking at this highest peak will give you some of the memorable moments that you would love to treasure for life. While it will be enjoyable to walk to the summit, one should be careful during the return journey as the track is quite slippery. Apart from the outstanding contrast of trekking in the highest peak of Odisha, One can get an arresting view of the Deomali range of hills and a peep at the tribal villages situated at the foothills of Deomali Mountain. This Deomali hill range is rich in mineral resources such as bauxite, limestone, and gemstones. Semiliguda to Deomali distance is 38 km.`
+        Deomali Waterfall is the pride of Koraput. With misty clouds around you and a cold breeze piercing your body, trekking at this highest peak will give you some of the memorable moments that you would love to treasure for life. While it will be enjoyable to walk to the summit, one should be careful during the return journey as the track is quite slippery. Apart from the outstanding contrast of trekking in the highest peak of Odisha, One can get an arresting view of the Deomali range of hills and a peep at the tribal villages situated at the foothills of Deomali Mountain. This Deomali hill range is rich in mineral resources such as bauxite, limestone, and gemstones. Semiliguda to Deomali distance is 38 km.`,
+        lat:18.675556,
+        lon:82.981667
       },
       { 
         id:"tribal-museum",
@@ -903,7 +1018,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         image: "/images/destinations/Koraput/tribal-museum.webp", 
         description: `The Tribal Museum is located behind the Sabar Srikhetra Jagannath Temple Koraput. Koraput is a tribal majority district, so it has been built to promote the use of these people, Daily use of materials, culture and tradition. The Museum’s collections of mines, costumes Hand-woven clothes, musical instruments, caters to and educates the tourists about the culture and heritage of the tribals. It is a beautiful place for people who are interested in indigenous culture and traditions. It is the best place to visit near Koraput town. 
         <br>
-        This is a great place for students of art and culture to visit this place because it has a beautiful collection of all the information about the tribals. It will give you some basic insights into the tribal culture of the area that was a part of Koraput long before, after separation from the main district, the tribal existence came into people outside of Koraput. This is the best place to give you knowledge about the tribal and their tools and their living lifestyle. Some of the tribal groups still exist in the era of smartwatch and moon and Mars rovers. It is the best tribal museum in Odisha. The tribal museum is a tourist attraction place in Koraput District.` 
+        This is a great place for students of art and culture to visit this place because it has a beautiful collection of all the information about the tribals. It will give you some basic insights into the tribal culture of the area that was a part of Koraput long before, after separation from the main district, the tribal existence came into people outside of Koraput. This is the best place to give you knowledge about the tribal and their tools and their living lifestyle. Some of the tribal groups still exist in the era of smartwatch and moon and Mars rovers. It is the best tribal museum in Odisha. The tribal museum is a tourist attraction place in Koraput District.`,
+        lat:18.8093,
+        lon:82.7076 
       },
     ],
   },
@@ -919,7 +1036,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         <br>
         For visitors, the Balimela Dam View Point offers a picturesque glimpse of the dam and its surrounding natural beauty. The serene waters of the reservoir attract many tourists, especially during winter weekends, making it a popular spot for get-togethers and picnics. The Balimela Dam is a joint venture between the governments of Odisha and Andhra Pradesh, with both states sharing the reservoir’s water inflow equally on a 50:50 basis.
         <br>
-        Originally estimated at ₹24 crore in 1962, the project underwent several cost revisions. These were driven by factors such as inflation in the cost of materials, spares, and labour; wear and tear of machinery due to prolonged use; delays due to unavailability of essential parts; and the increased height of the dam and extended distances to borrow areas. Today, Balimela Dam stands not only as a symbol of interstate cooperation but also as one of the top tourist attractions in the Malkangiri district, blending natural beauty with engineering excellence.` 
+        Originally estimated at ₹24 crore in 1962, the project underwent several cost revisions. These were driven by factors such as inflation in the cost of materials, spares, and labour; wear and tear of machinery due to prolonged use; delays due to unavailability of essential parts; and the increased height of the dam and extended distances to borrow areas. Today, Balimela Dam stands not only as a symbol of interstate cooperation but also as one of the top tourist attractions in the Malkangiri district, blending natural beauty with engineering excellence.` ,
+        lat:18.2531,
+        lon:82.1850
       },
       { 
         id:"ammakunda",
@@ -929,7 +1048,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         <br>
         The Ammakunda waterfall area is surrounded by dense forest and small hillocks. The fish found in that gorge are quite friendly to human beings and are believed to be a form of Lord Vishnu in ”Matsya Avatar.” Fishing in that place is not practiced according to the belief of the local people as well as the visitors. Visitors can enjoy their stay at this place by feeding the fish. Amakund is a popular tourist destination in Malkangiri
         <br>
-        Ammakunda offers a serene, off-the-grid experience combining natural beauty, spiritual folklore, and tribal culture. Its tranquil environment and biodiversity make it especially rewarding for nature lovers, adventure seekers, photographers, and those seeking solitude. Just plan, take necessary precautions, and you’ll have an unforgettable experience. The waterfall cascades into a naturally formed, crystal-clear pool set within a narrow gorge surrounded by lush greenery and rolling hills.` 
+        Ammakunda offers a serene, off-the-grid experience combining natural beauty, spiritual folklore, and tribal culture. Its tranquil environment and biodiversity make it especially rewarding for nature lovers, adventure seekers, photographers, and those seeking solitude. Just plan, take necessary precautions, and you’ll have an unforgettable experience. The waterfall cascades into a naturally formed, crystal-clear pool set within a narrow gorge surrounded by lush greenery and rolling hills.` ,
+        lat:18.4584,
+        lon:82.2473
       },
       { 
         id:"satiguda-dam",
@@ -939,7 +1060,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         <br>
         There is a Shiva Temple inside a cave near the Satiguda Dam. The dam is surrounded by a large number of small hills and is considered a favourite picnic spot for people. Eco-Tourism Park is about 10 km from Satiguda Dam. The place is extremely valued for its scenic beauty, which attracts people for weekend picnics and boating. Satiguda Dam Nature Camp is one of the most popular tourist places in Malkangiri District, Odisha.
         <br>
-        Satiguda Nature Camp is a popular eco-tourism destination within the Malkangiri Forest Range. It offers visitors a chance to experience the beauty of nature while enjoying a peaceful environment. Satiguda Nature Camp has been built by the Odisha Tourism Department near the Dam and has all kinds of facilities for tourists. There are 04 Nos. of AC Cottages, 01 Saberi, 01 Sileru, 01 Tamasa and 01 Nos. of Saptadhara for accommodation. There is a watchtower from which one can enjoy the view of the entire Dam.` 
+        Satiguda Nature Camp is a popular eco-tourism destination within the Malkangiri Forest Range. It offers visitors a chance to experience the beauty of nature while enjoying a peaceful environment. Satiguda Nature Camp has been built by the Odisha Tourism Department near the Dam and has all kinds of facilities for tourists. There are 04 Nos. of AC Cottages, 01 Saberi, 01 Sileru, 01 Tamasa and 01 Nos. of Saptadhara for accommodation. There is a watchtower from which one can enjoy the view of the entire Dam.` ,
+        lat:18.3812,
+        lon:81.9371
       },
       { 
         id:"manyamkonda-temple",
@@ -947,7 +1070,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         image: "/images/destinations/Malkangiri/manyamkonda-temple.jpeg", 
         description: `Manyamkonda temple is situated in Kalimela Block and is 90 km from Malkangiri Town. The famous God of the Malkangiri District (Lord Mahaprabhu) is being worshipped in this temple. The Manayamkonda temple is inside a cave and is surrounded by hills. Every year between March and April, Bada Yatra is celebrated here. Malkangiri starts from this place to the Malkangiri Mauli Maa Temple. The three Gods are, namely, “Kanam Raju” (Krishna), ”Pota Raju” (Vima), and “Bal Raju” (Arjun), worshipped in this festival.
         <br>
-        Manyamkonda temple is a religious place in Malkangiri District. The Mahaprabhu Mela is celebrated with much praise, and crowds of devotees gather to watch the procession. The scenic beauty of this place, along with the temple of Lord Mahaprabhu, attracts a large number of religious visitors. Manyamkonda Temple is one of the most popular tourist places in Malkangiri District, Odisha.` 
+        Manyamkonda temple is a religious place in Malkangiri District. The Mahaprabhu Mela is celebrated with much praise, and crowds of devotees gather to watch the procession. The scenic beauty of this place, along with the temple of Lord Mahaprabhu, attracts a large number of religious visitors. Manyamkonda Temple is one of the most popular tourist places in Malkangiri District, Odisha.` ,
+        lat:18.32,
+        lon:81.82
       },
     ],
   },
@@ -961,7 +1086,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         image: "/images/destinations/Mayurbhanj/simlipal-national-park.jpeg", 
         description: `The Similipal National Park is a paradise of wild animals, about 60 km distance from Baripada town. The area covers 275 sq km along with perennial springs and waterfalls. The Gov’t of India has established tiger protection at Similpal with various wild animals and birds. There are also waterfalls at Bareipani and Joranda, extensive grassy land at Bachhuricchara, and a national park at Meghasani Peak. This place is one of the 18 biosphere reserves of India. Similipala National Park is known for the conservative tiger. The beautiful natural sight of Similpal attracts visitors once more. Similipal Tiger Reserve National Park is the best place near Baripada, Mayurbhanj.
         <br>
-        The park area is calm and the best place for a picnic. The winter season is a great time to have a picnic, and tourists come here during this time. Similipal National Park and Nature Camp is one of the most popular tourist places in Mayurbhanj District, Odisha. Meghasini Waterfall, Chingudia Waterfall, Chaulabhaja Waterfall, Sitakund Waterfall, Chirupada Waterfall, Dangadiha Waterfall, Machha Kandana Waterfall, Devkund Waterfall, Lulung Waterfall, Uski Waterfall, Alkudar Waterfall, Brahman Kunda, and Dhuduruchampa Waterfall can be seen near Shimilipal National Park.` 
+        The park area is calm and the best place for a picnic. The winter season is a great time to have a picnic, and tourists come here during this time. Similipal National Park and Nature Camp is one of the most popular tourist places in Mayurbhanj District, Odisha. Meghasini Waterfall, Chingudia Waterfall, Chaulabhaja Waterfall, Sitakund Waterfall, Chirupada Waterfall, Dangadiha Waterfall, Machha Kandana Waterfall, Devkund Waterfall, Lulung Waterfall, Uski Waterfall, Alkudar Waterfall, Brahman Kunda, and Dhuduruchampa Waterfall can be seen near Shimilipal National Park.` ,
+        lat:21.5931,
+        lon:86.2945
       },
       { 
         id:"barehipani-waterfall",
@@ -970,7 +1097,9 @@ The Duduma Waterfall is covered by dense forests and rugged terrain, making it a
         description: `Barehipani Waterfall is a two-tiered waterfall located in Simlipal National Park in the Mayurbhanj district and is about 67 km distance from Baripada town and 293 km from Bhubaneswar. It is the highest waterfall in Odisha and the second-highest waterfall in India. The source of the waterfall water is on the Budhabalanga River flowing over the Meghasani mountain of the Eastern Ghats. Barehipani Falls is more than 400 meters high, and it runs up the hills. It is a tiered waterfall with two drops. The tallest single drop is 259 meters (850 ft). As it is a high waterfall in India, many tourists from within and outside the state come to visit. The sound of wildlife and waterfalls in the forest attracts more and more tourists.
         <br>
         <b>Barehipani Nature Camp, Similipal</b><br>
-There is a nature camp and a guest house located near the Barehipani waterfall, which is about 3-4 km from the picnic spot. All kinds of arrangements are made here for the accommodation, food, lodging, and security of the tourists in  Barehipani Nature Camp. The Barehpani Nature Camp is a peaceful place and offers a perfect view of the waterfalls. There are many facilities for entertaining visitors, such as table tennis, carom boards, badminton courts, and Tree Ropeway. There are many bicycles to travel to nearby places in the forest and enjoy the tranquil environment of the place. Barehipani Waterfall is a breathtaking natural wonder, surrounded by lush green forests and offering a serene atmosphere. The trek to the waterfall is an adventure in itself, with scenic views and opportunities for wildlife spotting.` 
+There is a nature camp and a guest house located near the Barehipani waterfall, which is about 3-4 km from the picnic spot. All kinds of arrangements are made here for the accommodation, food, lodging, and security of the tourists in  Barehipani Nature Camp. The Barehpani Nature Camp is a peaceful place and offers a perfect view of the waterfalls. There are many facilities for entertaining visitors, such as table tennis, carom boards, badminton courts, and Tree Ropeway. There are many bicycles to travel to nearby places in the forest and enjoy the tranquil environment of the place. Barehipani Waterfall is a breathtaking natural wonder, surrounded by lush green forests and offering a serene atmosphere. The trek to the waterfall is an adventure in itself, with scenic views and opportunities for wildlife spotting.` ,
+        lat:21.932759,
+        lon:86.380145
       },
       { 
         id:"joranda-&-devkund-waterfalls",
@@ -978,7 +1107,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         image: "/images/destinations/Mayurbhanj/joranda-&-devkund-waterfalls.jpeg", 
         description: `The Joranda waterfall is located in the heart of Similipal National Park in Mayurbhanj and is about 60 km distance from Baripada Bus Stop. It is one of the highest waterfalls in Odisha, India. The water plunges over a lofty cliff in a single drop, spreading out slightly as it falls. Joranda waterfall is over 150 meters high and flows continuously down the hill. Barehipani Falls is close to Joranda Falls. Baripada Joranda waterfall is a popular picnic spot in Mayurbhanj District.
         <br>
-        All kinds of facilities are provided for tourists to see the beautiful view of the waterfall. The scenic beauty of the waterfall is so beautiful that tourists come to see the waterfall in the winter. The natural atmosphere and the amazing sound of the waterfalls are attractive to visitors during winter. Joranda Waterfall is one of the best tourist places in Baripada, Mayurbhanj.` 
+        All kinds of facilities are provided for tourists to see the beautiful view of the waterfall. The scenic beauty of the waterfall is so beautiful that tourists come to see the waterfall in the winter. The natural atmosphere and the amazing sound of the waterfalls are attractive to visitors during winter. Joranda Waterfall is one of the best tourist places in Baripada, Mayurbhanj.` ,
+        lat:20.788296,
+        lon:85.723526
       },
       { 
         id:"haripurgarh-palace",
@@ -986,7 +1117,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         image: "/images/destinations/Mayurbhanj/haripurgarh-palace.jpeg", 
         description: `Haripur Garh is located at a distance of 16 km distance from Baripada towards the southeast of Mayurbhanja. Though Haripur Gada now lies in ruins, it is a testimony to the prosperity and elegance of the Mayurbhanj Kingdom during the rule of the ancient Bhanja Kings. The analysis of fragments of the ruins of the fort reveals. The temple is a rare example of a brick temple of that era. In Odisha, one can hardly find a brick temple with such intricate carvings, thus making it a must-visit destination for heritage and culture enthusiasts. Rasika Raya Haripur Gada is one of the ancient forts in Odisha.
         <br>
-        The splendor of the sculptured walls reveals the mastery of the sculptors of the period. Rasika Ray Temple is the only majestic brick-built temple in Eastern India. The Haripur King Palace, in its architectural style, together with the encompassing temple, provides an interesting case study for a researcher on historical sites and monuments of Mayurbhanj, Odisha.` 
+        The splendor of the sculptured walls reveals the mastery of the sculptors of the period. Rasika Ray Temple is the only majestic brick-built temple in Eastern India. The Haripur King Palace, in its architectural style, together with the encompassing temple, provides an interesting case study for a researcher on historical sites and monuments of Mayurbhanj, Odisha.` ,
+        lat:22.065,
+        lon:86.517
       },
     ],
   },
@@ -998,7 +1131,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         id:"papadahandi-temples",
         name: "Papadahandi Temples", 
         image: "/images/destinations/Nabarangpur/papadahandi-temples.jpeg", 
-        description: "A group of historic temples known for their ancient architecture and religious significance. Visitors can explore the temples to experience local traditions and spiritual heritage." 
+        description: "A group of historic temples known for their ancient architecture and religious significance. Visitors can explore the temples to experience local traditions and spiritual heritage." ,
+        lat:19.323374,
+        lon:82.517524
       },
       { 
         id:"maa-pendrani-temple",
@@ -1006,7 +1141,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         image: "/images/destinations/Nabarangpur/maa-pendrani-temple.jpeg", 
         description: `Maa Pendrani temple is located inside the Umerkote town and is around 70 km distance from the district headquarters of Nabarangpur. Maa Pendrani is the presiding deity of the place. The main festival of this place is Thakurani Jatra in the month of Chaitra, and a large number of devotees gather here to observe the function. Maa Pendarani Mandir is a famous temple in Nabarangpur, Odisha.
         <br>
-        The festival sees men playing the role of the goddess to signify male subjugation and compensate for the injustice inflicted on Maa Pendrani before she achieved divinity. Maa Pendrani Temple is one of the famous tourist places in Nabarangpur.` 
+        The festival sees men playing the role of the goddess to signify male subjugation and compensate for the injustice inflicted on Maa Pendrani before she achieved divinity. Maa Pendrani Temple is one of the famous tourist places in Nabarangpur.` ,
+        lat:19.6652,
+        lon:82.1993
       },
       { 
         id:"sahid-minar",
@@ -1014,7 +1151,10 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         image: "/images/destinations/Nabarangpur/sahid-minar.jpeg", 
         description: `The Sahid Smruti Stambha is situated at the bank of the river Tuni near Papadahandi. The Smrutistamba is 12 km from Nabarangpur. During the Quit India Movement on 24 August 1942, 19 freedom fighters died while fighting with British soldiers during the march towards Dabugam under the leadership of Madhab Pradhan. Smruti Stambha was constructed to keep it in memory of Sahid. Sahid Divas is observed every year on 24 August. The spot still commemorates the freedom-loving people of the bygone era.
         <br>
-        The monument acts as both a cultural landmark and an educational space. On 24 August each year, the community commemorates “Shaheed Divas” with gatherings reaffirming the region’s patriotic spirit. The site also hosts programs aimed at teaching younger generations about this chapter in the independence struggle. The Sahid Smruti Stambha is a solemn structure—a pillar or obelisk-like monument—set within a small memorial park overlooking the river. Its design reflects a blend of modern and local Odishan architectural elements, meant to symbolize courage, sacrifice, and historical remembrance` 
+        The monument acts as both a cultural landmark and an educational space. On 24 August each year, the community commemorates “Shaheed Divas” with gatherings reaffirming the region’s patriotic spirit. The site also hosts programs aimed at teaching younger generations about this chapter in the independence struggle. The Sahid Smruti Stambha is a solemn structure—a pillar or obelisk-like monument—set within a small memorial park overlooking the river. Its design reflects a blend of modern and local Odishan architectural elements, meant to symbolize courage, sacrifice, and historical remembrance` ,
+        lat:19.6718,
+        lon:82.5481
+
       },
       { 
         id:"deer-park",
@@ -1022,7 +1162,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         image: "/images/destinations/Nabarangpur/deer-park.jpeg", 
         description: `Deer Park is located 10 km distance from Nabarangpur towards Papadahandi. The park is 30 years old. Watching nature’s bounties from the watchtower in this park is a unique experience. The Deer Park is spread over an acre of land and houses 130 deer, including 63 female deer. In the Nabarangpur district, the deer park is the main attraction. A large number of tourists come here to see it. 
         <br>
-        There is a beautiful child park placed in the deer park. In addition to deer, the park also has peacocks and rabbits. It is the best picnic spot for picnickers to come to the place during winter. Papadahandi Deer Park is a tourist attraction in Nabarangpur, Odisha.` 
+        There is a beautiful child park placed in the deer park. In addition to deer, the park also has peacocks and rabbits. It is the best picnic spot for picnickers to come to the place during winter. Papadahandi Deer Park is a tourist attraction in Nabarangpur, Odisha.` ,
+        lat:19.33,
+        lon:92.52
       },
     ],
   },
@@ -1036,7 +1178,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         image: "/images/destinations/Nayagarh/satkosia-gorge.jpeg", 
         description: `Badamul Gorge is situated on the bank of the river Mahanadi and is 25 km from Nayagarh Town. Satkosia Ganda has spread from Sunakania hill to Badmul. It is commonly known as Satakosia Ganda (Gorge). It is famous for its unique gorge ecosystem and for being a beautiful picnic spot. Satkosia has significant Gangetic and ecological importance, as it is the wet portion of the Decan Zone. Badamul Gorge is a tourist attraction in Nayagarh District.
         <br>
-        The Gorge area is very calm and the best place for a picnic. It is mesmerising to see the beauty of the dam at sunrise. The winter season is a great time to have a picnic, and tourists come here during this time. For tourists, there are Satkosia Sands Resort, Ecovillage, and Baliput Eco Valley near Badmul. Badamul Satakosia Tiger Reserve Sanctuary is one of the best tourist places in Nayagah, Odisha.` 
+        The Gorge area is very calm and the best place for a picnic. It is mesmerising to see the beauty of the dam at sunrise. The winter season is a great time to have a picnic, and tourists come here during this time. For tourists, there are Satkosia Sands Resort, Ecovillage, and Baliput Eco Valley near Badmul. Badamul Satakosia Tiger Reserve Sanctuary is one of the best tourist places in Nayagah, Odisha.` ,
+        lat:20.5445,
+        lon:84.8320
       },
       { 
         id:"kuanria-dam",
@@ -1044,7 +1188,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         image: "/images/destinations/Nayagarh/kuanria-dam.jpeg", 
         description: `The Kuanria Dam is located near Odasar village and is 7 km distance from Daspalla town and 50 km from Nayagarh. A beautiful dam flanked by blue hillocks and a 1.5 km long dam over the Kuanria River. It is a medium irrigation project and a water reservoir. The natural beauty of the Kuanria is best visited during sunrise and sunset. There is a deer park with more than a hundred spotted deer, which adds to its attraction. Minar Park Kuanria Dam is a picnic spot near Daspalla.
         <br>
-        The dam has a viewpoint for tourists, where one can see the entire dam. The serene beauty of the hills, river, forests, and deer park attracts visitors during winter. The Kuanria Reservoir is one of the most popular tourist places in Nayagarh, Odisha.` 
+        The dam has a viewpoint for tourists, where one can see the entire dam. The serene beauty of the hills, river, forests, and deer park attracts visitors during winter. The Kuanria Reservoir is one of the most popular tourist places in Nayagarh, Odisha.` ,
+        lat:20.3458,
+        lon:84.7916
       },
       { 
         id:"nilamadhav-temple",
@@ -1054,13 +1200,18 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         <br>
         There is also a Sidheswar Siva temple inside the compound of Lord Nilamadhab. The archaeological heritage of the above temples is very ancient and full of historical legends. The Siva Linga of Sidlieswar tilts north and south as per the moment of the Sun. Long years ago Nilamadhab was worshipped by a Sabar named Biswabasu in the dense forest Nilamadhaba is called the form of Lord Jagannath, who came to Puri by way of Marriage of Lilita, daughter of Biswabasu with Bidyapati, minister of Indradyumna of Malaba.
         <br>
-        However, Kantilo is a religious centre of Odisha and attractive to the visitors for the scenery of river Mahanadi and temples thereon. Tourists visiting the Kantilo Neelamadhava temple enjoy boating on the river. Kantilo Nilamadhaba Temple is a Tourist attraction places in Nayagarh District, Odisha.` 
+        However, Kantilo is a religious centre of Odisha and attractive to the visitors for the scenery of river Mahanadi and temples thereon. Tourists visiting the Kantilo Neelamadhava temple enjoy boating on the river. Kantilo Nilamadhaba Temple is a Tourist attraction places in Nayagarh District, Odisha.` ,
+        lat:20.35,
+        lon:85.18
+
       },
       { 
         id:"ranapur-jagannath-temple",
         name: "Ranapur Jagannath Temple", 
         image: "/images/destinations/Nayagarh/ranapur-jagannath-temple.jpeg", 
-        description: `A historic temple dedicated to Lord Jagannath, known for its festivals, rituals, and architectural charm. It is a must-visit site for pilgrims and tourists alike.`
+        description: `A historic temple dedicated to Lord Jagannath, known for its festivals, rituals, and architectural charm. It is a must-visit site for pilgrims and tourists alike.`,
+        lat:20.0625,
+        lon:85.3432
       },
     ],
   },
@@ -1075,7 +1226,9 @@ There is a nature camp and a guest house located near the Barehipani waterfall, 
         description: `Patora Dam & Jogeswar Mandir is located at a 20 km distance from Nuapada Town. The dam is a medium-irrigation project built for water conservation. The sunrise and sunset at this dam are pleasant for the tourists. Patora Reservoir attracts tourists to come here in winter for a beautiful natural environment. On the left side of the dam, there is a beautiful park on the hill, where you can sit and enjoy the natural beauty of the dam. Visitors enjoy the beauty of nature while sitting on the velvet grass in the park. Just below the dam, a floral fountain is in the making. The sprinkling water within a flowering ring presents a splendid sight. The dam has had a positive socio-economic impact by boosting agricultural production and providing employment opportunities through irrigation management and tourism.
         <br>
         <b>Jogeswar Temple & Patora Nature Camp</b><br>
-This place is also famous for Yogeswar Temple. Lord Shiva is the presiding deity of this place. It is very amazing to see the artwork of this Jogeswar Mandir. The upper part of the temple is made up of 3 large Shiva linga shapes. A huge Lord Hanuman idol is at the entrance of the temple, and other gods are worshipped in this Yogeswar temple. Maha Shivratri is the main festival of this temple, which is celebrated with great fanfare. Baba Jogeswar Mandir is one of the most famous temples in the Nuapada District. There is a nature camp near the Patora dam for tourists. The place is extremely valued for its scenic beauty, which attracts people for weekend picnics and boating.` 
+This place is also famous for Yogeswar Temple. Lord Shiva is the presiding deity of this place. It is very amazing to see the artwork of this Jogeswar Mandir. The upper part of the temple is made up of 3 large Shiva linga shapes. A huge Lord Hanuman idol is at the entrance of the temple, and other gods are worshipped in this Yogeswar temple. Maha Shivratri is the main festival of this temple, which is celebrated with great fanfare. Baba Jogeswar Mandir is one of the most famous temples in the Nuapada District. There is a nature camp near the Patora dam for tourists. The place is extremely valued for its scenic beauty, which attracts people for weekend picnics and boating.` ,
+        lat:20.7199,
+        lon:82.4590
       },
       { 
         id:"sunabeda-sanctuary",
@@ -1083,21 +1236,25 @@ This place is also famous for Yogeswar Temple. Lord Shiva is the presiding deity
         image: "/images/destinations/Nuapada/sunabeda-sanctuary.jpeg", 
         description: `Sunabeda Wildlife Sanctuary in Nuapada district is largely a grass-covered plateau adjoining Udanti and Sitanadi Sanctuaries of Chhatisgarh State. The sanctuary is an attraction to eco-tourists because of the waterfalls, caves, archaeological sites at Giribaman, Jumlagarh Fort, and Muraguda, and the bird observation points at Jalki and Raital Bandh in Maraguda. Sunabeda is home to 4 tigers and 20 leopards, along with other species like hyenas, barking deer, chital, gaur, sambar, sloth bears, hill mynas, peafowl, partridges, etc., and several reptilian species also inhabit the sanctuary.
         <br>
-        Sunabeda Wildlife Sanctuary has an excellent biodiversity and a unique ecosystem. It has the potential for great tourist attraction due to the wilderness in its natural condition, waterfalls, and historical monuments. This sanctuary, being the source of origin and catchment of the Jonk, Sunder, and Indra rivers, plays an important role in the socio-economic development of the locality. The valley, below the Sunabeda Wildlife Sanctuary along the Jonk River, has brick structures that date back to the time of the Koshala kingdom. The sanctuary is an ideal habitat for Barasingha. It forms a migration link for wild buffaloes across the two states of Odisha and Chhattisgarh. Sunabeda is a lesser-known but richly biodiverse sanctuary—ideal for eco-tourists, photographers, and those seeking rustic wilderness. It offers wildlife sightings, picturesque waterfalls, captivating tribal experiences, and heritage ruins tucked into forested plateaus.`
+        Sunabeda Wildlife Sanctuary has an excellent biodiversity and a unique ecosystem. It has the potential for great tourist attraction due to the wilderness in its natural condition, waterfalls, and historical monuments. This sanctuary, being the source of origin and catchment of the Jonk, Sunder, and Indra rivers, plays an important role in the socio-economic development of the locality. The valley, below the Sunabeda Wildlife Sanctuary along the Jonk River, has brick structures that date back to the time of the Koshala kingdom. The sanctuary is an ideal habitat for Barasingha. It forms a migration link for wild buffaloes across the two states of Odisha and Chhattisgarh. Sunabeda is a lesser-known but richly biodiverse sanctuary—ideal for eco-tourists, photographers, and those seeking rustic wilderness. It offers wildlife sightings, picturesque waterfalls, captivating tribal experiences, and heritage ruins tucked into forested plateaus.`,
+        lat:20.4610,
+        lon:82.4920
       },
       { 
         id:"yogeswar-temple",
         name: "Yogeswar Temple", 
         image: "/images/destinations/Nuapada/yogeswar-temple.jpeg", 
-        description: `This place is also famous for Yogeswar Temple. Lord Shiva is the presiding deity of this place. It is very amazing to see the artwork of this Jogeswar Mandir. The upper part of the temple is made up of 3 large Shiva linga shapes. A huge Lord Hanuman idol is at the entrance of the temple, and other gods are worshipped in this Yogeswar temple. Maha Shivratri is the main festival of this temple, which is celebrated with great fanfare. Baba Jogeswar Mandir is one of the most famous temples in the Nuapada District. There is a nature camp near the Patora dam for tourists. The place is extremely valued for its scenic beauty, which attracts people for weekend picnics and boating.` 
+        description: `This place is also famous for Yogeswar Temple. Lord Shiva is the presiding deity of this place. It is very amazing to see the artwork of this Jogeswar Mandir. The upper part of the temple is made up of 3 large Shiva linga shapes. A huge Lord Hanuman idol is at the entrance of the temple, and other gods are worshipped in this Yogeswar temple. Maha Shivratri is the main festival of this temple, which is celebrated with great fanfare. Baba Jogeswar Mandir is one of the most famous temples in the Nuapada District. There is a nature camp near the Patora dam for tourists. The place is extremely valued for its scenic beauty, which attracts people for weekend picnics and boating.` ,
+        lat:20.76667,
+        lon:82.58333
       },
       { 
         id:"budhikomna-temple",
         name: "Budhikomna Temple", 
         image: "/images/destinations/Nuapada/budhikomna-temple.jpeg",
-        description: `The Pataleshwar Shiva temple is situated 8 km distance from Nuapada. Lord Pataleshwar Shiva is the presiding deity of the place. The famous temple of Pataleswar is made of bricks in Pancharatha style.  A connoisseur of art and architecture finds immense pleasure in observing the different facets of this place. It is also a popular pilgrim centre in the locality. Mahashivratri is the famous festival of this temple. Throughout the year devotees from different parts of Odisha come here to worship Lord Mahadev. Pataleswar shiva temple is a famous temple in Nuapada District.
-        <br>
-        ` 
+        description: `The Pataleshwar Shiva temple is situated 8 km distance from Nuapada. Lord Pataleshwar Shiva is the presiding deity of the place. The famous temple of Pataleswar is made of bricks in Pancharatha style.  A connoisseur of art and architecture finds immense pleasure in observing the different facets of this place. It is also a popular pilgrim centre in the locality. Mahashivratri is the famous festival of this temple. Throughout the year devotees from different parts of Odisha come here to worship Lord Mahadev. Pataleswar shiva temple is a famous temple in Nuapada District.`,
+        lat:20.5849,
+        lon:82.6709 
       },
     ],
   },
@@ -1113,7 +1270,9 @@ This place is also famous for Yogeswar Temple. Lord Shiva is the presiding deity
         <br>
         The Shree Jagannath Puri Temple is one of the most impressive monuments of the Indian state of Odisha. It was constructed by a famous king of the Ganga Dynasty, Ananta Varman Chodaganga Deva, dating back to the 12th century at the seashore of Puri. The main temple of Jagannath is an impressive and amazing structure constructed in Kalinga architecture, with a height of 65 meters placed on an elevated platform. Lord Jagannath Temple is one of the most popular tourist attractionsin Puri, Odisha.
         <br>
-        There are so many festivals of Sri Jagannath during the year observed in Puri. Which are Snana Yatra, Netrotsava, Ratha Yatra (car festival), Sayan Ekadasi, Chitalagi Amavasya, Srikrishna Janma, Dussehra, etc. The most important festival is the world-famous Rath Yatra (Car Festival) & Bahuda Yatra. A large crowd is gathered to witness Lord Jagannath during this festival. Puri Jagannath Mandir is a famous temple in Odisha, India.` 
+        There are so many festivals of Sri Jagannath during the year observed in Puri. Which are Snana Yatra, Netrotsava, Ratha Yatra (car festival), Sayan Ekadasi, Chitalagi Amavasya, Srikrishna Janma, Dussehra, etc. The most important festival is the world-famous Rath Yatra (Car Festival) & Bahuda Yatra. A large crowd is gathered to witness Lord Jagannath during this festival. Puri Jagannath Mandir is a famous temple in Odisha, India.` ,
+        lat:19.8049,
+        lon:85.8179
       },
       { 
         id:"puri-beach",
@@ -1126,7 +1285,9 @@ This place is also famous for Yogeswar Temple. Lord Shiva is the presiding deity
         In 2023, a section of Puri Golden Beach was awarded the prestigious Blue Flag certification, making it one of the most eco-friendly and clean beaches in the country. As the Puri Jagannath Mandir is world-famous, millions of devotees come to the temple every day. Visitors come here to enjoy the beach near the temple. It is an ideal place to spend quality time with friends and family. The sunrise and sunset at this beach are pleasant for tourists. Golden Beach has many hotels, resorts, and restaurants available for tourists. Puri police patrol here 24 hours a day to protect visitors, so it is a safe place for tourists. Golden Sea Beach is the best tourist place in the Puri District of Odisha.
         <br>
         <b>Puri Golden Beach Ticket Price & Entry Fee</b><br>
-Puri Golden Beach ticket price and entry fee from visitors is Rs 20 for a period of three hours and Rs 50 and Rs 100 for the entire day. Free access for children under the age of 10. Near the ticket counter, parking facilities are available for both two-wheeler and four-wheeler. Dolphin Point price is Rs 20, Valid for 3 hrs Per Person. Oyster price is Rs 300, Valid for 3 hrs Per Person(Monthly Pass). Splash Price is Rs 50 for day pass for Puri District People. Shell price is Rs 100, Day pass for tourist and free entry below 10 years.` 
+Puri Golden Beach ticket price and entry fee from visitors is Rs 20 for a period of three hours and Rs 50 and Rs 100 for the entire day. Free access for children under the age of 10. Near the ticket counter, parking facilities are available for both two-wheeler and four-wheeler. Dolphin Point price is Rs 20, Valid for 3 hrs Per Person. Oyster price is Rs 300, Valid for 3 hrs Per Person(Monthly Pass). Splash Price is Rs 50 for day pass for Puri District People. Shell price is Rs 100, Day pass for tourist and free entry below 10 years.` ,
+        lat:19.7947,
+        lon:85.8253
       },
       { 
         id:"konark-sun-temple",
@@ -1140,7 +1301,9 @@ The temple of the sun god was built in the thirteenth century AD by King Narasim
 The Sun temple was built in the form of a chariot of the sun god. Nearly twelve hundred artisans laboured for 16 years for the completion of the temple. The temple was completed on 13 January 1258 AD on a Sunday. Dharmapada, son of Bisu Maharana, sacrificed his life at the end in the sea and reached the pinnacle. The height of the Konark temple was 228 feet, and Mukhasala was 150 feet. Now the height of the Mukhasala is 130 feet due to the falling off of the pinnacle and the vase. Now, the sight of the ruined temple still stands as the holy site for worshipping the sun god and the nine planets. There is no shadow of the Konark Sun Temple at any time of the day.
 <br>
 <b>Festival of Konark Temple</b><br>
-The temple is a masterpiece of the engineering skill and architecture of Odisha artisans. Every day, a large number of visitors come here to have a look at the wonder of the temple art and architecture, besides the worshipped sun god and Nabagraha images. Every year on the day of Magha Sukla Saptami, a fair called Magha Mela is held here at the river Chandrabagha. Thousands of people came here to see the Mela and the natural scenery of the seaside. The archaeological museum of Konark is another attraction that remains open from sunrise to 8 pm. The Konark Sun Temple is called the Black Pagoda. The Konark Temple is a famous tourist place in Odisha, India.` 
+The temple is a masterpiece of the engineering skill and architecture of Odisha artisans. Every day, a large number of visitors come here to have a look at the wonder of the temple art and architecture, besides the worshipped sun god and Nabagraha images. Every year on the day of Magha Sukla Saptami, a fair called Magha Mela is held here at the river Chandrabagha. Thousands of people came here to see the Mela and the natural scenery of the seaside. The archaeological museum of Konark is another attraction that remains open from sunrise to 8 pm. The Konark Sun Temple is called the Black Pagoda. The Konark Temple is a famous tourist place in Odisha, India.` ,
+        lat:19.8876,
+        lon:86.0945
       },
       { 
         id:"chilika-lake",
@@ -1148,7 +1311,9 @@ The temple is a masterpiece of the engineering skill and architecture of Odisha 
         image: "/images/destinations/Puri/chilika-lake.jpeg",
         description: `Satapada is located on the southeast side of the Chilika lagoon and is 50 km distance from the Puri Jagannath Temple. It is the largest brackish water in Asia. Satapada Chilika covers an area of 1165 sq. km over the districts of Puri, Khorda, and Ganjam. Chilika is home to more than a hundred species of fish and Irrawaddy dolphins. Chilika Satapada has the second-largest congregation of migratory birds in the world after Lake Victoria in Africa. In winter, the migratory birds come from as far as the Caspian Sea, Lake Baikal, the Aral Sea, and other parts of Russia; the Kirghiz Steppes of Mongolia; Central & Southeast Asia; Ladakh; and the Himalayas. The place is very beautiful and attractive to visitors and tourists. 
         <br>
-        Satapada has a boating point, Dolphin Zone, Chilka Ecopark, and the  Satapada Dolphin Centre facility for tourists. There are many small and big hotels, resorts, eco camps, and desi dhabas near Chilika Lake for tourists. Fishing, bird watching, and boating in the lake are major attractions for tourists in winter. Satapada Chilika Lake is one of the best tourist places in Puri, Odisha.` 
+        Satapada has a boating point, Dolphin Zone, Chilka Ecopark, and the  Satapada Dolphin Centre facility for tourists. There are many small and big hotels, resorts, eco camps, and desi dhabas near Chilika Lake for tourists. Fishing, bird watching, and boating in the lake are major attractions for tourists in winter. Satapada Chilika Lake is one of the best tourist places in Puri, Odisha.` ,
+        lat:19.8450,
+        lon:85.4788
       },
     ],
   },
@@ -1169,7 +1334,9 @@ The origin of the goddess is believed to be in the 4th century A.D. Majhigouri t
 <br>
 <b>Maa Majhighariani Festival & Puja</b><br>
 Chaitra Parba is the annual festival celebrated at the Majhighairani temple during Chaitra (April). Every tribal village celebrates its annual festival to appease the presiding deity It is also associated with the Glorification of the spring season and the joy of plenty after harvesting is complete. The five-day festival starts on the 11th day of Suklapakhya in the month of Chaitra and ends on Purnima (full moon) day.
-During the festival, the sword of the deity is taken out around the town to the presence ward off evil spirits, if any and devotees feel the divine at their doorsteps. They appease the Goddess according to their capacity. Different cultural programs, especially religious in crowds nature – are organized in the evenings, which draws large to the temple. Special ceremonies and homos, as per Vedic rites, anchored by learned Pujari, are performed on these days. On the final day, awesome ceremonies like walking on red-hot charcoal, swinging on spiked boards by the Archakas and the belief that the goddess manifests before the devotees through the Archakas and communicates with them all reinforcing the faith in the deity.` 
+During the festival, the sword of the deity is taken out around the town to the presence ward off evil spirits, if any and devotees feel the divine at their doorsteps. They appease the Goddess according to their capacity. Different cultural programs, especially religious in crowds nature – are organized in the evenings, which draws large to the temple. Special ceremonies and homos, as per Vedic rites, anchored by learned Pujari, are performed on these days. On the final day, awesome ceremonies like walking on red-hot charcoal, swinging on spiked boards by the Archakas and the belief that the goddess manifests before the devotees through the Archakas and communicates with them all reinforcing the faith in the deity.` ,
+        lat:19.1556,
+        lon:83.4101
       },
       { 
         id:"chatikona-waterfall",
@@ -1177,7 +1344,9 @@ During the festival, the sword of the deity is taken out around the town to the 
         image: "/images/destinations/Rayagada/chatikona-waterfall.webp", 
         description: `Chatikona waterfall & Mahadev Temple are located about 48 km distance from Rayagada Town. This place is surrounded by a series of valleys and wooded hills of various colours. It is also a centre of pilgrimage for the Chatikona Mahadev temple. Maha Shivaratri is the main festival of the temple, and devotees come here to observe the function. Chatikona Mahadev Temple is a famous temple in the Rayagada District.
         <br>
-        It offers picnickers gorgeous views of the waterfall called Gadgada. The winter season is the best time for group fests, weekend picnics, and forest tours, and a large number of tourists come here. Chatikona Mahadev Temple and Gadgada Waterfalls are the most famous and attractive picnic spots for tourists. ` 
+        It offers picnickers gorgeous views of the waterfall called Gadgada. The winter season is the best time for group fests, weekend picnics, and forest tours, and a large number of tourists come here. Chatikona Mahadev Temple and Gadgada Waterfalls are the most famous and attractive picnic spots for tourists. ` ,
+        lat:19.1350,
+        lon:83.3875
       },
       { 
         id:"minajhola-temple",
@@ -1185,7 +1354,9 @@ During the festival, the sword of the deity is taken out around the town to the 
         image: "/images/destinations/Rayagada/minajhola-temple.webp", 
         description: `The Minajhola is famous for the Shiva temple, which is located at the confluence of the rivers Philopholia, Chouldhua, and Vansadhara. It is 70 km distance from Gunupur and 110 km from Rayagada town. The Shiva temple is situated in the middle of a large rock in the river. This place is also popularly known as Minaketan. 
         <br>
-        Lord Shiva and the Basua Balada idol are worshipped by local people on special occasions. Maha Shivaratri is the main festival of this temple, which is celebrated by a large number of devotees. This place is located in the middle of hills and forests, so outdoor tourists come for picnics. Minajhola is approached from Gunupur via Gudari by boat. This Minajhola Shiva temple is a popular tourist place in Rayagada, Odisha.` 
+        Lord Shiva and the Basua Balada idol are worshipped by local people on special occasions. Maha Shivaratri is the main festival of this temple, which is celebrated by a large number of devotees. This place is located in the middle of hills and forests, so outdoor tourists come for picnics. Minajhola is approached from Gunupur via Gudari by boat. This Minajhola Shiva temple is a popular tourist place in Rayagada, Odisha.` ,
+        lat:19.5254,
+        lon:83.7382
       },
       { 
         id:"hanging-bridge-at-chekaguda",
@@ -1193,7 +1364,9 @@ During the festival, the sword of the deity is taken out around the town to the 
         image: "/images/destinations/Rayagada/hanging-bridge-at-chekaguda.jpeg", 
         description: `Chakkaguda Jhula Bridge is located at a distance of 3 km from Rayagada town. The Hanging Bridge connects the two sides of the river Nagavali. Rayagada Bridge is the second hanging bridge in Odisha. This Bridge provides connectivity to the poor rural tribal population, a 151-metre suspension bridge. About 20,000-odd tribal villagers residing in nine Panchayats, on either side of the Nagabali river, located at the outskirts of the town, have certainly brought them closer to the Rayagada town. 
         <br>
-        The Suspension Bridge is designed by Karnataka-based Bharat Grama Sethu Pratisthan. Chief Girish Bhardwaj, the work was ascribed to the Odisha Police Housing Corporation by the district administration, which worked out more than one crore projects. The Rayagada hanging bridge is one of the largest suspension bridges in Odisha. The tourists have come to see the Stream in the winter. Nature lovers are feasting and enjoying nature near the fountain. The Chekaguda hanging bridge is the best tourist attraction in the Rayagada District, Odisha.` 
+        The Suspension Bridge is designed by Karnataka-based Bharat Grama Sethu Pratisthan. Chief Girish Bhardwaj, the work was ascribed to the Odisha Police Housing Corporation by the district administration, which worked out more than one crore projects. The Rayagada hanging bridge is one of the largest suspension bridges in Odisha. The tourists have come to see the Stream in the winter. Nature lovers are feasting and enjoying nature near the fountain. The Chekaguda hanging bridge is the best tourist attraction in the Rayagada District, Odisha.` ,
+        lat:19.167376,
+        lon:83.432883
       },
     ],
   },
@@ -1207,7 +1380,9 @@ During the festival, the sword of the deity is taken out around the town to the 
         image: "/images/destinations/Sambalpur/hirakud-dam.jpeg", 
         description: `Hirakud Dam is located 16 km distance from Sambalpur town in the state of Odisha. It is the longest Dam in the world. Behind the Dam extends a lake, Hirakud Reservoir. Hirakud Dam is built on the Mahanadi River and is 200 ft in height, and the reservoir spreads 746 sq. Km, which contains the shape of an artificial lake in Asia has a shared line of 640 km. The sight of the dam can be enjoyed from the minarets standing on the top of another side of the Dam called Gandhi Minar and Nehru Minar. This dam is a multi-purpose dam which is protecting floods and supplying all times water for better irrigation in eastern Odisha. Hirakud dam has 64 sluice gates and 34 crest-gates. Total capacity of Dam is 5,896,000,000 m3 (4,779,965 acre-ft).
         <br>
-        There is a Nehru Park and Minar Park close to the Dam. The Ashoka Niwas is a place of accommodation for visitors near Nehru Minar, which is at a higher altitude than the Dam. The natural beauty of the Dam can be enjoyed in the time of sunrise and sunset. The place is extremely valued for its scenic beauty and attracts people for a weekend picnic. Hirakud Reservoir is one of the most popular tourist attractions places in the Sambalpur District.` 
+        There is a Nehru Park and Minar Park close to the Dam. The Ashoka Niwas is a place of accommodation for visitors near Nehru Minar, which is at a higher altitude than the Dam. The natural beauty of the Dam can be enjoyed in the time of sunrise and sunset. The place is extremely valued for its scenic beauty and attracts people for a weekend picnic. Hirakud Reservoir is one of the most popular tourist attractions places in the Sambalpur District.` ,
+        lat:21.6109,
+        lon:83.8155
       },
       { 
         id:"samaleswari-temple",
@@ -1215,7 +1390,9 @@ During the festival, the sword of the deity is taken out around the town to the 
         image: "/images/destinations/Sambalpur/samaleswari-temple.webp", 
         description: `The Samaleswari Temple is a famous Hindu temple located at a 3 km distance from Sambalpur Town on the bank of the river Mahanadi. It is dedicated to Goddess Samaleswari, the presiding deity of the region, who is considered to be an incarnation of Maa Shakti (the Goddess of Power). This temple holds significant cultural, religious, and historical importance, particularly among the people of western Odisha. The mother goddess Samaleswari has been worshipped since ancient times as Jagatjanani, Adishakti, Mahalaxmi, and Mahasaraswati. The region in which the temple is situated has a rich cultural heritage. The Sambalpur region has been popularly known as Hirakhanda since ancient times. Ptolemy has described the place as Sambalak. Samaleswari Mandir is a famous tourist place near Sambalpur.
         <br>
-        Maa Samalei Temple is not just a religious monument but a cultural symbol for the people of western Odisha. It represents the traditions, rituals, and spiritual beliefs that have been passed down through generations. Nuakhai is the main harvest festival of this temple. People mark the occasion by offering the newly harvested rice to the goddess. The festival is accompanied by great fanfare and celebration all across the region. Lakhs of devotees throng the temple to see the blessings of the goddess. The benevolence of the goddess spreads across Western Odisha up to Chhattisgarh. Maa Samalei Temple is worshipped in various forms across the state and is one of the famous Shakti Peethas of Odisha. The temple is a major pilgrimage site and a vital centre for the cultural heritage of Odisha, drawing devotees throughout the year.` 
+        Maa Samalei Temple is not just a religious monument but a cultural symbol for the people of western Odisha. It represents the traditions, rituals, and spiritual beliefs that have been passed down through generations. Nuakhai is the main harvest festival of this temple. People mark the occasion by offering the newly harvested rice to the goddess. The festival is accompanied by great fanfare and celebration all across the region. Lakhs of devotees throng the temple to see the blessings of the goddess. The benevolence of the goddess spreads across Western Odisha up to Chhattisgarh. Maa Samalei Temple is worshipped in various forms across the state and is one of the famous Shakti Peethas of Odisha. The temple is a major pilgrimage site and a vital centre for the cultural heritage of Odisha, drawing devotees throughout the year.` ,
+        lat:21.4740,
+        lon:83.9591
       },
       { 
         id:"debrigarh-sanctuary",
@@ -1225,7 +1402,9 @@ During the festival, the sword of the deity is taken out around the town to the 
         <br>
         The four-horned antelope, or chousingha as it’s called, is one of the endangered animals that also inhabit this sanctuary. The Debrigarh Wildlife Sanctuary is home to more than 40 species of mammals, 234 species of birds, 41 species of reptiles, 12 species of amphibians, 42 species of fish, 39 species of odonates, and 85 species of butterflies and is important internationally because of a significant population of leopards, bison, and chousingha. 
 <br>
-The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. The sanctuary offers a panoramic view of the Hirakud Dam, which surrounds the sanctuary. The strategically located cottages of the Nature Camp offer a breathtaking view of the surroundings and wildlife, making it a popular destination for nature lovers. The spirit to live free and without fear is what reigns in the animals that inhabit this wonderful landscape.` 
+The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. The sanctuary offers a panoramic view of the Hirakud Dam, which surrounds the sanctuary. The strategically located cottages of the Nature Camp offer a breathtaking view of the surroundings and wildlife, making it a popular destination for nature lovers. The spirit to live free and without fear is what reigns in the animals that inhabit this wonderful landscape.` ,
+        lat:21.73,
+        lon:83.75
       },
       { 
         id:"huma-leaning-temple",
@@ -1235,7 +1414,9 @@ The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. 
         <br>
         The Leaning Temple of Huma is one of only two temples in India, including the Bimaleswar Huma Temple in Sambalpur. Mahashivratri is the most famous festival celebrated at this temple. Throughout the year, devotees from different parts of Odisha visit to worship Lord Bimaleswar Mahadev. The fascinating aspect of this temple is that the main structure leans in one direction while the smaller surrounding temples tilt in another. Additionally, there is a Duma Temple located in the middle of the river near the Bimaleswar Temple. The Huma Leaning Temple is one of the best tourist attractions in Sambalpur.
         <br>
-        There is a boat jetty behind the Huma Temple from where you can visit Maa Kali in the river. The Huma Temple is one of the Ashtashambhu temples in western Odisha. The eight Ashtashambhu Shiva temples are: Kedarnath Temple at Ambabhona (Bargarh), Baidyanath Temple at Deogaon (Bargarh), Balunkeswar Temple at Gaisama (Bargarh), Mandhata Baba Temple at Maneswar (Sambalpur), Swapneswar Temple at Sorna (Bargarh), Visweswar Temple at Soranda (Bargarh), Nilakantheswar Temple at Nilji (Bargarh)` 
+        There is a boat jetty behind the Huma Temple from where you can visit Maa Kali in the river. The Huma Temple is one of the Ashtashambhu temples in western Odisha. The eight Ashtashambhu Shiva temples are: Kedarnath Temple at Ambabhona (Bargarh), Baidyanath Temple at Deogaon (Bargarh), Balunkeswar Temple at Gaisama (Bargarh), Mandhata Baba Temple at Maneswar (Sambalpur), Swapneswar Temple at Sorna (Bargarh), Visweswar Temple at Soranda (Bargarh), Nilakantheswar Temple at Nilji (Bargarh)` ,
+        lat:20.67,
+        lon:84.58
       },
     ],
   },
@@ -1247,7 +1428,9 @@ The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. 
         id:"sashisena-temple",
         name: "Sashisena Temple", 
         image: "/images/destinations/Sonepur (Subarnapur)/sashisena-temple.jpg", 
-        description: `Sashisena Temple (Nimuhi Temple) is situated 1 km from Sonepur Town. It is one of the famous temples. Subarnapur is popularly known as Nimuchi Deula. It is a center of Buddhist culture, having stone images of Buddhist heritage. The temple was built in memory of the immortal love of Aahimanikya, the son of Amravati State Princess Shashisena and the Subarnapur State minister, in 1902-1937 AD. There is no entrance to the temple, which is known as Nimuchi Deula in the regional language. ` 
+        description: `Sashisena Temple (Nimuhi Temple) is situated 1 km from Sonepur Town. It is one of the famous temples. Subarnapur is popularly known as Nimuchi Deula. It is a center of Buddhist culture, having stone images of Buddhist heritage. The temple was built in memory of the immortal love of Aahimanikya, the son of Amravati State Princess Shashisena and the Subarnapur State minister, in 1902-1937 AD. There is no entrance to the temple, which is known as Nimuchi Deula in the regional language. ` ,
+        lat:20.85,
+        lon:83.9
       },
       { 
         id:"papakshya-ghat",
@@ -1255,7 +1438,9 @@ The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. 
         image: "/images/destinations/Sonepur (Subarnapur)/papakshya-ghat.webp", 
         description: `Papakshya Ghat is located in Binika, about 29 km from Sonepur Town. It is believed that taking a bath at Papakshya Ghat washes away all sins. According to legend, King Anangabhima Deva of Puri, who was afflicted with a terrible disease, was cured after taking a holy dip here. People visit in large numbers during lunar and solar eclipses to bathe in the river. An ancient temple dedicated to a goddess is located at the base of a sacred banyan tree near the ghat. Visitors can also enjoy the beautiful view of the river from this spot. Binka Papakshya Ghat is a popular tourist attraction in Subarnapur, Odisha.
         <br>
-        Papakhya Ghat is a beautiful site, likely associated with Hindu religious practices, given the presence of an important symbol in Hinduism. These locations are often places of worship, where people come to offer prayers and perform rituals. The ghat itself may serve as a place where people perform religious ceremonies. The serene environment around the tree likely provides a tranquil setting for meditation and prayer, enhancing the spiritual atmosphere of Papakhya Ghat.` 
+        Papakhya Ghat is a beautiful site, likely associated with Hindu religious practices, given the presence of an important symbol in Hinduism. These locations are often places of worship, where people come to offer prayers and perform rituals. The ghat itself may serve as a place where people perform religious ceremonies. The serene environment around the tree likely provides a tranquil setting for meditation and prayer, enhancing the spiritual atmosphere of Papakhya Ghat.` ,
+        lat:21,
+        lon:83.82
       },
       { 
         id:"patali-srikhetra",
@@ -1266,7 +1451,9 @@ The Debrigarh Wildlife Sanctuary is also famous for its magnificent waterfalls. 
         <b>History of Patali Srikhetra</b><br>
 The Madala inscription (Panji) also states that in the 2nd regnal year of the reign of King Shovana Dev of Odisha, Lord Jagannath was hidden inside the Kotsamlai hills cave to protect him from the onslaught of the Javanese king Rababahu. In the eleventh century, Lord Jagannath was taken from Kostamalai to Puri during the reign of Jajati Kesari. The place is known as the Patali Sreekhetra. 
 <br>
-There is another Jagannath temple at the foot of this hill, where Lord Jagannath, Balabhadra, and Goddess Subhadra are also worshipped. Ratha Yatra is the main festival of this temple. The mountain and gorgeous forest scenery over this Kotsamalai Hill are so spectacular that they attract a large number of tourists. The Tengo Reservoir project is located at the backside of Kotsamalai Hill. Patali Srikhetra Temple is a famous tourist attraction in Subarnapur District, Odisha.` 
+There is another Jagannath temple at the foot of this hill, where Lord Jagannath, Balabhadra, and Goddess Subhadra are also worshipped. Ratha Yatra is the main festival of this temple. The mountain and gorgeous forest scenery over this Kotsamalai Hill are so spectacular that they attract a large number of tourists. The Tengo Reservoir project is located at the backside of Kotsamalai Hill. Patali Srikhetra Temple is a famous tourist attraction in Subarnapur District, Odisha.` ,
+        lat:21.0131,
+        lon:83.9522
       },
       { 
         id:"kosaleswara-temple",
@@ -1278,7 +1465,9 @@ The Kosaleswar temple at Baidyanath on the bank of river Tel, situated about 14k
 <br>
 But, the structural details of the temple suggest that it belongs to a much later period. Here iron bars were used and the earliest use of such iron bars in the Odishan temple is noticed in the Simhanath temple of Gopinathpur in Cuttack district, which has assigned to a date not earlier than the 9th. century A.D. On the lintel of the doorway of Kosaleswar temple all the nine planets are depicted which seems to be a later development. However, the opinion of Charls Fabri that Kosaleswar temple was originally a Buddhist structure refurnished by the Hindus appears to be a conjecture.
 <br>
-The architecture and sculptures of this temple are the best specimens of plastic art, which can be dated to about 7th century A.D. or even earlier. Again, the two handed image of Kartikeya provides comparatively an early date to the temple. The figures of Gods and celestials are provided with haloes around their hands, which is also an early feature. But basing on the structural detail N.K.Sahu is of the opinion that the Kosaleswar temple was constructed during the reign of the Telugu -Chodas in the last part of 11th century A.D. or 12th century A.D. There is a clear reference in one copper plate record that Baidyanath (now known as Kosaleswar) was the tutelary deity of the Telugu-Choda ruling family. So the architectural and the iconographic features of the temple of Kosaleswar very often are self contradictory and do not help in arriving at a conclusion to find out the initial period of the construction of the temple.` 
+The architecture and sculptures of this temple are the best specimens of plastic art, which can be dated to about 7th century A.D. or even earlier. Again, the two handed image of Kartikeya provides comparatively an early date to the temple. The figures of Gods and celestials are provided with haloes around their hands, which is also an early feature. But basing on the structural detail N.K.Sahu is of the opinion that the Kosaleswar temple was constructed during the reign of the Telugu -Chodas in the last part of 11th century A.D. or 12th century A.D. There is a clear reference in one copper plate record that Baidyanath (now known as Kosaleswar) was the tutelary deity of the Telugu-Choda ruling family. So the architectural and the iconographic features of the temple of Kosaleswar very often are self contradictory and do not help in arriving at a conclusion to find out the initial period of the construction of the temple.` ,
+        lat:20.87,
+        lon:83.83
       },
     ],
   },
@@ -1292,7 +1481,9 @@ The architecture and sculptures of this temple are the best specimens of plastic
         image: "/images/destinations/Sundargarh/vedavyas.jpeg", 
         description: `Vedvyas temple is located on the banks of the Brahmani River and is just 5 km distance from Panposh and 12 km from Rourkela city. The atmosphere of the Vedvyas temple is calm and religious. It is named after the great Rishi Vedvyas – the writer of the Hindu epic Mahabharata. History has it that this was the birthplace of saint Veda Vyasa, and he wrote the Mahabharata in this Vedvyasa cave. The temple is situated at the confluence of the Koel, Sankh and Saraswati rivers. There is a cremation ground near the Vedvyas temple.
         <br>
-        Shiva Ratri and Kartik Purnima is the main festival of this temple, which attracts a large number of devotees. It is a famous temple in the Sundargarh district. Apart from Odisha, tourists from the nearby states of Chhatisgarh and Jharkhand come here to visit. Within the compound of this temple are worshipped the Shiva temple, Maa Saraswati’s Kund, Radha Krishna and Jagannath, Balabhadra and Goddess Subhadra. Vedvyas temple is one of the most popular tourist places in the Sundargarh District, Odisha.` 
+        Shiva Ratri and Kartik Purnima is the main festival of this temple, which attracts a large number of devotees. It is a famous temple in the Sundargarh district. Apart from Odisha, tourists from the nearby states of Chhatisgarh and Jharkhand come here to visit. Within the compound of this temple are worshipped the Shiva temple, Maa Saraswati’s Kund, Radha Krishna and Jagannath, Balabhadra and Goddess Subhadra. Vedvyas temple is one of the most popular tourist places in the Sundargarh District, Odisha.` ,
+        lat:22.2355,
+        lon:84.7864
       },
       { 
         id:"khandadhar-waterfall",
@@ -1302,7 +1493,9 @@ The architecture and sculptures of this temple are the best specimens of plastic
         <br>
         Near the Khandadhar Falls, the Odisha Tourism Department has set up the  Khandadhar Nature Camp, it has 10 AC cottages, 6 Nature Camp Cottages and 4 Eco-Cottages with all the basic amenities for tourists. This nature camp booking can be done online or offline. It has both vegetarian and non-vegetarian food options for visitors. The visitor is to enjoy the beauty of Khandadhar by staying in this beautiful nature camp. There ae a watchtower and Khandadhar View Point where you can enjoy the beauty of the hills and green forests.
         <br>
-        All kinds of arrangements are made here for the accommodation, food, lodging, and security for the tourists in Khandadhar Nature Camp and Khandadhar Eco Cottage. Khandadhara Waterfall is visible clearly from the Nature Camp within the forest. The local tribals worship a deity known as Goddess Kanta near the fall. Rourkela Khandadhar Nature Camp is one of the most popular tourist attractions in Sundargarh, Odisha. ` 
+        All kinds of arrangements are made here for the accommodation, food, lodging, and security for the tourists in Khandadhar Nature Camp and Khandadhar Eco Cottage. Khandadhara Waterfall is visible clearly from the Nature Camp within the forest. The local tribals worship a deity known as Goddess Kanta near the fall. Rourkela Khandadhar Nature Camp is one of the most popular tourist attractions in Sundargarh, Odisha. ` ,
+        lat:21.7748,
+        lon:85.3223
       },
       { 
         id:"darjeeng-picnic-spot",
@@ -1310,13 +1503,17 @@ The architecture and sculptures of this temple are the best specimens of plastic
         image: "/images/destinations/Sundargarh/darjeeng-picnic-spot.webp", 
         description: `Darjing picnic spot is located on the banks of river Brahmani near Darjing Village and it is about 46 km distance from Rourkela City. This place is covered with Blue Stone and hills. The natural beauty of the spot can be enjoyed in time of sunrise and sunset.  Darjing picnic spot is a top tourist attraction near Rourkela town.
         <br>
-        Main attraction of the place is the large stones in the river, which tourist enjoy picnics. It is a good place for a weekend picnic in the winter season. Bluestone Picnic Area is located 8 km from Rourkela town. Rourkela Darjing is a popular tourist places in Sundargarh, Odisha.` 
+        Main attraction of the place is the large stones in the river, which tourist enjoy picnics. It is a good place for a weekend picnic in the winter season. Bluestone Picnic Area is located 8 km from Rourkela town. Rourkela Darjing is a popular tourist places in Sundargarh, Odisha.` ,
+        lat:21.93135,
+        lon:84.89457
       },
       { 
         id:"ghogar-waterfall",
         name: "Ghogar Waterfall", 
         image: "/images/destinations/Sundargarh/ghogar-waterfall.jpeg", 
-        description: "A stunning waterfall nestled in green landscapes, providing a refreshing experience for tourists, adventure seekers, and photographers." 
+        description: "A stunning waterfall nestled in green landscapes, providing a refreshing experience for tourists, adventure seekers, and photographers." ,
+        lat:22.32,
+        lon:84.87
       },
     ],
   },
