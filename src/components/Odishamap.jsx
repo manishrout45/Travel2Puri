@@ -256,7 +256,7 @@ const districts = [
   },
   {
     name: "Puri",
-    map: "/images/districts/puri.png",
+    map: "/images/Puri.jpg",
     destinations: [
       { id:"jagannath-temple-puri", name: "Jagannath Temple, Puri", image: "/images/destinations/Puri/jagannath-temple-puri.jpeg", description: "Famous Hindu temple." },
       { id:"puri-beach", name: "Puri Beach", image: "/images/destinations/Puri/puri-beach.jpeg", description: "Popular beach on Bay of Bengal." },
